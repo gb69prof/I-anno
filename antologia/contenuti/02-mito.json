@@ -1,0 +1,276 @@
+{
+  "id": "02-mito",
+  "area": "Antologia",
+  "number": "02",
+  "title": "Il mito dà un ordine al mondo",
+  "subtitle": "Origini, relazioni e conflitti nel racconto degli dèi",
+  "question": "Perché raccontare la nascita del mondo significa anche parlare del potere?",
+  "time": "2 ore + laboratorio",
+  "prerequisites": "Distinguere eventi, narratore e punto di vista; conoscere il significato di racconto.",
+  "goals": [
+    "Riconoscere le principali funzioni del mito senza ridurlo a una sola spiegazione.",
+    "Ricostruire i passaggi essenziali della successione divina greca.",
+    "Rappresentare genealogia e potere con simboli e relazioni esplicite."
+  ],
+  "imageCaption": "La nascita di forme e relazioni visualizza il passaggio dall’apertura originaria a un mondo organizzato.",
+  "blocks": [
+    {
+      "id": "s1",
+      "title": "Un racconto che una comunità continua a interrogare",
+      "html": "<p>La parola <strong>mito</strong> deriva dal greco mythos, “racconto”. I miti sono narrazioni tradizionali che una comunità trasmette e rielabora per affrontare domande importanti: da dove veniamo? Perché esistono il dolore e la morte? Quali rapporti ci legano agli altri? Nei miti greci agiscono dèi, eroi e mortali; eventi straordinari diventano scene attraverso cui pensare l’esperienza umana.</p><p>I documenti chiamano il mito un “manuale della vita”. È un’immagine utile se non immaginiamo un libro di istruzioni con risposte uguali per tutti. Un racconto può proporre un modello, ma anche mostrare un conflitto senza risolverlo facilmente. Inoltre, i miti circolano in versioni differenti: un poeta, una città o un’immagine possono mettere in primo piano un aspetto diverso. Il mito non è quindi un archivio immobile. Le sue trasformazioni fanno parte della sua storia e ci chiedono di specificare quale versione stiamo leggendo.</p>"
+    },
+    {
+      "id": "s2",
+      "title": "Dall’apertura originaria alle prime generazioni",
+      "html": "<p><strong>Testo da leggere — riscrittura didattica</strong> del racconto cosmogonico presentato nei materiali, riferito alla tradizione della <em>Teogonia</em> di Esiodo. Le frasi seguenti non sono una traduzione del poema.</p><blockquote><p>All’inizio compare Caos: un’apertura immensa, non una stanza piena di oggetti disordinati. Compaiono poi Gea, la Terra, Tartaro ed Eros, forza che rende possibile l’unione. Gea genera Urano, il Cielo, e si apre la vicenda delle generazioni divine.</p><p>Urano e Gea hanno numerosi figli. Ma Urano impedisce loro di emergere e Gea soffre. Chiede aiuto: Crono accetta di affrontare il padre e lo rovescia. Il potere passa al figlio; la paura di perderlo, però, continua. Quando Crono e Rea hanno figli, Crono li inghiotte, temendo di essere a sua volta spodestato.</p></blockquote><p>Nel racconto, una nascita non è soltanto l’arrivo di un personaggio. Apre uno spazio, introduce un rapporto e rende possibile un nuovo conflitto. La genealogia racconta come il mondo acquista una forma.</p>"
+    },
+    {
+      "id": "s3",
+      "title": "Zeus e il problema di conservare il potere",
+      "html": "<p><strong>Continuazione della riscrittura didattica.</strong></p><blockquote><p>Rea nasconde Zeus e presenta a Crono una pietra avvolta nelle fasce. Il bambino cresce al sicuro. Divenuto adulto, Zeus affronta il padre e i fratelli inghiottiti tornano alla luce. Lo scontro coinvolge intere generazioni divine: la guerra contro i Titani viene chiamata Titanomachia.</p><p>Zeus non vince da solo. Le alleanze contano: riceve il fulmine dai Ciclopi e l’aiuto dei Centimani, dotati di una forza enorme. Alla vittoria segue l’organizzazione del potere degli dèi. Il mondo che i racconti greci descrivono è fatto di rapporti, competenze e limiti, anche quando gli esseri che agiscono sono immortali.</p></blockquote><p>Il figlio che si oppone a un padre può ripeterne i comportamenti: Crono lo mostra con chiarezza. La domanda non riguarda quindi soltanto chi vinca. Riguarda il modo di esercitare l’autorità e il timore di condividerla. È una lettura del racconto, non la descrizione di una legge valida per ogni famiglia.</p>"
+    },
+    {
+      "id": "s4",
+      "title": "Cinque funzioni che possono intrecciarsi",
+      "html": "<p>I materiali distinguono cinque funzioni. Un mito ha funzione <strong>eziologica</strong> quando racconta l’origine di qualcosa: un’usanza, un nome, una condizione della vita. Ha funzione <strong>cosmologica</strong> quando offre un’immagine dell’universo e delle sue relazioni. Il racconto appena letto ci mostra soprattutto questo secondo aspetto, attraverso una cosmogonia, cioè una narrazione delle origini del mondo, intrecciata alla teogonia, la nascita degli dèi.</p><p>La funzione <strong>sociale</strong> riguarda l’identità e le relazioni di una comunità. Quella <strong>etica e pedagogica</strong> permette di discutere comportamenti e conseguenze. La funzione <strong>rituale</strong> collega il racconto a gesti e cerimonie condivisi. Non sono cinque scatole chiuse: lo stesso mito può svolgere più funzioni. Non basta neppure dire che il mito spiega ciò che la scienza ancora non conosce. Le domande sull’autorità, sull’appartenenza e sul significato dei comportamenti non scompaiono quando cambia la conoscenza della natura. Leggere il mito richiede di riconoscerne il linguaggio narrativo e religioso.</p><p>A queste funzioni si intreccia il <strong>piacere del racconto</strong>: avventure, sorprese e riconoscimenti coinvolgono il pubblico. L’intrattenimento aiuta la memoria e la partecipazione; la funzione pedagogica apre domande sui comportamenti. Divertire e insegnare possono convivere, ma il mito non si riduce a una favola che consegna una morale unica.</p>"
+    },
+    {
+      "id": "s5",
+      "title": "Una genealogia non è una semplice lista di nomi",
+      "html": "<p>Per capire la cosmogonia possiamo costruire una mappa. Una linea deve dire “genera”, un’altra “si oppone a”, un’altra ancora “aiuta”. Usare una sola freccia senza spiegazione confonderebbe rapporti diversi. <strong>Genealogia</strong> significa ricostruzione dei legami di discendenza; il racconto del potere richiede di aggiungere anche azioni e alleanze. Zeus, per esempio, non è il primo essere comparso e non conquista il potere senza altri dèi.</p><p>Le immagini antiche rendevano riconoscibili i personaggi anche attraverso attributi: il fulmine può identificare Zeus, il tridente Poseidone. Un attributo è un segno legato a una figura, ma il riconoscimento dipende anche dal contesto. Nel nostro progetto grafico possiamo inventare simboli coerenti, senza presentarli come reperti antichi. Un’icona deve aiutare a capire, non sostituire ogni spiegazione. Se disegniamo una corona su tre personaggi successivi, dovremo mostrare anche come passa dall’uno all’altro e quali conseguenze produce quel passaggio.</p>"
+    },
+    {
+      "id": "s6",
+      "title": "Confrontare il mondo antico e le nostre domande",
+      "html": "<p>Il passaggio dal Caos a un mondo organizzato può ricordarci il lavoro con cui diamo forma a un progetto. Prima raccogliamo elementi, poi scegliamo relazioni, proporzioni e gerarchie. Questo confronto è una nostra analogia: non significa che Esiodo stesse descrivendo un processo di progettazione grafica o una teoria scientifica. Il confronto è utile quando rende visibile una somiglianza e conserva anche le differenze.</p><p>Possiamo chiederci che cosa renda stabile un ordine: soltanto la forza di chi comanda, oppure anche relazioni e riconoscimento di ruoli? Il mito non fornisce direttamente la risposta di una società democratica contemporanea. Offre però una scena sulla quale formulare la domanda. Anche il modo di rappresentarla conta: un’immagine che mostra soltanto il vincitore nasconde gli alleati; una genealogia che mostra soltanto i padri può rendere invisibili le iniziative di Gea e Rea. <strong>Raccontare le origini significa scegliere quali azioni ricordare.</strong></p>"
+    }
+  ],
+  "summary": "Il mito è un racconto tradizionale attraverso cui una comunità affronta domande sulle origini, sui rapporti umani e sul significato dell’esperienza. Può circolare in versioni diverse: non è un manuale con risposte sempre univoche. Le sue funzioni principali sono eziologica, cosmologica, sociale, etica e pedagogica, rituale; nello stesso racconto possono intrecciarsi. Nella cosmogonia greca Caos indica un’apertura originaria. Compaiono le prime realtà divine e si sviluppa una successione: Urano viene rovesciato da Crono, che a sua volta teme i figli; Rea salva Zeus, futuro vincitore della Titanomachia con l’aiuto di alleati. La vicenda racconta insieme nascite e lotte per il potere. Una mappa deve distinguere discendenza, opposizione e aiuto, usando relazioni nominate. Gli attributi visivi aiutano a riconoscere i personaggi. Confrontare il mito con la progettazione moderna può essere utile, purché l’analogia venga distinta dal significato antico. Il piacere dell’ascolto coinvolge il pubblico e può intrecciarsi all’apprendimento, senza imporre una morale unica.",
+  "essentials": [
+    "Spiegare che un mito è tradizionale e può avere versioni differenti.",
+    "Distinguere le cinque funzioni del mito e riconoscerne l’intreccio.",
+    "Ricostruire la successione Urano, Crono, Zeus e l’iniziativa di Gea e Rea.",
+    "Distinguere una relazione di discendenza da un’azione di aiuto o di opposizione.",
+    "Spiegare perché un’analogia moderna non coincide con il significato storico del testo."
+  ],
+  "vocabulary": [
+    [
+      "Mito",
+      "Racconto tradizionale significativo per una comunità, trasmesso in forme anche diverse."
+    ],
+    [
+      "Cosmogonia",
+      "Racconto dell’origine e della formazione del mondo."
+    ],
+    [
+      "Teogonia",
+      "Racconto della nascita e della discendenza degli dèi."
+    ],
+    [
+      "Eziologia",
+      "Spiegazione di un’origine o di una causa."
+    ],
+    [
+      "Genealogia",
+      "Ricostruzione delle relazioni di discendenza."
+    ],
+    [
+      "Titanomachia",
+      "Guerra di Zeus e dei suoi alleati contro i Titani."
+    ],
+    [
+      "Attributo",
+      "Elemento visivo che aiuta a riconoscere un personaggio."
+    ]
+  ],
+  "questions": [
+    "In che modo Crono ripete un comportamento del padre che aveva combattuto?",
+    "Quali azioni di Gea e Rea permettono al racconto di proseguire?",
+    "Quali relazioni andrebbero perse in una mappa che mostrasse soltanto tre re in successione?"
+  ],
+  "lab": {
+    "title": "Una mappa delle origini che racconta",
+    "task": "Progetta una tavola che mostri la successione divina e almeno due iniziative decisive di altri personaggi.",
+    "steps": [
+      "Scegli i personaggi indispensabili e assegna a ciascuno un simbolo leggibile.",
+      "Distingui con parole e segni diversi le relazioni “genera”, “si oppone” e “aiuta”.",
+      "Aggiungi una didascalia che spieghi il passaggio di potere.",
+      "Controlla con un compagno se le relazioni si comprendono anche senza il colore."
+    ],
+    "criteria": [
+      "Correttezza delle relazioni narrative.",
+      "Presenza delle iniziative di Gea e Rea.",
+      "Leggibilità dei segni e delle didascalie.",
+      "Distinzione tra racconto antico e interpretazione personale."
+    ]
+  },
+  "bridge": {
+    "target": "c1-comunicare",
+    "anchor": "s1",
+    "text": "I miti selezionano azioni e figure per raccontare un’origine. Nella comunicazione contemporanea osserveremo come immagini e parole costruiscono il racconto di un gruppo senza confondere mito e informazione verificata."
+  },
+  "sources": [
+    {
+      "title": "Lezione 2 — Il racconto mitologico",
+      "url": "https://docs.google.com/document/d/1gV4otz1YbUiRnj9TZQP64OOyFS3OLESu/edit",
+      "note": "Documento fornito: le cinque funzioni del mito."
+    },
+    {
+      "title": "I miti come manuale della vita",
+      "url": "https://docs.google.com/document/d/1lFS6V6WB7I0XNRmFvA1ytkcgE2a5hhLa/edit",
+      "note": "Documento fornito: funzioni, genealogie e iconografia; DOCX e PDF sono la stessa opera."
+    },
+    {
+      "title": "Cosmogonia greca: caos, ordine, arte",
+      "url": "https://docs.google.com/document/d/1cvSVJRFalvLmO1KlXeUGpb8z-YXbaX0G/edit",
+      "note": "Documento fornito: successione divina e lettura delle immagini; generalizzazioni corrette. Il brano è una riscrittura didattica."
+    },
+    {
+      "title": "Esiodo, Teogonia — traduzione Evelyn-White",
+      "url": "https://www.theoi.com/Text/HesiodTheogony.html",
+      "note": "Controllo primario dell’apertura: Caos, Gea, Tartaro ed Eros; distinzione tra genealogie e conflitto dei Titani. La base estesa è il documento fornito sulla cosmogonia."
+    }
+  ],
+  "map": {
+    "root": "Il mito",
+    "branches": [
+      {
+        "title": "Origini",
+        "body": "Cosmogonia e teogonia raccontano la formazione del mondo divino.",
+        "link": "racconta le",
+        "child": "Genealogie",
+        "detail": "Le relazioni “genera” distinguono le discendenze.",
+        "relation": "si rappresentano con"
+      },
+      {
+        "title": "Potere",
+        "body": "La successione Urano–Crono–Zeus mette in scena conflitti.",
+        "link": "interroga il",
+        "child": "Azioni e alleanze",
+        "detail": "Gea, Rea e gli alleati rendono possibili i cambiamenti.",
+        "relation": "dipende da"
+      },
+      {
+        "title": "Comunità",
+        "body": "Il piacere del racconto intreccia apprendimento, identità e riti.",
+        "link": "coinvolge la",
+        "child": "Immagini e simboli",
+        "detail": "Gli attributi rendono riconoscibili figure e relazioni.",
+        "relation": "si esprime con"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Un mito che racconta perché esiste un’usanza svolge soprattutto una funzione…",
+      "options": [
+        "rituale, perché descrive sempre una cerimonia.",
+        "eziologica, perché presenta un’origine.",
+        "genealogica, perché elenca necessariamente figli."
+      ],
+      "answer": 1,
+      "explanation": "La funzione eziologica riguarda le origini; può intrecciarsi con altre funzioni, ma non richiede sempre genealogie o cerimonie.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "L’eziologia risponde a una domanda sull’origine: per esempio, perché un luogo abbia un determinato nome.",
+        "question": "Quale domanda chiede una spiegazione eziologica?",
+        "options": [
+          "Quale colore ha il cielo nell’immagine?",
+          "Quante righe ha il racconto?",
+          "Da dove deriva il nome di questa città?"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Che cosa indica Caos nella riscrittura letta?",
+      "options": [
+        "L’esercito dei Titani.",
+        "La città costruita da Zeus.",
+        "Un’apertura originaria."
+      ],
+      "answer": 2,
+      "explanation": "Il testo distingue Caos da una semplice confusione di oggetti: lo presenta come un’apertura immensa.",
+      "anchor": "s2",
+      "recovery": {
+        "text": "Usare la parola moderna “caos” per una stanza disordinata non restituisce da solo il significato del racconto cosmogonico.",
+        "question": "Quale immagine è più vicina al Caos descritto nel brano?",
+        "options": [
+          "Uno spazio originario aperto.",
+          "Un’assemblea cittadina.",
+          "Una montagna già abitata."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Quale successione ricostruisce il racconto?",
+      "options": [
+        "Urano, Crono, Zeus.",
+        "Zeus, Urano, Crono.",
+        "Crono, Zeus, Urano."
+      ],
+      "answer": 0,
+      "explanation": "Crono rovescia Urano; Zeus, salvato da Rea, affronta poi Crono.",
+      "anchor": "s2",
+      "recovery": {
+        "text": "Le generazioni sono collegate: il potere passa da Urano a Crono, quindi a Zeus.",
+        "question": "Chi teme di essere rovesciato dopo aver affrontato Urano?",
+        "options": [
+          "Rea.",
+          "Crono.",
+          "Gea."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Perché in una mappa servono relazioni nominate?",
+      "options": [
+        "Per evitare di usare i nomi dei personaggi.",
+        "Per distinguere discendenza, aiuto e opposizione.",
+        "Per dimostrare che tutte le versioni coincidono."
+      ],
+      "answer": 1,
+      "explanation": "Una freccia muta può indicare rapporti diversi; il verbo chiarisce il legame rappresentato.",
+      "anchor": "s5",
+      "recovery": {
+        "text": "“Genera” e “aiuta” non raccontano lo stesso rapporto. Zeus riceve aiuto dai suoi alleati, ma questo non li rende suoi figli.",
+        "question": "Quale parola collegheresti ai Ciclopi che sostengono Zeus?",
+        "options": [
+          "Discendono sempre da.",
+          "Sostituiscono.",
+          "Aiutano."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Il paragone tra cosmogonia e progettazione grafica è…",
+      "options": [
+        "una testimonianza delle tecniche usate da Esiodo.",
+        "una prova che il mito anticipa ogni scienza.",
+        "un’analogia moderna da distinguere dal racconto antico."
+      ],
+      "answer": 2,
+      "explanation": "Il confronto può aiutare a ragionare, ma non attribuisce al poeta antico le nostre attività e teorie.",
+      "anchor": "s6",
+      "recovery": {
+        "text": "Un’analogia mette in relazione due esperienze senza renderle identiche. Dare forma a un progetto può ricordare l’organizzazione del mondo narrata dal mito.",
+        "question": "Quale frase presenta correttamente un’analogia?",
+        "options": [
+          "Questo passaggio del mito mi aiuta a pensare come organizzo un progetto.",
+          "Esiodo descrive esattamente il nostro software.",
+          "Gli dèi sono gli autori dei moderni storyboard."
+        ],
+        "answer": 0
+      }
+    }
+  ],
+  "deepening": [
+    {
+      "title": "Titani e Giganti: due racconti diversi",
+      "html": "<p>Nei materiali compaiono la Titanomachia e la Gigantomachia. I nomi non indicano lo stesso scontro: nel primo Zeus combatte contro i Titani, nel secondo gli dèi affrontano i Giganti. Quando si osserva un’opera d’arte, leggere il titolo e identificare i personaggi evita di sovrapporre episodi diversi. Anche le immagini sono fonti da interrogare nel loro contesto.</p>"
+    }
+  ]
+}

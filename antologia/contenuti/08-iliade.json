@@ -1,0 +1,287 @@
+{
+  "id": "08-iliade",
+  "area": "Antologia",
+  "number": "08",
+  "title": "Iliade: dall’ira alla pietà",
+  "subtitle": "Il filo del poema, dal conflitto fra i capi ai funerali di Ettore",
+  "question": "È possibile riconoscere il dolore di chi consideriamo nemico?",
+  "time": "2 ore + laboratorio",
+  "prerequisites": "Conoscere l’antefatto troiano e distinguere il ritiro di Achille dal dilemma dei due destini.",
+  "goals": [
+    "Ricostruire i principali passaggi dell’azione iliadica.",
+    "Spiegare il ruolo delle svolte narrative legate a Patroclo e Priamo.",
+    "Analizzare la rappresentazione del nemico attraverso gesti, parole e prospettive."
+  ],
+  "imageCaption": "La distanza fra Achille e Priamo si riduce intorno al ricordo di un figlio e di un padre: l’incontro sospende l’ostilità senza cancellare la guerra.",
+  "blocks": [
+    {
+      "id": "s1",
+      "title": "Entrare a guerra iniziata",
+      "html": "<p>Il titolo <strong>Iliade</strong> deriva da Ilio, altro nome di Troia. Il poema attribuito a Omero è organizzato in ventiquattro libri e racconta una fase limitata del decimo anno di guerra. Quando comincia, gli eserciti sono già accampati e hanno già sofferto a lungo. I fatti precedenti, come la scelta di Paride, aiutano a capire lo scenario ma non costituiscono l’azione principale.</p><p>Il nucleo è l’<strong>ira di Achille</strong> e ciò che essa produce. Per seguire la storia conviene ricordare cinque snodi: offesa, ritiro, perdita di Patroclo, vendetta su Ettore, incontro con Priamo. Il poema non contiene una cronaca completa del conflitto. La morte di Achille, il cavallo di legno e la distruzione di Troia appartengono a vicende ulteriori della tradizione. Il suo finale sarà un funerale, non la conquista della città.</p>"
+    },
+    {
+      "id": "s2",
+      "title": "La peste e la lite: una crisi dentro l’esercito",
+      "html": "<p>Il sacerdote <strong>Crise</strong> chiede ad Agamennone di restituirgli la figlia Criseide, prigioniera di guerra, offrendo un riscatto. Il capo acheo lo respinge con durezza. Apollo ascolta la preghiera del sacerdote e colpisce l’esercito con la peste. Nell’assemblea convocata per trovare una soluzione, l’indovino Calcante rivela che occorre restituire la giovane.</p><p>Agamennone accetta, ma pretende una compensazione e sottrae Briseide ad Achille. Lo scontro riguarda il comando e il riconoscimento del valore. Achille arriva a pensare alla violenza contro il capo; Atena lo trattiene. Egli sceglie allora il ritiro e chiede alla madre Teti di ottenere da Zeus un temporaneo vantaggio per i Troiani. La crisi è doppia: gli Achei affrontano un nemico esterno e sono divisi al proprio interno. Le conseguenze colpiscono anche chi non ha deciso l’offesa.</p>"
+    },
+    {
+      "id": "s3",
+      "title": "L’assenza di Achille e la pressione dei Troiani",
+      "html": "<p>La guerra prosegue fra avanzate, arretramenti, duelli e assemblee. Achei come Diomede, Aiace e Odisseo combattono mentre Achille resta lontano. <strong>Ettore</strong>, figlio di Priamo, guida la difesa troiana e l’attacco al campo nemico. I Troiani arrivano a minacciare le navi, che per gli Achei rappresentano anche la possibilità del ritorno. Nel libro IX un’ambasceria non riesce a ottenere il rientro immediato di Achille.</p><p>Il poema dà rilievo a entrambi gli schieramenti. Ettore è un avversario degli Achei, ma è anche figlio, marito e difensore della propria città. Questo non lo rende immune dall’errore o dalla paura. Allo stesso modo, gli dèi non formano un gruppo unanimemente schierato con chi è moralmente migliore: hanno preferenze e rivalità. Leggere gli scontri richiede attenzione a molte azioni, non una divisione permanente fra vincitori giusti e sconfitti colpevoli.</p>"
+    },
+    {
+      "id": "s4",
+      "title": "Patroclo: il punto di svolta",
+      "html": "<p>Patroclo ottiene di indossare le armi dell’amico e di guidare i Mirmidoni. La sua comparsa respinge i Troiani dalle navi, ma l’avanzata continua oltre il compito indicato da Achille. Nel libro XVI Apollo lo colpisce e lo priva delle armi; Euforbo lo ferisce, poi Ettore gli infligge il colpo mortale. La successione rende visibile l’intreccio di azioni umane e divine.</p><p>La morte di Patroclo cambia il centro emotivo del poema. Achille è travolto dal lutto e torna in battaglia per vendicarlo. Riceve nuove armi da Efesto attraverso Teti e chiude la contesa con Agamennone. Il rientro non risolve ogni problema: sposta l’ira verso Ettore. Possiamo leggere l’episodio anche attraverso il tema del limite, ma non ridurlo a un meccanismo nel quale una colpa produce sempre la morte. Contano il pericolo della guerra, le scelte, gli avversari e le decisioni divine.</p>"
+    },
+    {
+      "id": "s5",
+      "title": "Ettore e Priamo: la vittoria non basta",
+      "html": "<p>Nel libro XXII Achille affronta Ettore fuori dalle mura. Ettore prova paura e fugge; poi, ingannato da Atena, si ferma per il duello. Achille lo uccide e oltraggia il suo corpo. La vittoria non fa tornare Patroclo e non placa il dolore del vincitore. La sorte del cadavere diventa un nuovo centro del racconto.</p><p>Nel libro XXIV Zeus dispone la restituzione e Teti comunica la decisione ad Achille. Priamo, accompagnato e protetto da Ermes durante il viaggio, entra nel campo acheo per riscattare il figlio. Quando si presenta al guerriero, gli fa ricordare il padre Peleo. Il gesto non cancella le uccisioni: rende possibile riconoscere il dolore dell’altro. Achille consegna il corpo di Ettore e concede il tempo per i riti. La tregua funebre sospende il combattimento; non coincide con la fine della guerra.</p>"
+    },
+    {
+      "id": "s6",
+      "title": "Leggere l’incontro: due dolori nella stessa tenda",
+      "html": "<p><strong>Riscrittura didattica originale</strong> dell’incontro fra Priamo e Achille, Iliade, libro XXIV, basata sui materiali di studio. Non è una citazione o una traduzione del poema.</p><blockquote><p>Priamo arriva davanti all’uomo che ha ucciso suo figlio. Si abbassa e gli prende le mani: sono le mani del nemico, ma ora la richiesta deve passare proprio attraverso di esse. Gli fa ricordare Peleo, il padre lontano, che aspetta notizie del figlio.</p><p>Achille guarda il vecchio. Il ricordo del padre si unisce a quello di Patroclo; Priamo continua a piangere Ettore. I loro dolori non diventano lo stesso dolore, eppure possono stare nella stessa tenda senza trasformarsi subito in un nuovo colpo.</p><p>Il corpo sarà restituito. Ci sarà tempo per piangere e seppellire. Fuori restano gli eserciti e le mura, ma per questo incontro il racconto segue due uomini che sanno di avere perduto qualcosa che nessuna vittoria può sostituire.</p></blockquote>"
+    },
+    {
+      "id": "s7",
+      "title": "Il finale: un nome, una città, un funerale",
+      "html": "<p>Il corpo di Ettore torna a Troia e la comunità celebra i funerali. Qui termina l’Iliade. La chiusura invita a ripensare il percorso: l’ira ha attraversato l’esercito e il suo protagonista, ma l’ultima attenzione è rivolta a un morto troiano e a chi lo piange. La forma del finale conta quanto la sequenza delle battaglie.</p><p>Nella riscrittura, le mani cambiano funzione: non compiono un’azione di guerra, ma rendono possibile una supplica. Un dettaglio concreto mostra così una trasformazione senza doverla spiegare con uno slogan. Nel laboratorio grafico si può ottenere un effetto simile cambiando distanza, inquadratura o gesto. Il poema non impone al lettore di dimenticare i torti: permette di osservare come la persona davanti a noi ecceda il ruolo di nemico. Questa domanda resta aperta anche dopo l’ultima scena.</p>"
+    }
+  ],
+  "summary": "L’Iliade racconta una fase del decimo anno della guerra di Troia e si concentra sull’ira di Achille. Agamennone respinge il sacerdote Crise; Apollo manda la peste. La restituzione di Criseide provoca una lite sulla compensazione: Agamennone sottrae Briseide ad Achille, che si ritira. Le difficoltà degli Achei crescono e i Troiani minacciano le navi. Patroclo entra in battaglia con le armi dell’amico, ma viene ucciso dopo l’intervento di Apollo e il ferimento di Euforbo; Ettore gli infligge il colpo mortale. Achille torna per vendicarlo, uccide Ettore e ne oltraggia il corpo. La vittoria non elimina il lutto. Nel finale Priamo chiede la restituzione del figlio e richiama il ricordo di Peleo. Achille riconosce il dolore del padre e consegna il cadavere. Il poema termina con i funerali di Ettore: non narra la morte di Achille, il cavallo o la distruzione di Troia.",
+  "essentials": [
+    "L’Iliade concentra una vicenda ampia su una fase della guerra e sull’ira di Achille.",
+    "La lite fra Agamennone e Achille produce il ritiro del guerriero.",
+    "La morte di Patroclo è la svolta che provoca il ritorno di Achille.",
+    "L’incontro con Priamo rende possibile la restituzione del corpo di Ettore.",
+    "I funerali di Ettore chiudono il poema; la guerra non è finita."
+  ],
+  "vocabulary": [
+    [
+      "Ilio",
+      "Altro nome della città di Troia, da cui deriva il titolo Iliade."
+    ],
+    [
+      "Snodo narrativo",
+      "Evento che modifica in modo decisivo lo sviluppo del racconto."
+    ],
+    [
+      "Mirmidoni",
+      "Guerrieri guidati da Achille e, nell’episodio, da Patroclo."
+    ],
+    [
+      "Supplica",
+      "Richiesta rivolta da chi si affida alla protezione e alla pietà di un altro."
+    ],
+    [
+      "Riscatto",
+      "Bene offerto per ottenere la liberazione o la restituzione di qualcuno."
+    ],
+    [
+      "Tregua",
+      "Sospensione temporanea delle ostilità."
+    ],
+    [
+      "Rito funebre",
+      "Insieme di gesti con cui una comunità onora e seppellisce un morto."
+    ]
+  ],
+  "questions": [
+    "Quali diversi significati assumono le mani di Achille nella riscrittura?",
+    "Come viene rappresentata la vicinanza dei due uomini senza confondere i loro dolori?",
+    "Quali dettagli ricordano che la restituzione del corpo non mette fine alla guerra?"
+  ],
+  "lab": {
+    "title": "La stessa mano, due significati",
+    "task": "Realizza tre vignette sull’incontro fra Priamo e Achille, variando l’inquadratura di mani, volti e spazio; accompagnale con una nota di 100 parole.",
+    "steps": [
+      "Individua nel brano un gesto iniziale, una reazione e una trasformazione.",
+      "Prepara tre inquadrature diverse, dal dettaglio al campo più ampio.",
+      "Inserisci didascalie essenziali senza inventare versi o citazioni di Omero.",
+      "Mantieni un segno visivo della guerra che continua fuori dalla tenda.",
+      "Spiega come la sequenza mostra pietà e lutto senza trasformarli in pace definitiva."
+    ],
+    "criteria": [
+      "Aderenza all’incontro raccontato.",
+      "Uso delle inquadrature con una funzione comprensibile.",
+      "Distinzione fra tregua e fine della guerra.",
+      "Motivazione attraverso almeno due dettagli testuali."
+    ]
+  },
+  "bridge": {
+    "target": "c4-conflitto",
+    "anchor": "s1",
+    "text": "L’incontro fra Priamo e Achille permette di interrogare la rappresentazione del nemico. La supplica e il riscatto appartengono al mondo eroico; il percorso di cittadinanza esamina comunicazione, riconoscimento e mediazione nei conflitti contemporanei, senza trasferire automaticamente quelle regole al presente."
+  },
+  "sources": [
+    {
+      "title": "Iliade.docx",
+      "url": "https://docs.google.com/document/d/1T85r3CYvnoezYOBiLnLkxBMUlDRc6w93/edit",
+      "note": "Fonte principale fornita: filo narrativo da Crise ai funerali di Ettore e base della riscrittura. Corretta la confusione fra tregua funebre e pace definitiva."
+    },
+    {
+      "title": "Antefatto Iliade.docx",
+      "url": "https://docs.google.com/document/d/1KW_w9Y_X4h2cuKstlYoioTmAICTNs2D-/edit",
+      "note": "Fonte fornita per separare antefatto e azione del poema."
+    },
+    {
+      "title": "Dei Iliade-Odissea.docx",
+      "url": "https://docs.google.com/document/d/1xun7JoDW8mM5oqcA81LNuaGHVqdPsvTX/edit",
+      "note": "Origine dell’approfondimento sulle divinità; eliminate l’equazione fra favore divino e superiorità morale e le semplificazioni sul destino."
+    },
+    {
+      "title": "Hybris Nemesi in Omero.docx",
+      "url": "https://docs.google.com/document/d/1ZlGD68ed2YUw5nxusVQLddsX_MVnoWEe/edit",
+      "note": "Origine della discussione sul limite: morte e sconfitta non sono trattate come esiti automatici di hybris."
+    },
+    {
+      "title": "Omero, Iliade, libro XXIV — Internet Classics Archive",
+      "url": "https://classics.mit.edu/Homer/iliad.24.xxiv.html",
+      "note": "Verifica primaria mirata: ordine di Zeus, messaggio di Teti, viaggio di Priamo e restituzione. Traduzione inglese di Samuel Butler."
+    }
+  ],
+  "map": {
+    "root": "Iliade: dall’ira alla pietà",
+    "branches": [
+      {
+        "title": "La rottura",
+        "body": "L’offesa di Agamennone provoca il ritiro di Achille.",
+        "link": "si apre con",
+        "child": "Gli Achei in pericolo",
+        "detail": "Le divisioni interne si uniscono alla pressione dei Troiani.",
+        "relation": "espone"
+      },
+      {
+        "title": "Il lutto",
+        "body": "La morte di Patroclo muove Achille alla vendetta.",
+        "link": "attraversa",
+        "child": "La morte di Ettore",
+        "detail": "La vittoria non restituisce l’amico né placa il dolore.",
+        "relation": "conduce alla"
+      },
+      {
+        "title": "La supplica",
+        "body": "Priamo richiama il ricordo di Peleo e chiede il figlio.",
+        "link": "approda alla",
+        "child": "I funerali di Ettore",
+        "detail": "Il corpo torna a Troia: qui il poema si conclude.",
+        "relation": "rende possibili"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Su quale fase si concentra l’Iliade?",
+      "options": [
+        "Sull’intera storia di Troia dalla fondazione alla distruzione.",
+        "Su una fase del decimo anno di guerra, centrata sull’ira di Achille.",
+        "Sul viaggio di Odisseo dopo la guerra."
+      ],
+      "answer": 1,
+      "explanation": "Il poema seleziona un’azione precisa dentro un ciclo mitico molto più ampio.",
+      "anchor": "s1",
+      "recovery": {
+        "text": "Il titolo richiama Troia, ma il poema non racconta ogni evento che la riguarda. Il suo centro è l’ira di Achille.",
+        "question": "Quale evento appartiene ad altre vicende del ciclo e non è narrato nell’Iliade?",
+        "options": [
+          "La lite con Agamennone.",
+          "La morte di Patroclo.",
+          "La distruzione di Troia con l’inganno del cavallo."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Perché Apollo manda la peste nel racconto iniziale?",
+      "options": [
+        "Per aiutare Odisseo a raggiungere Itaca.",
+        "Per la scelta di Patroclo di indossare le armi.",
+        "In risposta alla preghiera di Crise, oltraggiato da Agamennone."
+      ],
+      "answer": 2,
+      "explanation": "La peste nasce dal rifiuto della supplica di Crise; la lite fra i capi segue la ricerca di una soluzione.",
+      "anchor": "s2",
+      "recovery": {
+        "text": "Crise chiede la figlia Criseide. Agamennone lo respinge e il sacerdote si rivolge ad Apollo.",
+        "question": "Chi rivela all’assemblea che occorre restituire Criseide?",
+        "options": [
+          "Calcante.",
+          "Ettore.",
+          "Paride."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Quale evento provoca il ritorno di Achille in battaglia?",
+      "options": [
+        "La morte di Patroclo.",
+        "La scelta della mela.",
+        "I funerali di Ettore."
+      ],
+      "answer": 0,
+      "explanation": "La perdita dell’amico cambia la motivazione dell’eroe e sposta l’ira verso Ettore.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "Patroclo combatte con le armi di Achille e muore. Il lutto è lo snodo che interrompe il ritiro.",
+        "question": "Chi infligge a Patroclo il colpo mortale?",
+        "options": [
+          "Agamennone.",
+          "Ettore.",
+          "Priamo."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Che cosa chiede Priamo ad Achille?",
+      "options": [
+        "La resa definitiva degli Achei.",
+        "La restituzione del corpo di Ettore.",
+        "Le nuove armi di Efesto."
+      ],
+      "answer": 1,
+      "explanation": "Il padre vuole riportare il figlio a Troia e rendergli i riti funebri.",
+      "anchor": "s5",
+      "recovery": {
+        "text": "Priamo entra nel campo nemico come padre e supplice. La sua richiesta riguarda il morto, non la conquista di una città.",
+        "question": "Quale ricordo richiama per rivolgersi ad Achille?",
+        "options": [
+          "Il matrimonio di Elena.",
+          "Il cavallo di legno.",
+          "Peleo, il padre di Achille."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Qual è il finale del poema?",
+      "options": [
+        "Il ritorno di Menelao a Sparta.",
+        "La morte di Achille.",
+        "I funerali di Ettore."
+      ],
+      "answer": 2,
+      "explanation": "Il finale sposta l’attenzione sulla comunità che piange il suo difensore, lasciando la guerra ancora aperta.",
+      "anchor": "s7",
+      "recovery": {
+        "text": "Una tregua permette i riti, ma non è una pace definitiva. L’ultima azione del poema è il funerale.",
+        "question": "Come va descritta la sospensione concessa per i riti?",
+        "options": [
+          "Come una tregua temporanea.",
+          "Come la resa di Troia.",
+          "Come la fine di ogni conflitto."
+        ],
+        "answer": 0
+      }
+    }
+  ],
+  "deepening": [
+    {
+      "title": "Dèi potenti, decisioni umane",
+      "html": "<p>Le divinità iliadiche provano affetti e rivalità e possono entrare direttamente nell’azione. Atena trattiene Achille all’inizio, ma inganna Ettore nel duello; Apollo colpisce il campo acheo e interviene contro Patroclo. Non sono tutti dalla stessa parte né applicano un codice semplice e uniforme. Anche il rapporto fra Zeus e il destino cambia accento nelle scene: una formula come “il destino comanda sempre e gli uomini non scelgono mai” cancella problemi che il poema lascia in tensione.</p>"
+    }
+  ]
+}

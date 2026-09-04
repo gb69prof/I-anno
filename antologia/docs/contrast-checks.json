@@ -1,0 +1,42 @@
+[
+  {
+    "pair": "Testo/carta",
+    "ratio": 11.66,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "Testo secondario/carta",
+    "ratio": 5.51,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "Titoletti/carta",
+    "ratio": 6.2,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "Crema/blu",
+    "ratio": 15.92,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "Oro/blu",
+    "ratio": 8.85,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "Link/carta",
+    "ratio": 6.11,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "Esito corretto",
+    "ratio": 7.38,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "Esito da chiarire",
+    "ratio": 6.95,
+    "normal_text_4_5": true
+  }
+]

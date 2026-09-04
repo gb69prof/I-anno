@@ -1,0 +1,268 @@
+{
+  "id": "c2-giudicare",
+  "area": "Cittadinanza",
+  "number": "C2",
+  "title": "Giudicare: quanto sappiamo davvero?",
+  "subtitle": "Prove, inferenze e responsabilità personale",
+  "question": "Che cosa dobbiamo sapere prima di attribuire a qualcuno un’azione?",
+  "time": "2 ore + laboratorio",
+  "prerequisites": "Distinguere personaggio e narratore; conoscere il nucleo dell’indagine di Edipo.",
+  "goals": [
+    "Separare fatti descritti, indizi e ipotesi in un caso inventato.",
+    "Formulare una conclusione proporzionata alle informazioni disponibili.",
+    "Distinguere conseguenze familiari, maledizione mitica e responsabilità personale."
+  ],
+  "imageCaption": "La luce raggiunge alcuni frammenti e ne lascia altri in ombra: prima di concludere bisogna capire quali informazioni mancano.",
+  "blocks": [
+    {
+      "id": "s1",
+      "title": "Un giudizio è una conclusione che va motivata",
+      "html": "<p>Quando attribuiamo un’azione a qualcuno, colleghiamo ciò che sappiamo a una conclusione. Questo collegamento può essere solido oppure fragile. “Due disegni hanno lo stesso simbolo” e “una persona ha copiato dall’altra” non sono la stessa affermazione. La prima descrive una somiglianza; la seconda propone una spiegazione della sua origine. Per sostenerla dobbiamo verificare quali passaggi siano documentati e quali soltanto immaginati.</p><p>L’indagine di Edipo, studiata in Antologia, rende evidente la distanza fra ciò che un personaggio crede e ciò che arriva a conoscere. Qui non useremo il mito come un manuale di indagine moderna: oracoli, destino e forme antiche della colpa appartengono a un altro contesto. Prendiamo invece una domanda: <strong>che cosa cambia nel giudizio quando cambia la conoscenza?</strong> Un buon ragionamento non protegge a ogni costo l’idea iniziale. Controlla se le nuove informazioni la rafforzano, la indeboliscono oppure impongono di abbandonarla.</p>"
+    },
+    {
+      "id": "s2",
+      "title": "Da leggere: due simboli molto simili",
+      "html": "<p><strong>Caso ipotetico — racconto originale per questa lezione.</strong> Nomi, elaborati e avvenimenti sono inventati.</p><blockquote><p>Per una mostra interna, Sara e Luca consegnano due manifesti. Entrambi contengono una foglia costruita con le stesse forme geometriche. Il gruppo di revisione trova il file di Sara esportato lunedì e quello di Luca esportato martedì. Qualcuno scrive: “Luca ha copiato”. Un’altra studentessa ricorda che il docente aveva distribuito una raccolta di forme per l’esercitazione. Non è ancora stato controllato se la foglia fosse fra gli esempi. Luca dice di aver cominciato il lavoro nel fine settimana, ma il gruppo non ha visto le sue bozze. Un compagno aggiunge che il fratello di Luca aveva copiato un compito l’anno precedente. La discussione si allarga, mentre nessuno ha ancora formulato una richiesta precisa di verifica.</p></blockquote><p>Il racconto non rivela una soluzione nascosta da indovinare. Offre informazioni incomplete. Il nostro compito è stabilire che cosa consentano di dire e quale controllo possa ridurre l’incertezza senza trasformare un sospetto in un’etichetta personale.</p>"
+    },
+    {
+      "id": "s3",
+      "title": "Indizi, fonti e forza delle prove",
+      "html": "<p>Un <strong>indizio</strong> suggerisce una possibile spiegazione. Diventa utile se sappiamo da dove proviene e quale rapporto ha con l’ipotesi. La data di esportazione documenta quando è stato prodotto quel file esportato, non necessariamente quando è nata l’idea. Prima di usarla occorre quindi definire che cosa prova. La somiglianza fra le foglie può dipendere da una copia, da un modello comune o da altre circostanze da verificare.</p><p>Confrontare le bozze e la raccolta distribuita dal docente può fornire elementi pertinenti. Contare quante persone ripetono l’accusa non chiarisce invece l’origine del simbolo. Anche una testimonianza va considerata in rapporto a ciò che il testimone ha osservato direttamente. Dire “ho visto Luca aprire quel modello” è diverso da “mi sembra il tipo che lo farebbe”. Nel primo caso si riferisce un’azione da controllare; nel secondo si sostituisce una valutazione della persona alla verifica del fatto.</p>"
+    },
+    {
+      "id": "s4",
+      "title": "Sospendere una conclusione non significa smettere di cercare",
+      "html": "<p><strong>Sospendere il giudizio</strong> significa riconoscere che, per una certa conclusione, gli elementi attuali non bastano. È una posizione precisa: possiamo dire che la somiglianza è accertata e che la sua origine non lo è. Possiamo poi indicare il controllo successivo, per esempio verificare se entrambi avevano accesso allo stesso modello. L’incertezza dichiarata non rende equivalenti tutte le ipotesi: quelle incompatibili con i dati possono essere scartate.</p><p>Per ragionare bene serve anche cercare informazioni che potrebbero smentire la nostra prima idea. Se leggiamo soltanto ciò che sembra confermarla, rischiamo di costruire un percorso a senso unico. Un metodo utile è formulare almeno due spiegazioni e chiedere per ciascuna: che cosa dovrei osservare se fosse corretta? Nel caso dei manifesti, il modello comune avrebbe un significato diverso da una bozza che mostrasse passaggi originali successivamente riprodotti nell’altro lavoro. Il gruppo deve spiegare questa differenza prima di pronunciarsi.</p>"
+    },
+    {
+      "id": "s5",
+      "title": "Le azioni dei familiari non si ereditano",
+      "html": "<p>Il riferimento al fratello di Luca non documenta come sia stata disegnata la foglia. Una persona può subire le conseguenze delle azioni di un familiare, per esempio una perdita di fiducia del gruppo, ma ciò non significa che abbia compiuto quelle azioni. <strong>Conseguenza</strong> e <strong>responsabilità</strong> sono concetti distinti. Attribuire una colpa richiede di considerare il comportamento della persona, le circostanze e le informazioni pertinenti.</p><p>Nel diritto italiano, l’articolo 27 della Costituzione stabilisce il carattere personale della responsabilità penale e il principio per cui l’imputato non è considerato colpevole prima della condanna definitiva. Questo riferimento riguarda il processo penale: un confronto scolastico non è un tribunale. <a href=\"https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf\">Testo della Costituzione, articolo 27.</a></p><p>La maledizione di una stirpe appartiene invece a specifiche costruzioni mitiche, non a una regola da applicare alle famiglie reali. Anche nei racconti greci va studiata caso per caso, senza pensare che ogni sofferenza dimostri una colpa ereditata. Nel nostro caso, il precedente del fratello non risolve alcuna delle domande sui due elaborati.</p>"
+    },
+    {
+      "id": "s6",
+      "title": "Rendere visibile il ragionamento",
+      "html": "<p>Un rapporto grafico può aiutare il gruppo a ragionare se distingue <strong>dati, ipotesi e controlli da svolgere</strong>. Le differenze devono essere indicate con parole e simboli, non soltanto con colori. Una freccia fra due elementi deve spiegare il legame: “documenta”, “suggerisce”, “non dimostra”. In questo modo il lettore può controllare come siamo passati dall’osservazione alla conclusione, anziché ricevere soltanto un verdetto.</p><p>La forma può anche produrre una falsa certezza. Collocare un nome sotto una grande scritta accusatoria e relegare i dubbi in caratteri minuscoli orienta il pubblico prima che legga gli elementi. Nel laboratorio presenteremo quindi conclusioni della misura consentita dalle informazioni: “somiglianza verificata; origine da chiarire” è una conclusione possibile. Restano discutibili i controlli più utili e il modo di presentarli. Non è richiesto indovinare chi sia colpevole: è richiesto rendere il proprio ragionamento verificabile e disponibile alla correzione.</p>"
+    }
+  ],
+  "summary": "Giudicare significa collegare informazioni e conclusioni. Nel caso ipotetico dei due manifesti, la somiglianza delle foglie è descritta, ma la sua origine deve essere verificata. Un indizio è utile quando sappiamo che cosa documenta: la data di esportazione di un file non coincide necessariamente con la nascita dell’idea. Le ipotesi vanno confrontate con dati pertinenti, cercando anche elementi capaci di smentirle. Sospendere il giudizio significa dichiarare che cosa resta incerto e proporre un controllo; non significa abbandonare la ricerca o considerare equivalenti tutte le spiegazioni. Le azioni di un familiare non provano quelle di un’altra persona. La responsabilità penale personale prevista dalla Costituzione appartiene a un contesto diverso dalle maledizioni di stirpe presenti in alcuni miti. Un rapporto grafico efficace separa dati, ipotesi e verifiche, così che il pubblico possa seguire il ragionamento e valutarne la solidità.",
+  "essentials": [
+    "Distinguere una somiglianza osservata dalla spiegazione della sua origine.",
+    "Chiarire che cosa un indizio documenta e che cosa lascia incerto.",
+    "Confrontare più ipotesi e cercare possibili smentite.",
+    "Separare responsabilità personale e conseguenze delle azioni altrui.",
+    "Sospendere una conclusione e indicare un controllo pertinente."
+  ],
+  "vocabulary": [
+    [
+      "Indizio",
+      "Elemento che suggerisce una spiegazione e richiede di essere valutato nel contesto."
+    ],
+    [
+      "Ipotesi",
+      "Spiegazione provvisoria da confrontare con le informazioni disponibili."
+    ],
+    [
+      "Prova",
+      "Elemento usato per sostenere un’affermazione, la cui forza dipende dal rapporto con ciò che si vuole dimostrare."
+    ],
+    [
+      "Smentita",
+      "Informazione incompatibile con un’affermazione o capace di indebolirla."
+    ],
+    [
+      "Sospensione del giudizio",
+      "Riconoscimento motivato che mancano elementi sufficienti per una conclusione."
+    ],
+    [
+      "Responsabilità personale",
+      "Attribuzione di un’azione alla persona che ne risponde, distinta dall’appartenenza familiare."
+    ]
+  ],
+  "questions": [
+    "Che cosa documentano le date di esportazione e che cosa non permettono ancora di sapere?",
+    "Formula due spiegazioni della somiglianza e indica un controllo utile per ciascuna.",
+    "Perché il comportamento del fratello non chiarisce l’origine della foglia? Motiva senza decidere se Luca abbia copiato."
+  ],
+  "lab": {
+    "title": "Una tavola che mostra come ragioni",
+    "task": "Crea una tavola A4, su carta o in digitale, che ricostruisca il caso ipotetico separando dati, ipotesi e verifiche. Aggiungi una conclusione di 60–80 parole proporzionata alle informazioni.",
+    "steps": [
+      "Estrai dal racconto almeno quattro informazioni e indica per ciascuna la fonte interna al caso.",
+      "Formula due ipotesi sull’origine della somiglianza, senza attribuire intenzioni non documentate.",
+      "Disegna collegamenti con verbi che precisino che cosa i dati sostengono o non dimostrano.",
+      "Indica due verifiche utili e scrivi la conclusione provvisoria.",
+      "Chiedi a un compagno di individuare un salto nel ragionamento e rivedi la tavola."
+    ],
+    "criteria": [
+      "Dati e ipotesi restano distinguibili anche senza colore.",
+      "Ogni collegamento dichiara una relazione sostenibile.",
+      "Le verifiche proposte riguardano davvero l’origine dei simboli.",
+      "La conclusione non supera la forza delle informazioni presentate."
+    ]
+  },
+  "bridge": {
+    "target": "04-edipo",
+    "anchor": "s1",
+    "text": "L’indagine di Edipo permette di seguire il cambiamento delle conoscenze del protagonista. Il ponte riguarda il rapporto fra sapere e giudicare; oracoli e contaminazione mitica restano diversi dalle prove e dalla responsabilità personale nel presente."
+  },
+  "sources": [
+    {
+      "title": "Lezione 4 — Edipo",
+      "url": "https://docs.google.com/document/d/1OGmHJf4z9_hoMJwx2bNrgsmUNCGLJJms/edit",
+      "note": "Materiale fornito: indagine, conoscenza e genealogia, rielaborate senza equiparare destino e responsabilità moderna."
+    },
+    {
+      "title": "Lezione 3 — Hybris e Nemesi",
+      "url": "https://docs.google.com/document/d/1d4XtR-EDdgUMLoBZiC_UbT-8nJriz5u4/edit",
+      "note": "Materiale fornito: confronto critico con la generalizzazione della colpa ereditaria."
+    },
+    {
+      "title": "Costituzione italiana — Presidenza della Repubblica",
+      "url": "https://www.quirinale.it/allegati_statici/costituzione/costituzione.pdf",
+      "note": "Articolo 27, breve parafrasi dei primi due commi. Consultato il 4 settembre 2026."
+    }
+  ],
+  "map": {
+    "root": "Giudicare con informazioni",
+    "branches": [
+      {
+        "title": "Indizi",
+        "body": "Suggeriscono spiegazioni, ma va precisato che cosa documentano.",
+        "link": "esamina",
+        "child": "Fonti e contesto",
+        "detail": "Aiutano a distinguere osservazioni, testimonianze e impressioni.",
+        "relation": "richiedono"
+      },
+      {
+        "title": "Ipotesi",
+        "body": "Vanno confrontate con dati pertinenti e possibili smentite.",
+        "link": "confronta",
+        "child": "Giudizio sospeso",
+        "detail": "Dichiara l’incertezza e indica il controllo successivo.",
+        "relation": "possono richiedere"
+      },
+      {
+        "title": "Responsabilità",
+        "body": "Riguarda azioni personali, non etichette familiari.",
+        "link": "attribuisce con ragioni",
+        "child": "Conseguenze",
+        "detail": "Possono toccare altri senza renderli autori della stessa azione.",
+        "relation": "si distingue dalle"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "La data di esportazione di un file che cosa documenta direttamente?",
+      "options": [
+        "Il momento in cui l’autore ha avuto l’idea.",
+        "Il momento in cui è stata prodotta quella versione esportata.",
+        "Il fatto che nessuno abbia usato modelli precedenti."
+      ],
+      "answer": 1,
+      "explanation": "Il dato riguarda l’esportazione; non prova da solo l’inizio del lavoro o l’originalità dell’idea.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Un dato ha un campo preciso. La data di stampa di un bozzetto, per esempio, indica quando è stato stampato, ma il disegno può essere precedente.",
+        "question": "In un caso ipotetico, un bozzetto è stampato mercoledì: quale conclusione è sostenuta da questa sola informazione?",
+        "options": [
+          "L’idea è nata mercoledì.",
+          "Il lavoro è iniziato martedì.",
+          "Quella stampa è stata realizzata mercoledì."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Quale controllo è pertinente per l’ipotesi del modello comune?",
+      "options": [
+        "Contare quante persone sostengono l’accusa.",
+        "Esaminare i risultati scolastici del fratello.",
+        "Verificare il contenuto della raccolta distribuita a entrambi."
+      ],
+      "answer": 2,
+      "explanation": "La raccolta può chiarire se la somiglianza derivi da una risorsa condivisa.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Una verifica utile riguarda il collegamento che vogliamo controllare. Se ipotizziamo che due persone abbiano seguito lo stesso esempio, dobbiamo cercare quell’esempio.",
+        "question": "Due fotografie ipotetiche hanno la stessa posa: quale dato aiuterebbe a verificare se riprendono un modello assegnato?",
+        "options": [
+          "L’immagine di riferimento consegnata dal docente.",
+          "Il numero di persone che preferisce una fotografia.",
+          "Il cognome di chi ha scattato prima."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Che cosa significa sospendere il giudizio nel caso dei manifesti?",
+      "options": [
+        "Riconoscere la somiglianza e lasciare da verificare la sua origine.",
+        "Negare che esista qualunque somiglianza.",
+        "Dichiarare definitivamente impossibile sapere di più."
+      ],
+      "answer": 0,
+      "explanation": "La sospensione riguarda una conclusione non ancora sostenuta, senza cancellare i dati né interrompere la ricerca.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "Possiamo sapere alcune cose e ignorarne altre. Una posizione provvisoria precisa distingue i due livelli e indica come proseguire.",
+        "question": "Un oggetto ipotetico manca dall’aula, ma non sappiamo perché. Quale frase esprime una sospensione motivata?",
+        "options": [
+          "Nessuno potrà mai sapere dove sia.",
+          "Non è nell’aula; controlliamo se sia stato spostato nel deposito.",
+          "È certamente stato preso da chi è uscito per ultimo."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Perché il precedente del fratello non chiarisce il caso di Luca?",
+      "options": [
+        "Perché i rapporti familiari non hanno mai conseguenze sociali.",
+        "Perché non documenta le azioni con cui Luca ha realizzato il manifesto.",
+        "Perché dimostra che Luca abbia agito nel modo opposto."
+      ],
+      "answer": 1,
+      "explanation": "Un fatto relativo a un familiare non prova né smentisce l’azione che si sta attribuendo a Luca.",
+      "anchor": "s5",
+      "recovery": {
+        "text": "Subire effetti delle azioni altrui non equivale ad averle compiute. Per attribuire un comportamento servono elementi relativi a quel comportamento.",
+        "question": "In una squadra ipotetica un giocatore danneggia un pallone. Che cosa sappiamo, senza altri dati, dei suoi compagni?",
+        "options": [
+          "Che sono tutti autori del danno.",
+          "Che nessuno di loro può aver visto nulla.",
+          "Che l’appartenenza alla squadra non dimostra chi abbia partecipato al danno."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Quale impaginazione rende verificabile il ragionamento?",
+      "options": [
+        "Un nome sotto un titolo accusatorio, con dubbi quasi illeggibili.",
+        "Un’unica colonna che mescola osservazioni e ipotesi senza etichette.",
+        "Dati, ipotesi e controlli distinguibili, con collegamenti nominati."
+      ],
+      "answer": 2,
+      "explanation": "La distinzione esplicita dei livelli permette al lettore di controllare i passaggi verso la conclusione.",
+      "anchor": "s6",
+      "recovery": {
+        "text": "Una tavola informa quando mostra anche il rapporto tra gli elementi. Scrivere “suggerisce” è diverso da scrivere “dimostra”. Le parole aiutano a leggere il grado di certezza.",
+        "question": "Quale etichetta segnala correttamente un collegamento ancora da verificare?",
+        "options": [
+          "Possibile spiegazione.",
+          "Conclusione certa.",
+          "Fatto direttamente osservato."
+        ],
+        "answer": 0
+      }
+    }
+  ],
+  "deepening": [
+    {
+      "title": "Una nuova informazione cambia la tavola",
+      "html": "<p>Estensione ipotetica del caso: il docente trova la foglia fra i modelli distribuiti. Questo dato rende sostenibile l’ipotesi di una fonte comune, ma non ricostruisce automaticamente tutti i passaggi compiuti da Sara e Luca. Aggiorna la tua tavola: quali collegamenti diventano più forti? Quali accuse devono essere ritirate perché non sostenute? Confronta poi una seconda variante, nella quale il modello non compare nella raccolta. Anche questa assenza, da sola, non identifica necessariamente l’origine del simbolo.</p>"
+    }
+  ]
+}

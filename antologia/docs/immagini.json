@@ -1,0 +1,152 @@
+[
+  {
+    "id": "01-racconto",
+    "file": "assets/images/01-racconto.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 149260,
+    "sha256": "7856fc22292280100609beb5b7b75af725854f0187d34d67a64659ef9f2c07f8"
+  },
+  {
+    "id": "02-mito",
+    "file": "assets/images/02-mito.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 166930,
+    "sha256": "469712c25382b0e7ed7cc84cba65aae4bf873c1960a157431eb1874167eee896"
+  },
+  {
+    "id": "03-limite",
+    "file": "assets/images/03-limite.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 65992,
+    "sha256": "86c2c41f2b0ab841cd9fd76a085d4b447d235bef4bafab85aa44ae516d8a14e2"
+  },
+  {
+    "id": "04-edipo",
+    "file": "assets/images/04-edipo.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 150710,
+    "sha256": "5e896f51978bf0d9492bcb148ab7a2e44129f4ddf1307be08e9a9e9f50c1b6fa"
+  },
+  {
+    "id": "05-antigone",
+    "file": "assets/images/05-antigone.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 94194,
+    "sha256": "2274f9f5a850ef609b4519fbedcc91fc96e820c85279b1aa0f2e5b68693477cb"
+  },
+  {
+    "id": "06-paride",
+    "file": "assets/images/06-paride.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 195746,
+    "sha256": "aec85e0db64673d97842b830d8cb2e55a79ad884d6cd56332fc42ecfe48d7f4e"
+  },
+  {
+    "id": "07-achille",
+    "file": "assets/images/07-achille.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 157472,
+    "sha256": "89b4227d9fea716996906dd0768ed2e8bc45f4918492c58d3a2dba4f49db95eb"
+  },
+  {
+    "id": "08-iliade",
+    "file": "assets/images/08-iliade.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 159872,
+    "sha256": "683da6e33ea6035d54207d3584b3d98ff699fe1c933b4971f4cb37aaf0dea7f9"
+  },
+  {
+    "id": "09-odissea",
+    "file": "assets/images/09-odissea.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 157382,
+    "sha256": "d8c5f907eca8ec6496cb4d13512451c14783e8b61bd9a2da2079c87cc57fbc25"
+  },
+  {
+    "id": "10-raccontare",
+    "file": "assets/images/10-raccontare.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 170060,
+    "sha256": "9094652fb5842d297814eb05cd87a0b9890ab26dad42aa4a19cfbe18e961ecb0"
+  },
+  {
+    "id": "c1-comunicare",
+    "file": "assets/images/c1-comunicare.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 143670,
+    "sha256": "6e259bade73d15411781a130a8dd21f73ca7e7c1bc2eb77c56bf49083c967c56"
+  },
+  {
+    "id": "c2-giudicare",
+    "file": "assets/images/c2-giudicare.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 113286,
+    "sha256": "0b922f035f82b6e8f5a84048406232a7fe9c3238a4c2fd10e914695d2327eb22"
+  },
+  {
+    "id": "c3-dissentire",
+    "file": "assets/images/c3-dissentire.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 171818,
+    "sha256": "d049c7b720ae77f8d2b43cba5d6102daba467f25f913de480caf9adcc7839581"
+  },
+  {
+    "id": "c4-conflitto",
+    "file": "assets/images/c4-conflitto.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 115548,
+    "sha256": "79206c02c87ca019ad3edb7864750006f6ea49280ec17acb31c406d772987e24"
+  },
+  {
+    "id": "c5-identita",
+    "file": "assets/images/c5-identita.webp",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "bytes": 151490,
+    "sha256": "81b51a4c2d64d13d44b4c1169232f523131b1a6cb5a5a5f053048b8503fbda27"
+  }
+]

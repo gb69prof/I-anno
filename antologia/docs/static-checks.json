@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "html_pages": 21,
+  "local_references_checked": 456,
+  "lessons": 15,
+  "illustrations": 15,
+  "maps_svg": 16,
+  "maps_png": 16,
+  "quiz_questions": 75,
+  "recovery_questions": 75,
+  "cache_entries": 95,
+  "errors": [],
+  "content": [
+    {
+      "id": "01-racconto",
+      "words": 1055,
+      "summary_words": 136,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "02-mito",
+      "words": 924,
+      "summary_words": 152,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "03-limite",
+      "words": 865,
+      "summary_words": 134,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "04-edipo",
+      "words": 876,
+      "summary_words": 134,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "05-antigone",
+      "words": 918,
+      "summary_words": 142,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "06-paride",
+      "words": 853,
+      "summary_words": 133,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "07-achille",
+      "words": 838,
+      "summary_words": 140,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "08-iliade",
+      "words": 944,
+      "summary_words": 142,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "09-odissea",
+      "words": 986,
+      "summary_words": 138,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "10-raccontare",
+      "words": 870,
+      "summary_words": 147,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "c1-comunicare",
+      "words": 853,
+      "summary_words": 134,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "c2-giudicare",
+      "words": 897,
+      "summary_words": 137,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "c3-dissentire",
+      "words": 907,
+      "summary_words": 134,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "c4-conflitto",
+      "words": 871,
+      "summary_words": 135,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    },
+    {
+      "id": "c5-identita",
+      "words": 892,
+      "summary_words": 136,
+      "quiz": 5,
+      "recoveries": 5,
+      "map_nodes": 7
+    }
+  ]
+}

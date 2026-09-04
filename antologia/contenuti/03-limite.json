@@ -1,0 +1,267 @@
+{
+  "id": "03-limite",
+  "area": "Antologia",
+  "number": "03",
+  "title": "Quando la forza perde la misura",
+  "subtitle": "Hybris, conseguenze e responsabilità nei racconti greci",
+  "question": "Ogni limite va rispettato, oppure dobbiamo capire che cosa protegge?",
+  "time": "2 ore + laboratorio",
+  "prerequisites": "Conoscere alcune funzioni del mito e ricostruire le azioni di un personaggio.",
+  "goals": [
+    "Spiegare la hybris attraverso comportamenti concreti di prevaricazione.",
+    "Distinguere una conseguenza narrativa da una punizione automaticamente meritata.",
+    "Confrontare rischio, ambizione e abuso senza ridurli alla stessa cosa."
+  ],
+  "imageCaption": "Un gesto oltre la misura produce conseguenze che possono raggiungere anche chi non lo ha compiuto.",
+  "blocks": [
+    {
+      "id": "s1",
+      "title": "Il limite non è sempre un muro da non oltrepassare",
+      "html": "<p>Una regola può proteggere una persona, organizzare un’attività o imporre un privilegio ingiusto. Prima di chiedere se qualcuno l’abbia rispettata, dobbiamo capire quale rapporto regoli e chi ne subisca gli effetti. I miti greci tornano spesso sul <strong>limite</strong>: mostrano persone potenti che dimenticano la fragilità propria e altrui. Ma non tutte le loro storie dicono semplicemente “obbedisci”. Alcuni personaggi affrontano un’autorità proprio per difendere ciò che ritengono giusto.</p><p>Due parole ci aiutano a leggere questi conflitti: <strong>hybris</strong> e <strong>nemesi</strong>. Le useremo con attenzione, evitando di trasformarle in una formula capace di spiegare qualsiasi sventura. Se una persona soffre, questo non dimostra da solo che sia colpevole. E se un personaggio disobbedisce, dobbiamo ancora domandarci a chi, per quale ragione, con quali mezzi e con quali conseguenze. È il racconto concreto a permetterci di ragionare.</p>"
+    },
+    {
+      "id": "s2",
+      "title": "Icaro: un volo che cambia significato",
+      "html": "<p><strong>Testo da leggere — riscrittura didattica</strong> del mito di Dedalo e Icaro presente nel <em>Manuale della vita</em>; non è una traduzione antica.</p><blockquote><p>Dedalo preparò due paia d’ali: dispose le penne e le unì con la cera. Era una possibilità di fuga. Prima di partire, spiegò al figlio che il volo richiedeva attenzione: troppo vicino all’acqua le ali si sarebbero appesantite, troppo in alto il calore avrebbe sciolto la cera.</p><p>Icaro cominciò seguendo il padre. Poi il movimento delle ali e lo spazio aperto gli fecero desiderare una maggiore altezza. Si allontanò dalla rotta indicata. Quando la cera cedette, le penne si dispersero; il ragazzo non riuscì più a sostenersi e precipitò in mare.</p></blockquote><p>La fuga è possibile grazie all’invenzione, ma l’invenzione ha condizioni d’uso. Dedalo non proibisce di volare: indica come farlo. Questo particolare impedisce di ridurre il racconto a una condanna di ogni desiderio di libertà o di ogni innovazione.</p>"
+    },
+    {
+      "id": "s3",
+      "title": "Ambizione, rischio e prevaricazione",
+      "html": "<p>La vicenda di Icaro può essere letta come una riflessione sull’eccesso di fiducia e sulla difficoltà di ascoltare un avvertimento. La <strong>hybris</strong>, però, non coincide semplicemente con l’essere ambiziosi o contenti delle proprie capacità. Il termine riguarda soprattutto una tracotanza che si manifesta in comportamenti: umiliare, esercitare una forza senza rispetto, trattare gli altri come se non avessero valore. Il limite violato può essere umano, sociale o religioso.</p><p>Dire “Icaro merita di morire perché disobbedisce” chiuderebbe la lettura prima di averla iniziata. Possiamo osservare il legame fra la sua azione e il cedimento delle ali senza celebrare la morte come giusta. Possiamo anche interrogarci sulla responsabilità di chi progetta e di chi usa un’invenzione. Per interpretare un episodio servono distinzioni: <strong>rischiare</strong> significa esporsi a un possibile danno; <strong>prevaricare</strong> significa imporsi calpestando qualcuno. I due comportamenti possono intrecciarsi, ma non sono la stessa cosa.</p>"
+    },
+    {
+      "id": "s4",
+      "title": "Agamennone: quando l’offesa coinvolge una comunità",
+      "html": "<p>L’inizio dell’<em>Iliade</em>, raccontato nei materiali, offre un caso diverso. Crise arriva dagli Achei per chiedere la restituzione della figlia Criseide, prigioniera di guerra. Agamennone lo respinge e lo minaccia. Crise invoca Apollo e nel racconto il dio colpisce l’esercito con una pestilenza. Per farla cessare occorre restituire la giovane. Il comandante accetta, ma pretende una compensazione e sottrae Briseide ad Achille: da una crisi nasce un nuovo conflitto.</p><p>Qui il problema non è un esperimento fallito. Agamennone usa il proprio ruolo per umiliare e imporre la propria volontà. La sua decisione raggiunge persone che non l’hanno presa: la comunità paga gli effetti del comportamento di un capo. Inoltre Criseide e Briseide vengono trattate dai guerrieri come parti del bottino. Osservare la vicenda dalla loro posizione allarga la domanda: <strong>chi ha il potere di decidere e chi viene considerato un oggetto della decisione?</strong></p>"
+    },
+    {
+      "id": "s5",
+      "title": "Nemesi: una risposta all’eccesso, non una legge fisica",
+      "html": "<p>La parola <strong>nemesi</strong> è collegata alla riprovazione di un comportamento e, nell’uso scolastico, indica spesso la risposta che colpisce un eccesso e ristabilisce una misura. Nell’episodio di Crise, il testo collega esplicitamente l’azione di Apollo all’offesa subita dal sacerdote. Questo nesso va riconosciuto. Non autorizza però a dire che in tutti i miti ogni disgrazia sia una punizione giusta o che ogni colpa debba distruggere un’intera famiglia.</p><p>Le fonti raccontano anche sventure che attraversano più generazioni. È un motivo di alcune saghe, non una legge universale della Grecia. Nel ciclo di Edipo incontreremo decisioni prese con conoscenze incomplete e persone travolte da conflitti altrui. Sarà necessario distinguere ciò che un personaggio afferma, ciò che la storia mostra e la nostra interpretazione. La sofferenza può aprire una domanda sulla responsabilità senza offrire una risposta semplice. Anche il rapporto fra dèi e giustizia può diventare problematico, anziché rassicurante.</p>"
+    },
+    {
+      "id": "s6",
+      "title": "Leggere le conseguenze senza cancellare le persone",
+      "html": "<p>Per confrontare due racconti possiamo seguire quattro domande: quale azione viene compiuta? Quale limite è in gioco? Chi subisce gli effetti? Il testo presenta quegli effetti come una risposta voluta da qualcuno oppure come l’esito di una concatenazione? Nel volo di Icaro osserviamo le condizioni fragili di un’invenzione e una decisione rischiosa. Nell’episodio di Agamennone osserviamo un abuso di autorità e una reazione divina esplicitamente narrata.</p><p>Non dobbiamo scegliere un’etichetta e poi costringere tutte le scene ad adattarsi. Serve anche riconoscere chi non parla: il ragazzo che precipita, il padre che lo perde, le prigioniere, i soldati colpiti. Una rappresentazione grafica delle conseguenze può renderli visibili. Il passaggio alla cittadinanza riguarda questa attenzione alle responsabilità. Nella vita contemporanea, però, un’accusa richiede fatti e prove; un danno non dimostra una colpa per destino. <strong>Comprendere un errore significa ricostruirlo, non limitarsi a nominare una punizione.</strong></p>"
+    }
+  ],
+  "summary": "I miti greci interrogano spesso il limite e le conseguenze delle azioni, ma non insegnano tutti una semplice obbedienza. La hybris riguarda la tracotanza che diventa prevaricazione: umiliare qualcuno o esercitare il potere senza rispetto. Non coincide con ogni ambizione o rischio. Il volo di Icaro mostra un’invenzione che permette la fuga, ma richiede attenzione alle condizioni d’uso; possiamo ricostruire l’errore senza affermare che il ragazzo meritasse la morte. Nell’Iliade, invece, Agamennone offende Crise e Apollo risponde colpendo l’esercito: la decisione di un capo danneggia anche altri. La nemesi viene spesso usata per indicare una risposta all’eccesso, ma non è una legge universale che spiega ogni sventura. Alcune saghe narrano colpe e sofferenze attraverso più generazioni. Per interpretarle occorre distinguere azioni, limiti, conseguenze e voci del racconto, senza ricavare automaticamente la colpa dalla sofferenza.",
+  "essentials": [
+    "Spiegare la hybris con un esempio concreto di prevaricazione.",
+    "Distinguere ambizione, rischio e abuso di potere.",
+    "Ricostruire le condizioni del volo di Icaro e la decisione che lo mette in pericolo.",
+    "Spiegare come l’azione di Agamennone danneggia altre persone.",
+    "Evitare di trattare ogni sventura come una punizione meritata o ereditaria."
+  ],
+  "vocabulary": [
+    [
+      "Limite",
+      "Confine o condizione che va compreso nel rapporto che regola."
+    ],
+    [
+      "Hybris",
+      "Tracotanza che si manifesta in una prevaricazione o in un abuso."
+    ],
+    [
+      "Nemesi",
+      "Riprovazione o risposta all’eccesso; spesso intesa come punizione nella lettura dei miti."
+    ],
+    [
+      "Prevaricazione",
+      "Imposizione della propria volontà calpestando altri."
+    ],
+    [
+      "Rischio",
+      "Possibilità di un danno legata a una situazione o a un’azione."
+    ],
+    [
+      "Responsabilità",
+      "Rapporto fra azioni, possibilità di scelta e conseguenze da riconoscere."
+    ]
+  ],
+  "questions": [
+    "Quale differenza c’è fra il divieto di volare e le indicazioni date da Dedalo?",
+    "Che cosa distingue la decisione di Icaro dal comportamento di Agamennone verso Crise?",
+    "Quali personaggi subiscono conseguenze pur non essendo gli autori delle decisioni principali?"
+  ],
+  "lab": {
+    "title": "Rendere visibili le conseguenze",
+    "task": "Crea due brevi sequenze grafiche, una su Icaro e una su Agamennone, che mostrino azione, limite ed effetti su persone diverse.",
+    "steps": [
+      "Ricostruisci gli eventi senza aggiungere giudizi di merito.",
+      "Scegli un’inquadratura che mostri anche chi subisce la decisione.",
+      "Collega le scene con didascalie che spieghino i nessi.",
+      "Concludi con una domanda aperta, evitando uno slogan punitivo."
+    ],
+    "criteria": [
+      "Fedeltà ai racconti della lezione.",
+      "Distinzione tra rischio e prevaricazione.",
+      "Visibilità dei personaggi coinvolti nelle conseguenze.",
+      "Chiarezza dei nessi senza giudizi automatici."
+    ]
+  },
+  "bridge": {
+    "target": "c2-giudicare",
+    "anchor": "s1",
+    "text": "I racconti collegano azioni e conseguenze. Nel giudizio contemporaneo dovremo ricostruire quel collegamento con prove, distinguendo la responsabilità da un’etichetta attribuita a chi soffre."
+  },
+  "sources": [
+    {
+      "title": "Lezione 3 — Hybris e Nemesi",
+      "url": "https://docs.google.com/document/d/1d4XtR-EDdgUMLoBZiC_UbT-8nJriz5u4/edit",
+      "note": "Documento fornito: lessico del limite; corretta la generalizzazione su colpa ereditaria ed estinzione."
+    },
+    {
+      "title": "I miti come manuale della vita",
+      "url": "https://docs.google.com/document/d/1lFS6V6WB7I0XNRmFvA1ytkcgE2a5hhLa/edit",
+      "note": "Documento fornito: episodio di Dedalo e Icaro, riscritto per la lezione."
+    },
+    {
+      "title": "Iliade",
+      "url": "https://docs.google.com/document/d/1T85r3CYvnoezYOBiLnLkxBMUlDRc6w93/edit",
+      "note": "Documento fornito: offesa a Crise e conflitto fra Agamennone e Achille."
+    }
+  ],
+  "map": {
+    "root": "Il limite nel racconto",
+    "branches": [
+      {
+        "title": "Hybris",
+        "body": "La tracotanza diventa un comportamento che umilia o prevarica.",
+        "link": "può essere violato dalla",
+        "child": "Altre persone",
+        "detail": "Chi decide può danneggiare anche chi non sceglie.",
+        "relation": "coinvolge"
+      },
+      {
+        "title": "Rischio",
+        "body": "Un’azione può oltrepassare condizioni da comprendere.",
+        "link": "si distingue dal",
+        "child": "Icaro",
+        "detail": "Le ali permettono la fuga ma restano fragili.",
+        "relation": "si osserva in"
+      },
+      {
+        "title": "Conseguenze",
+        "body": "Ogni nesso va ricostruito nel singolo racconto.",
+        "link": "emerge dalle",
+        "child": "Giudizio",
+        "detail": "Sofferenza e colpa non coincidono automaticamente.",
+        "relation": "richiedono"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Quale comportamento esprime più chiaramente una prevaricazione?",
+      "options": [
+        "Affrontare una prova difficile preparandosi.",
+        "Riconoscere un limite tecnico dell’invenzione.",
+        "Umiliare qualcuno usando la propria autorità."
+      ],
+      "answer": 2,
+      "explanation": "La hybris riguarda comportamenti di tracotanza e abuso, non ogni forma di ambizione.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Prevaricare significa imporsi calpestando altri. Il comandante che minaccia una persona vulnerabile usa il potere senza rispetto.",
+        "question": "Quale elemento distingue la prevaricazione dal semplice rischio?",
+        "options": [
+          "L’imposizione che danneggia o umilia altri.",
+          "La presenza di un risultato incerto.",
+          "La difficoltà dell’impresa."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Che cosa chiede Dedalo a Icaro prima del volo?",
+      "options": [
+        "Di rispettare le condizioni necessarie al funzionamento delle ali.",
+        "Di rinunciare completamente alla fuga.",
+        "Di superarlo in altezza per provare le ali."
+      ],
+      "answer": 0,
+      "explanation": "Dedalo consente e prepara il volo, ma avverte sui rischi del volare troppo alto o troppo basso.",
+      "anchor": "s2",
+      "recovery": {
+        "text": "La libertà di volare dipende anche dalla fragilità dei materiali: l’avvertimento riguarda condizioni concrete.",
+        "question": "Che cosa rende possibile la fuga nel racconto?",
+        "options": [
+          "Un ordine di Agamennone.",
+          "L’invenzione delle ali da parte di Dedalo.",
+          "La punizione di Apollo."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Nell’episodio di Crise, chi subisce la pestilenza?",
+      "options": [
+        "Soltanto la famiglia di Crise.",
+        "L’esercito acheo, anche se la decisione è del comandante.",
+        "Soltanto il dio Apollo."
+      ],
+      "answer": 1,
+      "explanation": "L’azione del capo produce una crisi collettiva: il racconto distingue chi decide da tutti coloro che ne subiscono gli effetti.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "Agamennone offende Crise; Apollo colpisce l’esercito. La responsabilità e le conseguenze non ricadono necessariamente sulle stesse persone.",
+        "question": "Quale domanda aiuta a leggere questo problema?",
+        "options": [
+          "Quale personaggio appare per ultimo?",
+          "Quale arma è più decorata?",
+          "Chi decide e chi subisce gli effetti della decisione?"
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Perché la nemesi non va usata come spiegazione automatica di ogni sventura?",
+      "options": [
+        "Perché esistono soltanto personaggi senza errori.",
+        "Perché nei miti nessuna azione produce conseguenze.",
+        "Perché il nesso fra azione e sofferenza va verificato nel singolo racconto."
+      ],
+      "answer": 2,
+      "explanation": "La lezione distingue i collegamenti esplicitamente narrati dalle generalizzazioni che trasformano ogni dolore in pena meritata.",
+      "anchor": "s5",
+      "recovery": {
+        "text": "In una saga una famiglia può essere colpita da più sventure; non segue che tutte le famiglie debbano essere annientate per ogni errore.",
+        "question": "Quale conclusione è corretta?",
+        "options": [
+          "Non basta osservare una sofferenza per dimostrare una colpa.",
+          "Ogni sofferenza prova una colpa personale.",
+          "Le conseguenze riguardano sempre solo chi ha deciso."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Che cosa distingue il rischio dalla prevaricazione?",
+      "options": [
+        "Il rischio riguarda un possibile danno; la prevaricazione impone la propria volontà calpestando altri.",
+        "Il rischio è sempre una colpa; la prevaricazione è sempre involontaria.",
+        "Sono due parole che indicano esattamente la stessa cosa."
+      ],
+      "answer": 0,
+      "explanation": "La distinzione aiuta a non trasformare ogni scelta ambiziosa in abuso di potere.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Provare un’invenzione e minacciare una persona sono azioni diverse. Possono entrambe produrre danni, ma non hanno lo stesso rapporto con gli altri.",
+        "question": "Quale confronto mantiene questa distinzione?",
+        "options": [
+          "Icaro e Agamennone compiono necessariamente la stessa colpa.",
+          "Icaro affronta condizioni di volo; Agamennone usa l’autorità per umiliare.",
+          "Ogni invenzione è un’offesa alla comunità."
+        ],
+        "answer": 1
+      }
+    }
+  ],
+  "deepening": [
+    {
+      "title": "Una voce del dramma non è una legge universale",
+      "html": "<p>Nell’Antigone il coro ricorda le sciagure dei Labdacidi e parla del pericolo dell’eccesso. Questa voce è parte della tragedia: reagisce a ciò che accade, può esitare e cambiare posizione. Per capire un’opera teatrale non basta estrarre una sentenza; bisogna ascoltare anche gli altri personaggi e seguire gli effetti delle loro decisioni.</p>"
+    }
+  ]
+}

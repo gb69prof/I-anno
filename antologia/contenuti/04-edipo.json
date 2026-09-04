@@ -1,0 +1,271 @@
+{
+  "id": "04-edipo",
+  "area": "Antologia",
+  "number": "04",
+  "title": "Edipo cerca la verità",
+  "subtitle": "L’indagine che cambia l’identità di chi la conduce",
+  "question": "Che cosa accade quando le prove smentiscono la storia che raccontiamo su noi stessi?",
+  "time": "2 ore + laboratorio",
+  "prerequisites": "Distinguere fatti, convinzioni e conseguenze; conoscere il tema del limite nei miti.",
+  "goals": [
+    "Ricostruire i passaggi essenziali del mito di Edipo e dell’indagine a Tebe.",
+    "Distinguere ciò che Edipo sa da ciò che sa il lettore.",
+    "Spiegare il rapporto fra ricerca della verità, sospetto e riconoscimento."
+  ],
+  "imageCaption": "Una strada che si divide e uno sguardo rivolto verso la città richiamano scelte compiute con informazioni incomplete.",
+  "blocks": [
+    {
+      "id": "s1",
+      "title": "Un re davanti alla sofferenza della città",
+      "html": "<p>Tebe soffre per una pestilenza. I cittadini chiedono aiuto a Edipo, il re che in passato li ha liberati dalla Sfinge. La sua autorità dipende anche dalla memoria di quella soluzione: ha saputo comprendere un enigma, forse saprà risolvere questa nuova crisi. L’inizio dell’<em>Edipo re</em> di Sofocle mette quindi insieme un problema collettivo e la fiducia in una persona capace.</p><p>Edipo non conosce ancora l’intera storia della propria vita. Noi possiamo invece ricostruirla attraverso l’antefatto mitico. Si crea così una distanza fra il sapere del personaggio e quello di chi ascolta. Questa distanza rende dolorose parole che, per Edipo, sembrano sicure. L’indagine che avvia per aiutare la città finirà per cambiare il significato del suo passato. Non leggeremo la vicenda come dimostrazione che cercare la verità sia sbagliato: osserveremo quanto sia difficile cercarla quando mette in discussione l’identità di chi indaga.</p>"
+    },
+    {
+      "id": "s2",
+      "title": "La fuga che non conosce le proprie origini",
+      "html": "<p><strong>Testo da leggere — riscrittura didattica</strong> dell’antefatto presentato nella lezione su Edipo. Non è una traduzione di Sofocle.</p><blockquote><p>Laio e Giocasta regnavano a Tebe. Un responso annunciò che il figlio avrebbe ucciso il padre. Quando nacque il bambino, lo affidarono a un pastore perché fosse abbandonato. Il pastore non lo lasciò morire: attraverso un altro uomo il piccolo giunse a Corinto, dove Polibo lo accolse e lo allevò.</p><p>Edipo crebbe credendo che quella fosse la sua famiglia d’origine. Da giovane cercò una risposta a Delfi e ricevette l’annuncio che avrebbe ucciso il padre e sposato la madre. Decise allora di non tornare a Corinto: voleva evitare proprio quei delitti.</p></blockquote><p>La decisione nasce da un’intenzione comprensibile, ma si fonda su un’informazione sbagliata. Edipo crede di conoscere l’identità dei propri genitori. Il lettore riconosce un errore che il personaggio non può ancora vedere: allontanarsi da Corinto non equivale ad allontanarsi dai genitori biologici.</p>"
+    },
+    {
+      "id": "s3",
+      "title": "L’incrocio, l’enigma e il nuovo re",
+      "html": "<p><strong>Continuazione della riscrittura didattica.</strong></p><blockquote><p>Durante il viaggio, presso un incrocio, Edipo incontrò una comitiva che pretendeva il passaggio. Lo scontro divenne violento e Edipo uccise l’uomo che la guidava: era Laio, ma lui non lo sapeva. Giunto a Tebe, affrontò la Sfinge, che imponeva un enigma mortale. La risposta di Edipo liberò la città. Il giovane divenne re e sposò la regina vedova, Giocasta, senza sapere che fosse sua madre.</p></blockquote><p>La soluzione dell’enigma dimostra una capacità reale; non garantisce però che Edipo conosca tutto. È questo il contrasto decisivo: sa interpretare un problema esterno e ignora la propria origine. Il racconto non cancella la violenza dell’incrocio, ma ci impedisce di confonderla con l’intenzione consapevole di uccidere il padre. <strong>Azione, intenzione e conoscenza</strong> devono essere osservate separatamente. Con gli anni, la famiglia e il regno sembrano consolidare un’identità che l’indagine renderà impossibile mantenere.</p>"
+    },
+    {
+      "id": "s4",
+      "title": "Gli indizi che diventano riconoscimento",
+      "html": "<p>Per affrontare la pestilenza, Edipo invia Creonte a Delfi. Il responso chiede di trovare e allontanare il responsabile dell’uccisione di Laio. Edipo assume pubblicamente il compito. Tiresia, l’indovino, indica una verità che il re rifiuta: Edipo sospetta invece un complotto contro il proprio potere. La sicurezza iniziale rende difficile ascoltare una risposta inattesa. Tuttavia il percorso non si ferma a un’accusa: altre informazioni si aggiungono e si collegano.</p><p>Il racconto di Giocasta sulla morte di Laio presso un incrocio apre un dubbio. Un messaggero da Corinto annuncia la morte di Polibo e rivela che Edipo non era suo figlio naturale. La testimonianza del pastore collega infine il bambino salvato alla casa di Laio. La verità non dipende più da un singolo indizio isolato: i passaggi si ricompongono. Il <strong>riconoscimento</strong> è questa trasformazione del sapere: Edipo scopre chi è e comprende in modo nuovo azioni che aveva già compiuto.</p>"
+    },
+    {
+      "id": "s5",
+      "title": "Il dolore non rende inutile la ricerca",
+      "html": "<p>Quando emerge la verità, Giocasta si uccide ed Edipo si acceca. Il re che aveva guidato l’indagine diventa la persona al centro della scoperta. Il finale dell’<em>Edipo re</em> mostra la sua rovina e la perdita dell’autorità; il viaggio dell’esule accompagnato da Antigone appartiene allo sviluppo successivo del ciclo, raccontato in un’altra tragedia, l’<em>Edipo a Colono</em>. Distinguere i testi evita di trasformare vicende diverse in un’unica scena finale.</p><p>Si può leggere l’opera attraverso il rapporto fra destino e libertà, fra responsabilità e ignoranza, fra sapere e potere. Non è necessario ridurre tutto a “Edipo è punito perché voleva evitare il destino”. Il tentativo di proteggere quelli che crede i suoi genitori non coincide automaticamente con la prevaricazione. Il sospetto verso chi lo contraddice e la violenza, invece, aprono domande precise sulle sue scelte. Il personaggio resta complesso: capace di aiutare, di sbagliare e di sostenere una ricerca dolorosa.</p>"
+    },
+    {
+      "id": "s6",
+      "title": "Un’indagine anche per chi legge",
+      "html": "<p>Possiamo seguire la vicenda con una tavola divisa in tre colonne: informazione disponibile, conclusione di Edipo, ciò che il lettore può ricostruire. Quando Polibo muore, la notizia sembra smentire una parte della profezia; subito dopo, però, la rivelazione dell’adozione cambia il problema. Un’informazione nuova non aggiunge soltanto un dettaglio: può trasformare il significato di ciò che già sappiamo. Per questo verificare un’ipotesi richiede disponibilità a correggerla.</p><p>La tragedia non è un procedimento giudiziario contemporaneo: profezia, contaminazione religiosa e intervento dell’indovino appartengono al suo mondo. Possiamo però ricavarne una domanda per la nostra esperienza: quanto è difficile accettare informazioni contrarie a una convinzione importante? In una comunicazione visiva, mostrare un incrocio o un volto coperto non basta a spiegare l’indagine. Servono passaggi, testimonianze e relazioni. <strong>Capire Edipo significa seguire la trasformazione del suo sapere</strong>, non soltanto ricordare i delitti e la punizione finale.</p>"
+    }
+  ],
+  "summary": "Edipo è il re a cui Tebe chiede aiuto durante una pestilenza. La sua fama nasce dalla soluzione dell’enigma della Sfinge, ma la sua origine gli è sconosciuta. Allevato da Polibo a Corinto, riceve una profezia terribile e si allontana per evitare di uccidere il padre e sposare la madre. Ignora però chi siano i genitori biologici: uccide Laio presso un incrocio e, divenuto re di Tebe, sposa Giocasta. Nell’Edipo re l’indagine sulla morte di Laio riunisce informazioni successive: parole di Tiresia, racconto di Giocasta, messaggero da Corinto e testimonianza del pastore. Il riconoscimento cambia l’identità di chi indaga. Giocasta si uccide ed Edipo si acceca. La vicenda richiede di distinguere azione, intenzione e conoscenza; cercare la verità non è automaticamente una colpa. Il successivo viaggio dell’esule appartiene a un’altra tragedia, Edipo a Colono.",
+  "essentials": [
+    "Ricostruire l’antefatto dalla nascita a Tebe all’adozione a Corinto.",
+    "Spiegare perché la fuga di Edipo si basa su un’informazione incompleta.",
+    "Distinguere capacità di risolvere l’enigma e conoscenza della propria origine.",
+    "Collegare gli indizi che portano al riconoscimento.",
+    "Distinguere l’esito dell’Edipo re dal successivo viaggio dell’esule."
+  ],
+  "vocabulary": [
+    [
+      "Antefatto",
+      "Evento precedente necessario per comprendere la vicenda narrata."
+    ],
+    [
+      "Oracolo",
+      "Responso divino e, secondo il contesto, luogo o istituzione che lo comunica."
+    ],
+    [
+      "Profezia",
+      "Annuncio di eventi futuri nel mondo religioso del racconto."
+    ],
+    [
+      "Indizio",
+      "Elemento che orienta una ricerca, da collegare ad altri dati."
+    ],
+    [
+      "Testimonianza",
+      "Racconto di ciò che una persona conosce o ha osservato."
+    ],
+    [
+      "Riconoscimento",
+      "Scoperta che trasforma l’identità e il sapere dei personaggi."
+    ],
+    [
+      "Ironia tragica",
+      "Distanza fra ciò che un personaggio comprende e ciò che il pubblico sa."
+    ]
+  ],
+  "questions": [
+    "Quale intenzione spinge Edipo a lasciare Corinto e quale informazione gli manca?",
+    "Perché aver risolto l’enigma della Sfinge non protegge Edipo dall’errore?",
+    "Quale nuova informazione modifica il significato della notizia della morte di Polibo?"
+  ],
+  "lab": {
+    "title": "La tavola dell’indagine",
+    "task": "Progetta una tavola in sei passaggi che mostri come cambia il sapere di Edipo, distinguendolo da quello del lettore.",
+    "steps": [
+      "Seleziona sei eventi dall’antefatto al riconoscimento.",
+      "Scrivi per ciascuno che cosa sa Edipo e che cosa può sapere il lettore.",
+      "Scegli simboli diversi per evento, testimonianza e ipotesi.",
+      "Collega gli elementi che assumono un nuovo significato grazie alle ultime rivelazioni."
+    ],
+    "criteria": [
+      "Sequenza narrativa corretta.",
+      "Distinzione fra conoscenza e supposizione.",
+      "Leggibilità del cambiamento di significato degli indizi.",
+      "Assenza di accuse dedotte soltanto dalla sofferenza."
+    ]
+  },
+  "bridge": {
+    "target": "c2-giudicare",
+    "anchor": "s1",
+    "text": "L’indagine di Edipo mette in crisi convinzioni importanti. Nel percorso civico distingueremo fatti, testimonianze e ipotesi, ricordando che una profezia narrativa non equivale a una prova contemporanea."
+  },
+  "sources": [
+    {
+      "title": "Lezione 4 — Edipo",
+      "url": "https://docs.google.com/document/d/1OGmHJf4z9_hoMJwx2bNrgsmUNCGLJJms/edit",
+      "note": "Documento fornito: antefatto, peste, indagine, riconoscimento e raccordo al ciclo tebano; lettura della colpa rielaborata."
+    },
+    {
+      "title": "Antigone",
+      "url": "https://docs.google.com/document/d/1URsMPtfHQKS9kWuUc-av2Rhz2ycMrm1U/edit",
+      "note": "Documento fornito: Edipo a Colono e prosecuzione della storia; distinto il finale delle diverse tragedie."
+    },
+    {
+      "title": "Sofocle, Edipo re — Internet Classics Archive",
+      "url": "https://classics.mit.edu/Sophocles/oedipus.html",
+      "note": "Controllo dell’ordine dell’indagine, della testimonianza del messaggero di Corinto e del pastore e del finale; traduzione inglese di F. Storr. La riscrittura italiana parte dai materiali forniti."
+    }
+  ],
+  "map": {
+    "root": "Edipo",
+    "branches": [
+      {
+        "title": "Origine ignorata",
+        "body": "Edipo cresce a Corinto senza conoscere la propria nascita.",
+        "link": "ignora la propria",
+        "child": "Fuga e incontro",
+        "detail": "La volontà di evitare i delitti si fonda su un errore d’identità.",
+        "relation": "orienta"
+      },
+      {
+        "title": "Indagine pubblica",
+        "body": "La peste spinge il re a cercare l’assassino di Laio.",
+        "link": "avvia un’",
+        "child": "Indizi e testimonianze",
+        "detail": "Le informazioni si collegano e cambiano il significato del passato.",
+        "relation": "raccoglie"
+      },
+      {
+        "title": "Riconoscimento",
+        "body": "Chi indaga scopre di essere al centro della vicenda.",
+        "link": "giunge al",
+        "child": "Sapere e responsabilità",
+        "detail": "Azioni, intenzioni e conoscenze vanno distinte.",
+        "relation": "interroga"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Perché Edipo si allontana da Corinto?",
+      "options": [
+        "Per impadronirsi subito del trono di Tebe.",
+        "Per evitare i delitti annunciati, credendo Polibo suo padre naturale.",
+        "Perché conosce già l’identità di Laio e Giocasta."
+      ],
+      "answer": 1,
+      "explanation": "La decisione ha lo scopo di proteggere quelli che Edipo ritiene i suoi genitori, ma nasce da una conoscenza incompleta.",
+      "anchor": "s2",
+      "recovery": {
+        "text": "Edipo non sa di essere stato adottato: cambiare città non lo allontana necessariamente dai genitori biologici.",
+        "question": "Quale informazione cambierebbe il significato della sua fuga?",
+        "options": [
+          "Il colore delle mura di Tebe.",
+          "Il numero degli abitanti di Corinto.",
+          "La verità sulla sua nascita e adozione."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Che cosa distingue il lettore da Edipo nell’episodio dell’incrocio?",
+      "options": [
+        "Il lettore conosce dal racconto l’identità di Laio, che Edipo ignora.",
+        "Edipo conosce la propria origine e il lettore non sa nulla.",
+        "Entrambi sanno che Polibo guida la comitiva."
+      ],
+      "answer": 0,
+      "explanation": "La distanza fra le informazioni disponibili al personaggio e quelle del lettore genera la tensione tragica.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Il lettore ricostruisce che l’uomo ucciso è Laio, padre di Edipo; il personaggio non riconosce quel legame.",
+        "question": "Quale espressione descrive questa differenza di sapere?",
+        "options": [
+          "Tecnica del riscatto.",
+          "Ironia tragica.",
+          "Giuramento dei pretendenti."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Quale rivelazione del messaggero cambia il problema dopo la morte di Polibo?",
+      "options": [
+        "Polibo è in realtà Laio.",
+        "Giocasta ha risolto l’enigma.",
+        "Edipo non è figlio naturale di Polibo."
+      ],
+      "answer": 2,
+      "explanation": "La morte di Polibo sembra rassicurante, ma la rivelazione dell’adozione riapre la domanda sull’identità dei genitori.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "Le informazioni non si sommano soltanto: l’adozione cambia il significato di quelle precedenti.",
+        "question": "Che cosa diventa necessario chiarire dopo quella rivelazione?",
+        "options": [
+          "Da quale famiglia provenga il bambino accolto a Corinto.",
+          "Quale arma usi la Sfinge.",
+          "Come sia stato costruito il palazzo."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Che cos’è il riconoscimento nella vicenda?",
+      "options": [
+        "La scelta di una nuova arma.",
+        "La scoperta che trasforma il sapere e l’identità di Edipo.",
+        "La ripetizione dell’enigma senza soluzione."
+      ],
+      "answer": 1,
+      "explanation": "Il riconoscimento collega l’assassino cercato, il bambino salvato e il re che conduce l’indagine.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "Edipo non scopre soltanto un fatto isolato: comprende chi è e rilegge il proprio passato.",
+        "question": "Quale conseguenza produce il riconoscimento?",
+        "options": [
+          "Rende inutili tutte le testimonianze.",
+          "Conferma che Edipo conosceva già ogni cosa.",
+          "Attribuisce un nuovo significato ad azioni già compiute."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "A quale opera appartiene il successivo viaggio dell’esule a Colono?",
+      "options": [
+        "Edipo a Colono.",
+        "Alla scena iniziale dell’Iliade.",
+        "Al giudizio di Paride."
+      ],
+      "answer": 0,
+      "explanation": "La lezione distingue la rovina mostrata nell’Edipo re dalla prosecuzione del ciclo in Edipo a Colono.",
+      "anchor": "s5",
+      "recovery": {
+        "text": "Le storie di uno stesso personaggio possono appartenere a opere differenti: non vanno fuse in un unico finale.",
+        "question": "Quale abitudine aiuta a raccontare correttamente un ciclo mitico?",
+        "options": [
+          "Usare sempre un solo titolo per tutte le vicende.",
+          "Indicare in quale opera si trova ciascuno sviluppo.",
+          "Eliminare gli antefatti senza leggerli."
+        ],
+        "answer": 1
+      }
+    }
+  ],
+  "deepening": [
+    {
+      "title": "Dall’indagine alla nuova frattura di Tebe",
+      "html": "<p>I figli di Edipo, Eteocle e Polinice, entrano in conflitto per il governo della città. La loro morte reciproca apre la vicenda di Antigone: il nuovo re Creonte decide di concedere onori funebri a uno e negarli all’altro. Non occorre conoscere ogni ramo genealogico per seguire la nuova tragedia; occorre capire che una città appena uscita dalla guerra affronta ora un conflitto sul trattamento dei suoi morti.</p>"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "01-racconto",
+  "area": "Antologia",
+  "number": "01",
+  "title": "Che cos’è il racconto?",
+  "subtitle": "Una storia organizza gli eventi e orienta lo sguardo",
+  "question": "Che cosa cambia quando gli stessi fatti vengono raccontati in modi diversi?",
+  "time": "2 ore + laboratorio",
+  "prerequisites": "Saper riconoscere i personaggi e gli eventi principali di una breve storia.",
+  "goals": [
+    "Riconoscere personaggio, desiderio, ostacolo, conflitto e trasformazione.",
+    "Distinguere gli eventi dal modo in cui vengono presentati.",
+    "Costruire una breve sequenza visiva spiegando le proprie scelte."
+  ],
+  "imageCaption": "Il narratore e gli ascoltatori mostrano il racconto come esperienza condivisa.",
+  "blocks": [
+    {
+      "id": "s1",
+      "title": "Il bisogno di dare forma all’esperienza",
+      "html": "<p>Un rumore nel corridoio, un manifesto per terra, due persone che si allontanano: abbiamo alcuni elementi, ma non ancora una storia. Per raccontare dobbiamo collegarli. Che cosa è successo prima? Chi ha agito? Per quale motivo? Il <strong>racconto</strong> mette in relazione eventi, persone e conseguenze. Ci aiuta a ricordare un’esperienza e a comunicarla a chi non era presente. Questa capacità può unire una comunità, trasmettere conoscenze, offrire modelli e porre domande.</p><p>Le fonti del percorso insistono su questa funzione: gli esseri umani raccontano anche per educare e costruire appartenenza. Ciò non significa che ogni storia sia una spiegazione corretta o un insegnamento da seguire. Una narrazione può conservare memoria, ma anche escludere una voce; può aiutare a comprendere, ma anche rendere credibile una conclusione precipitosa. Imparare a leggere una storia significa osservare insieme ciò che racconta e il modo in cui lo fa.</p><p>Chiamiamo <strong>narrazione</strong> l’attività e il modo di presentare eventi. “Racconto” può indicare in generale una storia; in letteratura indica anche un <strong>genere narrativo breve</strong>, concentrato su pochi eventi e personaggi. Un <strong>personaggio</strong> agisce o subisce un’azione; un <strong>desiderio</strong> lo orienta verso qualcosa, anche capire un fatto. Un <strong>ostacolo</strong> rende difficile raggiungerlo. Nasce così un <strong>conflitto</strong>, esterno fra persone o interno a una stessa persona. La <strong>trasformazione</strong> è il cambiamento prodotto dalla vicenda: può riguardare una situazione, una relazione o una convinzione. Non tutte le storie organizzano questi elementi allo stesso modo.</p><p>Raccontiamo anche per il <strong>piacere dell’ascolto</strong>: attendiamo una sorpresa, proviamo paura al sicuro, ridiamo, desideriamo conoscere il seguito. L’intrattenimento non esclude il pensiero: il coinvolgimento ci spinge a seguire le scelte di un personaggio e a immaginare possibilità diverse dalle nostre.</p>"
+    },
+    {
+      "id": "s2",
+      "title": "Una scena, due racconti",
+      "html": "<p><strong>Testo da leggere — racconto originale per questa lezione.</strong> Non è un episodio antico: serve a osservare alcune scelte narrative.</p><blockquote><p>Alla fine dell’intervallo, Lea vide il manifesto della mostra piegato vicino alla porta. Poco prima Tommaso era uscito dall’aula con un rotolo sotto il braccio. «L’ha rovinato lui», pensò. Fotografò il foglio e aprì la chat della classe. Poi notò una striscia d’acqua sotto la finestra.</p><p>Un’ora prima, Tommaso aveva trovato la finestra aperta e il manifesto bagnato dalla pioggia. Aveva staccato con cautela il foglio e lo aveva messo vicino alla porta, lontano dal davanzale. Nel rotolo portava una copia asciutta da mostrare alla docente.</p></blockquote><p>Nel primo paragrafo seguiamo Lea: vediamo solo gli elementi che lei incontra. Nel secondo riceviamo informazioni precedenti. Il comportamento di Tommaso cambia significato ai nostri occhi, mentre gli eventi restano compatibili. Il testo mostra che un’interpretazione può nascere da fatti reali e tuttavia essere sbagliata.</p>"
+    },
+    {
+      "id": "s3",
+      "title": "Ordine, informazioni e punto di vista",
+      "html": "<p>La successione degli eventi e l’ordine del racconto possono essere diversi. Nella scena, prima arriva la pioggia, poi Tommaso sposta il manifesto, infine Lea lo trova. La narrazione comincia invece dal ritrovamento e torna indietro. Questo ritorno al passato, chiamato <strong>analessi</strong>, ci permette di correggere la prima impressione. Non è soltanto un ornamento: decide quando il lettore può capire.</p><p>Il <strong>punto di vista</strong> riguarda l’accesso alle informazioni. Seguire una persona significa spesso conoscere i suoi pensieri e ignorare quelli degli altri. Il narratore può avvicinarci a un personaggio senza obbligarci a condividere il suo giudizio. Conviene quindi distinguere tre livelli: ciò che accade, ciò che un personaggio pensa sia accaduto e ciò che il lettore può ricostruire. Nella frase «L’ha rovinato lui» leggiamo una convinzione di Lea, non una prova fornita dal racconto. Le virgolette e il verbo “pensò” ci aiutano a riconoscerla.</p><p>Una <strong>sequenza</strong> è una parte riconoscibile del testo, raccolta intorno a un momento, un’azione o una funzione. Il ritrovamento del manifesto e il ritorno a un’ora prima formano due sequenze. Il <strong>narratore</strong> le presenta: è la voce del testo, da distinguere dall’autore reale. Nella nostra storia Lea desidera capire; le informazioni incomplete sono l’ostacolo e la sua convinzione viene messa in crisi.</p>"
+    },
+    {
+      "id": "s4",
+      "title": "Quando cambia il mezzo, cambiano le possibilità",
+      "html": "<p>Una voce può modulare il tono, rallentare, indicare un interlocutore. Un testo scritto permette di rileggere una frase e confrontarla con un’altra. Una sequenza di immagini può mostrare contemporaneamente un gesto e un particolare sullo sfondo. Un video aggiunge movimento e suono; un racconto interattivo può affidare al lettore alcune scelte. Il <strong>medium</strong> è il mezzo attraverso cui il racconto prende forma. Non trasporta soltanto un contenuto già pronto: offre possibilità e impone limiti.</p><p>Le fonti propongono un percorso dall’oralità alla scrittura, alla stampa, all’audiovisivo e al digitale. È utile se ricordiamo che questi mezzi convivono: leggiamo sullo schermo, ascoltiamo storie registrate, raccontiamo a voce un film. Inoltre, adattare una storia non significa mantenerla identica cambiando involucro. Un dettaglio può diventare visibile, un dialogo può scomparire, il finale può essere riscritto. Per confrontare due versioni dobbiamo osservare proprio le trasformazioni.</p>"
+    },
+    {
+      "id": "s5",
+      "title": "Raccontare per immagini è scegliere",
+      "html": "<p>Nel tecnico grafico questa domanda diventa concreta: quale immagine mostriamo per prima? Se apriamo con Tommaso che esce, seguito dal manifesto danneggiato, suggeriamo un collegamento. Se mostriamo prima la finestra aperta e la pioggia, prepariamo una lettura diversa. L’accostamento delle immagini costruisce significato anche quando non compare una frase esplicita. Per questo lo <strong>storyboard</strong>, una sequenza progettata di scene, è anche uno strumento di ragionamento.</p><p>Possiamo cambiare l’inquadratura, la distanza, il dettaglio evidenziato, la durata e la didascalia. Una mano che sposta il foglio, isolata dal contesto, non basta a dirci se lo stia rovinando o salvando. Il colore può guidare l’attenzione, ma non deve essere l’unico modo per comunicare un’informazione. Una didascalia precisa può chiarire un passaggio temporale; una didascalia accusatoria può invece chiudere troppo presto il significato. Progettare significa assumersi la responsabilità di questi effetti.</p>"
+    },
+    {
+      "id": "s6",
+      "title": "Dalla storia individuale alla memoria condivisa",
+      "html": "<p>Una storia personale racconta un’esperienza particolare. Quando una comunità continua a ripetere e trasformare certi racconti, essi possono diventare parte della sua memoria. I miti che incontreremo parlano di origini, scelte, rapporti con gli dèi e conflitti fra esseri umani. Non li leggeremo soltanto per sapere come va a finire, ma per capire quali domande vengono organizzate in una vicenda.</p><p>Prima di interpretare serviranno alcune abitudini: ricostruire gli eventi, riconoscere chi parla, individuare le informazioni disponibili e distinguere il testo dalle nostre ipotesi. La vicenda di Lea ci offre un piccolo allenamento. Fermarsi prima di inviare una fotografia non significa rinunciare a raccontare: significa chiedersi che cosa l’immagine dimostri davvero e quali informazioni manchino. Questa attenzione unisce lettura letteraria e comunicazione responsabile. Una buona domanda da portare nelle prossime lezioni è: <strong>quale parte della storia riesco a vedere, e quale resta fuori?</strong></p>"
+    }
+  ],
+  "summary": "La narrazione è l’attività e il modo di presentare eventi. Il racconto può indicare una storia in generale oppure un genere letterario breve. Personaggi, desideri, ostacoli, conflitti e trasformazioni aiutano a comprenderne il funzionamento. Nel testo di Lea e Tommaso, il desiderio di capire incontra informazioni incomplete: una convinzione viene messa in crisi. Occorre distinguere gli eventi dai pensieri dei personaggi e dal modo in cui il narratore li presenta. Il ritorno a un’ora prima è un’analessi; le parti riconoscibili del testo sono sequenze. Anche il mezzo espressivo conta: voce, scrittura, immagini, video e digitale offrono possibilità diverse. Nel racconto visivo, inquadratura, ordine e didascalia possono suggerire rapporti che una singola immagine non dimostra. Progettare uno storyboard significa scegliere quali informazioni mostrare e quando. Questa competenza prepara alla lettura dei miti e alla responsabilità della comunicazione.",
+  "essentials": [
+    "Distinguere la narrazione come attività dal racconto come genere narrativo breve.",
+    "Riconoscere personaggio, desiderio, ostacolo, conflitto e trasformazione.",
+    "Distinguere un evento dalla convinzione che un personaggio esprime su quell’evento.",
+    "Ricostruire una sequenza e riconoscere narratore e punto di vista.",
+    "Spiegare come medium e scelte grafiche orientano la presentazione degli eventi."
+  ],
+  "vocabulary": [
+    [
+      "Racconto",
+      "Organizzazione di eventi collegati attraverso personaggi, tempo e conseguenze."
+    ],
+    [
+      "Narratore",
+      "Voce che presenta gli eventi nel testo."
+    ],
+    [
+      "Punto di vista",
+      "Posizione da cui vengono rese disponibili le informazioni."
+    ],
+    [
+      "Analessi",
+      "Passaggio del racconto che presenta un evento precedente."
+    ],
+    [
+      "Medium",
+      "Mezzo espressivo attraverso cui una comunicazione prende forma."
+    ],
+    [
+      "Storyboard",
+      "Sequenza progettata di scene che anticipa un racconto visivo."
+    ],
+    [
+      "Personaggio",
+      "Figura che compie o subisce azioni nella storia."
+    ],
+    [
+      "Desiderio",
+      "Ciò verso cui un personaggio tende."
+    ],
+    [
+      "Ostacolo",
+      "Ciò che rende difficile raggiungere il desiderio."
+    ],
+    [
+      "Conflitto",
+      "Contrasto fra persone, obiettivi o spinte interne."
+    ],
+    [
+      "Trasformazione",
+      "Cambiamento prodotto dagli eventi o dalla loro comprensione."
+    ],
+    [
+      "Sequenza",
+      "Parte riconoscibile del testo legata a un momento o a una funzione."
+    ]
+  ],
+  "questions": [
+    "Quali elementi osserva Lea e quale conclusione aggiunge di propria iniziativa?",
+    "Che cosa scopriamo nel secondo paragrafo e come cambia il giudizio su Tommaso?",
+    "Quale prima immagine useresti per mantenere aperta l’interpretazione, e perché?"
+  ],
+  "lab": {
+    "title": "La stessa scena in tre vignette",
+    "task": "Realizza due storyboard di tre vignette sulla scena del manifesto, cambiando l’ordine delle informazioni senza aggiungere eventi contraddittori.",
+    "steps": [
+      "Elenca i fatti certi e separali dai pensieri di Lea.",
+      "Progetta una prima sequenza che segue Lea e una seconda che parte da Tommaso.",
+      "Aggiungi una didascalia temporale dove serve.",
+      "Confronta le due versioni e scrivi quali impressioni producono."
+    ],
+    "criteria": [
+      "Coerenza con gli eventi del brano.",
+      "Chiarezza dei passaggi temporali.",
+      "Distinzione visibile tra evento e pensiero.",
+      "Spiegazione dell’effetto delle scelte grafiche."
+    ]
+  },
+  "bridge": {
+    "target": "c1-comunicare",
+    "anchor": "s1",
+    "text": "Qui analizziamo come una storia costruisce significato. In cittadinanza passeremo alla responsabilità di pubblicare oggi un messaggio: effetti sugli altri, informazioni disponibili e scelte di chi comunica."
+  },
+  "sources": [
+    {
+      "title": "Lezione 1 — Il racconto",
+      "url": "https://docs.google.com/document/d/1emNWtDpW2gtxo_oIV1NCN-1I5IaAbXS7/edit",
+      "note": "Documento fornito: funzioni sociali e trasformazioni dei media; esempi e generalizzazioni rielaborati."
+    },
+    {
+      "title": "I miti come manuale della vita",
+      "url": "https://docs.google.com/document/d/1lFS6V6WB7I0XNRmFvA1ytkcgE2a5hhLa/edit",
+      "note": "Documento fornito: iconografia e racconto per immagini. Il caso del manifesto è un testo originale didattico."
+    }
+  ],
+  "map": {
+    "root": "Il racconto",
+    "branches": [
+      {
+        "title": "Eventi",
+        "body": "Una storia collega azioni, persone e conseguenze.",
+        "link": "organizza",
+        "child": "Ordine del racconto",
+        "detail": "L’analessi presenta dopo ciò che è accaduto prima.",
+        "relation": "sono disposti nell’"
+      },
+      {
+        "title": "Punto di vista",
+        "body": "L’accesso alle informazioni orienta il lettore.",
+        "link": "sceglie un",
+        "child": "Interpretazione",
+        "detail": "Una convinzione del personaggio non è automaticamente un fatto.",
+        "relation": "orienta"
+      },
+      {
+        "title": "Mezzo espressivo",
+        "body": "Voce, testo e immagini rendono possibili scelte differenti.",
+        "link": "prende forma nel",
+        "child": "Sequenza visiva",
+        "detail": "Inquadrature e didascalie costruiscono relazioni.",
+        "relation": "permette"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Nel brano, che cos’è la frase «L’ha rovinato lui»?",
+      "options": [
+        "Una convinzione di Lea.",
+        "Una testimonianza della docente.",
+        "Un fatto confermato dal narratore."
+      ],
+      "answer": 0,
+      "explanation": "Il testo la introduce con “pensò”: rende visibile il giudizio di Lea, poi offre informazioni che lo correggono.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Un pensiero può essere comprensibile e tuttavia errato. Lea vede Tommaso uscire, ma non lo ha visto danneggiare il manifesto.",
+        "question": "Quale dato manca a Lea per sostenere la sua accusa?",
+        "options": [
+          "Il colore della porta.",
+          "La conoscenza di ciò che Tommaso ha fatto prima.",
+          "Il numero dei compagni nella chat."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Quale passaggio è un’analessi?",
+      "options": [
+        "La descrizione del foglio piegato.",
+        "Il ritorno a ciò che Tommaso aveva fatto un’ora prima.",
+        "La domanda del laboratorio."
+      ],
+      "answer": 1,
+      "explanation": "L’analessi racconta dopo un evento precedente, modificando l’ordine in cui riceviamo le informazioni.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "L’ordine della narrazione può differire dalla successione dei fatti: il secondo paragrafo torna a un momento già trascorso.",
+        "question": "Una storia inizia dalla premiazione e poi narra le prove del giorno precedente: quale scelta compie?",
+        "options": [
+          "Una descrizione senza tempo.",
+          "Un cambiamento del destinatario.",
+          "Un ritorno narrativo al passato."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Che cosa indica il termine medium?",
+      "options": [
+        "Il personaggio che parla più spesso.",
+        "Il giudizio morale sulla storia.",
+        "Il mezzo espressivo della comunicazione."
+      ],
+      "answer": 2,
+      "explanation": "Il medium è il mezzo: voce, scrittura, video e immagini offrono possibilità differenti.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "Cambiare medium può richiedere nuove scelte. Un racconto a voce può usare il tono; una vignetta può mostrare un dettaglio sullo sfondo.",
+        "question": "Quale trasformazione cambia il medium?",
+        "options": [
+          "Passare da un racconto scritto a un breve video.",
+          "Sostituire il nome di un personaggio nel testo.",
+          "Correggere un errore ortografico."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Perché l’ordine delle vignette è significativo?",
+      "options": [
+        "Può suggerire legami fra le azioni mostrate.",
+        "Rende sempre vera la conclusione del lettore.",
+        "Elimina la necessità di comprendere il testo."
+      ],
+      "answer": 0,
+      "explanation": "Accostare due immagini può indurre un collegamento: questo effetto va progettato e verificato.",
+      "anchor": "s5",
+      "recovery": {
+        "text": "Mostrare Tommaso e subito dopo il manifesto danneggiato può suggerire una responsabilità che quelle immagini, da sole, non provano.",
+        "question": "Quale scelta aiuta a chiarire una sequenza temporale?",
+        "options": [
+          "Un titolo accusatorio.",
+          "Una didascalia che segnala “un’ora prima”.",
+          "La ripetizione dello stesso colore."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Quale rapporto esiste oggi fra oralità, scrittura e digitale?",
+      "options": [
+        "Ogni nuovo mezzo elimina completamente quello precedente.",
+        "Continuano a convivere e a combinarsi.",
+        "Possono raccontare soltanto storie diverse."
+      ],
+      "answer": 1,
+      "explanation": "Le forme convivono: possiamo ascoltare una storia registrata o leggere un testo su uno schermo.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "Il digitale può ospitare voce, scrittura e immagini. La novità di un supporto non cancella automaticamente gli altri.",
+        "question": "Un audiolibro ascoltato sul telefono combina soprattutto quali elementi?",
+        "options": [
+          "Scultura e stampa.",
+          "Teatro e disegno su vaso.",
+          "Voce registrata e supporto digitale."
+        ],
+        "answer": 2
+      }
+    }
+  ],
+  "deepening": [
+    {
+      "title": "Una storia può cambiare anche nel finale",
+      "html": "<p>Le fonti usano Cappuccetto Rosso per parlare di adattamento. Il confronto va svolto su versioni precise: non tutti i racconti della fiaba terminano nello stesso modo. Conservare personaggi e situazione iniziale non significa conservare ogni evento o lo stesso significato. Quando confronterai due versioni, annota anche ciò che viene tolto, aggiunto o trasformato.</p>"
+    }
+  ]
+}

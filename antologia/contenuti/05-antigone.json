@@ -1,0 +1,276 @@
+{
+  "id": "05-antigone",
+  "area": "Antologia",
+  "number": "05",
+  "title": "Antigone davanti al decreto",
+  "subtitle": "Il dovere verso i morti, la città e il coraggio di ascoltare",
+  "question": "Che cosa può accadere quando chi governa considera ogni obiezione un attacco?",
+  "time": "2 ore + laboratorio",
+  "prerequisites": "Conoscere l’antefatto del ciclo di Edipo e distinguere azioni, motivazioni e conseguenze.",
+  "goals": [
+    "Ricostruire il conflitto fra Antigone e Creonte nel suo contesto antico.",
+    "Leggere un brano di Sofocle in traduzione distinguendo le voci dei personaggi.",
+    "Riconoscere il ruolo di Ismene, Emone e Tiresia nell’ampliare il conflitto."
+  ],
+  "imageCaption": "Il gesto funebre di Antigone e l’autorità di Creonte rendono visibile un conflitto sul limite del comando.",
+  "blocks": [
+    {
+      "id": "s1",
+      "title": "La guerra finisce, il conflitto continua",
+      "html": "<p>Eteocle e Polinice, figli di Edipo, sono morti combattendo l’uno contro l’altro. Eteocle ha difeso Tebe; Polinice l’ha assalita con un esercito venuto dall’esterno. Il nuovo re, Creonte, vuole riaffermare l’ordine dopo la guerra. Decide che Eteocle riceverà onori funebri, mentre il corpo di Polinice rimarrà insepolto. Un <strong>decreto</strong>, un ordine pubblico del sovrano, vieta di compiere il rito e minaccia la morte a chi lo trasgredisce.</p><p>L’<em>Antigone</em> di Sofocle comincia da questa decisione. La sepoltura non è soltanto un gesto privato di affetto: ha significato religioso e riguarda il rapporto fra vivi e morti. Il conflitto nasce perché Creonte vuole mantenere anche sul corpo del nemico la distinzione politica fra difensore e traditore. Antigone, sorella dei due caduti, sostiene che il dovere verso il fratello morto non possa essere cancellato dall’ordine del re. La città è salva dalla guerra, ma non ha ancora trovato una misura condivisa.</p>"
+    },
+    {
+      "id": "s2",
+      "title": "Una scelta consapevole e una cattura",
+      "html": "<p><strong>Racconto della vicenda — riscrittura didattica</strong> fondata sui materiali e sul testo della tragedia.</p><blockquote><p>Antigone chiede aiuto a Ismene. La sorella teme il potere del re: sono rimaste sole, sono donne in un mondo governato dagli uomini, non possono affrontare impunemente chi comanda. Antigone decide di agire anche senza di lei.</p><p>Il corpo di Polinice viene cosparso di polvere. Le guardie rimuovono la copertura e sorvegliano il cadavere. Quando Antigone torna a compiere il rito, la sorprendono, la afferrano e la conducono davanti a Creonte. Interrogata, la giovane ammette l’azione.</p></blockquote><p>Questo passaggio è importante: Antigone non si presenta spontaneamente per accusarsi; viene catturata e poi rivendica ciò che ha fatto. Sa che il divieto esiste e non cerca di negarlo. Il conflitto riguarda la sua validità: un’autorità può obbligare a trascurare un dovere ritenuto più forte? Ismene mostra intanto un problema diverso: quali possibilità ha chi riconosce il pericolo ma non si sente in grado di affrontarlo?</p>"
+    },
+    {
+      "id": "s3",
+      "title": "Leggere le parole di Antigone",
+      "html": "<p><strong>Brano dalla tragedia</strong> — Sofocle, <em>Antigone</em>, traduzione di Ettore Romagnoli presente nel documento fornito. Il segno […] indica un taglio.</p><blockquote><p>ANTIGONE: «L’ho compiuta: confesso, e non lo nego.»</p><p>«Non Giove a me lanciò simile bando […] e i tuoi bandi io non credei che tanta forza avessero da far sí che le leggi dei Celesti, non scritte, ed incrollabili, potesse soverchiare un mortal».</p></blockquote><p><strong>Parafrasi.</strong> Antigone dice di avere compiuto il gesto. L’ordine, però, non proviene da Zeus: non ritiene che il comando di un essere umano abbia forza sufficiente a superare le leggi divine non scritte. “Bando” significa qui ordine proclamato; “soverchiare” significa prevalere, avere il sopravvento.</p><p>Antigone non sta semplicemente dicendo “faccio ciò che mi piace”. Espone una ragione che considera superiore al proprio interesse e accetta un rischio personale. Il suo linguaggio è religioso: leggere il testo come conflitto fra legge e coscienza può essere utile oggi, purché non cancelli il dovere verso gli dèi e la parentela che orientano la sua scelta.</p>"
+    },
+    {
+      "id": "s4",
+      "title": "La città ha più di una voce",
+      "html": "<p>Creonte considera l’obbedienza essenziale per la sicurezza di Tebe. Teme che cedere davanti a una trasgressione distrugga la sua autorità; inoltre vive il confronto con una donna come una minaccia al proprio ruolo maschile. La sua posizione non resta quindi una semplice difesa dell’ordine. Diventa incapacità di distinguere una critica da un nemico e il proprio comando dall’interesse dell’intera città.</p><p>Emone, figlio di Creonte e promesso sposo di Antigone, cerca di farlo riflettere. Riferisce che i cittadini provano pietà per la giovane, ma hanno paura di parlare apertamente. Lo invita a imparare anche da altri e a non irrigidirsi. Nella traduzione letta afferma: <strong>«Città non è quella ove uno solo può.»</strong> Non basta dunque opporre due voci isolate. Ismene mette in evidenza la vulnerabilità; Emone porta il giudizio dei cittadini; il coro osserva, commenta, esita. La tragedia è un intreccio di posizioni che non possiamo ridurre a una sola frase.</p>"
+    },
+    {
+      "id": "s5",
+      "title": "Correggersi troppo tardi",
+      "html": "<p>Creonte decide di rinchiudere Antigone viva in un antro, con poco cibo, cercando di non assumere direttamente l’uccisione. La giovane lamenta la vita e le nozze che perderà: la fermezza non elimina il dolore. Poi arriva Tiresia. L’indovino spiega che i riti della città sono contaminati: uccelli e cani hanno trasportato resti del corpo insepolto sugli altari. Chiede al re di riconoscere l’errore e porvi rimedio. Creonte lo accusa inizialmente di cercare denaro, poi comprende il pericolo e cambia decisione.</p><p>Il cambiamento arriva troppo tardi. Dopo aver dato sepoltura a Polinice, il re raggiunge l’antro: Antigone si è uccisa; Emone, sconvolto, muore a sua volta. Alla notizia, anche Euridice, moglie di Creonte, si toglie la vita. Il re resta vivo e riconosce la propria responsabilità. Il finale non mostra una semplice vittoria: fa vedere il costo di un potere che ha respinto a lungo ogni possibilità di ascolto e correzione.</p>"
+    },
+    {
+      "id": "s6",
+      "title": "Una domanda aperta sul comando e sul dissenso",
+      "html": "<p>Per leggere il conflitto, distinguiamo il gesto di Antigone, la ragione che offre e gli effetti delle decisioni di Creonte. Il fatto è ammesso; il giudizio sulla sua legittimità divide i personaggi. Possiamo comprendere il bisogno di sicurezza di una città uscita dalla guerra e insieme osservare dove il comando diventa sopruso. Possiamo ammirare la decisione di Antigone senza rendere invisibili la paura di Ismene o le obiezioni di Emone.</p><p>Il confronto con il presente comincerà da una differenza: Tebe è la città di un racconto tragico, non uno Stato costituzionale contemporaneo. La coscienza individuale non rende automaticamente lecita ogni azione. Ma la domanda sull’ascolto resta forte: quali strumenti permettono di contestare una decisione e correggerla prima che produca danni irreparabili? <strong>Dissentire significa anche rendere comprensibili le proprie ragioni</strong>; governare richiede di ascoltarle e di rispondere, anziché trasformare ogni voce diversa in una minaccia.</p>"
+    }
+  ],
+  "summary": "Dopo la morte reciproca di Eteocle e Polinice, Creonte vieta la sepoltura di Polinice, considerato nemico di Tebe. Antigone compie il rito perché ritiene il dovere religioso verso il fratello superiore al decreto. Viene catturata, ammette il gesto e ne espone la ragione: un ordine umano non può prevalere sulle leggi divine non scritte. Ismene teme il potere e la vulnerabilità delle due sorelle. Emone invita il padre ad ascoltare e riferisce le voci dei cittadini intimoriti. Creonte, invece, confonde a lungo la propria autorità con il bene della città. Tiresia lo avverte della contaminazione dei riti e lo invita a correggersi. Il re cambia decisione troppo tardi: muoiono Antigone, Emone ed Euridice. Il finale mostra responsabilità e conseguenze, non una vittoria semplice. Il confronto contemporaneo sul dissenso deve conservare la differenza fra dovere religioso antico e regole di uno Stato costituzionale.",
+  "essentials": [
+    "Spiegare il decreto di Creonte e la differenza fra i due fratelli nel suo giudizio politico.",
+    "Ricostruire la cattura di Antigone distinguendola dalla successiva ammissione.",
+    "Parafrasare l’argomento sulle leggi divine non scritte.",
+    "Spiegare come Ismene, Emone e Tiresia ampliano il conflitto.",
+    "Collegare il rifiuto dell’ascolto, la correzione tardiva e le conseguenze finali."
+  ],
+  "vocabulary": [
+    [
+      "Decreto",
+      "Ordine pubblico emanato da un’autorità."
+    ],
+    [
+      "Rito funebre",
+      "Gesto religioso e comunitario con cui si onora e si accompagna un defunto."
+    ],
+    [
+      "Bando",
+      "Proclamazione pubblica di un ordine, nel contesto del brano."
+    ],
+    [
+      "Leggi non scritte",
+      "Nel discorso di Antigone, norme divine considerate anteriori e superiori al decreto."
+    ],
+    [
+      "Dissenso",
+      "Espressione di una posizione diversa, sostenuta da ragioni."
+    ],
+    [
+      "Coro",
+      "Gruppo che osserva e commenta gli eventi nella tragedia."
+    ],
+    [
+      "Parafrasi",
+      "Riformulazione che chiarisce un testo senza attribuirgli idee nuove."
+    ]
+  ],
+  "questions": [
+    "Perché l’ammissione del gesto non elimina il conflitto fra Antigone e Creonte?",
+    "A quale autorità richiama Antigone le proprie ragioni e quali parole del brano lo mostrano?",
+    "Che cosa aggiunge Emone al confronto fra Antigone e il re?"
+  ],
+  "lab": {
+    "title": "Tre voci sulla stessa decisione",
+    "task": "Progetta una tavola con tre spazi: l’ordine di Creonte, la risposta di Antigone e l’invito di Emone all’ascolto.",
+    "steps": [
+      "Seleziona per ogni voce un’affermazione sostenuta dalla lezione.",
+      "Usa una breve citazione autentica per Antigone e distinguile graficamente dalle tue parafrasi.",
+      "Organizza gli spazi in modo che nessuna posizione sia cancellata o falsificata.",
+      "Aggiungi una domanda finale che renda visibile il problema della correzione."
+    ],
+    "criteria": [
+      "Correttezza delle ragioni attribuite ai personaggi.",
+      "Distinzione fra citazione e parafrasi.",
+      "Leggibilità delle tre voci e delle loro relazioni.",
+      "Domanda finale aperta e pertinente."
+    ]
+  },
+  "bridge": {
+    "target": "c3-dissentire",
+    "anchor": "s1",
+    "text": "La tragedia mette in conflitto un decreto e un dovere religioso. In cittadinanza confronteremo ragioni e strumenti del dissenso contemporaneo, senza trasformare ogni scelta di coscienza in un’esenzione automatica dalla legge."
+  },
+  "sources": [
+    {
+      "title": "Antigone — tragedia, traduzione di Ettore Romagnoli",
+      "url": "https://docs.google.com/document/d/1lIOjMUkaZcsGITrzd_ECMwzoaEdc9SPx/edit",
+      "note": "Documento fornito: dialogo di confessione e leggi non scritte, Ismene, Emone, Tiresia, esito. Citazioni tratte dal testo; raccordi in riscrittura didattica."
+    },
+    {
+      "title": "Lezione 4 — Edipo",
+      "url": "https://docs.google.com/document/d/1OGmHJf4z9_hoMJwx2bNrgsmUNCGLJJms/edit",
+      "note": "Documento fornito: antefatto dei due fratelli e inizio della vicenda di Antigone."
+    },
+    {
+      "title": "Antigone — riflessione",
+      "url": "https://docs.google.com/document/d/1sxFPBOOAWrHSqYH-19ekQlrnytRPncOD/edit",
+      "note": "Documento fornito: domanda sul rapporto tra legge e coscienza, rielaborata distinguendo il contesto antico dal presente."
+    },
+    {
+      "title": "Sofocle, Antigone — Internet Classics Archive",
+      "url": "https://classics.mit.edu/Sophocles/antigone.html",
+      "note": "Confronto primario per trama, cattura e personaggi; traduzione inglese di R. C. Jebb. Le citazioni italiane provengono dal documento Romagnoli fornito."
+    }
+  ],
+  "map": {
+    "root": "Il conflitto di Antigone",
+    "branches": [
+      {
+        "title": "Decreto di Creonte",
+        "body": "La sicurezza della città giustifica, per il re, il divieto funebre.",
+        "link": "mette alla prova il",
+        "child": "Antigone risponde",
+        "detail": "Il dovere religioso verso il fratello prevale sul bando.",
+        "relation": "incontra"
+      },
+      {
+        "title": "Voci della città",
+        "body": "Ismene, Emone e Tiresia introducono ragioni e avvertimenti.",
+        "link": "si confronta con le",
+        "child": "Ascolto e correzione",
+        "detail": "Il comando può riconoscere un errore e cambiare.",
+        "relation": "richiedono"
+      },
+      {
+        "title": "Conseguenze",
+        "body": "La decisione viene corretta quando la tragedia è già avvenuta.",
+        "link": "conduce a",
+        "child": "Responsabilità",
+        "detail": "Creonte riconosce il costo delle proprie scelte.",
+        "relation": "impongono"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Come arriva Antigone davanti a Creonte dopo il rito?",
+      "options": [
+        "Viene invitata a discutere prima del decreto.",
+        "Si consegna prima di aver compiuto qualunque gesto.",
+        "È catturata dalle guardie e poi ammette l’azione."
+      ],
+      "answer": 2,
+      "explanation": "La cattura precede l’ammissione: Antigone rivendica il gesto, ma non si presenta spontaneamente per accusarsi.",
+      "anchor": "s2",
+      "recovery": {
+        "text": "Le guardie rimuovono la polvere, sorvegliano il corpo e sorprendono Antigone mentre torna a compiere il rito.",
+        "question": "Quale sequenza è corretta?",
+        "options": [
+          "Rito, cattura, ammissione.",
+          "Ammissione, nascita del decreto, guerra.",
+          "Rifiuto del rito, assoluzione, cattura."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Su quale ragione si fonda la risposta di Antigone nel brano?",
+      "options": [
+        "Le leggi divine non scritte non possono essere superate da un decreto umano.",
+        "Il decreto non è mai stato annunciato pubblicamente.",
+        "Creonte le ha chiesto in segreto di seppellire il fratello."
+      ],
+      "answer": 0,
+      "explanation": "Antigone riconosce il divieto, ma contesta la sua forza rispetto a un dovere religioso superiore.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Il conflitto non riguarda l’esistenza del decreto. Antigone distingue la sua provenienza umana dalle leggi divine che ritiene incrollabili.",
+        "question": "Che cosa significa qui “bando”?",
+        "options": [
+          "Un rito nuziale.",
+          "Un ordine pubblicamente proclamato.",
+          "Una testimonianza della guardia."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Che cosa riferisce Emone riguardo ai cittadini?",
+      "options": [
+        "Conoscono già l’esito della tragedia.",
+        "Provano pietà per Antigone ma temono di parlare apertamente.",
+        "Hanno ordinato a Creonte di rinunciare al trono prima della guerra."
+      ],
+      "answer": 1,
+      "explanation": "Emone mostra che il silenzio pubblico non coincide necessariamente con l’accordo: la paura può impedirne l’espressione.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "La presenza del re intimorisce. Per Emone, ascoltare significa anche riconoscere opinioni che il potere non sente direttamente.",
+        "question": "Quale invito accompagna il suo discorso?",
+        "options": [
+          "Ignorare ogni consiglio esterno.",
+          "Confondere la città con un solo uomo.",
+          "Imparare anche da altri e correggersi."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Perché Tiresia chiede a Creonte di cambiare decisione?",
+      "options": [
+        "Perché i riti risultano contaminati dai resti del corpo insepolto.",
+        "Perché vuole sostituire Antigone sul trono.",
+        "Perché Polinice è ancora vivo nella caverna."
+      ],
+      "answer": 0,
+      "explanation": "Tiresia collega il divieto di sepoltura alla contaminazione religiosa che investe la città.",
+      "anchor": "s5",
+      "recovery": {
+        "text": "Uccelli e cani trasportano resti del cadavere sugli altari: l’ordine che Creonte difende sta producendo disordine nel rapporto con gli dèi.",
+        "question": "Che cosa rende tragico il cambiamento del re?",
+        "options": [
+          "Avviene prima di ogni conseguenza.",
+          "Arriva troppo tardi per salvare Antigone ed Emone.",
+          "Non riguarda nessuna delle sue decisioni."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Quale distinzione serve nel confronto con il presente?",
+      "options": [
+        "Antigone vive già in uno Stato costituzionale identico al nostro.",
+        "Il dovere religioso della tragedia va distinto dalle regole e dagli strumenti contemporanei del dissenso.",
+        "Ogni convinzione personale annulla automaticamente qualsiasi legge."
+      ],
+      "answer": 1,
+      "explanation": "Il confronto può essere fecondo senza cancellare la distanza storica o trasformare la coscienza in un’esenzione automatica.",
+      "anchor": "s6",
+      "recovery": {
+        "text": "La tragedia offre domande sul comando e sull’ascolto. La discussione contemporanea richiede anche regole, diritti e procedure proprie.",
+        "question": "Quale domanda mantiene aperto un confronto corretto?",
+        "options": [
+          "Come dimostrare che tutti i dissensi sono identici?",
+          "Come eliminare sempre le regole comuni?",
+          "Quali strumenti consentono di contestare e correggere una decisione?"
+        ],
+        "answer": 2
+      }
+    }
+  ],
+  "deepening": [
+    {
+      "title": "La guardia e il problema delle false certezze",
+      "html": "<p>Creonte sospetta che qualcuno abbia ricevuto denaro per violare il decreto. La guardia distingue ciò che sa dalle accuse e commenta, nella traduzione di Romagnoli: «Ahimè! Tristo chi crede, e la credenza è falsa!» Questa scena permette di tornare alla lezione su Edipo e al percorso sulle prove: la forza con cui un’autorità sostiene un’idea non la rende vera. Occorre cercare elementi, ascoltare e poter modificare il giudizio.</p>"
+    }
+  ]
+}

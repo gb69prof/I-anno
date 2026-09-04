@@ -1,0 +1,1 @@
+{"name":"gbprof-antologia-prima","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"node tools/dev-server.mjs","check":"node --check assets/app.js && node --check sw.js && python tools/check.py"},"description":"PWA statica, senza dipendenze JavaScript obbligatorie. Il server serve soltanto al collaudo locale."}

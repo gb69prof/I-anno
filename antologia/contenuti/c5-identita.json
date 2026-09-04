@@ -1,0 +1,268 @@
+{
+  "id": "c5-identita",
+  "area": "Cittadinanza",
+  "number": "C5",
+  "title": "Appartenere: chi può raccontare chi sei?",
+  "subtitle": "Ospitalità, identità e riconoscimento",
+  "question": "Come si entra in una comunità senza essere ridotti a un’etichetta?",
+  "time": "2 ore + laboratorio",
+  "prerequisites": "Conoscere il ritorno di Odisseo e il tema del riconoscimento; distinguere personaggio e rappresentazione.",
+  "goals": [
+    "Distinguere aiuto iniziale, partecipazione e appartenenza.",
+    "Spiegare perché un solo tratto non esaurisce l’identità di una persona.",
+    "Progettare un autoritratto visivo e un sistema di accoglienza motivando le scelte."
+  ],
+  "imageCaption": "Una soglia e più segni personali rappresentano l’ingresso in una comunità: l’identità si incontra attraverso gesti, parole e relazioni.",
+  "blocks": [
+    {
+      "id": "s1",
+      "title": "Il punto di partenza antico: incontrare uno sconosciuto",
+      "html": "<p>Nel libro VI dell’<em>Odissea</em>, il naufrago Odisseo incontra Nausicaa. La giovane dispone che riceva cibo, bevande e vestiti, richiamando la protezione di Zeus sugli stranieri e sui bisognosi. In questo momento lo soccorre come viandante in difficoltà, senza conoscerne ancora la celebre identità. <a href=\"https://www.theoi.com/Text/HomerOdyssey6.html\">Omero, Odissea VI, 186–210, testo in traduzione inglese.</a></p><p>È una scena da leggere nel suo contesto religioso e sociale. L’ospitalità epica non coincide con la cittadinanza giuridica contemporanea e non fornisce da sola risposte alle questioni politiche attuali. Offre però una domanda precisa: che cosa cambia quando chi incontriamo non è soltanto “uno sconosciuto”, ma una persona con necessità, capacità e una storia? Il nostro percorso di cittadinanza userà questa domanda in un ambiente quotidiano. Osserveremo l’ingresso in un gruppo e la differenza fra offrire un aiuto iniziale, consentire di partecipare e riconoscere un’appartenenza.</p>"
+    },
+    {
+      "id": "s2",
+      "title": "Da leggere: il ritratto di chi è appena arrivato",
+      "html": "<p><strong>Caso ipotetico — racconto originale per questa lezione.</strong> La classe, i nomi e le circostanze sono inventati.</p><blockquote><p>Rami arriva da una scuola di un’altra città. La classe prepara una parete di ritratti: ogni studente avrà un’immagine e tre simboli. Prima di chiedergli che cosa sceglierebbe, il gruppo disegna per lui una valigia e una mappa. Qualcuno gli assegna il compito di raccontare il trasferimento durante la presentazione. Rami spiega che preferirebbe mostrare i suoi esperimenti di lettering e la passione per lo skateboard. Per ora non vuole parlare delle ragioni del cambiamento di scuola. Una compagna gli illustra intanto dove si trovano i materiali e come vengono distribuiti i turni del laboratorio. Un altro gli chiede se desideri lavorare alla scritta comune. Il ritratto resta sul tavolo: il gruppo deve ancora decidere come modificarlo.</p></blockquote><p>La valigia non è un simbolo proibito o necessariamente offensivo. Il problema è chi l’ha scelta, quale storia le viene affidata e se quella storia corrisponda al modo in cui Rami desidera presentarsi in questa attività.</p>"
+    },
+    {
+      "id": "s3",
+      "title": "Accogliere significa anche rendere comprensibili le regole",
+      "html": "<p>L’<strong>accoglienza</strong> può cominciare da un gesto semplice: offrire un posto, spiegare come trovare un materiale, presentare le persone. Questi gesti riducono ostacoli che chi frequenta già il gruppo spesso non nota. Sapere dove sono gli strumenti, a chi chiedere aiuto e quali turni seguire permette di partecipare al lavoro. Una comunità può apparire aperta e rimanere difficile da attraversare se tutte le sue abitudini sono date per scontate.</p><p>Nel caso, spiegare i turni aiuta Rami a orientarsi; invitarlo a collaborare alla scritta gli offre un ruolo. Le due azioni sono collegate ma diverse. La <strong>partecipazione</strong> non consiste soltanto nell’essere presenti: richiede possibilità concrete di contribuire, fare domande e comprendere le decisioni. Non tutti devono svolgere lo stesso compito. Il confronto può riguardare come distribuire ruoli diversi, rendendo chiare le ragioni ed evitando di assegnarli automaticamente sulla base della provenienza o di una prima impressione.</p>"
+    },
+    {
+      "id": "s4",
+      "title": "L’identità contiene più di un solo tratto",
+      "html": "<p>Il nome, le relazioni, le esperienze, le capacità e gli interessi contribuiscono al modo in cui una persona si riconosce e viene conosciuta. Questi aspetti non pesano nello stesso modo in ogni situazione. Nel laboratorio Rami può voler presentare il lettering; in un’altra attività potrebbe scegliere un ricordo del viaggio. Un <strong>autoritratto</strong> è una selezione attraverso cui una persona si rappresenta: non è una descrizione completa e definitiva.</p><p>Una rappresentazione diventa riduttiva quando un tratto viene trattato come spiegazione di tutto il resto. Essere arrivato da un’altra città non dice quale ruolo si desideri svolgere, quali capacità si possiedano o quali ricordi si vogliano condividere. Anche l’<strong>appartenenza</strong> può essere plurale: si può far parte di una classe, di una squadra e di altri gruppi senza dover scegliere un’unica etichetta. Conoscere qualcuno richiede quindi spazio per nuove informazioni e per la possibilità che la sua presentazione cambi nel tempo.</p>"
+    },
+    {
+      "id": "s5",
+      "title": "Riconoscere un’identità e riconoscere una voce",
+      "html": "<p>Nell’<em>Odissea</em>, Penelope non si affida soltanto all’apparenza dell’uomo tornato a Itaca. La conoscenza del letto costruito attorno a un ulivo diventa un segno decisivo del riconoscimento fra i coniugi. Il dettaglio rimanda a una storia condivisa. <a href=\"https://www.theoi.com/Text/HomerOdyssey23.html\">Omero, Odissea XXIII, 173–230, testo in traduzione inglese.</a></p><p>Questo <strong>riconoscimento narrativo</strong>, che chiarisce chi sia un personaggio, va distinto dal <strong>riconoscimento sociale</strong> di cui parliamo qui: dare spazio alla voce e al contributo di una persona nel gruppo. Rami non deve superare una prova simile a quella del poema per meritare ascolto. Nel caso, ascoltarlo significa considerare le sue proposte per il ritratto e il lavoro comune. Anche chi accoglie può modificare la prima immagine che si è costruito. L’incontro diventa così una relazione in cui entrambi apprendono qualcosa, anziché un percorso nel quale uno solo assegna all’altro un’identità già pronta.</p>"
+    },
+    {
+      "id": "s6",
+      "title": "Progettare immagini e spazi di appartenenza",
+      "html": "<p>Un progetto grafico può rendere visibili sia la storia personale sia il legame con il gruppo. I ritratti della classe possono condividere formato, dimensioni e una cornice, lasciando però a ciascun autore la scelta dei propri simboli. La coerenza della serie nasce allora da regole comuni di impaginazione, senza richiedere immagini identiche. Chi osserva riconosce un insieme e può esplorare le differenze al suo interno.</p><p>Nel laboratorio lavoreremo con autoritratti volontari oppure personaggi inventati, senza chiedere racconti familiari o fotografie personali. Ogni scelta dovrà poter essere spiegata rispetto a ciò che l’autore vuole comunicare. Aggiungeremo un piccolo pannello di accoglienza con informazioni pratiche e ruoli accessibili a chi entra. Per verificarlo, lo faremo leggere a qualcuno che non conosce già tutte le abitudini del laboratorio. La domanda finale sarà concreta: il progetto aiuta una persona a orientarsi e contribuire, e le lascia spazio per dire come desidera essere rappresentata?</p>"
+    }
+  ],
+  "summary": "L’incontro fra Nausicaa e Odisseo apre una domanda sull’ospitalità, ma appartiene al contesto religioso dell’epica e non coincide con la cittadinanza giuridica contemporanea. Nel caso ipotetico di Rami, l’ingresso in una classe mostra la differenza fra aiuto iniziale, partecipazione e appartenenza. Spiegare regole e strumenti riduce gli ostacoli; offrire un ruolo permette di contribuire. L’identità comprende molti aspetti e non è esaurita da provenienza, nome o primo incontro. Un autoritratto seleziona ciò che una persona vuole comunicare in una certa situazione. Il riconoscimento narrativo chiarisce chi sia un personaggio; il riconoscimento sociale qui indica invece lo spazio dato alla sua voce e al suo contributo. Una serie grafica può avere un formato comune e simboli differenti. Il laboratorio verifica se immagini e informazioni pratiche aiutino le persone a orientarsi, partecipare e scegliere come presentarsi al gruppo.",
+  "essentials": [
+    "Distinguere l’ospitalità epica dalla cittadinanza contemporanea.",
+    "Separare aiuto iniziale, possibilità di partecipazione e appartenenza.",
+    "Spiegare perché un tratto non esaurisce l’identità di una persona.",
+    "Distinguere riconoscimento narrativo e riconoscimento sociale.",
+    "Progettare una forma comune che lasci spazio ad autorappresentazioni diverse."
+  ],
+  "vocabulary": [
+    [
+      "Ospitalità",
+      "Accoglienza di chi arriva, da comprendere nel contesto culturale in cui avviene."
+    ],
+    [
+      "Partecipazione",
+      "Possibilità concreta di contribuire e prendere parte alle attività di un gruppo."
+    ],
+    [
+      "Identità",
+      "L’insieme aperto di aspetti attraverso cui una persona si riconosce ed è conosciuta."
+    ],
+    [
+      "Appartenenza",
+      "Legame con un gruppo, costruito anche attraverso relazioni, pratiche e partecipazione."
+    ],
+    [
+      "Autoritratto",
+      "Rappresentazione di sé che seleziona aspetti da comunicare in una situazione."
+    ],
+    [
+      "Riconoscimento sociale",
+      "Nel percorso, spazio dato alla voce, alla presenza e al contributo di una persona."
+    ]
+  ],
+  "questions": [
+    "Quali elementi del primo ritratto di Rami sono stati scelti dal gruppo e quali propone lui? Perché questa differenza conta?",
+    "Nel racconto, quali azioni favoriscono l’orientamento e quali aprono una possibilità di partecipazione?",
+    "Proponi una modifica della parete di ritratti che mantenga un’identità comune senza imporre gli stessi simboli a tutti. Motiva."
+  ],
+  "lab": {
+    "title": "Una parete di ritratti, una soglia comprensibile",
+    "task": "Progetta una serie di tre ritratti con formato comune e simboli diversi, usando personaggi inventati o autorappresentazioni volontarie. Aggiungi un pannello con tre informazioni utili a chi entra per la prima volta in laboratorio.",
+    "steps": [
+      "Definisci quali elementi sono comuni alla serie: formato, cornice, griglia o tipografia.",
+      "Per ciascun personaggio inventato scrivi una breve presentazione e scegli simboli coerenti; se lavori con compagni, lascia a loro la scelta di cosa comunicare.",
+      "Realizza i tre ritratti con disegno, collage originale o strumenti digitali gratuiti.",
+      "Crea il pannello di accoglienza spiegando dove orientarsi, come chiedere aiuto e come conoscere i ruoli.",
+      "Fai leggere il progetto a un altro gruppo e annota un ostacolo di comprensione da correggere."
+    ],
+    "criteria": [
+      "La serie è riconoscibile grazie a regole grafiche comuni.",
+      "I simboli sono motivati rispetto alle presentazioni e non dedotti automaticamente da etichette.",
+      "Il pannello fornisce informazioni pratiche leggibili anche senza conoscere già il laboratorio.",
+      "La revisione risponde a un problema di comprensione osservato."
+    ]
+  },
+  "bridge": {
+    "target": "09-odissea",
+    "anchor": "s1",
+    "text": "Torna al viaggio e ai riconoscimenti di Odisseo. La domanda comune riguarda il modo in cui uno sconosciuto diventa una persona riconosciuta; l’ospitalità religiosa e la casa eroica del poema restano diverse dalle forme contemporanee di partecipazione e appartenenza."
+  },
+  "sources": [
+    {
+      "title": "Achille e Ulisse",
+      "url": "https://docs.google.com/document/d/11Gwg5T8YecyfCQScscmtSLHJVf7b5kcf/edit",
+      "note": "Materiale fornito: ritorno, ricostruzione dei legami e identità. Non assunta la derivazione storica diretta Ulisse-Atene."
+    },
+    {
+      "title": "Omero — Odissea VI",
+      "url": "https://www.theoi.com/Text/HomerOdyssey6.html",
+      "note": "Versi 186–210: Nausicaa dispone il soccorso al naufrago. Traduzione inglese di A. T. Murray; breve parafrasi italiana originale."
+    },
+    {
+      "title": "Omero — Odissea XXIII",
+      "url": "https://www.theoi.com/Text/HomerOdyssey23.html",
+      "note": "Versi 173–230: il segno del letto e il riconoscimento. Traduzione inglese di A. T. Murray; breve parafrasi italiana originale."
+    }
+  ],
+  "map": {
+    "root": "Entrare in una comunità",
+    "branches": [
+      {
+        "title": "Accoglienza",
+        "body": "Offre aiuto e rende comprensibili spazi, regole e strumenti.",
+        "link": "richiede",
+        "child": "Partecipazione",
+        "detail": "Permette di contribuire attraverso possibilità e ruoli concreti.",
+        "relation": "può aprire alla"
+      },
+      {
+        "title": "Identità",
+        "body": "Comprende aspetti diversi e non si esaurisce in un’etichetta.",
+        "link": "incontra",
+        "child": "Autorappresentazione",
+        "detail": "Dà forma agli aspetti di sé che una persona vuole condividere.",
+        "relation": "trova voce nell’"
+      },
+      {
+        "title": "Riconoscimento",
+        "body": "Dà spazio alla voce e al contributo della persona.",
+        "link": "costruisce",
+        "child": "Appartenenza plurale",
+        "detail": "Si può partecipare a più gruppi mantenendo differenze personali.",
+        "relation": "sostiene l’"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Quale azione del caso aiuta Rami soprattutto a orientarsi?",
+      "options": [
+        "Scegliere per lui una mappa come simbolo personale.",
+        "Spiegargli dove si trovano i materiali e come funzionano i turni.",
+        "Assegnargli senza confronto il racconto del trasferimento."
+      ],
+      "answer": 1,
+      "explanation": "Le informazioni pratiche rendono comprensibile il funzionamento del laboratorio.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Chi arriva può incontrare ostacoli invisibili a chi conosce già gli spazi. Orientare significa rendere disponibili informazioni utili, senza dare per scontate le abitudini.",
+        "question": "Quale indicazione aiuta un visitatore ipotetico a trovare un’attività?",
+        "options": [
+          "Andate nel solito posto.",
+          "Chiedete a qualcuno che sa già tutto.",
+          "Il laboratorio è al primo piano; il pannello accanto alla porta indica i gruppi."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Qual è la differenza fra presenza e partecipazione descritta nella lezione?",
+      "options": [
+        "Partecipare significa svolgere tutti lo stesso ruolo.",
+        "Essere presenti garantisce da solo la possibilità di contribuire.",
+        "Partecipare richiede possibilità concrete di contribuire e comprendere le attività."
+      ],
+      "answer": 2,
+      "explanation": "La presenza nello spazio non basta se ruoli e informazioni restano inaccessibili.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Una persona può essere nella stanza senza sapere come prendere parte al lavoro. La partecipazione dipende da occasioni e condizioni concrete.",
+        "question": "In un gruppo ipotetico, quale cambiamento apre una possibilità di partecipazione?",
+        "options": [
+          "Spiegare i compiti disponibili e invitare a scegliere un contributo.",
+          "Aggiungere una sedia senza spiegare che cosa si fa.",
+          "Lasciare tutti i compiti alle persone che già si conoscono."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Perché la provenienza da un’altra città non basta a progettare il ritratto di Rami?",
+      "options": [
+        "È un solo aspetto e non indica quali interessi desideri comunicare.",
+        "Qualsiasi riferimento a un luogo è sempre privo di significato.",
+        "Un autoritratto deve contenere tutti i fatti della vita di una persona."
+      ],
+      "answer": 0,
+      "explanation": "Un tratto non esaurisce l’identità; l’autoritratto seleziona aspetti significativi per chi si presenta.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "Un simbolo può essere adatto quando chi si rappresenta ne riconosce il significato. Non si ricava automaticamente da un’unica informazione.",
+        "question": "Una studentessa ipotetica gioca a pallavolo: quale conclusione è sostenibile?",
+        "options": [
+          "Il suo ritratto dovrà obbligatoriamente avere un pallone.",
+          "La pallavolo è un suo interesse, ma occorre sapere che cosa voglia comunicare nel ritratto.",
+          "Gli altri suoi interessi sono necessariamente meno importanti."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Quale significato di riconoscimento sociale adotta questa lezione?",
+      "options": [
+        "Verificare un’identità segreta con una prova come nel poema.",
+        "Dare spazio alla voce e al contributo di una persona nel gruppo.",
+        "Assegnare un’immagine definitiva a chi arriva."
+      ],
+      "answer": 1,
+      "explanation": "Il riconoscimento sociale è distinto dal riconoscimento narrativo che svela chi sia un personaggio.",
+      "anchor": "s5",
+      "recovery": {
+        "text": "In un racconto, riconoscere può significare scoprire chi è un personaggio. Nel gruppo, qui, significa considerare ciò che una persona propone e può apportare.",
+        "question": "Quale azione ipotetica esprime questo secondo significato?",
+        "options": [
+          "Indovinare il nome di un personaggio mascherato.",
+          "Confermare che due firme appartengano allo stesso autore.",
+          "Ascoltare una proposta di lavoro e discuterla insieme alle altre."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Come può una serie di ritratti conservare unità e differenze?",
+      "options": [
+        "Imponendo a tutti la stessa storia personale.",
+        "Eliminando ogni elemento comune di impaginazione.",
+        "Usando un formato condiviso e simboli personali motivati."
+      ],
+      "answer": 2,
+      "explanation": "La coerenza grafica può dipendere dal formato e dalla griglia, lasciando differenti i contenuti scelti.",
+      "anchor": "s6",
+      "recovery": {
+        "text": "Una serie si riconosce anche attraverso regole formali comuni. Non è necessario rendere identiche le persone o le storie rappresentate.",
+        "question": "Quale soluzione mantiene questa relazione in tre copertine ipotetiche?",
+        "options": [
+          "Stessa griglia e posizione del titolo, con immagini diverse coerenti con ogni racconto.",
+          "Stessa immagine e stessa descrizione personale per chiunque.",
+          "Tre progetti senza alcun elemento riconoscibile comune."
+        ],
+        "answer": 0
+      }
+    }
+  ],
+  "deepening": [
+    {
+      "title": "Il simbolo cambia quando cambia chi lo sceglie",
+      "html": "<p>Nel caso ipotetico, la valigia viene scelta dagli altri. Immagina ora che sia Rami a proporla perché rappresenta una ricerca di nuove forme e colori. La stessa immagine avrebbe un significato diverso? Confronta le due situazioni considerando autore della scelta, intenzione e destinatari. Non esiste un dizionario che assegni per sempre a ogni simbolo un solo valore. Per interpretarlo servono il contesto e la spiegazione di chi lo usa.</p>"
+    }
+  ]
+}

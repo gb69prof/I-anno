@@ -1,0 +1,263 @@
+{
+  "id": "c1-comunicare",
+  "area": "Cittadinanza",
+  "number": "C1",
+  "title": "Comunicare: quale storia mostri?",
+  "subtitle": "Informazione, inquadratura, stereotipi e responsabilità dell’autore",
+  "question": "Come può un’immagine vera raccontare una storia ingannevole?",
+  "time": "2 ore + laboratorio",
+  "prerequisites": "Distinguere autore, narratore e destinatario; riconoscere una sequenza narrativa.",
+  "goals": [
+    "Distinguere un’informazione osservabile dall’interpretazione che le viene associata.",
+    "Spiegare come taglio, titolo e gerarchia visiva orientano una lettura.",
+    "Motivare una scelta grafica considerando fonte, destinatari e persone rappresentate."
+  ],
+  "imageCaption": "Una cornice seleziona una parte della scena: ciò che rimane fuori può cambiare il senso di ciò che vediamo.",
+  "blocks": [
+    {
+      "id": "s1",
+      "title": "Ogni comunicazione sceglie cosa rendere visibile",
+      "html": "<p>Quando raccontiamo qualcosa, scegliamo un inizio, un protagonista e alcuni particolari. Anche una locandina apparentemente semplice propone un percorso: il titolo richiama l’attenzione, un’immagine suggerisce un’atmosfera, una didascalia indica come interpretarla. Il pubblico non riceve soltanto informazioni; riceve anche un <strong>inquadramento</strong>, cioè un modo di considerarle. Chi studia grafica lavora proprio su questa relazione fra ciò che viene mostrato e ciò che viene compreso.</p><p>Selezionare è necessario: nessun messaggio può contenere ogni dettaglio. La domanda è se la selezione conserva gli elementi indispensabili per capire oppure favorisce un equivoco prevedibile. Un’immagine può essere autentica e avere una didascalia falsa; un titolo può contenere parole esatte ma omettere una circostanza decisiva. Per valutare una comunicazione non basta dunque chiedere se esista una fotografia originale. Bisogna osservare il messaggio nel suo insieme e domandarsi quali conclusioni invita a trarre.</p>"
+    },
+    {
+      "id": "s2",
+      "title": "Da leggere: la fotografia del cortile",
+      "html": "<p><strong>Caso ipotetico — racconto originale per questa lezione.</strong> Persone, scuola ed episodio sono inventati.</p><blockquote><p>La redazione del giornalino prepara un servizio sulla giornata dedicata al riciclo. Nella fotografia di Nora si vede Elia accanto a tre bicchieri abbandonati. La bozza della pagina mostra solo lui e i rifiuti, sotto il titolo: “La classe lascia sporco il cortile”. Nell’immagine intera, però, Elia tiene un sacco e altri studenti raccolgono carta. Il momento precede la pulizia finale. Nora propone di allargare il taglio. Un compagno risponde che la versione stretta attira più attenzione. La redazione ha anche una seconda fotografia, scattata venti minuti dopo, con il cortile pulito. Nessuno ha ancora chiesto a Elia che cosa stesse facendo.</p></blockquote><p>Nel caso non sappiamo chi abbia lasciato i bicchieri. Sappiamo invece quali elementi sono presenti nelle due fotografie e quali sono stati esclusi dalla bozza. Il punto da discutere è la responsabilità della redazione nel costruire un’accusa più ampia delle informazioni disponibili.</p>"
+    },
+    {
+      "id": "s3",
+      "title": "Separare informazione e interpretazione",
+      "html": "<p>“Nella fotografia ci sono tre bicchieri a terra” descrive un elemento osservabile. “Elia ha gettato i bicchieri” è invece un’<strong>inferenza</strong>: una conclusione ricavata da indizi, che richiede altri elementi per essere sostenuta. Una buona informazione permette al destinatario di riconoscere questa differenza. Può dire ciò che è stato verificato e rendere visibile ciò che resta incerto, senza riempire i vuoti con una storia comoda.</p><p>Il <strong>contesto</strong> comprende ciò che accade prima e dopo, il luogo, lo scopo della ripresa e le informazioni escluse. Nel caso, l’immagine intera e la seconda fotografia cambiano la lettura. Non dimostrano da sole ogni azione di Elia, ma indeboliscono l’accusa suggerita dalla bozza. Anche il confronto delle fonti conta: due pagine che ripubblicano la stessa foto non sono due testimonianze indipendenti. Risalire all’origine permette di capire se stiamo verificando oppure soltanto contando le ripetizioni.</p>"
+    },
+    {
+      "id": "s4",
+      "title": "Quando un personaggio diventa uno stereotipo",
+      "html": "<p>Uno <strong>stereotipo</strong> è una rappresentazione semplificata che attribuisce a un intero gruppo caratteristiche date per scontate. Può entrare in un messaggio senza essere dichiarato: chi disegna rappresenta sempre gli stessi soggetti mentre comandano, aiutano, sbagliano o subiscono. La ripetizione fa apparire naturale un’associazione che andrebbe invece esaminata. Un singolo comportamento non dimostra come siano tutte le persone della stessa classe, provenienza o età.</p><p>Il titolo del giornalino passa da alcuni oggetti lasciati a terra a un’accusa rivolta alla classe intera. Il problema non si risolve aggiungendo un personaggio perfetto, che sarebbe un’altra semplificazione. Si può mostrare una varietà di azioni, attribuire i comportamenti a chi li compie e riconoscere ciò che non sappiamo. Nelle narrazioni antiche incontriamo modelli di eroismo e appartenenza: oggi possiamo studiarli come costruzioni culturali, senza trasformarli in etichette con cui classificare automaticamente le persone.</p>"
+    },
+    {
+      "id": "s5",
+      "title": "Fama, visibilità e attendibilità sono cose diverse",
+      "html": "<p>Un contenuto molto condiviso diventa <strong>visibile</strong>. La visibilità descrive la sua circolazione, non dimostra che sia accurato. Allo stesso modo, essere famosi significa essere conosciuti da molte persone: non dice, da solo, per quale ragione lo si sia né quale valore abbia il proprio lavoro. Il numero delle reazioni può segnalare interesse, divertimento, rabbia o contestazione. Per capire occorre leggere il contesto delle reazioni e controllare le informazioni.</p><p>Nel laboratorio grafico questa distinzione riguarda una scelta concreta. Un titolo accusatorio può attirare il pubblico, ma quale rapporto costruisce con chi legge? Se il messaggio viene smentito, la redazione dovrà recuperare fiducia. Anche una rettifica deve essere riconoscibile: correggere in piccolo una notizia diffusa in grande lascia molti destinatari dentro l’equivoco. La ricerca dell’attenzione si può discutere attraverso risultati osservabili, senza identificare automaticamente il successo pubblico con la qualità.</p>"
+    },
+    {
+      "id": "s6",
+      "title": "Essere autori significa poter spiegare e correggere",
+      "html": "<p>La <strong>responsabilità comunicativa</strong> consiste nel rispondere delle proprie scelte e dei loro effetti prevedibili. Prima di pubblicare una bozza possiamo indicare la fonte, controllare l’accordo fra titolo e immagine e chiedere che cosa capirebbe una persona che non conosce l’episodio. Possiamo anche domandarci se esporre il volto e il nome di qualcuno sia davvero necessario allo scopo della comunicazione. Nel nostro laboratorio useremo personaggi inventati.</p><p>Quando emerge un errore, correggere significa chiarire che cosa è cambiato e perché, non soltanto sostituire il file. La decisione finale resta argomentabile: due progetti diversi possono entrambi essere accurati ed efficaci. Per confrontarli servono criteri espliciti, come leggibilità, completezza delle informazioni essenziali e assenza di accuse non sostenute. Alla domanda iniziale possiamo ora rispondere: una fotografia vera può ingannare quando l’inquadratura e le parole suggeriscono una storia che i dati disponibili non autorizzano.</p>"
+    }
+  ],
+  "summary": "Comunicare significa selezionare e organizzare informazioni. Il taglio di una fotografia, il titolo e la gerarchia della pagina orientano il pubblico: perciò una fotografia autentica può sostenere una lettura ingannevole. Nel caso ipotetico del cortile, i bicchieri a terra sono osservabili; attribuirli a Elia richiede altre informazioni. Il contesto e la ricerca della fonte originaria aiutano a distinguere osservazioni e inferenze. Gli stereotipi trasformano casi particolari in caratteristiche attribuite a interi gruppi. Per evitarli occorre mostrare azioni precise e non dare per scontate le identità. La fama indica notorietà, mentre le condivisioni misurano circolazione: nessuna delle due dimostra l’attendibilità. Un autore responsabile può spiegare le proprie scelte, verificare il rapporto fra parole e immagini e correggere in modo riconoscibile. Nel laboratorio si confrontano soluzioni grafiche differenti usando criteri espliciti, senza scegliere un’unica estetica obbligatoria.",
+  "essentials": [
+    "Spiegare perché selezionare informazioni è necessario e può orientare il pubblico.",
+    "Distinguere un elemento osservabile da un’inferenza sulle sue cause.",
+    "Riconoscere il passaggio da un singolo caso a uno stereotipo di gruppo.",
+    "Distinguere visibilità, fama e attendibilità.",
+    "Motivare e, quando serve, correggere una scelta comunicativa."
+  ],
+  "vocabulary": [
+    [
+      "Inquadramento",
+      "Il modo in cui selezione e organizzazione orientano la comprensione di un fatto."
+    ],
+    [
+      "Contesto",
+      "Le circostanze necessarie per comprendere un’informazione."
+    ],
+    [
+      "Inferenza",
+      "Una conclusione ricavata da indizi o informazioni, da valutare alla luce delle prove."
+    ],
+    [
+      "Stereotipo",
+      "Una rappresentazione semplificata attribuita a un intero gruppo."
+    ],
+    [
+      "Attendibilità",
+      "Il grado di fiducia motivata che possiamo accordare a un’informazione."
+    ],
+    [
+      "Rettifica",
+      "Una correzione riconoscibile di un’informazione precedentemente diffusa."
+    ]
+  ],
+  "questions": [
+    "Quali dettagli esclusi dalla prima bozza cambiano la lettura della fotografia? Spiega il loro effetto.",
+    "Quali informazioni servirebbero per attribuire a qualcuno i bicchieri a terra? Distingui ciò che sai da ciò che ipotizzi.",
+    "Proponi due titoli diversi ma sostenibili per il servizio e motiva quale rapporto costruiscono con il lettore."
+  ],
+  "lab": {
+    "title": "Due inquadrature, una redazione responsabile",
+    "task": "Progetta su carta o con un programma gratuito due pagine del giornalino per il caso ipotetico. Usa disegni originali con personaggi inventati e allega una motivazione di 100–150 parole.",
+    "steps": [
+      "Disegna la scena intera e segna gli elementi che possono essere verificati nel racconto.",
+      "Crea due tagli dell’immagine e abbinali a due titoli: rendi entrambi coerenti con le informazioni disponibili.",
+      "Organizza titolo, immagine e didascalia con una gerarchia leggibile anche in piccolo.",
+      "Fai leggere le pagine a un compagno senza spiegazioni: annota che cosa ha capito e correggi gli equivoci.",
+      "Motiva le differenze tra le due proposte citando almeno due dettagli del caso."
+    ],
+    "criteria": [
+      "Titoli e didascalie non aggiungono accuse prive di informazioni.",
+      "Il progetto rende visibile il contesto necessario alla comprensione.",
+      "Gerarchia, dimensioni e contrasto consentono una lettura chiara.",
+      "La motivazione collega le scelte grafiche a dettagli precisi del racconto."
+    ]
+  },
+  "bridge": {
+    "target": "01-racconto",
+    "anchor": "s1",
+    "text": "Il racconto organizza l’esperienza attraverso una selezione: torna alla sua funzione nella comunità. La domanda comune è chi decide quale storia circola; i media digitali contemporanei hanno modalità di diffusione diverse dalla narrazione orale antica."
+  },
+  "sources": [
+    {
+      "title": "Lezione 1 — Il racconto umano e i media",
+      "url": "https://docs.google.com/document/d/1emNWtDpW2gtxo_oIV1NCN-1I5IaAbXS7/edit",
+      "note": "Materiale fornito: funzione comunitaria della narrazione e convivenza dei media. Caso e attività originali."
+    },
+    {
+      "title": "Achille e Ulisse",
+      "url": "https://docs.google.com/document/d/11Gwg5T8YecyfCQScscmtSLHJVf7b5kcf/edit",
+      "note": "Materiale fornito: spunto sulla fama e sui modelli; le corrispondenze fra eroi e città non sono assunte come derivazioni storiche."
+    }
+  ],
+  "map": {
+    "root": "Comunicare responsabilmente",
+    "branches": [
+      {
+        "title": "Informazioni",
+        "body": "Vanno distinte dalle conclusioni che ricaviamo.",
+        "link": "verifica",
+        "child": "Contesto e fonti",
+        "detail": "Permettono di controllare origine, circostanze e parti escluse.",
+        "relation": "richiedono"
+      },
+      {
+        "title": "Inquadratura",
+        "body": "Taglio, titolo e gerarchia orientano la lettura.",
+        "link": "rende consapevole",
+        "child": "Stereotipi",
+        "detail": "Attribuiscono a un gruppo ciò che un caso non dimostra.",
+        "relation": "può rafforzare"
+      },
+      {
+        "title": "Responsabilità",
+        "body": "L’autore spiega le scelte e ripara gli errori.",
+        "link": "comporta",
+        "child": "Attendibilità",
+        "detail": "Dipende dalla verifica, non dalla fama o dalle condivisioni.",
+        "relation": "sostiene"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Quale frase descrive un elemento osservabile della fotografia?",
+      "options": [
+        "Tre bicchieri sono a terra accanto a Elia.",
+        "Elia ha abbandonato i bicchieri dopo aver bevuto.",
+        "Elia non si interessa alla pulizia del cortile."
+      ],
+      "answer": 0,
+      "explanation": "La presenza dei bicchieri è visibile. La loro origine e l’atteggiamento di Elia richiedono altre informazioni.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Un’immagine mostra una situazione, ma non rende automaticamente visibili cause o intenzioni. Vedere un ombrello bagnato non basta per sapere chi lo abbia usato.",
+        "question": "In una scena ipotetica, quale frase separa osservazione e interpretazione?",
+        "options": [
+          "L’ombrello è bagnato, quindi Leo è uscito.",
+          "L’ombrello è bagnato; non so ancora chi lo abbia usato.",
+          "L’ombrello è bagnato, dunque qualcuno è stato distratto."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Due siti ripubblicano la stessa fotografia. Che cosa possiamo concludere?",
+      "options": [
+        "Abbiamo due conferme indipendenti dell’episodio.",
+        "L’immagine circola su due siti, ma la fonte può essere unica.",
+        "La seconda pubblicazione rende superflua la ricerca dell’originale."
+      ],
+      "answer": 1,
+      "explanation": "La ripetizione di una fonte non crea una nuova testimonianza indipendente.",
+      "anchor": "s3",
+      "recovery": {
+        "text": "Contare le ripetizioni misura la circolazione. Verificare richiede di risalire a chi ha prodotto l’informazione e alle circostanze in cui l’ha raccolta.",
+        "question": "Tre compagni riferiscono tutti una notizia letta nello stesso messaggio: quante origini informative conosciamo?",
+        "options": [
+          "Tre, perché i compagni sono tre.",
+          "Due, perché c’è anche chi ascolta.",
+          "Una, il messaggio da cui tutti dipendono."
+        ],
+        "answer": 2
+      }
+    },
+    {
+      "question": "Quale passaggio produce uno stereotipo?",
+      "options": [
+        "Descrivere che cosa fanno due personaggi in una scena.",
+        "Chiedere quali informazioni mancano sulle azioni di una persona.",
+        "Attribuire a un’intera classe una caratteristica ricavata da un singolo episodio."
+      ],
+      "answer": 2,
+      "explanation": "Lo stereotipo generalizza un tratto e lo tratta come caratteristica scontata di un gruppo.",
+      "anchor": "s4",
+      "recovery": {
+        "text": "Un fatto relativo a una persona non descrive automaticamente tutte quelle del suo gruppo. Nel caso ipotetico, osservare una consegna in ritardo non spiega il comportamento di un’intera sezione.",
+        "question": "Quale titolo evita questa generalizzazione?",
+        "options": [
+          "Due consegne della prima B sono arrivate dopo la scadenza.",
+          "La prima B non rispetta gli impegni.",
+          "Le prime sono sempre disorganizzate."
+        ],
+        "answer": 0
+      }
+    },
+    {
+      "question": "Un post riceve molte condivisioni. Che cosa indica direttamente questo dato?",
+      "options": [
+        "Il post sta circolando molto.",
+        "Le informazioni sono state controllate da fonti indipendenti.",
+        "Il pubblico condivide necessariamente tutte le sue affermazioni."
+      ],
+      "answer": 0,
+      "explanation": "Le condivisioni misurano un aspetto della circolazione, non provano accuratezza o accordo.",
+      "anchor": "s5",
+      "recovery": {
+        "text": "Possiamo diffondere un contenuto per approvarlo, discuterlo o contestarlo. Un numero non spiega da solo il motivo delle reazioni né garantisce la verità del messaggio.",
+        "question": "Quale controllo riguarda l’attendibilità anziché la popolarità?",
+        "options": [
+          "Contare quante volte compare il titolo.",
+          "Controllare la fonte e confrontare le informazioni.",
+          "Scegliere il messaggio con più commenti."
+        ],
+        "answer": 1
+      }
+    },
+    {
+      "question": "Una redazione scopre un errore nella notizia pubblicata. Quale azione rende riconoscibile la rettifica?",
+      "options": [
+        "Cambiare silenziosamente il file senza spiegazioni.",
+        "Segnalare che cosa era errato e quale informazione lo corregge.",
+        "Lasciare il titolo precedente perché è già conosciuto."
+      ],
+      "answer": 1,
+      "explanation": "Una rettifica consente al destinatario di comprendere la modifica e uscire dall’equivoco.",
+      "anchor": "s6",
+      "recovery": {
+        "text": "Correggere un file e informare chi ha letto sono due passaggi diversi. Una rettifica visibile mette in relazione la prima versione e l’informazione verificata.",
+        "question": "In un avviso ipotetico, quale formulazione chiarisce la correzione?",
+        "options": [
+          "Nuova locandina disponibile.",
+          "Consultate gli aggiornamenti quando potete.",
+          "Nella prima locandina l’inizio era alle 15; l’orario verificato è alle 16."
+        ],
+        "answer": 2
+      }
+    }
+  ],
+  "deepening": [
+    {
+      "title": "Uno stesso fatto, due forme narrative",
+      "html": "<p>Prova a raccontare il caso del cortile prima in tre vignette e poi in un’unica locandina. Nella sequenza puoi mostrare il prima e il dopo; nella locandina devi rendere il contesto leggibile con altri mezzi. Confronta i risultati senza dichiarare un mezzo superiore all’altro. Chiedi quale informazione ogni forma mette in evidenza e quale rischia di perdere. È un modo concreto di osservare la convivenza dei linguaggi narrativi studiata in Antologia.</p>"
+    }
+  ]
+}

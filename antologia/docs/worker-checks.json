@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "method": "VM worker harness; no physical device or browser network emulation",
+  "results": [
+    {
+      "scope": "/",
+      "status": "PASS",
+      "offline_assets": 5,
+      "offline_fallback": true,
+      "query_parameters": true,
+      "external_origin_bypassed": true,
+      "post_bypassed": true,
+      "unrelated_cache_preserved": true,
+      "version_update": true
+    },
+    {
+      "scope": "/I-anno/antologia/",
+      "status": "PASS",
+      "offline_assets": 5,
+      "offline_fallback": true,
+      "query_parameters": true,
+      "external_origin_bypassed": true,
+      "post_bypassed": true,
+      "unrelated_cache_preserved": true,
+      "version_update": true
+    }
+  ]
+}
