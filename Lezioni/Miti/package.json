@@ -1,0 +1,1 @@
+{"name":"gbprof-miti","version":"1.0.0","private":true,"description":"PWA statica: nessuna build o dipendenza necessaria per pubblicare","scripts":{"test":"node --test tests/*.cjs"},"devDependencies":{"jsdom":"26.1.0"}}
