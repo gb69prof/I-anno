@@ -19,35 +19,68 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Aggiorna I-anno tramite SSH
-        uses: appleboy/ssh-action@v1.2.0
-        with:
-          host: ${{ secrets.DEPLOY_HOST }}
-          username: ${{ secrets.DEPLOY_USER }}
-          key: ${{ secrets.DEPLOY_SSH_KEY }}
-          command_timeout: 3m
-          script: |
-            set -eu
+      - name: Configura SSH
+        shell: bash
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          set -euo pipefail
 
-            repo=/opt/gbprof/projects/I-anno
-            web=/opt/gbprof/www/I-anno
+          install -d -m 700 "$HOME/.ssh"
 
-            export GIT_CONFIG_COUNT=1
-            export GIT_CONFIG_KEY_0=safe.directory
-            export GIT_CONFIG_VALUE_0="$repo"
+          key_file="$HOME/.ssh/i-anno-deploy"
+          printf '%s\n' "$DEPLOY_SSH_KEY" | tr -d '\r' > "$key_file"
+          chmod 600 "$key_file"
 
-            test -d "$repo/.git"
-            test -L "$web"
-            test "$(readlink -f "$web")" = "$(readlink -f "$repo")"
+          ssh-keygen -y -f "$key_file" > /dev/null
 
-            cd "$repo"
-            test "$(git remote get-url origin)" = "https://github.com/gb69prof/I-anno.git"
-            test -z "$(git status --porcelain=v1)"
+          printf '%s\n' \
+            '157.180.67.132 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDr7fqbQyfX4YPqM8zf07wgYyeBnNVNASYXQi+VOoxtE' \
+            > "$HOME/.ssh/known_hosts"
+          chmod 600 "$HOME/.ssh/known_hosts"
 
-            git fetch --prune origin main
-            git merge --ff-only origin/main
+      - name: Aggiorna I-anno
+        shell: bash
+        run: |
+          set -euo pipefail
 
-            test -z "$(git status --porcelain=v1)"
-            test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/Lezioni/Miti/)" = "200"
-            test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/antologia/)" = "200"
-            test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/.git/config)" = "404"
+          ssh \
+            -i "$HOME/.ssh/i-anno-deploy" \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            gbdeploy@157.180.67.132 'sh -s' <<'REMOTE'
+          set -eu
+
+          repo=/opt/gbprof/projects/I-anno
+          web=/opt/gbprof/www/I-anno
+
+          export GIT_CONFIG_COUNT=1
+          export GIT_CONFIG_KEY_0=safe.directory
+          export GIT_CONFIG_VALUE_0="$repo"
+
+          test -d "$repo/.git"
+          test -L "$web"
+          test "$(readlink -f "$web")" = "$(readlink -f "$repo")"
+
+          cd "$repo"
+          test "$(git remote get-url origin)" = "https://github.com/gb69prof/I-anno.git"
+          test -z "$(git status --porcelain=v1)"
+
+          git fetch --prune origin main
+          git merge --ff-only origin/main
+
+          test -z "$(git status --porcelain=v1)"
+          test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/Lezioni/Miti/)" = "200"
+          test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/antologia/)" = "200"
+          test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/.git/config)" = "404"
+          REMOTE
+
+      - name: Elimina la chiave temporanea
+        if: always()
+        shell: bash
+        run: |
+          key_file="$HOME/.ssh/i-anno-deploy"
+          if [[ -f "$key_file" && ! -L "$key_file" ]]; then
+            unlink -- "$key_file"
+          fi
