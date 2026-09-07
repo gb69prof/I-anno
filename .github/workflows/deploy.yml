@@ -32,6 +32,10 @@ jobs:
             repo=/opt/gbprof/projects/I-anno
             web=/opt/gbprof/www/I-anno
 
+            export GIT_CONFIG_COUNT=1
+            export GIT_CONFIG_KEY_0=safe.directory
+            export GIT_CONFIG_VALUE_0="$repo"
+
             test -d "$repo/.git"
             test -L "$web"
             test "$(readlink -f "$web")" = "$(readlink -f "$repo")"
