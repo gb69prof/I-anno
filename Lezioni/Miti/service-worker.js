@@ -1,6 +1,6 @@
 /* Miti: cache isolated to this application and directory. */
 'use strict';
-const VERSION='2026-09-05-v1';
+const VERSION='2026-09-09-v2';
 const PREFIX='gbprof-miti-'+encodeURIComponent(new URL(self.registration.scope).pathname)+'-';
 const CACHE=PREFIX+VERSION;
 const FILES=[
@@ -11,6 +11,10 @@ const FILES=[
   "./assets/data.js",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
+  "./assets/mappe/Edipo-antefatto-testo-contesto.png",
+  "./assets/mappe/Edipo-antefatto.png",
+  "./assets/mappe/Edipo-contesto.png",
+  "./assets/mappe/Edipo-testo.png",
   "./assets/mappe/Mappa-02-Edipo-re.png",
   "./assets/mappe/Mappa-03-Hybris-e-nemesi.png",
   "./assets/mappe/Mappa-04-Antigone-legge-e-diritti.png",

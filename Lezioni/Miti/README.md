@@ -17,7 +17,7 @@ Su iPad: Safari → Condividi → Aggiungi alla schermata Home. Prima di disconn
 5. L’Iliade: l’ira di Achille e il mondo degli eroi.
 6. Gli dèi e il Fato: il limite del potere divino.
 
-Tutti i sei testi della cartella Drive indicata sono trasposti nelle lezioni; sette mappe originali sono incluse localmente. Le copie testuali originali sono in `fonti/`. Sintesi, cinque saperi e lessico per lezione; 30 domande con tre opzioni, spiegazioni e recuperi; ripasso finale con 12 domande; sei attività grafiche con rubrica.
+Tutti i sei testi della cartella Drive indicata sono trasposti nelle lezioni; undici mappe e schemi illustrati sono inclusi localmente. Le copie testuali originali sono in `fonti/`. Sintesi, cinque saperi e lessico per lezione; 30 domande con tre opzioni, spiegazioni e recuperi; ripasso finale con 12 domande; sei attività grafiche con rubrica.
 
 ## Strumenti
 

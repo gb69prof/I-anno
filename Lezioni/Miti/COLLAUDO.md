@@ -27,7 +27,7 @@
 
 - I sei file testuali originali corrispondono ai contenuti acquisiti da Drive, normalizzando soltanto i terminatori di riga nella lettura del controllo.
 - 36 pannelli didattici nelle sei lezioni; 30 domande con tre opzioni e una risposta corretta.
-- Sette mappe PNG originali leggibili e integre.
+- Undici mappe e schemi PNG leggibili e integri.
 - Rendering delle tre fasi della copertina con motore Canvas nativo; ispezione dell’immagine risultante e verifica del comando pausa.
 - Contrasti principali testo/sfondo: 15,28:1 per il testo sulla carta; 8,85:1 per oro su blu; 10,63:1 per testo introduttivo; 6,73:1 per etichette sulla carta; 8,72:1 per testo delle schede; 7,28:1 per link sulla carta.
 
