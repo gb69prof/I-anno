@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 820" role="img" aria-labelledby="title desc">
+<title id="title">Cartina schematica dell'Egitto antico</title><desc id="desc">La valle del Nilo dal sud al delta nel Mar Mediterraneo, con Alto e Basso Egitto.</desc>
+<rect width="720" height="820" rx="28" fill="#f4e7c1"/>
+<rect width="720" height="112" fill="#a9dbe7"/>
+<text x="255" y="66" font-family="system-ui" font-size="30" fill="#15384b" font-weight="700">Mar Mediterraneo</text>
+<path d="M373 760 C342 690 390 635 360 575 C334 520 384 470 360 415 C335 355 380 315 355 255 C330 205 365 162 350 115" fill="none" stroke="#2b8bb4" stroke-width="22" stroke-linecap="round"/>
+<path d="M350 125 C320 98 292 80 245 60 M350 125 C340 90 350 65 355 40 M350 125 C385 90 420 75 472 58 M350 125 C370 98 400 96 435 88" fill="none" stroke="#2b8bb4" stroke-width="14" stroke-linecap="round"/>
+<path d="M363 760 C335 690 378 638 352 580 C326 520 374 470 350 415 C328 355 368 315 346 255 C323 205 355 162 342 120" fill="none" stroke="#79b67d" stroke-width="68" opacity=".28" stroke-linecap="round"/>
+<text x="387" y="485" font-family="system-ui" font-size="32" fill="#1c709a" font-weight="800">Nilo</text>
+<text x="95" y="245" font-family="system-ui" font-size="34" fill="#15384b" font-weight="800">BASSO EGITTO</text>
+<text x="80" y="285" font-family="system-ui" font-size="24" fill="#5d4932">delta e foce</text>
+<text x="70" y="575" font-family="system-ui" font-size="34" fill="#15384b" font-weight="800">ALTO EGITTO</text>
+<text x="70" y="615" font-family="system-ui" font-size="24" fill="#5d4932">a monte, verso sud</text>
+<circle cx="354" cy="220" r="8" fill="#9c4635"/><text x="375" y="227" font-family="system-ui" font-size="24" fill="#4b3426">Menfi</text>
+<circle cx="357" cy="540" r="8" fill="#9c4635"/><text x="380" y="547" font-family="system-ui" font-size="24" fill="#4b3426">Tebe</text>
+<circle cx="370" cy="720" r="8" fill="#9c4635"/><text x="395" y="727" font-family="system-ui" font-size="24" fill="#4b3426">Assuan</text>
+<text x="535" y="420" font-family="system-ui" font-size="28" fill="#8d6535" transform="rotate(90 535 420)">Deserto orientale</text>
+<text x="165" y="470" font-family="system-ui" font-size="28" fill="#8d6535" transform="rotate(-90 165 470)">Deserto occidentale</text>
+<path d="M395 665 L425 595 L455 665Z" fill="#c9954b"/><path d="M440 665 L470 610 L500 665Z" fill="#ddb46e"/>
+</svg>
