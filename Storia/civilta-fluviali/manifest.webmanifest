@@ -1,0 +1,14 @@
+{
+  "name": "Le civiltà fluviali · Mesopotamia ed Egitto",
+  "short_name": "Civiltà fluviali",
+  "description": "Lezione interattiva di Storia sulle civiltà fluviali, con test e recupero.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4efe4",
+  "theme_color": "#102b3c",
+  "lang": "it",
+  "icons": [
+    {"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
