@@ -4,18 +4,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#102b3c">
-  <meta name="description" content="Lezione interattiva sulle civiltà fluviali: Mesopotamia ed Egitto, con metodo Testo-Antefatto-Contesto-Ricomponi e test finali.">
+  <meta name="description" content="Lezione interattiva sulle civiltà fluviali: Mesopotamia ed Egitto, con metodo Testo-Antefatto-Contesto-Ricomponi, cartine interattive e test finali.">
   <title>Le civiltà fluviali · Mesopotamia ed Egitto</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icon.svg">
   <link rel="apple-touch-icon" href="assets/icon.svg">
   <link rel="stylesheet" href="style.css">
+  <style>
+    .hero-cover{margin:0;overflow:hidden;border-radius:32px;border:1px solid rgba(16,43,60,.12);box-shadow:0 24px 60px rgba(16,43,60,.18);background:#efe3c8;align-self:center}
+    .hero-cover img{width:100%;height:auto;display:block;aspect-ratio:16/9;object-fit:cover}
+    .atlas-intro{max-width:1260px;margin:0 auto 28px}
+    .atlas-intro .map-card{min-height:0;background:#fff}
+    .atlas-intro .map-card img{height:auto;object-fit:contain}
+    .today-map{max-width:1260px;margin:0 auto;position:relative;border-radius:28px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:#fff}
+    .today-map>img{width:100%;height:auto;display:block}
+    .hotspot{position:absolute;display:flex;align-items:center;justify-content:center;min-width:150px;padding:.72rem 1rem;border-radius:999px;background:rgba(255,255,255,.93);border:3px solid #e2372e;color:#b3231c;text-decoration:none;font-weight:950;box-shadow:0 10px 25px rgba(0,0,0,.18);transform:translate(-50%,-50%);transition:.18s ease}
+    .hotspot:hover,.hotspot:focus-visible{transform:translate(-50%,-50%) scale(1.06);background:#fff4f1;outline:none}
+    .hotspot.mesopotamia-link{left:76%;top:62%}
+    .hotspot.egypt-link{left:57%;top:82%}
+    .map-hint{text-align:center;margin:16px auto 0;color:var(--muted);font-weight:750}
+    .map-lightbox{position:fixed;inset:0;z-index:500;display:none;place-items:center;padding:22px;background:rgba(7,20,29,.88);backdrop-filter:blur(8px)}
+    .map-lightbox.open{display:grid}
+    .map-lightbox figure{margin:0;max-width:min(94vw,1450px);max-height:92vh;position:relative}
+    .map-lightbox img{display:block;max-width:94vw;max-height:86vh;width:auto;height:auto;border-radius:20px;box-shadow:0 30px 80px rgba(0,0,0,.4);background:#fff}
+    .map-close{position:absolute;right:10px;top:10px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.94);font-size:1.45rem;font-weight:900;cursor:pointer;color:#102b3c;box-shadow:0 6px 20px rgba(0,0,0,.2)}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}.hero-cover{order:-1}.hotspot{min-width:auto;padding:.5rem .7rem;font-size:.78rem;border-width:2px}.hotspot.mesopotamia-link{left:76%;top:62%}.hotspot.egypt-link{left:57%;top:82%}}
+  </style>
 </head>
 <body>
   <a class="skip" href="#main">Vai al contenuto</a>
   <header class="topbar">
     <a class="brand" href="#home" aria-label="Torna all'inizio"><span class="brand-mark">gb</span><span>STORIA · I anno</span></a>
     <nav class="nav" aria-label="Navigazione principale">
+      <a href="#quadro-geografico">Cartine</a>
       <a href="#mesopotamia">Mesopotamia</a>
       <a href="#egitto">Egitto</a>
       <a href="#confronto">Confronto</a>
@@ -31,19 +52,16 @@
         <h1>Le civiltà <span>fluviali</span></h1>
         <p class="lead">Due fiumi, due mondi. Mesopotamia ed Egitto partono da problemi simili — acqua, agricoltura, surplus, organizzazione — ma costruiscono risposte politiche diverse.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#mesopotamia">Inizia dalla Mesopotamia</a>
+          <a class="button primary" href="#quadro-geografico">Comincia dalla geografia</a>
           <a class="button ghost" href="#metodo">Guarda il metodo</a>
         </div>
         <div class="keychain" aria-label="Sequenza concettuale">
           <span>Acqua</span><b>→</b><span>Agricoltura</span><b>→</b><span>Eccedenza</span><b>→</b><span>Città</span><b>→</b><span>Stato</span><b>→</b><span>Scrittura</span>
         </div>
       </div>
-      <div class="hero-art reveal" aria-hidden="true">
-        <div class="sun"></div><div class="river r1"></div><div class="river r2"></div>
-        <div class="ziggurat"><i></i><i></i><i></i></div>
-        <div class="pyramid p1"></div><div class="pyramid p2"></div>
-        <div class="hero-label meso">Tigri · Eufrate</div><div class="hero-label egypt">Nilo</div>
-      </div>
+      <figure class="hero-cover reveal">
+        <img src="assets/cover-civilta-fluviali.webp" alt="Copertina illustrata delle civiltà fluviali: Mesopotamia ed Egitto">
+      </figure>
     </section>
 
     <section id="metodo" class="section method-section">
@@ -56,39 +74,36 @@
       </div>
     </section>
 
+    <section id="quadro-geografico" class="section">
+      <div class="section-heading reveal"><p class="eyebrow">Prima di entrare nelle due civiltà</p><h2>Il quadro geografico</h2><p>Le prime grandi civiltà che studiamo crescono attorno a fiumi capaci di rendere fertile un territorio e, nello stesso tempo, di imporre organizzazione.</p></div>
+      <div class="atlas-intro reveal">
+        <figure class="map-card">
+          <img src="assets/cartina-civilta-fluviali.webp" alt="Cartina delle civiltà fluviali, dal Nilo alla Mesopotamia">
+          <figcaption>Il Nilo e la regione del Tigri e dell’Eufrate: due ambienti fluviali, due differenti costruzioni politiche.</figcaption>
+        </figure>
+      </div>
+    </section>
+
     <section id="mesopotamia" class="section civilization mesopotamia">
       <div class="section-heading reveal"><p class="eyebrow">Lezione 1</p><h2>Mesopotamia <small>la civiltà tra due fiumi</small></h2><p class="big-question">Che cosa succede quando vivere dipende dall’acqua e l’acqua deve essere organizzata?</p></div>
-
       <div class="story-grid">
         <article class="story-card reveal"><div class="tag">TESTO</div><h3>Una città intorno al 3000 a.C.</h3><p>Nelle pianure fra <strong>Tigri ed Eufrate</strong> sorgono grandi centri come Uruk e Ur. Intorno alle città si estendono campi irrigati; al centro si concentrano templi, magazzini e attività artigianali.</p><p>Una parte della popolazione non coltiva più direttamente la terra: compaiono artigiani, mercanti, soldati, sacerdoti, funzionari e scribi.</p></article>
         <article class="story-card reveal"><div class="tag">ANTEFATTO</div><h3>Dai villaggi al surplus</h3><p>Per millenni le comunità del Vicino Oriente avevano imparato a coltivare, allevare e vivere in villaggi stabili. L’agricoltura può produrre più cibo del necessario: il <strong>surplus</strong>.</p><p>Quel surplus permette di mantenere persone dedicate ad altri compiti. È la premessa della specializzazione del lavoro e della crescita urbana.</p></article>
       </div>
-
       <div class="visual-grid">
-        <figure class="map-card reveal"><img src="assets/map-mesopotamia.svg" alt="Cartina schematica della Mesopotamia tra Tigri ed Eufrate"><figcaption>CONTESTO · Una pianura fertile, ma aperta a commerci, migrazioni e invasioni.</figcaption></figure>
+        <figure class="map-card reveal"><img src="assets/cartina-mesopotamia.webp" alt="Cartina della Mesopotamia tra Tigri ed Eufrate"><figcaption>CONTESTO · Una pianura fertile, ma aperta a commerci, migrazioni e invasioni.</figcaption></figure>
         <article class="context-card reveal"><div class="tag">CONTESTO</div><h3>Il territorio pone un problema</h3><ul><li>Le acque rendono fertile il suolo, ma le piene possono essere irregolari.</li><li>Servono <strong>canali, argini e manutenzione</strong>: lavoro coordinato.</li><li>La pianura è relativamente aperta: circolano merci, eserciti e popolazioni.</li><li>Il territorio non decide la storia: offre possibilità e pone problemi a cui gli esseri umani rispondono.</li></ul></article>
       </div>
-
       <article class="recompose reveal"><div class="tag">RICOMPONI</div><h3>Dal fiume allo Stato</h3><p>Controllare l’acqua favorisce cooperazione e comando. Il surplus viene raccolto nei magazzini; tempio e palazzo diventano centri economici e politici. Più la società cresce, più ha bisogno di registrare tributi, scambi e decisioni.</p><div class="flow"><span>Fiumi</span><b>→</b><span>Irrigazione</span><b>→</b><span>Surplus</span><b>→</b><span>Amministrazione</span><b>→</b><span>Potere</span><b>→</b><span>Scrittura</span></div></article>
-
       <div class="two-col">
         <article class="fact-card reveal"><h3>Tre nomi da ricordare, non trenta</h3><dl><dt>Sumeri</dt><dd>Prime grandi città-Stato della Mesopotamia meridionale.</dd><dt>Accadi</dt><dd>Uno dei primi grandi imperi territoriali della regione.</dd><dt>Babilonesi</dt><dd>Con Hammurabi Babilonia diventa un grande centro politico.</dd></dl></article>
         <article class="fact-card reveal"><h3>Scrivere per amministrare</h3><p>Verso la fine del IV millennio a.C. compaiono sistemi che evolvono nella <strong>scrittura cuneiforme</strong>. Le prime registrazioni servono spesso a contare merci, animali, razioni e tributi.</p><blockquote>Una società complessa ha bisogno di una memoria esterna.</blockquote></article>
       </div>
-
       <div class="timeline reveal" aria-label="Cronologia essenziale della Mesopotamia">
-        <h3>Cronologia essenziale</h3>
-        <div class="timeline-track">
-          <button class="time-node active" data-time="meso1"><b>ca. 3500 a.C.</b><span>Uruk</span></button>
-          <button class="time-node" data-time="meso2"><b>ca. 3200 a.C.</b><span>scrittura</span></button>
-          <button class="time-node" data-time="meso3"><b>ca. 2350 a.C.</b><span>Accadi</span></button>
-          <button class="time-node" data-time="meso4"><b>1792–1750 a.C.</b><span>Hammurabi</span></button>
-          <button class="time-node" data-time="meso5"><b>IX–VII sec. a.C.</b><span>Assiri</span></button>
-          <button class="time-node" data-time="meso6"><b>539 a.C.</b><span>Persiani</span></button>
-        </div>
-        <p id="mesoTimelineText" class="timeline-text">Crescita di grandi città nella Mesopotamia meridionale: fase di Uruk.</p>
+        <h3>Cronologia essenziale</h3><div class="timeline-track">
+          <button class="time-node active" data-time="meso1"><b>ca. 3500 a.C.</b><span>Uruk</span></button><button class="time-node" data-time="meso2"><b>ca. 3200 a.C.</b><span>scrittura</span></button><button class="time-node" data-time="meso3"><b>ca. 2350 a.C.</b><span>Accadi</span></button><button class="time-node" data-time="meso4"><b>1792–1750 a.C.</b><span>Hammurabi</span></button><button class="time-node" data-time="meso5"><b>IX–VII sec. a.C.</b><span>Assiri</span></button><button class="time-node" data-time="meso6"><b>539 a.C.</b><span>Persiani</span></button>
+        </div><p id="mesoTimelineText" class="timeline-text">Crescita di grandi città nella Mesopotamia meridionale: fase di Uruk.</p>
       </div>
-
       <section class="concept-map reveal" aria-labelledby="mappa-meso-title">
         <div class="concept-map-head"><p class="eyebrow">Schema-mappa</p><h3 id="mappa-meso-title">Mesopotamia in un colpo d’occhio</h3></div>
         <div class="concept-row time"><div class="concept-label">TEMPO</div><div class="concept-content"><strong>ca. 3500–539 a.C.</strong><span>Prime città-stato sumeriche</span><span>Accadi · Babilonesi · Assiri</span></div></div>
@@ -97,7 +112,6 @@
         <div class="concept-row economy"><div class="concept-label">ECONOMIA</div><div class="concept-content"><strong>Agricoltura irrigua</strong><span>Grano · orzo · datteri · allevamento</span><span>Artigianato · commercio · tributi</span></div></div>
         <div class="concept-special"><strong>PARTICOLARITÀ</strong><span>𒀭 scrittura cuneiforme</span><span>▰ ziggurat</span><span>⚖ Codice di Hammurabi</span><span>◉ ruota e calcolo del tempo</span><span>⌂ nascita della città</span></div>
       </section>
-
       <div class="irreducible reveal"><h3>Saperi irrinunciabili</h3><ul><li>Mesopotamia significa «terra fra i fiumi»: Tigri ed Eufrate.</li><li>L’irrigazione richiede lavoro organizzato e favorisce società complesse.</li><li>Le città hanno funzioni economiche, religiose, politiche e militari.</li><li>La scrittura serve anche ad amministrare una società complessa.</li><li>Nel tempo si succedono città-Stato, regni e imperi.</li></ul><a class="button primary" href="#test-mesopotamia">Vai al test Mesopotamia</a></div>
     </section>
 
@@ -107,32 +121,20 @@
         <article class="story-card reveal"><div class="tag">TESTO</div><h3>Una società lungo il Nilo</h3><p>Il faraone è al vertice del potere; funzionari e scribi amministrano le risorse; i contadini lavorano i campi; sacerdoti e templi hanno un ruolo religioso ed economico.</p><p>Scrittura geroglifica, opere idrauliche e monumenti mostrano una capacità di organizzazione che coinvolge un territorio vasto.</p></article>
         <article class="story-card reveal"><div class="tag">ANTEFATTO</div><h3>Prima del faraone</h3><p>Esistono comunità agricole e due grandi aree politiche: <strong>Alto Egitto</strong>, a sud e a monte del fiume, e <strong>Basso Egitto</strong>, a nord, nel delta.</p><p>Intorno al <strong>3100 a.C.</strong> vengono unificate. La tradizione collega questa svolta al sovrano Narmer.</p></article>
       </div>
-
       <div class="visual-grid reverse">
         <article class="context-card reveal"><div class="tag">CONTESTO</div><h3>Il Nilo unisce</h3><ul><li>Le piene annuali depositano limo fertile.</li><li>Il fiume è una via di comunicazione tra nord e sud.</li><li>I deserti laterali costituiscono ostacoli naturali a molte invasioni.</li><li>La valle lunga e stretta favorisce l’integrazione territoriale.</li></ul><div class="note"><strong>Orientarsi:</strong> Alto Egitto = sud, perché è a monte. Basso Egitto = nord, verso la foce.</div></article>
-        <figure class="map-card reveal"><img src="assets/map-egitto.svg" alt="Cartina schematica dell'Egitto antico lungo il Nilo"><figcaption>CONTESTO · Una lunga fascia fertile dentro un ambiente prevalentemente desertico.</figcaption></figure>
+        <figure class="map-card reveal"><img src="assets/cartina-egitto.webp" alt="Cartina dell'Egitto antico lungo il Nilo"><figcaption>CONTESTO · Una lunga fascia fertile dentro un ambiente prevalentemente desertico.</figcaption></figure>
       </div>
-
       <article class="recompose reveal"><div class="tag">RICOMPONI</div><h3>Un fiume, un regno, un faraone</h3><p>Le eccedenze agricole vengono tassate e accumulate; funzionari e scribi controllano lavori, magazzini e tributi. Il faraone concentra potere politico e religioso e garantisce simbolicamente l’ordine del regno.</p><div class="flow"><span>Nilo</span><b>→</b><span>Agricoltura</span><b>→</b><span>Surplus</span><b>→</b><span>Tasse</span><b>→</b><span>Amministrazione</span><b>→</b><span>Faraone</span><b>→</b><span>Stato unitario</span></div></article>
-
       <div class="two-col">
         <article class="fact-card reveal"><h3>Religione, morte, monumenti</h3><p>Gli Egizi immaginano la morte come un passaggio verso un’altra esistenza. Da qui derivano mummificazione e tombe monumentali.</p><p>Le piramidi sono anche un segno politico: mostrano la capacità dello Stato di mobilitare risorse, tecnici e lavoratori.</p></article>
         <article class="fact-card reveal"><h3>Scrivere per governare</h3><p>La scrittura <strong>geroglifica</strong> viene usata in ambito religioso, monumentale e amministrativo. Gli scribi trasformano raccolti, tasse, ordini e proprietà in informazioni controllabili.</p><blockquote>Governare un territorio significa anche raccogliere e conservare informazioni.</blockquote></article>
       </div>
-
       <div class="timeline reveal" aria-label="Cronologia essenziale dell'Egitto">
-        <h3>Cronologia essenziale</h3>
-        <div class="timeline-track">
-          <button class="time-node active" data-time="egy1"><b>ca. 3100 a.C.</b><span>unificazione</span></button>
-          <button class="time-node" data-time="egy2"><b>2700–2200 a.C.</b><span>Antico Regno</span></button>
-          <button class="time-node" data-time="egy3"><b>2050–1700 a.C.</b><span>Medio Regno</span></button>
-          <button class="time-node" data-time="egy4"><b>1550–1070 a.C.</b><span>Nuovo Regno</span></button>
-          <button class="time-node" data-time="egy5"><b>332 a.C.</b><span>Alessandro</span></button>
-          <button class="time-node" data-time="egy6"><b>30 a.C.</b><span>Roma</span></button>
-        </div>
-        <p id="egyTimelineText" class="timeline-text">Unificazione dell’Alto e del Basso Egitto; inizio dell’età dinastica.</p>
+        <h3>Cronologia essenziale</h3><div class="timeline-track">
+          <button class="time-node active" data-time="egy1"><b>ca. 3100 a.C.</b><span>unificazione</span></button><button class="time-node" data-time="egy2"><b>2700–2200 a.C.</b><span>Antico Regno</span></button><button class="time-node" data-time="egy3"><b>2050–1700 a.C.</b><span>Medio Regno</span></button><button class="time-node" data-time="egy4"><b>1550–1070 a.C.</b><span>Nuovo Regno</span></button><button class="time-node" data-time="egy5"><b>332 a.C.</b><span>Alessandro</span></button><button class="time-node" data-time="egy6"><b>30 a.C.</b><span>Roma</span></button>
+        </div><p id="egyTimelineText" class="timeline-text">Unificazione dell’Alto e del Basso Egitto; inizio dell’età dinastica.</p>
       </div>
-
       <section class="concept-map reveal" aria-labelledby="mappa-egitto-title">
         <div class="concept-map-head"><p class="eyebrow">Schema-mappa</p><h3 id="mappa-egitto-title">Egitto in un colpo d’occhio</h3></div>
         <div class="concept-row time"><div class="concept-label">TEMPO</div><div class="concept-content"><strong>ca. 3100–30 a.C.</strong><span>Antico · Medio · Nuovo Regno</span><span>Unificazione collegata a Narmer</span></div></div>
@@ -141,7 +143,6 @@
         <div class="concept-row economy"><div class="concept-label">ECONOMIA</div><div class="concept-content"><strong>Agricoltura legata alle piene del Nilo</strong><span>Grano · orzo · lino · allevamento</span><span>Artigianato · commercio · tributi</span></div></div>
         <div class="concept-special"><strong>PARTICOLARITÀ</strong><span>𓂀 scrittura geroglifica</span><span>△ piramidi</span><span>▣ mummificazione</span><span>☥ culto dei morti</span><span>☀ calendario solare</span></div>
       </section>
-
       <div class="irreducible reveal"><h3>Saperi irrinunciabili</h3><ul><li>L’Egitto si sviluppa lungo il Nilo, risorsa agricola e via di comunicazione.</li><li>Alto Egitto = sud e monte; Basso Egitto = nord e delta.</li><li>Intorno al 3100 a.C. l’Egitto viene unificato.</li><li>Il faraone concentra potere politico e religioso.</li><li>Scribi, tasse e amministrazione rendono possibile il controllo del territorio.</li></ul><a class="button primary" href="#test-egitto">Vai al test Egitto</a></div>
     </section>
 
@@ -149,12 +150,7 @@
       <div class="section-heading reveal"><p class="eyebrow">Ricompone le due lezioni</p><h2>Stesso problema, risposte diverse</h2><p>Non basta dire che sono “civiltà fluviali”. Il punto storico è capire che cosa costruiscono a partire da condizioni simili.</p></div>
       <div class="compare-wrap reveal" role="region" aria-label="Confronto Mesopotamia Egitto" tabindex="0">
         <table><thead><tr><th>Domanda</th><th>Mesopotamia</th><th>Egitto</th></tr></thead><tbody>
-          <tr><th>Fiumi</th><td>Tigri ed Eufrate</td><td>Nilo</td></tr>
-          <tr><th>Territorio</th><td>Pianura aperta, più esposta a spostamenti e conflitti</td><td>Valle stretta, in parte protetta dai deserti</td></tr>
-          <tr><th>Politica</th><td>Molte città-Stato; poi regni e imperi</td><td>Precoce tendenza a uno Stato unitario</td></tr>
-          <tr><th>Potere</th><td>Templi, re, palazzi; forme diverse nel tempo</td><td>Faraone al vertice politico e religioso</td></tr>
-          <tr><th>Scrittura</th><td>Cuneiforme</td><td>Geroglifica e altre forme</td></tr>
-          <tr><th>Elemento comune</th><td>Surplus + amministrazione + lavoro specializzato</td><td>Surplus + amministrazione + lavoro specializzato</td></tr>
+          <tr><th>Fiumi</th><td>Tigri ed Eufrate</td><td>Nilo</td></tr><tr><th>Territorio</th><td>Pianura aperta, più esposta a spostamenti e conflitti</td><td>Valle stretta, in parte protetta dai deserti</td></tr><tr><th>Politica</th><td>Molte città-Stato; poi regni e imperi</td><td>Precoce tendenza a uno Stato unitario</td></tr><tr><th>Potere</th><td>Templi, re, palazzi; forme diverse nel tempo</td><td>Faraone al vertice politico e religioso</td></tr><tr><th>Scrittura</th><td>Cuneiforme</td><td>Geroglifica e altre forme</td></tr><tr><th>Elemento comune</th><td>Surplus + amministrazione + lavoro specializzato</td><td>Surplus + amministrazione + lavoro specializzato</td></tr>
         </tbody></table>
       </div>
       <div class="model reveal"><span>AMBIENTE</span><b>→</b><span>RISORSE</span><b>→</b><span>SURPLUS</span><b>→</b><span>SPECIALIZZAZIONE</span><b>→</b><span>POTERE</span><b>→</b><span>REGOLE</span><b>→</b><span>MEMORIA</span></div>
@@ -163,17 +159,39 @@
 
     <section id="verifiche" class="section quiz-section">
       <div class="section-heading reveal"><p class="eyebrow">Verifica e recupero</p><h2>Due test, 10 punti ciascuno</h2><p>Ogni domanda vale 1 punto. A ogni nuovo tentativo cambiano l’ordine delle domande e delle risposte. Alla fine ricevi voto, report e una mini-lezione di recupero per ogni errore.</p></div>
-      <div class="quiz-switcher reveal" role="tablist" aria-label="Scegli il test">
-        <button class="quiz-tab active" role="tab" aria-selected="true" aria-controls="test-mesopotamia" data-quiz="mesopotamia">Test Mesopotamia</button>
-        <button class="quiz-tab" role="tab" aria-selected="false" aria-controls="test-egitto" data-quiz="egitto">Test Egitto</button>
-      </div>
+      <div class="quiz-switcher reveal" role="tablist" aria-label="Scegli il test"><button class="quiz-tab active" role="tab" aria-selected="true" aria-controls="test-mesopotamia" data-quiz="mesopotamia">Test Mesopotamia</button><button class="quiz-tab" role="tab" aria-selected="false" aria-controls="test-egitto" data-quiz="egitto">Test Egitto</button></div>
       <section id="test-mesopotamia" class="quiz-panel active" data-panel="mesopotamia" aria-label="Test Mesopotamia"><div class="quiz-mount" id="quiz-mesopotamia"></div></section>
       <section id="test-egitto" class="quiz-panel" data-panel="egitto" aria-label="Test Egitto"><div class="quiz-mount" id="quiz-egitto"></div></section>
     </section>
+
+    <section id="oggi" class="section">
+      <div class="section-heading reveal"><p class="eyebrow">Dall’antichità alla geografia di oggi</p><h2>Dove si trovano oggi?</h2><p>Usa la cartina come una porta: clicca sull’area della Mesopotamia o dell’Egitto per riaprire la relativa cartina di approfondimento.</p></div>
+      <div class="today-map reveal">
+        <img src="assets/cartina-oggi-civ-fluviali.webp" alt="Cartina attuale di Europa, Nord Africa e Vicino Oriente con Mesopotamia ed Egitto evidenziati">
+        <a class="hotspot mesopotamia-link" href="assets/cartina-mesopotamia.webp" data-map-title="Mesopotamia" data-map-src="assets/cartina-mesopotamia.webp">Mesopotamia</a>
+        <a class="hotspot egypt-link" href="assets/cartina-egitto.webp" data-map-title="Egitto" data-map-src="assets/cartina-egitto.webp">Egitto</a>
+      </div>
+      <p class="map-hint">Clicca su una delle due aree evidenziate per aprire la cartina.</p>
+    </section>
   </main>
 
-  <footer><strong>gbprof · Storia</strong><span>Le civiltà fluviali · Mesopotamia ed Egitto</span><a href="#home">Torna su ↑</a></footer>
+  <div id="mapLightbox" class="map-lightbox" aria-hidden="true">
+    <figure><button class="map-close" type="button" aria-label="Chiudi la cartina">×</button><img id="mapLightboxImage" src="" alt=""></figure>
+  </div>
 
+  <footer><strong>gbprof · Storia</strong><span>Le civiltà fluviali · Mesopotamia ed Egitto</span><a href="#home">Torna su ↑</a></footer>
   <script src="app.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded',()=>{
+      const box=document.getElementById('mapLightbox');
+      const img=document.getElementById('mapLightboxImage');
+      const close=box.querySelector('.map-close');
+      document.querySelectorAll('[data-map-src]').forEach(link=>link.addEventListener('click',e=>{
+        e.preventDefault(); img.src=link.dataset.mapSrc; img.alt='Cartina di '+link.dataset.mapTitle; box.classList.add('open'); box.setAttribute('aria-hidden','false'); close.focus();
+      }));
+      const shut=()=>{box.classList.remove('open');box.setAttribute('aria-hidden','true');img.src='';};
+      close.addEventListener('click',shut); box.addEventListener('click',e=>{if(e.target===box)shut();}); document.addEventListener('keydown',e=>{if(e.key==='Escape'&&box.classList.contains('open'))shut();});
+    });
+  </script>
 </body>
 </html>
