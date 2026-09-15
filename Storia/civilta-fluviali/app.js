@@ -80,8 +80,6 @@ function safeWrite(key, value){
 function ensureDifferentSequence(items, previousSignature, getId){
   let shuffled=shuffleArray(items);
   let signature=shuffled.map(getId).join('|');
-  // Con 10 domande / 3 alternative è rarissimo ottenere lo stesso ordine,
-  // ma lo impediamo esplicitamente per garantire un test diverso a ogni ricarica.
   if(items.length>1 && signature===previousSignature){
     shuffled=[...shuffled.slice(1),shuffled[0]];
     signature=shuffled.map(getId).join('|');
@@ -110,10 +108,7 @@ class Quiz {
     const previousOrder=safeRead(orderKey,'') || '';
     const shuffledQuestions=ensureDifferentSequence(source,previousOrder,q=>q.id);
     safeWrite(orderKey,shuffledQuestions.signature);
-    this.data={
-      ...quizData[this.key],
-      questions:shuffledQuestions.items.map(q=>shuffleQuestion(q,this.key))
-    };
+    this.data={...quizData[this.key],questions:shuffledQuestions.items.map(q=>shuffleQuestion(q,this.key))};
     this.index=0; this.answers=Array(this.data.questions.length).fill(null); this.finished=false;
   }
   render(){
@@ -172,5 +167,124 @@ let deferredPrompt; const installBtn=document.getElementById('installBtn');
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;installBtn.hidden=false;});
 installBtn.addEventListener('click',async()=>{if(!deferredPrompt)return;deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;installBtn.hidden=true;});
 window.addEventListener('appinstalled',()=>{installBtn.hidden=true;deferredPrompt=null;});
+
+/* -------------------------------------------------------
+   CARTINE DIDATTICHE 2026
+   ------------------------------------------------------- */
+(function setupMaps(){
+  const mesoImg=document.querySelector('#mesopotamia .map-card img');
+  const egyptImg=document.querySelector('#egitto .map-card img');
+  if(mesoImg){
+    mesoImg.src='assets/cartina-mesopotamia.webp';
+    mesoImg.alt='Cartina della Mesopotamia tra Tigri ed Eufrate';
+    mesoImg.loading='lazy';
+  }
+  if(egyptImg){
+    egyptImg.src='assets/cartina-egitto.webp';
+    egyptImg.alt="Cartina dell'antico Egitto lungo il Nilo";
+    egyptImg.loading='lazy';
+  }
+
+  const style=document.createElement('style');
+  style.textContent=`
+    .map-overview-section{padding-top:clamp(3rem,7vw,6rem)}
+    .map-card-wide{max-width:980px;margin:2rem auto 0}
+    .map-card-wide img,.interactive-map>img,.map-dialog img{display:block;width:100%;height:auto}
+    .interactive-map{position:relative;max-width:1120px;margin:2rem auto 0;border-radius:24px;overflow:hidden;box-shadow:0 24px 70px rgba(7,36,58,.18);background:#fff}
+    .map-hotspot{position:absolute;border:3px solid rgba(255,255,255,.96);background:rgba(208,38,38,.12);box-shadow:0 0 0 4px rgba(208,38,38,.55),0 10px 28px rgba(0,0,0,.18);border-radius:50%;cursor:pointer;transition:transform .2s ease,background .2s ease;z-index:2}
+    .map-hotspot:hover,.map-hotspot:focus-visible{transform:scale(1.06);background:rgba(255,255,255,.2);outline:4px solid #fff;outline-offset:3px}
+    .map-hotspot span{position:absolute;left:50%;top:100%;transform:translate(-50%,8px);background:#102b3c;color:#fff;padding:.35rem .65rem;border-radius:999px;font-weight:800;white-space:nowrap;font-size:.8rem;box-shadow:0 5px 16px rgba(0,0,0,.18)}
+    .hotspot-egitto{left:50.2%;top:69.1%;width:11.6%;height:20.6%}
+    .hotspot-mesopotamia{left:68.5%;top:53.8%;width:13.8%;height:17.8%}
+    .map-hint{text-align:center;margin:1rem auto 0;max-width:760px;opacity:.78}
+    .map-dialog{width:min(94vw,1100px);max-height:92vh;border:0;border-radius:24px;padding:0;background:#fff;box-shadow:0 30px 100px rgba(0,0,0,.35);overflow:auto;color:#132b3a}
+    .map-dialog::backdrop{background:rgba(6,22,33,.78);backdrop-filter:blur(3px)}
+    .map-dialog-head{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start;padding:1.1rem 1.25rem .7rem}
+    .map-dialog-head h2{margin:.1rem 0 0;font-size:clamp(1.5rem,4vw,2.5rem)}
+    .map-dialog-head .eyebrow{margin:0}
+    .map-dialog-close{border:0;border-radius:50%;width:44px;height:44px;font-size:2rem;line-height:1;background:#102b3c;color:#fff;cursor:pointer;flex:0 0 auto}
+    .map-dialog img{max-height:72vh;object-fit:contain;background:#f2ead9}
+    .map-dialog-caption{padding:1rem 1.25rem 1.4rem;margin:0;line-height:1.6}
+    @media (max-width:700px){.map-hotspot span{display:none}.hotspot-egitto{left:49.5%;width:13%}.hotspot-mesopotamia{left:67.8%;width:15%}}
+  `;
+  document.head.appendChild(style);
+
+  const metodo=document.getElementById('metodo');
+  if(metodo && !document.getElementById('quadro-geografico')){
+    const overview=document.createElement('section');
+    overview.id='quadro-geografico';
+    overview.className='section map-overview-section';
+    overview.innerHTML=`
+      <div class="section-heading reveal visible">
+        <p class="eyebrow">Quadro geografico</p>
+        <h2>Dove nascono le civiltà fluviali?</h2>
+        <p>Prima di entrare nelle due civiltà osserviamo il territorio: la valle del Nilo, la costa del Levante e la Mesopotamia formano un grande spazio collegato, nel quale l’acqua rende possibile un’agricoltura capace di sostenere società sempre più complesse.</p>
+      </div>
+      <figure class="map-card map-card-wide reveal visible">
+        <img src="assets/cartina-civilta-fluviali.webp" loading="lazy" alt="Cartina delle civiltà fluviali tra Egitto, Levante e Mesopotamia">
+        <figcaption>QUADRO GEOGRAFICO · Nilo, Tigri ed Eufrate: tre fiumi decisivi per comprendere la nascita delle prime grandi civiltà organizzate.</figcaption>
+      </figure>`;
+    metodo.insertAdjacentElement('afterend',overview);
+  }
+
+  const quizSection=document.getElementById('verifiche');
+  if(quizSection && !document.getElementById('carta-oggi')){
+    const today=document.createElement('section');
+    today.id='carta-oggi';
+    today.className='section today-map-section';
+    today.innerHTML=`
+      <div class="section-heading reveal visible">
+        <p class="eyebrow">Dall'antico al presente</p>
+        <h2>Dove si trovano oggi?</h2>
+        <p>La geografia antica diventa più chiara se la riportiamo sulla carta politica attuale. Tocca o clicca una delle due aree evidenziate per aprire la cartina di approfondimento.</p>
+      </div>
+      <div class="interactive-map reveal visible" aria-label="Cartina interattiva delle aree dell'Antico Egitto e della Mesopotamia nel mondo attuale">
+        <img src="assets/cartina-oggi-civ-fluviali.webp" loading="lazy" alt="Carta politica attuale con Antico Egitto e Mesopotamia evidenziati">
+        <button class="map-hotspot hotspot-egitto" type="button" data-map="egitto" aria-label="Apri la cartina dell'Antico Egitto"><span>Egitto</span></button>
+        <button class="map-hotspot hotspot-mesopotamia" type="button" data-map="mesopotamia" aria-label="Apri la cartina della Mesopotamia"><span>Mesopotamia</span></button>
+      </div>
+      <p class="map-hint">Clicca dentro il cerchio dell’Egitto o della Mesopotamia.</p>`;
+    quizSection.insertAdjacentElement('afterend',today);
+  }
+
+  let dialog=document.getElementById('mapDialog');
+  if(!dialog){
+    dialog=document.createElement('dialog');
+    dialog.id='mapDialog';
+    dialog.className='map-dialog';
+    dialog.innerHTML=`
+      <div class="map-dialog-head">
+        <div><p class="eyebrow">Carta di approfondimento</p><h2 id="mapDialogTitle">Cartina</h2></div>
+        <button id="mapDialogClose" class="map-dialog-close" type="button" aria-label="Chiudi la cartina">×</button>
+      </div>
+      <img id="mapDialogImage" src="" alt="">
+      <p id="mapDialogCaption" class="map-dialog-caption"></p>`;
+    document.body.appendChild(dialog);
+  }
+
+  const mapData={
+    egitto:{title:'Antico Egitto',src:'assets/cartina-egitto.webp',alt:"Cartina dell'antico Egitto lungo il Nilo",caption:'Il Nilo struttura l’intero territorio: delta a nord, valle fertile verso sud, deserti ai lati. La carta permette di seguire città, templi e grandi centri lungo il fiume.'},
+    mesopotamia:{title:'Mesopotamia',src:'assets/cartina-mesopotamia.webp',alt:'Cartina della Mesopotamia tra Tigri ed Eufrate',caption:'La Mesopotamia si sviluppa nella pianura compresa fra Tigri ed Eufrate, soprattutto nell’attuale Iraq. La carta rende immediatamente visibile il rapporto tra fiumi e territorio.'}
+  };
+  const image=dialog.querySelector('#mapDialogImage');
+  const title=dialog.querySelector('#mapDialogTitle');
+  const caption=dialog.querySelector('#mapDialogCaption');
+  document.querySelectorAll('.map-hotspot').forEach(btn=>btn.addEventListener('click',()=>{
+    const item=mapData[btn.dataset.map];
+    if(!item)return;
+    title.textContent=item.title;
+    image.src=item.src;
+    image.alt=item.alt;
+    caption.textContent=item.caption;
+    if(typeof dialog.showModal==='function') dialog.showModal();
+    else dialog.setAttribute('open','');
+  }));
+  dialog.querySelector('#mapDialogClose')?.addEventListener('click',()=>{
+    if(typeof dialog.close==='function') dialog.close(); else dialog.removeAttribute('open');
+  });
+  dialog.addEventListener('click',event=>{
+    if(event.target===dialog && typeof dialog.close==='function') dialog.close();
+  });
+})();
 
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}
