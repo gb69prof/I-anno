@@ -1,0 +1,235 @@
+{
+  "lesson": "atridi",
+  "questions": [
+    {
+      "id": "atridi-01",
+      "question": "Perché conoscere la famiglia di Agamennone è necessario?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "La guerra prosegue una storia precedente di vendette."
+        },
+        {
+          "id": "d1",
+          "text": "La guerra interrompe ogni legame con le colpe familiari."
+        },
+        {
+          "id": "d2",
+          "text": "La guerra crea per la prima volta la stirpe degli Atridi."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La guerra prosegue una storia precedente di vendette.",
+      "recovery": "Agamennone porta con sé una storia familiare già segnata dalla violenza. Il conflitto troiano si inserisce in questa continuità. Conoscere l’antefatto permette quindi di comprendere anche ciò che accadrà dopo il suo ritorno.",
+      "reference": "#p2",
+      "sourceQuote": "Agamennone non entra nella guerra di Troia come un personaggio isolato. Dietro di lui c’è una famiglia segnata da violenze, vendette e colpe che si trasmettono da una generazione all’altra."
+    },
+    {
+      "id": "atridi-02",
+      "question": "Quale limite oltrepassa Tantalo?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Sfida il fratello per ottenere il regno di Micene."
+        },
+        {
+          "id": "d2",
+          "text": "Sacrifica la figlia per far partire la flotta achea."
+        },
+        {
+          "id": "correct",
+          "text": "Offre il figlio agli dèi per metterli alla prova."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Offre il figlio agli dèi per metterli alla prova.",
+      "recovery": "Tantalo vuole verificare il sapere degli dèi con un banchetto mostruoso. Il gesto coinvolge suo figlio Pelope. Il sacrificio di Ifigenia appartiene invece a una generazione successiva e alla vicenda di Agamennone.",
+      "reference": "#p4",
+      "sourceQuote": "All’origine della stirpe c’è Tantalo, un re ricchissimo e favorito dagli dèi. Ma Tantalo oltrepassò il limite che separava gli uomini dagli dèi. Le versioni del mito sono diverse, ma una delle più famose racconta che volle mettere alla prova gli dèi offrendo loro, durante un banchetto, la carne del proprio figlio Pelope."
+    },
+    {
+      "id": "atridi-03",
+      "question": "Perché Mirtilo maledice Pelope e i suoi discendenti?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Pelope lo accusa di aver ingannato gli dèi."
+        },
+        {
+          "id": "correct",
+          "text": "Pelope lo uccide dopo averne ottenuto l’aiuto."
+        },
+        {
+          "id": "d1",
+          "text": "Pelope lo esclude prima della gara contro Enomao."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Pelope lo uccide dopo averne ottenuto l’aiuto.",
+      "recovery": "Pelope si serve del tradimento di Mirtilo per vincere la gara. Dopo aver promesso una ricompensa, lo uccide. La maledizione nasce da questo nuovo tradimento e si estende ai discendenti di Pelope.",
+      "reference": "#p6",
+      "sourceQuote": "Anche Pelope, però, entrò in una storia di inganni e violenza. Per sposare Ippodamia doveva vincere una gara di carri contro suo padre Enomao. Pelope riuscì a vincere grazie al tradimento dell’auriga Mirtilo, al quale aveva promesso una ricompensa. Dopo la vittoria, però, Pelope uccise Mirtilo."
+    },
+    {
+      "id": "atridi-04",
+      "question": "Che cosa alimenta lo scontro tra Atreo e Tieste?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "La lotta per il potere e il tradimento familiare."
+        },
+        {
+          "id": "d1",
+          "text": "La scelta di Elena e la contesa per la sua bellezza."
+        },
+        {
+          "id": "d2",
+          "text": "La partenza di Achille e il comando dei Mirmidoni."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La lotta per il potere e il tradimento familiare.",
+      "recovery": "Atreo e Tieste sono fratelli in lotta per il regno. Tieste seduce la moglie di Atreo e tenta di impadronirsi del potere. La vendetta di Atreo esaspera la violenza invece di risolvere il conflitto.",
+      "reference": "#p9",
+      "sourceQuote": "I due fratelli entrarono in lotta per il potere. Tieste sedusse la moglie di Atreo e cercò di impadronirsi del regno. Atreo preparò allora una vendetta terribile: uccise i figli di Tieste e li fece servire al padre durante un banchetto. Solo dopo che Tieste ebbe mangiato, Atreo gli rivelò ciò che aveva fatto."
+    },
+    {
+      "id": "atridi-05",
+      "question": "Quale parentela è corretta?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Agamennone e Menelao sono figli di Tieste."
+        },
+        {
+          "id": "d2",
+          "text": "Agamennone e Menelao sono figli di Tantalo."
+        },
+        {
+          "id": "correct",
+          "text": "Agamennone e Menelao sono figli di Atreo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Agamennone e Menelao sono figli di Atreo.",
+      "recovery": "Atreo è il padre di Agamennone e Menelao. Da lui deriva il nome della stirpe, gli Atridi. Tantalo appartiene invece alle generazioni precedenti: distinguere le generazioni aiuta a seguire la trasmissione dei conflitti.",
+      "reference": "#p11",
+      "sourceQuote": "Atreo ebbe due figli: Agamennone e Menelao."
+    },
+    {
+      "id": "atridi-06",
+      "question": "Che cosa impedisce alla flotta di salpare da Aulide?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "La ribellione dei Mirmidoni, collegata all’ira di Achille."
+        },
+        {
+          "id": "correct",
+          "text": "La mancanza di vento, collegata all’ira di Artemide."
+        },
+        {
+          "id": "d1",
+          "text": "La sconfitta degli Achei, collegata all’ira di Apollo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La mancanza di vento, collegata all’ira di Artemide.",
+      "recovery": "Ad Aulide le navi non possono partire perché non soffia vento. Calcante interpreta il blocco come effetto dell’ira di Artemide. È in questo contesto che viene richiesto il sacrificio di Ifigenia.",
+      "reference": "#p16",
+      "sourceQuote": "Secondo il mito, la flotta achea rimase bloccata ad Aulide perché non c’era vento. L’indovino Calcante spiegò che la dea Artemide era adirata con Agamennone e che, per ottenere venti favorevoli, il re avrebbe dovuto sacrificare sua figlia Ifigenia."
+    },
+    {
+      "id": "atridi-07",
+      "question": "Quale elemento rimane costante nelle versioni su Ifigenia?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "La scelta di Agamennone ferisce il legame con Clitennestra."
+        },
+        {
+          "id": "d1",
+          "text": "La scelta di Artemide porta sempre alla morte della ragazza."
+        },
+        {
+          "id": "d2",
+          "text": "La scelta di Clitennestra impedisce sempre la partenza achea."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La scelta di Agamennone ferisce il legame con Clitennestra.",
+      "recovery": "Le versioni cambiano l’esito del sacrificio: Ifigenia muore oppure viene salvata. Rimane però la decisione del padre di sacrificarla. È questa decisione a distruggere il rapporto con Clitennestra e a lasciare odio nella casa.",
+      "reference": "#p18",
+      "sourceQuote": "In ogni caso, la decisione di Agamennone distrugge il rapporto con sua moglie Clitennestra."
+    },
+    {
+      "id": "atridi-08",
+      "question": "Come sono legate Elena e Clitennestra?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Sono rivali, sposate rispettivamente con Agamennone e Menelao."
+        },
+        {
+          "id": "d2",
+          "text": "Sono madre e figlia, legate rispettivamente a Sparta e Micene."
+        },
+        {
+          "id": "correct",
+          "text": "Sono sorelle, sposate rispettivamente con Menelao e Agamennone."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Sono sorelle, sposate rispettivamente con Menelao e Agamennone.",
+      "recovery": "La lezione presenta Elena e Clitennestra come sorelle. Elena sposa Menelao, mentre Clitennestra sposa Agamennone. Il legame unisce le due case, entrambe coinvolte nelle cause e nelle conseguenze della guerra di Troia.",
+      "reference": "#p13",
+      "sourceQuote": "Agamennone divenne re di Micene e sposò Clitennestra, sorella di Elena."
+    },
+    {
+      "id": "atridi-09",
+      "question": "Che cosa indica «stirpe»?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "La successione di re scelti per il valore in guerra."
+        },
+        {
+          "id": "correct",
+          "text": "La successione di generazioni di una stessa famiglia."
+        },
+        {
+          "id": "d1",
+          "text": "L’alleanza di guerrieri appartenenti a città diverse."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La successione di generazioni di una stessa famiglia.",
+      "recovery": "La stirpe è una continuità familiare attraverso più generazioni. Negli Atridi questa continuità porta anche il peso delle vendette. Non coincide con l’esercito acheo, che raccoglie guerrieri provenienti da regni diversi.",
+      "reference": "#p28",
+      "sourceQuote": "Atridi – La stirpe di Atreo, alla quale appartengono Agamennone e Menelao.\nStirpe – Successione di generazioni appartenenti alla stessa famiglia.\nTantalo – Antenato degli Atridi, protagonista di una grave trasgressione contro gli dèi.\nPelope – Figlio di Tantalo e padre di Atreo e Tieste.\nAtreo – Padre di Agamennone e Menelao, protagonista della feroce lotta contro il fratello Tieste.\nTieste – Fratello e rivale di Atreo, coinvolto nella catena di vendette della famiglia.\nIfigenia – Figlia di Agamennone e Clitennestra, destinata al sacrificio ad Aulide secondo la tradizione.\nAulide – Luogo in cui la flotta achea attende il vento prima della partenza per Troia.\nMaledizione – Nella tradizione degli Atridi, il peso delle colpe e delle vendette che sembra attraversare più generazioni."
+    },
+    {
+      "id": "atridi-10",
+      "question": "Quale idea riassume la catena delle vendette?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Ogni violenza prepara le condizioni di nuove violenze."
+        },
+        {
+          "id": "d1",
+          "text": "Ogni vendetta cancella le conseguenze delle colpe passate."
+        },
+        {
+          "id": "d2",
+          "text": "Ogni guerra separa i discendenti dalla storia degli antenati."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Ogni violenza prepara le condizioni di nuove violenze.",
+      "recovery": "Nella famiglia degli Atridi la vendetta non chiude il conflitto. Produce altre ferite, altro odio e nuove reazioni. Per questo la guerra di Troia continua una storia precedente e non ne rappresenta una conclusione definitiva.",
+      "reference": "#p20",
+      "sourceQuote": "La guerra non farà che continuare la storia di una famiglia nella quale ogni violenza genera una nuova violenza."
+    }
+  ]
+}

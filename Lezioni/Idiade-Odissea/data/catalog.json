@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "peleo-teti",
+    "section": "antefatto",
+    "title": "Il matrimonio di Peleo e Teti",
+    "image": "matrimonio-teti-peleo",
+    "description": "Una festa, una profezia e la nascita della discordia.",
+    "path": "antefatto/peleo-teti.html"
+  },
+  {
+    "slug": "gara-dee",
+    "section": "antefatto",
+    "title": "La gara tra le dee",
+    "image": "pomo-discordia",
+    "description": "Una scelta divina diventa un conflitto umano.",
+    "path": "antefatto/gara-dee.html"
+  },
+  {
+    "slug": "atridi",
+    "section": "antefatto",
+    "title": "La dinastia di Agamennone – Gli Atridi",
+    "image": "dinastia-agamennone",
+    "description": "Le colpe e le vendette che attraversano una famiglia.",
+    "path": "antefatto/atridi.html"
+  },
+  {
+    "slug": "scelta-achille",
+    "section": "antefatto",
+    "title": "La scelta di Achille",
+    "image": "scelta-achille",
+    "description": "Una vita lunga o una gloria che sopravvive alla morte?",
+    "path": "antefatto/scelta-achille.html"
+  },
+  {
+    "slug": "guerra-troia",
+    "section": "fatto",
+    "title": "La guerra di Troia",
+    "image": "guerra-troia",
+    "description": "L’intero ciclo: le cause, l’assedio e la caduta della città.",
+    "path": "fatto/guerra-troia.html"
+  },
+  {
+    "slug": "iliade",
+    "section": "fatto",
+    "title": "L’Iliade",
+    "image": "iliade",
+    "description": "L’ira di Achille, il dolore e il riconoscimento dell’altro.",
+    "path": "fatto/iliade.html"
+  },
+  {
+    "slug": "menelao-elena",
+    "section": "ritorni",
+    "title": "Il ritorno di Menelao ed Elena",
+    "image": "ritorni",
+    "description": "Il lungo viaggio e la possibilità di ricostruire la casa.",
+    "path": "ritorni/menelao-elena.html"
+  },
+  {
+    "slug": "agamennone",
+    "section": "ritorni",
+    "title": "Il ritorno di Agamennone",
+    "image": "ritorni",
+    "description": "Un vincitore che trova la sconfitta nella propria casa.",
+    "path": "ritorni/agamennone.html"
+  },
+  {
+    "slug": "diomede-arpi",
+    "section": "ritorni",
+    "title": "Il ritorno di Diomede e la fondazione di Arpi",
+    "image": "ritorni",
+    "description": "Dalla guerra di Troia alla memoria del territorio foggiano.",
+    "path": "ritorni/diomede-arpi.html"
+  },
+  {
+    "slug": "odissea",
+    "section": "ritorni",
+    "title": "L’Odissea",
+    "image": "odissea",
+    "description": "Tornare a Itaca, ritrovare la propria identità.",
+    "path": "ritorni/odissea.html"
+  },
+  {
+    "slug": "hybris-nemesi",
+    "section": "hybris-nemesi",
+    "title": "Hybris e Nemesi",
+    "image": "hybris-nemesi",
+    "description": "Il limite e la misura: una chiave per interrogare i miti.",
+    "path": "hybris-nemesi/hybris-nemesi.html"
+  }
+]

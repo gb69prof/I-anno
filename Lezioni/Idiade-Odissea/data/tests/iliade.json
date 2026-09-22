@@ -1,0 +1,327 @@
+{
+  "lesson": "iliade",
+  "questions": [
+    {
+      "id": "iliade-01",
+      "question": "Quale arco narrativo appartiene all’Iliade?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Un periodo dell’ultimo anno, concluso dai funerali di Ettore."
+        },
+        {
+          "id": "d1",
+          "text": "L’intera guerra decennale, conclusa dall’incendio di Troia."
+        },
+        {
+          "id": "d2",
+          "text": "Il viaggio dopo la guerra, concluso dal ritorno di Achille."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Un periodo dell’ultimo anno, concluso dai funerali di Ettore.",
+      "recovery": "L’Iliade comincia quando la guerra dura già da anni. Al suo termine Troia è ancora in piedi. Il centro è l’ira di Achille e il finale sono i funerali di Ettore, non la conquista della città.",
+      "reference": "#p1",
+      "sourceQuote": "L’Iliade è uno dei grandi poemi della tradizione greca e viene attribuita, secondo l’antica tradizione, a Omero. Il suo titolo deriva da Ilio, altro nome di Troia, ma sarebbe sbagliato pensare che racconti tutta la guerra troiana. Quando il poema comincia, infatti, la guerra dura già da quasi dieci anni; quando termina, Troia è ancora in piedi. L’Iliade concentra invece l’attenzione su un periodo relativamente breve dell’ultimo anno del conflitto e su un tema preciso: l’ira di Achille."
+    },
+    {
+      "id": "iliade-02",
+      "question": "Quale funzione avevano formule e genealogie nella tradizione orale?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Aiutavano gli scribi a tradurre racconti stranieri in prosa."
+        },
+        {
+          "id": "d2",
+          "text": "Aiutavano i guerrieri a stabilire le date esatte delle battaglie."
+        },
+        {
+          "id": "correct",
+          "text": "Aiutavano i cantori a conservare racconti complessi nella memoria."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Aiutavano i cantori a conservare racconti complessi nella memoria.",
+      "recovery": "Prima della forma scritta, i racconti epici venivano trasmessi dai cantori. Formule e genealogie favorivano la memoria di storie complesse. La ripetizione era quindi parte del modo di conservare e tramandare il poema.",
+      "reference": "#p2",
+      "sourceQuote": "Il poema nasce da una lunga tradizione orale. Per generazioni gli aedi, i cantori, avevano raccontato le imprese degli eroi accompagnandosi con la musica, ripetendo formule, episodi e genealogie che aiutavano a conservare nella memoria storie complesse. La forma dell’Iliade che oggi conosciamo, composta da ventiquattro libri e da circa quindicimila versi in esametri, viene generalmente collocata tra la fine dell’VIII e l’inizio del VII secolo a.C., anche se la figura storica di Omero e il modo in cui il poema si sia formato restano ancora oggetto di discussione."
+    },
+    {
+      "id": "iliade-03",
+      "question": "Da quale evento nasce la pestilenza nel campo acheo?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Ettore rifiuta di restituire il corpo del padre a Priamo."
+        },
+        {
+          "id": "correct",
+          "text": "Agamennone rifiuta di restituire Criseide al sacerdote Crise."
+        },
+        {
+          "id": "d1",
+          "text": "Achille rifiuta di consegnare le proprie armi a Patroclo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Agamennone rifiuta di restituire Criseide al sacerdote Crise.",
+      "recovery": "Crise chiede la restituzione della figlia e viene respinto da Agamennone. Si rivolge allora ad Apollo, che colpisce gli Achei. La pestilenza precede la sottrazione di Briseide e spiega perché Agamennone deve rinunciare a Criseide.",
+      "reference": "#p4",
+      "sourceQuote": "All’inizio dell’Iliade il campo acheo è colpito da una pestilenza. La causa non è naturale, ma religiosa. Agamennone ha ricevuto come schiava Criseide, figlia di Crise, sacerdote di Apollo. Il padre si presenta nel campo e chiede che la ragazza gli venga restituita, ma Agamennone lo tratta con disprezzo e rifiuta. Crise allora si rivolge ad Apollo, che colpisce l’esercito con la peste. I morti aumentano e l’accampamento cade nella paura. A quel punto l’indovino Calcante rivela che il dio potrà essere placato soltanto restituendo Criseide."
+    },
+    {
+      "id": "iliade-04",
+      "question": "Perché la sottrazione di Briseide ferisce Achille?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Mette in discussione il riconoscimento pubblico del suo valore."
+        },
+        {
+          "id": "d1",
+          "text": "Mette in discussione il suo diritto di ereditare il regno troiano."
+        },
+        {
+          "id": "d2",
+          "text": "Mette in discussione il suo rapporto di parentela con Agamennone."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Mette in discussione il riconoscimento pubblico del suo valore.",
+      "recovery": "Nella mentalità eroica il premio di guerra rende visibile il prestigio conquistato. Sottrarre Briseide significa quindi umiliare Achille davanti all’esercito. La sua reazione riguarda il valore riconosciuto alla persona, non soltanto il bottino.",
+      "reference": "#p5",
+      "sourceQuote": "Agamennone accetta, ma non vuole rimanere senza il proprio premio di guerra. Decide quindi di prendere Briseide, la schiava assegnata ad Achille. È qui che nasce il conflitto centrale del poema. Per comprendere la violenza della reazione di Achille bisogna entrare nella mentalità del mondo eroico. Briseide non rappresenta soltanto una persona affidata a lui come parte del bottino; rappresenta pubblicamente il riconoscimento del suo valore. Sottrargliela significa dichiarare davanti all’esercito che l’autorità di Agamennone conta più del prestigio conquistato da Achille sul campo."
+    },
+    {
+      "id": "iliade-05",
+      "question": "Quale conseguenza militare produce il ritiro di Achille?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Gli Achei conquistano subito le mura della città troiana."
+        },
+        {
+          "id": "d2",
+          "text": "I Troiani abbandonano Ettore e chiedono una pace definitiva."
+        },
+        {
+          "id": "correct",
+          "text": "I Troiani avanzano fino a minacciare le navi achee."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "I Troiani avanzano fino a minacciare le navi achee.",
+      "recovery": "L’assenza del guerriero più forte modifica l’equilibrio delle forze. Ettore guida i Troiani in avanti e gli Achei arretrano. Il poema mostra così che una ferita all’onore individuale produce conseguenze per l’intera comunità.",
+      "reference": "#p7",
+      "sourceQuote": "Senza Achille, l’esercito acheo comincia lentamente a perdere terreno. I Troiani, guidati da Ettore, trovano nuovo coraggio e riescono a spingere i nemici sempre più indietro, fino alle navi. Il poema alterna duelli, assemblee, interventi divini, momenti di gloria e improvvise sconfitte, ma dietro tutti questi episodi rimane una tensione costante: Achille non combatte."
+    },
+    {
+      "id": "iliade-06",
+      "question": "Che cosa rivela Ettore quando si toglie l’elmo davanti al figlio?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "La superiorità del guerriero rispetto agli affetti della famiglia."
+        },
+        {
+          "id": "correct",
+          "text": "L’umanità del padre dietro l’identità pubblica del guerriero."
+        },
+        {
+          "id": "d1",
+          "text": "La rinuncia definitiva del re alla difesa della propria città."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "L’umanità del padre dietro l’identità pubblica del guerriero.",
+      "recovery": "Astianatte teme il pennacchio dell’elmo, ed Ettore lo toglie. Il gesto fa emergere un padre dentro la figura dell’eroe. La scena ricorda che la guerra minaccia persone e legami, non soltanto eserciti contrapposti.",
+      "reference": "#p9",
+      "sourceQuote": "Poi prende in braccio Astianatte. Il bambino, vedendo il grande pennacchio dell’elmo, si spaventa. Ettore ride, si toglie l’elmo e lo posa a terra. Per qualche istante il guerriero scompare e rimane soltanto un padre che tiene il proprio figlio tra le braccia. È una scena importante perché interrompe la logica della battaglia e ricorda al lettore che dietro gli eroi, dietro le armature e dietro la gloria esistono persone destinate a soffrire."
+    },
+    {
+      "id": "iliade-07",
+      "question": "Quale limite Achille impone a Patroclo?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Respingere i nemici dalle navi e poi tornare indietro."
+        },
+        {
+          "id": "d1",
+          "text": "Inseguire Ettore nelle mura e poi conquistare il palazzo."
+        },
+        {
+          "id": "d2",
+          "text": "Restare presso le tende e poi attendere i doni del re."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Respingere i nemici dalle navi e poi tornare indietro.",
+      "recovery": "Achille autorizza un intervento circoscritto a difesa delle navi. Patroclo, trascinato dal successo, continua invece l’inseguimento. La differenza tra il compito e l’eccesso dell’azione spiega il passaggio dalla vittoria alla rovina.",
+      "reference": "#p11",
+      "sourceQuote": "A cambiare davvero la situazione è Patroclo, il compagno più caro di Achille. Vedendo gli Achei in pericolo, chiede il permesso di indossare la sua armatura e di guidare i Mirmidoni contro i Troiani. Achille acconsente, ma gli impone un limite: dovrà respingere i nemici dalle navi e poi tornare. Patroclo entra in battaglia e, vedendo l’armatura di Achille, i Troiani credono per un momento che il grande eroe sia tornato. L’effetto è immediato: arretrano, e Patroclo li insegue."
+    },
+    {
+      "id": "iliade-08",
+      "question": "Che cosa cambia nell’ira di Achille dopo la morte di Patroclo?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Il desiderio di doni prevale sulla ricerca della vendetta."
+        },
+        {
+          "id": "d2",
+          "text": "La paura della morte prevale sul legame con i compagni."
+        },
+        {
+          "id": "correct",
+          "text": "Il dolore per l’amico prevale sull’offesa di Agamennone."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Il dolore per l’amico prevale sull’offesa di Agamennone.",
+      "recovery": "La perdita di Patroclo sposta il centro delle passioni di Achille. L’eroe decide di vendicarlo anche sapendo di avvicinarsi alla morte. Non torna perché il pericolo sia scomparso, ma perché il dolore è diventato decisivo.",
+      "reference": "#p13",
+      "sourceQuote": "Quando Achille apprende la notizia, tutto cambia. L’ira contro Agamennone perde importanza di fronte al dolore per la morte dell’amico. Achille sa che, tornando a combattere per vendicare Patroclo, si avvicinerà anche alla propria morte, ma non esita più. La scelta fatta molto tempo prima, quella tra una vita lunga e anonima e una vita breve ma gloriosa, diventa improvvisamente concreta."
+    },
+    {
+      "id": "iliade-09",
+      "question": "Perché lo scudo di Efesto è significativo?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Rappresenta soltanto il destino degli dèi estranei alla guerra."
+        },
+        {
+          "id": "correct",
+          "text": "Rappresenta il mondo umano che la guerra mette in pericolo."
+        },
+        {
+          "id": "d1",
+          "text": "Rappresenta soltanto le vittorie che Achille ha già ottenuto."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Rappresenta il mondo umano che la guerra mette in pericolo.",
+      "recovery": "Lo scudo contiene città, campi, feste, processi e vita quotidiana. Achille lo porta mentre torna a uccidere. Il contrasto rende visibile tutto ciò che la guerra minaccia, molto oltre il solo combattimento.",
+      "reference": "#p14",
+      "sourceQuote": "Teti, sua madre, sale allora da Efesto e gli chiede nuove armi per il figlio, perché Ettore ha preso quelle che Patroclo indossava. Il dio fabbro forgia per Achille un’armatura nuova e soprattutto uno scudo straordinario. Su quello scudo non rappresenta soltanto la guerra, ma l’intero mondo umano: città in pace e città in guerra, matrimoni, processi, campi, vendemmie, danze, animali, greggi, stelle e oceano. È un’immagine potentissima. Achille si prepara a tornare sul campo per uccidere, ma sul suo scudo porta con sé tutto ciò che la guerra minaccia di distruggere."
+    },
+    {
+      "id": "iliade-10",
+      "question": "Perché infierire sul corpo di Ettore oltrepassa un limite?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Nega al morto il rispetto e il diritto alla sepoltura."
+        },
+        {
+          "id": "d1",
+          "text": "Nega al vincitore il comando dell’intero esercito acheo."
+        },
+        {
+          "id": "d2",
+          "text": "Nega a Paride il premio promesso durante la gara divina."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Nega al morto il rispetto e il diritto alla sepoltura.",
+      "recovery": "Achille ha già ucciso Ettore, ma continua a colpirne il corpo. Nel mondo descritto la sepoltura è un dovere sacro. La vendetta supera quindi il combattimento e mette in crisi la stessa grandezza dell’eroe.",
+      "reference": "#p16",
+      "sourceQuote": "Il duello è breve. Achille uccide Ettore e, ancora dominato dalla rabbia e dal dolore, lega il corpo del nemico al carro e lo trascina davanti alle mura. È uno dei momenti più estremi del poema. Per i Greci la sepoltura era un dovere sacro, e negare al morto il rispetto del corpo significava oltrepassare un limite profondo. Achille ha ottenuto la vendetta, ma la sua ira non si è placata; anzi, lo ha portato a un comportamento che mette in crisi la stessa immagine dell’eroe."
+    },
+    {
+      "id": "iliade-11",
+      "question": "Come Priamo riesce a toccare Achille?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Gli chiede di pensare ai doni e al prestigio della vittoria."
+        },
+        {
+          "id": "d2",
+          "text": "Gli chiede di pensare a Elena e alle cause del conflitto."
+        },
+        {
+          "id": "correct",
+          "text": "Gli chiede di pensare al padre e al dolore della perdita."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Gli chiede di pensare al padre e al dolore della perdita.",
+      "recovery": "Priamo non fa appello a un vantaggio politico o militare. Evoca Peleo, il padre lontano di Achille. La sofferenza condivisa permette al guerriero di riconoscere nel nemico un uomo e di restituire il corpo di Ettore.",
+      "reference": "#p17",
+      "sourceQuote": "Ed è proprio dopo il duello che l’Iliade raggiunge uno dei suoi momenti più alti. Priamo, anziano re di Troia e padre di Ettore, decide di entrare di notte nel campo acheo. Raggiunge la tenda di Achille, si inginocchia davanti all’uomo che ha ucciso suo figlio e gli chiede di restituirgli il corpo. Per convincerlo, non parla di politica né di guerra: gli chiede di pensare a suo padre Peleo."
+    },
+    {
+      "id": "iliade-12",
+      "question": "Quale differenza emerge tra Achille ed Ettore?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Achille rifiuta la gloria; Ettore ignora i legami con la famiglia."
+        },
+        {
+          "id": "correct",
+          "text": "Achille cerca gloria personale; Ettore sente il dovere verso Troia."
+        },
+        {
+          "id": "d1",
+          "text": "Achille difende Troia; Ettore cerca il premio sottratto da Agamennone."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Achille cerca gloria personale; Ettore sente il dovere verso Troia.",
+      "recovery": "Il testo presenta due modi di essere eroi. Achille pone al centro onore individuale e gloria; Ettore sente la responsabilità verso città e famiglia. Il poema li accosta senza imporre una risposta unica su chi sia il vero eroe.",
+      "reference": "#p22",
+      "sourceQuote": "Achille ed Ettore rappresentano due modi diversi di essere eroi. Achille combatte soprattutto per l’onore personale e per la gloria. Sa che una vita gloriosa sarà breve, ma ha scelto di accettarla. Ettore, invece, combatte perché sente di appartenere a una città, a una famiglia, a una comunità. Non è invincibile e non può permettersi il lusso di ritirarsi dalla guerra come fa Achille. Sa che potrebbe morire, ma sente che il dovere verso Troia viene prima della propria paura."
+    },
+    {
+      "id": "iliade-13",
+      "question": "Come sono rappresentati gli dèi nella lezione?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Potenti ma coinvolti in rivalità, favori e vendette."
+        },
+        {
+          "id": "d1",
+          "text": "Potenti e sempre neutrali rispetto agli eserciti umani."
+        },
+        {
+          "id": "d2",
+          "text": "Potenti e capaci di cancellare ogni limite del destino."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Potenti ma coinvolti in rivalità, favori e vendette.",
+      "recovery": "Gli dèi prendono posizione e proteggono i propri favoriti. La loro potenza non coincide con una perfezione morale. Inoltre non cancellano del tutto il destino, perciò il mondo del poema rimane attraversato dal limite.",
+      "reference": "#p21",
+      "sourceQuote": "Anche gli dèi partecipano alla guerra. Era e Atena favoriscono soprattutto gli Achei, Afrodite protegge Paride e i Troiani, Apollo sostiene spesso Troia, Poseidone interviene in aiuto dei Greci, mentre Zeus cerca di mantenere un equilibrio che non riesce mai a essere davvero neutrale. Gli dèi sono potenti, ma non sono moralmente perfetti. Litigano, si vendicano, proteggono i loro favoriti e ingannano. Eppure, neppure loro possono cancellare del tutto il destino."
+    },
+    {
+      "id": "iliade-14",
+      "question": "Che cosa distingue timé e kleos?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "La timé è ira duratura; il kleos è destino assegnato."
+        },
+        {
+          "id": "d2",
+          "text": "La timé è astuzia pratica; il kleos è ritorno in patria."
+        },
+        {
+          "id": "correct",
+          "text": "La timé è onore pubblico; il kleos è gloria nella memoria."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La timé è onore pubblico; il kleos è gloria nella memoria.",
+      "recovery": "La timé riguarda il riconoscimento del valore dell’eroe nella comunità. Il kleos riguarda invece la gloria che continua nel ricordo e nel canto. Sono concetti collegati, ma non indicano lo stesso aspetto dell’esperienza eroica.",
+      "reference": "#p28",
+      "sourceQuote": "Iliade – Poema epico attribuito a Omero che racconta un breve periodo dell’ultimo anno della guerra di Troia.\nIlio – Altro nome di Troia, da cui deriva il titolo Iliade.\nAedo – Cantore che recitava e trasmetteva oralmente i racconti epici.\nEsametro – Verso tradizionale dell’epica greca e latina.\nAchei – Uno dei nomi usati nell’Iliade per indicare i Greci, insieme a Danai e Argivi.\nTimé – Onore e riconoscimento pubblico del valore di un eroe.\nKleos – Gloria destinata a sopravvivere alla morte attraverso il ricordo e il canto.\nMênis – Ira terribile e duratura; è il termine con cui il poema presenta l’ira di Achille.\nMirmidoni – Il popolo e il gruppo di guerrieri guidato da Achille.\nMoira o fato – Il destino e il limite assegnati a ciascun essere umano."
+    }
+  ]
+}

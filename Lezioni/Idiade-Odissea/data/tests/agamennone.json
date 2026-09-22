@@ -1,0 +1,235 @@
+{
+  "lesson": "agamennone",
+  "questions": [
+    {
+      "id": "agamennone-01",
+      "question": "Perché Agamennone è definito un «vincitore sconfitto»?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Conquista Troia ma non riesce a salvare la propria casa."
+        },
+        {
+          "id": "d1",
+          "text": "Conquista Sparta ma non riesce a raggiungere la città di Troia."
+        },
+        {
+          "id": "d2",
+          "text": "Conquista Argo ma non riesce a ottenere il comando degli Achei."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Conquista Troia ma non riesce a salvare la propria casa.",
+      "recovery": "Agamennone ha guidato la spedizione vittoriosa, ma viene ucciso al ritorno. Il successo militare non risolve i conflitti familiari. La definizione mette in luce la distanza tra conquista della città nemica e salvezza personale.",
+      "reference": "#p10",
+      "sourceQuote": "Per questo Agamennone può essere considerato un vincitore sconfitto. Ha conquistato la città nemica, ma non è riuscito a salvare la propria casa. Il suo destino mostra che la guerra non finisce necessariamente quando tacciono le armi: può continuare nella memoria, nel rancore, nel desiderio di vendetta e nelle ferite che ciascuno porta con sé."
+    },
+    {
+      "id": "agamennone-02",
+      "question": "Quale antefatto alimenta il rancore di Clitennestra?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "L’assegnazione delle armi di Achille da parte dei guerrieri."
+        },
+        {
+          "id": "d2",
+          "text": "L’abbandono di Elena a Sparta da parte del fratello."
+        },
+        {
+          "id": "correct",
+          "text": "L’accettazione del sacrificio di Ifigenia da parte del marito."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "L’accettazione del sacrificio di Ifigenia da parte del marito.",
+      "recovery": "Il rancore nasce prima della guerra, ad Aulide. Agamennone accetta il sacrificio della figlia per far salpare la flotta. La lunga assenza del re non cancella la ferita prodotta nella sua casa.",
+      "reference": "#p2",
+      "sourceQuote": "Agamennone è re di Micene e appartiene alla stirpe degli Atridi, una famiglia segnata da generazioni di violenze, tradimenti e vendette. La sua storia, dunque, non comincia con Troia e non finisce con la sua caduta. Prima ancora di partire per la guerra, Agamennone aveva compiuto una scelta destinata a segnare per sempre la propria casa: ad Aulide aveva accettato il sacrificio della figlia Ifigenia affinché la flotta potesse salpare."
+    },
+    {
+      "id": "agamennone-03",
+      "question": "Perché le varianti sulla salvezza di Ifigenia non eliminano il conflitto?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Artemide ha comunque imposto al re di rinunciare alla guerra."
+        },
+        {
+          "id": "correct",
+          "text": "Agamennone ha comunque accettato di condurla al sacrificio."
+        },
+        {
+          "id": "d1",
+          "text": "Clitennestra ha comunque ordinato alla flotta di non partire."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Agamennone ha comunque accettato di condurla al sacrificio.",
+      "recovery": "Il destino di Ifigenia cambia secondo le versioni. Rimane però la scelta di Agamennone di sacrificarla in nome della spedizione. È questa responsabilità, agli occhi di Clitennestra, a mantenere vivo il rancore.",
+      "reference": "#p3",
+      "sourceQuote": "Le versioni del mito differiscono sul destino della ragazza. In alcune Ifigenia muore davvero; in altre Artemide la salva all’ultimo momento e la sostituisce con una cerva. Per Clitennestra, però, la responsabilità del marito rimane. Agamennone ha accettato che la figlia venisse condotta all’altare e sacrificata in nome della guerra. Da quel momento, mentre lui combatte lontano, nella casa cresce un rancore che non si spegne con il passare degli anni."
+    },
+    {
+      "id": "agamennone-04",
+      "question": "Quale ruolo assume Egisto durante l’assenza di Agamennone?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Si lega a Clitennestra e partecipa alla vendetta contro il re."
+        },
+        {
+          "id": "d1",
+          "text": "Si lega a Cassandra e cerca di avvertire il re del pericolo."
+        },
+        {
+          "id": "d2",
+          "text": "Si lega a Oreste e difende la casa dalla vendetta materna."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Si lega a Clitennestra e partecipa alla vendetta contro il re.",
+      "recovery": "Egisto diventa compagno di Clitennestra e porta altre ragioni di odio legate agli Atridi. La casa cambia mentre Agamennone combatte lontano. Il suo ritorno avviene quindi dentro un conflitto già preparato durante l’assenza.",
+      "reference": "#p4",
+      "sourceQuote": "Durante la lunga assenza del re, Clitennestra si lega a Egisto. Anche Egisto appartiene alla storia maledetta degli Atridi e porta con sé altre antiche ragioni di odio e di vendetta. La casa di Agamennone, dunque, non è rimasta immobile ad aspettarlo: nel corso dei dieci anni di guerra è diventata il luogo in cui si prepara una nuova tragedia."
+    },
+    {
+      "id": "agamennone-05",
+      "question": "Qual è la condizione tragica di Cassandra?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Conosce il passato ma è incapace di ricordare la propria città."
+        },
+        {
+          "id": "d2",
+          "text": "Conosce il nemico ma è costretta a nascondergli ogni profezia."
+        },
+        {
+          "id": "correct",
+          "text": "Conosce il futuro ma è condannata a non essere creduta."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Conosce il futuro ma è condannata a non essere creduta.",
+      "recovery": "Cassandra vede ciò che accadrà, ma nessuno crede alle sue parole. La conoscenza non diventa quindi possibilità di salvezza. Il suo dolore aumenta perché affronta consapevolmente una morte che non può impedire.",
+      "reference": "#p5",
+      "sourceQuote": "Quando finalmente Agamennone torna da Troia, porta con sé Cassandra, figlia di Priamo. Cassandra è una principessa troiana, ma soprattutto una profetessa. Apollo le ha concesso il dono di conoscere il futuro e, nello stesso tempo, l’ha condannata a non essere creduta. Per questo vede con chiarezza ciò che sta per accadere nella casa di Agamennone, ma non può impedire nulla. Il suo sapere non la salva; al contrario, rende ancora più dolorosa la sua sorte, perché la costringe ad andare incontro consapevolmente alla morte."
+    },
+    {
+      "id": "agamennone-06",
+      "question": "Quale elemento resta costante nelle versioni dell’assassinio?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Agamennone è ucciso durante il viaggio da Oreste e Menelao."
+        },
+        {
+          "id": "correct",
+          "text": "Agamennone è ucciso nella propria casa da Clitennestra ed Egisto."
+        },
+        {
+          "id": "d1",
+          "text": "Agamennone è ucciso davanti a Troia da Cassandra e Priamo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Agamennone è ucciso nella propria casa da Clitennestra ed Egisto.",
+      "recovery": "I racconti cambiano il luogo preciso e le modalità dell’uccisione, come banchetto o bagno. Non cambia il nucleo della vicenda. Il re sopravvive alla guerra e muore nella propria casa per mano di Clitennestra ed Egisto.",
+      "reference": "#p6",
+      "sourceQuote": "Le tradizioni raccontano in modi diversi l’assassinio di Agamennone. In alcune versioni viene ucciso durante un banchetto, in altre viene colpito nel bagno, mentre è ancora vulnerabile dopo il ritorno. A cambiare sono i dettagli; non cambia il significato. Agamennone, sopravvissuto a dieci anni di guerra, viene ucciso nella propria casa da Clitennestra ed Egisto. Cassandra muore con lui."
+    },
+    {
+      "id": "agamennone-07",
+      "question": "Che cosa accade a Cassandra al ritorno del re?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Muore insieme ad Agamennone nonostante la sua conoscenza."
+        },
+        {
+          "id": "d1",
+          "text": "Ritorna a Troia dopo aver impedito l’uccisione di Agamennone."
+        },
+        {
+          "id": "d2",
+          "text": "Resta a Micene dopo aver convinto Clitennestra a perdonare."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Muore insieme ad Agamennone nonostante la sua conoscenza.",
+      "recovery": "Il dono profetico di Cassandra non basta a salvarla. La principessa troiana viene coinvolta nella morte del re. Il testo mostra così un limite del sapere: conoscere una minaccia non equivale a poterla evitare.",
+      "reference": "#p6",
+      "sourceQuote": "Le tradizioni raccontano in modi diversi l’assassinio di Agamennone. In alcune versioni viene ucciso durante un banchetto, in altre viene colpito nel bagno, mentre è ancora vulnerabile dopo il ritorno. A cambiare sono i dettagli; non cambia il significato. Agamennone, sopravvissuto a dieci anni di guerra, viene ucciso nella propria casa da Clitennestra ed Egisto. Cassandra muore con lui."
+    },
+    {
+      "id": "agamennone-08",
+      "question": "In che modo Oreste continua la storia degli Atridi?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Vendica la madre uccidendo Menelao e la propria sorella."
+        },
+        {
+          "id": "d2",
+          "text": "Vendica Cassandra uccidendo Priamo e il proprio padre."
+        },
+        {
+          "id": "correct",
+          "text": "Vendica il padre uccidendo Egisto e la propria madre."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Vendica il padre uccidendo Egisto e la propria madre.",
+      "recovery": "Oreste reagisce all’assassinio del padre con una nuova violenza. Uccide Egisto e Clitennestra, sua madre. La vendetta soddisfa un dovere percepito ma produce un’altra colpa, mantenendo aperta la catena familiare.",
+      "reference": "#p8",
+      "sourceQuote": "E neppure la morte di Agamennone chiude la vicenda. Suo figlio Oreste, una volta adulto, sente di dover vendicare il padre. Ucciderà Egisto e ucciderà anche Clitennestra, la propria madre. Così la vendetta produce una nuova colpa, e la colpa invoca a sua volta un’altra risposta. È il meccanismo che caratterizza tutta la storia degli Atridi: ogni violenza genera un’altra violenza e nessuno riesce veramente a interrompere la catena."
+    },
+    {
+      "id": "agamennone-09",
+      "question": "Quale contrasto dà forza al ritorno di Agamennone?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "La città nemica lo respinge, la propria casa lo accoglie in pace."
+        },
+        {
+          "id": "correct",
+          "text": "La città nemica non lo uccide, la propria casa invece sì."
+        },
+        {
+          "id": "d1",
+          "text": "La città nemica lo protegge, la propria casa resta deserta."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La città nemica non lo uccide, la propria casa invece sì.",
+      "recovery": "Troia era il luogo del pericolo visibile e del nemico dichiarato. Micene dovrebbe essere il luogo del ritorno e della sicurezza. Il rovesciamento mostra quanto le ferite domestiche possano sopravvivere alla fine del conflitto.",
+      "reference": "#p7",
+      "sourceQuote": "Il contrasto è fortissimo. Troia, la città nemica, non è riuscita a ucciderlo; Micene, la sua casa, sì. Il comandante degli Achei torna convinto di aver concluso la propria impresa e scopre invece che la guerra ha continuato a vivere dentro la sua famiglia. La violenza portata lontano si è trasformata in una violenza domestica, privata, ma non meno terribile."
+    },
+    {
+      "id": "agamennone-10",
+      "question": "Che cosa mostra questa vicenda sulla fine della guerra?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "La guerra continua nel rancore e nelle ferite della memoria."
+        },
+        {
+          "id": "d1",
+          "text": "La guerra termina sempre con il ritorno del comandante."
+        },
+        {
+          "id": "d2",
+          "text": "La guerra lascia conseguenze soltanto tra i popoli sconfitti."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La guerra continua nel rancore e nelle ferite della memoria.",
+      "recovery": "Il testo allarga il significato della guerra oltre il combattimento. Il rancore e la vendetta conservano le sue ferite nella famiglia. Per questo il silenzio delle armi non basta a garantire una pace reale.",
+      "reference": "#p10",
+      "sourceQuote": "Per questo Agamennone può essere considerato un vincitore sconfitto. Ha conquistato la città nemica, ma non è riuscito a salvare la propria casa. Il suo destino mostra che la guerra non finisce necessariamente quando tacciono le armi: può continuare nella memoria, nel rancore, nel desiderio di vendetta e nelle ferite che ciascuno porta con sé."
+    }
+  ]
+}

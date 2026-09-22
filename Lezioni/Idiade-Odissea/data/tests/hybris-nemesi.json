@@ -1,0 +1,327 @@
+{
+  "lesson": "hybris-nemesi",
+  "questions": [
+    {
+      "id": "hybris-nemesi-01",
+      "question": "Perché tradurre hybris soltanto con «superbia» è riduttivo?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Riguarda anche l’eccesso che nega il limite della condizione umana."
+        },
+        {
+          "id": "d1",
+          "text": "Riguarda soltanto il pensiero privato che precede ogni azione umana."
+        },
+        {
+          "id": "d2",
+          "text": "Riguarda sempre la paura che impedisce di affrontare una prova."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Riguarda anche l’eccesso che nega il limite della condizione umana.",
+      "recovery": "La hybris può manifestarsi in gesti, violenze e pretese di impunità. Non è soltanto un’opinione elevata di sé. Il suo nucleo è oltrepassare la misura e credersi sottratti ai limiti che valgono per gli altri.",
+      "reference": "#p3",
+      "sourceQuote": "La parola hybris viene spesso tradotta con “superbia”, ma questa traduzione è soltanto parziale. La hybris è qualcosa di più: è l’eccesso, la tracotanza, il gesto con cui un uomo supera la misura e pretende di occupare un posto che non gli appartiene. Può essere un atto di violenza, un’offesa, un comportamento arrogante, la convinzione di poter sfidare gli dèi o di potersi sottrarre alle regole che valgono per tutti."
+    },
+    {
+      "id": "hybris-nemesi-02",
+      "question": "Quando una qualità straordinaria può diventare hybris?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Quando viene riconosciuta dagli altri e ricordata nei racconti."
+        },
+        {
+          "id": "d2",
+          "text": "Quando viene esercitata con prudenza e rispetto della misura."
+        },
+        {
+          "id": "correct",
+          "text": "Quando si trasforma in eccesso e fa dimenticare i propri limiti."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Quando si trasforma in eccesso e fa dimenticare i propri limiti.",
+      "recovery": "Forza, intelligenza e coraggio non sono colpe in sé. Il problema nasce dall’uso senza misura di queste qualità. Un eroe può essere grande senza credersi assoluto: è la perdita del limite a produrre l’eccesso.",
+      "reference": "#p5",
+      "sourceQuote": "Per questo la hybris è strettamente legata all’idea greca di misura. Essere grandi, coraggiosi, intelligenti o potenti non è di per sé una colpa. Molti eroi greci possiedono qualità straordinarie. Il problema nasce quando una qualità si trasforma in eccesso e porta l’uomo a dimenticare la propria condizione."
+    },
+    {
+      "id": "hybris-nemesi-03",
+      "question": "Quale gesto di Achille esemplifica il rischio dell’eccesso?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Accettare un’armatura forgiata da Efesto prima della battaglia."
+        },
+        {
+          "id": "correct",
+          "text": "Infierire sul corpo di Ettore negando il rispetto del morto."
+        },
+        {
+          "id": "d1",
+          "text": "Possedere una forza superiore a quella degli altri guerrieri."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Infierire sul corpo di Ettore negando il rispetto del morto.",
+      "recovery": "La lezione separa la forza di Achille dall’uso smisurato dell’ira. Essere il più forte non è hybris. Continuare a oltraggiare Ettore morto oltrepassa invece il rispetto dovuto ai morti e mette in questione il limite.",
+      "reference": "#p6",
+      "sourceQuote": "Achille, per esempio, è il più forte tra i guerrieri achei. La sua forza non è hybris. Ma quando, dopo aver ucciso Ettore, continua a infierire sul suo corpo e gli nega il rispetto dovuto ai morti, la sua ira rischia di superare il limite. Odisseo è intelligente e curioso: anche questa non è una colpa. Ma quando, dopo essere fuggito da Polifemo, sente il bisogno di gridare il proprio nome al Ciclope per vantarsi della vittoria, trasforma il successo in un nuovo pericolo."
+    },
+    {
+      "id": "hybris-nemesi-04",
+      "question": "Che cosa esprime la nemesi oltre all’idea di punizione?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Una reazione all’eccesso che ristabilisce l’equilibrio violato."
+        },
+        {
+          "id": "d1",
+          "text": "Una ricompensa al coraggio che garantisce una vita senza perdite."
+        },
+        {
+          "id": "d2",
+          "text": "Una rinuncia all’azione che annulla ogni responsabilità individuale."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Una reazione all’eccesso che ristabilisce l’equilibrio violato.",
+      "recovery": "La nemesi non va ridotta a una pena scelta arbitrariamente da un dio. Può emergere dalle conseguenze delle azioni umane. Il concetto riguarda la reazione a uno squilibrio prodotto da chi ha oltrepassato la misura.",
+      "reference": "#p8",
+      "sourceQuote": "Anche qui bisogna evitare una semplificazione. Nemesi non significa soltanto “punizione mandata dagli dèi”. In origine indica piuttosto la reazione all’eccesso, il ristabilimento di un equilibrio violato. In molti miti questa reazione assume la forma di una punizione divina; in altri nasce direttamente dalle conseguenze delle azioni umane."
+    },
+    {
+      "id": "hybris-nemesi-05",
+      "question": "Come possono essere legate hybris e nemesi?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "La rovina deve sempre precedere l’eccesso e provocarlo."
+        },
+        {
+          "id": "d2",
+          "text": "L’eccesso rimane sempre estraneo alle conseguenze delle azioni."
+        },
+        {
+          "id": "correct",
+          "text": "L’eccesso stesso può mettere in moto le cause della rovina."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "L’eccesso stesso può mettere in moto le cause della rovina.",
+      "recovery": "Spesso i due momenti appartengono alla stessa catena narrativa. L’uomo agisce oltre il limite e crea le condizioni della propria caduta. Non occorre immaginare ogni volta una punizione esterna completamente separata dal suo comportamento.",
+      "reference": "#p10",
+      "sourceQuote": "Per questo hybris e nemesi non sono due eventi completamente separati, come se prima venisse commesso un peccato e poi un dio decidesse arbitrariamente una pena. Sono spesso due momenti della stessa struttura narrativa: l’uomo oltrepassa il limite e proprio quell’eccesso produce la sua rovina."
+    },
+    {
+      "id": "hybris-nemesi-06",
+      "question": "Perché Tantalo rappresenta una violazione del limite?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Pretende di ricordare gli dèi attraverso il canto degli eroi."
+        },
+        {
+          "id": "correct",
+          "text": "Pretende di mettere alla prova gli dèi con un gesto crudele."
+        },
+        {
+          "id": "d1",
+          "text": "Pretende di salvare gli dèi da una guerra tra famiglie."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Pretende di mettere alla prova gli dèi con un gesto crudele.",
+      "recovery": "Tantalo è favorito dagli dèi ma si comporta come se potesse verificarne il sapere. Il banchetto con la carne del figlio viola radicalmente l’ordine. Privilegio e potere non gli conferiscono il diritto di oltrepassare ogni limite.",
+      "reference": "#p11",
+      "sourceQuote": "Un esempio molto chiaro è quello di Tantalo. Favorito dagli dèi, Tantalo arriva a comportarsi come se potesse metterli alla prova. Secondo una delle tradizioni più note offre loro, durante un banchetto, la carne del proprio figlio Pelope. Il suo gesto non è soltanto crudele: è una violazione radicale dell’ordine che separa uomini e dèi. La punizione che seguirà diventerà proverbiale e colpirà non soltanto lui, ma anche la memoria della sua stirpe."
+    },
+    {
+      "id": "hybris-nemesi-07",
+      "question": "Come va intesa l’eredità delle colpe nella stirpe degli Atridi?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Le azioni degli antenati lasciano conseguenze ai discendenti."
+        },
+        {
+          "id": "d1",
+          "text": "I figli sono automaticamente responsabili di ogni colpa paterna."
+        },
+        {
+          "id": "d2",
+          "text": "I discendenti possono cancellare ogni conflitto ignorando il passato."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Le azioni degli antenati lasciano conseguenze ai discendenti.",
+      "recovery": "La lezione rifiuta l’idea di una colpevolezza automatica dei figli. Sottolinea invece la continuità della famiglia e delle conseguenze. I discendenti ereditano conflitti politici, morali e religiosi prodotti dalle generazioni precedenti.",
+      "reference": "#p13",
+      "sourceQuote": "Questo non significa che per i Greci ogni figlio fosse automaticamente colpevole dei peccati del padre. Significa piuttosto che la famiglia, la stirpe, l’oikos, era percepita come una continuità. Le azioni di una generazione potevano creare conseguenze politiche, morali e religiose che i discendenti si trovavano a ereditare."
+    },
+    {
+      "id": "hybris-nemesi-08",
+      "question": "Quale affermazione rispetta il rapporto tra fato e dèi?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Il rapporto prova che Zeus decide ogni evento senza alcun limite."
+        },
+        {
+          "id": "d2",
+          "text": "Il rapporto prova che gli dèi non intervengono mai negli eventi."
+        },
+        {
+          "id": "correct",
+          "text": "Il rapporto cambia nei racconti e non segue una formula rigida."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Il rapporto cambia nei racconti e non segue una formula rigida.",
+      "recovery": "La mitologia non offre un sistema unico e identico in tutte le opere. In alcuni racconti Zeus tiene conto del destino; in altri interviene negli eventi. La costante della lezione è l’idea del limite, non una gerarchia semplicistica.",
+      "reference": "#p15",
+      "sourceQuote": "Il fato, o moira, indica il limite assegnato a ciascuno e la parte che gli spetta. Nel mito greco il rapporto tra destino e dèi non è sempre semplice né identico in tutte le opere. Non possiamo dire in modo rigido che “il fato comanda sugli dèi” oppure che “gli dèi decidono tutto”. In molti racconti perfino Zeus tiene conto di un ordine del destino che non può modificare liberamente; in altri interviene direttamente sugli eventi."
+    },
+    {
+      "id": "hybris-nemesi-09",
+      "question": "Perché Edipo non va ridotto a un colpevole punito per hybris?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "La sua tragedia riguarda soltanto una sconfitta militare volontaria."
+        },
+        {
+          "id": "correct",
+          "text": "La sua tragedia riguarda anche il limite della conoscenza umana."
+        },
+        {
+          "id": "d1",
+          "text": "La sua tragedia riguarda soltanto il rifiuto di conoscere la verità."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La sua tragedia riguarda anche il limite della conoscenza umana.",
+      "recovery": "Edipo tenta di evitare la profezia e cerca la verità. La scoperta distrugge però l’immagine che aveva di sé. La sua vicenda è più complessa di una semplice equivalenza tra disgrazia, arroganza e punizione.",
+      "reference": "#p18",
+      "sourceQuote": "Edipo è forse uno degli esempi più complessi. Cerca di sfuggire alla profezia secondo cui ucciderà il padre e sposerà la madre. Proprio tentando di evitarla, finisce per compierla. Sarebbe però troppo semplice dire che Edipo è punito soltanto perché ha commesso hybris. La sua tragedia è più profonda: mostra il limite della conoscenza umana. Edipo è intelligente, vuole sapere, indaga e alla fine scopre la verità; ma quella verità distrugge l’immagine che aveva di se stesso."
+    },
+    {
+      "id": "hybris-nemesi-10",
+      "question": "In che cosa consiste l’eccesso di Niobe?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Trasforma l’orgoglio dei figli in disprezzo verso una dea."
+        },
+        {
+          "id": "d1",
+          "text": "Trasforma il dolore dei figli in rispetto verso una dea."
+        },
+        {
+          "id": "d2",
+          "text": "Trasforma il ricordo dei figli in timore verso gli uomini."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Trasforma l’orgoglio dei figli in disprezzo verso una dea.",
+      "recovery": "Niobe si confronta con Latona e vanta il numero dei propri figli. L’orgoglio diventa svalutazione del divino e superamento della misura. La lezione distingue quindi l’affetto per i figli dal gesto arrogante del confronto.",
+      "reference": "#p19",
+      "sourceQuote": "Anche Niobe rappresenta bene il meccanismo dell’eccesso. Orgogliosa dei propri figli, si vanta davanti a Latona, che ne ha soltanto due, Apollo e Artemide. Il suo orgoglio si trasforma in confronto con una dea e in disprezzo per il divino. La conseguenza è terribile: i figli di Niobe vengono uccisi e lei rimane sola nel dolore."
+    },
+    {
+      "id": "hybris-nemesi-11",
+      "question": "Quale forma di eccesso rappresenta Narciso?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "La curiosità verso il mondo e la ricerca di nuovi compagni."
+        },
+        {
+          "id": "d2",
+          "text": "La fedeltà alla propria famiglia e il desiderio di ritornare."
+        },
+        {
+          "id": "correct",
+          "text": "La chiusura nella propria immagine e il rifiuto degli altri."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La chiusura nella propria immagine e il rifiuto degli altri.",
+      "recovery": "Narciso rimane prigioniero di sé e non riesce ad aprirsi agli altri. La sua distruzione non nasce da una sfida armata a un dio. Il mito mostra una forma di eccesso che consiste nella chiusura e nel desiderio impossibile.",
+      "reference": "#p20",
+      "sourceQuote": "Narciso, invece, offre un’altra forma di eccesso. Non sfida apertamente un dio con le armi né compie un atto sacrilego nel senso tradizionale. È però incapace di uscire da se stesso. Rifiuta gli altri, rimane prigioniero della propria immagine e finisce consumato da un desiderio che non può essere soddisfatto. Anche qui l’eccesso porta alla distruzione."
+    },
+    {
+      "id": "hybris-nemesi-12",
+      "question": "Perché Prometeo impedisce un’applicazione meccanica dello schema?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "È una figura di vittoria che non subisce conseguenze per il suo gesto."
+        },
+        {
+          "id": "correct",
+          "text": "È una figura di sfida ma anche un benefattore dell’umanità."
+        },
+        {
+          "id": "d1",
+          "text": "È una figura di obbedienza che non entra mai in conflitto con gli dèi."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "È una figura di sfida ma anche un benefattore dell’umanità.",
+      "recovery": "Il furto del fuoco è una sfida, ma il dono aiuta gli uomini. Prometeo non si lascia ridurre a semplice colpevole. La sua ambivalenza mostra che uno schema interpretativo deve essere verificato sulla particolarità di ogni mito.",
+      "reference": "#p21",
+      "sourceQuote": "Prometeo è un caso ancora diverso. Ruba il fuoco agli dèi e lo dona agli uomini. È certamente un atto di sfida, ma il mito non lo presenta in modo univoco come semplice colpevole. Prometeo è anche benefattore dell’umanità. La sua punizione mostra il conflitto tra potere divino e progresso umano. Questo esempio ci aiuta a capire che hybris e nemesi non devono diventare una formula meccanica da applicare a ogni mito."
+    },
+    {
+      "id": "hybris-nemesi-13",
+      "question": "Quale uso corretto si può fare di hybris e nemesi?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Usarle come chiave da verificare, senza spiegare così ogni disgrazia."
+        },
+        {
+          "id": "d1",
+          "text": "Usarle come legge certa, per attribuire ogni dolore a una colpa."
+        },
+        {
+          "id": "d2",
+          "text": "Usarle come premio, per riconoscere chi ha vinto una guerra."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Usarle come chiave da verificare, senza spiegare così ogni disgrazia.",
+      "recovery": "Il testo definisce lo schema una chiave, non una legge matematica. Non ogni eroe che soffre ha commesso hybris. Leggere significa controllare se l’interpretazione funziona nel racconto, conservandone ambiguità e differenze.",
+      "reference": "#p23",
+      "sourceQuote": "Lo schema hybris → nemesi è una chiave di lettura, non una legge matematica."
+    },
+    {
+      "id": "hybris-nemesi-14",
+      "question": "Che cosa significa sophrosyne?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Debolezza e rinuncia a ogni forma di grandezza personale."
+        },
+        {
+          "id": "d2",
+          "text": "Immortalità e dominio nella certezza di controllare il futuro."
+        },
+        {
+          "id": "correct",
+          "text": "Equilibrio e autocontrollo nella consapevolezza dei propri limiti."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Equilibrio e autocontrollo nella consapevolezza dei propri limiti.",
+      "recovery": "La misura non richiede di diventare deboli o rinunciare alle proprie qualità. Richiede di riconoscere fin dove può arrivare la forza. La sophrosyne unisce quindi autocontrollo, equilibrio e consapevolezza della condizione umana.",
+      "reference": "#p29",
+      "sourceQuote": "I Greci chiamavano sophrosyne la capacità di mantenere equilibrio, autocontrollo e consapevolezza dei propri limiti. Non significa rinunciare alla grandezza, ma sapere fin dove può arrivare la propria forza senza trasformarsi in arroganza."
+    }
+  ]
+}

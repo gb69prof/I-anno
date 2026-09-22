@@ -1,0 +1,235 @@
+{
+  "lesson": "peleo-teti",
+  "questions": [
+    {
+      "id": "peleo-teti-01",
+      "question": "Perché Zeus e Poseidone rinunciano a Teti?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Temono un figlio più potente del padre."
+        },
+        {
+          "id": "d1",
+          "text": "Temono una guerra contro il re Peleo."
+        },
+        {
+          "id": "d2",
+          "text": "Temono di perdere l’appoggio di Nereo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Temono un figlio più potente del padre.",
+      "recovery": "La profezia riguarda il figlio di Teti, destinato a superare il padre. Zeus e Poseidone temono quindi per il proprio potere. La rinuncia nasce da questo rischio, non da una rivalità con Peleo.",
+      "reference": "#p3",
+      "sourceQuote": "Proprio questa profezia cambiò il suo destino. Zeus e Poseidone avevano entrambi desiderato Teti, ma quando seppero che il figlio della ninfa avrebbe superato il padre in grandezza, decisero di rinunciare a lei. Nessun dio voleva correre il rischio di generare qualcuno capace, un giorno, di prenderne il posto."
+    },
+    {
+      "id": "peleo-teti-02",
+      "question": "Quale differenza distingue i due sposi?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Peleo è un dio, Teti è una regina mortale."
+        },
+        {
+          "id": "d2",
+          "text": "Peleo è un cantore, Teti è una profetessa."
+        },
+        {
+          "id": "correct",
+          "text": "Peleo è mortale, Teti è una ninfa marina."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Peleo è mortale, Teti è una ninfa marina.",
+      "recovery": "Il matrimonio unisce un mortale e una figura divina legata al mare. Peleo è re dei Mirmidoni, mentre Teti è figlia di Nereo. Questa differenza aiuta a comprendere il destino eccezionale di Achille.",
+      "reference": "#p2",
+      "sourceQuote": "Peleo era un eroe mortale, re dei Mirmidoni. Teti, invece, era una ninfa del mare, figlia del dio Nereo. Era bellissima e, secondo una profezia, avrebbe avuto un figlio destinato a diventare più grande e più potente di suo padre."
+    },
+    {
+      "id": "peleo-teti-03",
+      "question": "Perché Teti cambia più volte forma?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Cerca di impedire l’arrivo di Eris alle nozze."
+        },
+        {
+          "id": "correct",
+          "text": "Cerca di sfuggire al matrimonio con Peleo."
+        },
+        {
+          "id": "d1",
+          "text": "Cerca di mettere alla prova il figlio Achille."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Cerca di sfuggire al matrimonio con Peleo.",
+      "recovery": "Le metamorfosi sono il tentativo di Teti di sottrarsi a Peleo. La ninfa non desidera inizialmente quel matrimonio. Peleo la trattiene fino a quando riprende il proprio aspetto: l’episodio precede la celebrazione delle nozze.",
+      "reference": "#p5",
+      "sourceQuote": "La ninfa, però, non voleva quel matrimonio. Per sfuggire a Peleo ricorse ai suoi poteri e cambiò più volte forma: diventò fuoco, acqua, vento, animali feroci. Peleo, aiutato dai consigli degli dèi, riuscì però a trattenerla finché Teti non riprese il suo aspetto normale. Alla fine la ninfa accettò il matrimonio."
+    },
+    {
+      "id": "peleo-teti-04",
+      "question": "Quale offesa provoca la reazione di Eris?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Essere stata esclusa dagli invitati alle nozze."
+        },
+        {
+          "id": "d1",
+          "text": "Essere stata sconfitta nella gara di bellezza."
+        },
+        {
+          "id": "d2",
+          "text": "Essere stata allontanata dal regno di Peleo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Essere stata esclusa dagli invitati alle nozze.",
+      "recovery": "Eris interviene perché non è stata invitata alla festa. La dea della discordia trasforma l’esclusione in un’occasione di conflitto. La gara tra le dee nasce dopo il suo gesto, non prima.",
+      "reference": "#p7",
+      "sourceQuote": "Ma una dea non era stata invitata: Eris, la dea della discordia."
+    },
+    {
+      "id": "peleo-teti-05",
+      "question": "Perché la mela d’oro genera una contesa?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "La dedica invita gli dèi a contendersi il regno."
+        },
+        {
+          "id": "d2",
+          "text": "La dedica invita gli eroi a disputare una gara."
+        },
+        {
+          "id": "correct",
+          "text": "La dedica invita le dee a rivendicare la bellezza."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La dedica invita le dee a rivendicare la bellezza.",
+      "recovery": "La scritta «Alla più bella» non indica un nome. Era, Atena e Afrodite possono così rivendicare la mela. Il dono di Eris contiene una provocazione che rompe l’armonia apparente della festa.",
+      "reference": "#p8",
+      "sourceQuote": "Eris non dimenticò l’offesa. Si presentò ugualmente alla festa e, invece di partecipare al banchetto, gettò tra gli invitati una mela d’oro. Sulla mela era scritto: «Alla più bella»."
+    },
+    {
+      "id": "peleo-teti-06",
+      "question": "Perché gli dèi affidano il giudizio a Paride?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Scegliere un eroe significherebbe smentire la profezia."
+        },
+        {
+          "id": "correct",
+          "text": "Scegliere una dea significherebbe offendere le altre."
+        },
+        {
+          "id": "d1",
+          "text": "Scegliere un dio significherebbe annullare le nozze."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Scegliere una dea significherebbe offendere le altre.",
+      "recovery": "La difficoltà non è riconoscere una regola della gara, ma evitare l’ira delle escluse. Premiare una dea significa scontentare le altre due. Per questo il compito viene affidato a un mortale, Paride.",
+      "reference": "#p10",
+      "sourceQuote": "Nessuno degli dèi volle scegliere tra loro. Dare la mela a una significava offendere le altre due. Per questo si decise che il giudizio sarebbe stato affidato a un mortale: Paride, principe di Troia."
+    },
+    {
+      "id": "peleo-teti-07",
+      "question": "In quale senso Achille realizza la profezia su Teti?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Diventa un guerriero più famoso di suo padre."
+        },
+        {
+          "id": "d1",
+          "text": "Diventa un sovrano più longevo di suo padre."
+        },
+        {
+          "id": "d2",
+          "text": "Diventa un dio più potente di suo nonno."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Diventa un guerriero più famoso di suo padre.",
+      "recovery": "La profezia annuncia un figlio superiore al padre. Achille, nato da Peleo e Teti, diventerà il grande guerriero acheo. Il testo lega il compimento della profezia alla sua fama, senza trasformarlo in un dio.",
+      "reference": "#p12",
+      "sourceQuote": "Da Peleo e Teti nacque Achille, destinato a diventare il più grande guerriero dell’esercito acheo. La profezia, dunque, si avverò: il figlio di Teti sarebbe stato molto più famoso di suo padre."
+    },
+    {
+      "id": "peleo-teti-08",
+      "question": "Quali due elementi della guerra nascono da queste nozze?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "La nascita di Paride e la partenza della flotta."
+        },
+        {
+          "id": "d2",
+          "text": "La nascita di Elena e la costruzione del cavallo."
+        },
+        {
+          "id": "correct",
+          "text": "La nascita di Achille e la mela della discordia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La nascita di Achille e la mela della discordia.",
+      "recovery": "Il matrimonio prepara la guerra su due piani. Dall’unione nasce Achille; dalla festa nasce la contesa provocata da Eris. Il mito collega quindi l’origine del guerriero alla catena di eventi che porterà al conflitto.",
+      "reference": "#p16",
+      "sourceQuote": "Il matrimonio di Peleo e Teti collega direttamente due elementi fondamentali della guerra di Troia: la nascita di Achille e la mela della discordia. Senza questa festa non ci sarebbe stata la gara tra le dee; senza la gara non ci sarebbe stata la scelta di Paride; senza quella scelta, secondo il mito, la guerra di Troia non avrebbe avuto inizio."
+    },
+    {
+      "id": "peleo-teti-09",
+      "question": "Che cosa significa «metamorfosi» nella lezione?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "La memoria di un’impresa conservata dai cantori."
+        },
+        {
+          "id": "correct",
+          "text": "Il passaggio di un essere da una forma a un’altra."
+        },
+        {
+          "id": "d1",
+          "text": "L’annuncio di un evento destinato ad avvenire."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Il passaggio di un essere da una forma a un’altra.",
+      "recovery": "La metamorfosi è un cambiamento di forma. Teti diventa elementi naturali e animali per sfuggire a Peleo. Non va confusa con la profezia, che riguarda invece la conoscenza di un evento futuro.",
+      "reference": "#p18",
+      "sourceQuote": "Peleo – Re dei Mirmidoni e padre mortale di Achille.\nTeti – Ninfa marina, moglie di Peleo e madre di Achille.\nNinfa – Divinità minore legata alla natura; Teti appartiene al mondo marino.\nProfezia – Annuncio di un evento futuro; nel mito di Teti riguarda il figlio destinato a superare il padre.\nMetamorfosi – Trasformazione da una forma a un’altra; Teti la usa per cercare di sfuggire a Peleo.\nEris – Dea della discordia, esclusa dalle nozze di Peleo e Teti.\nMela della discordia – Mela d’oro lanciata da Eris con la dedica “alla più bella”.\nOlimpo – Dimora tradizionale degli dèi greci.\nParide – Principe troiano scelto per decidere quale dea debba ricevere la mela d’oro."
+    },
+    {
+      "id": "peleo-teti-10",
+      "question": "Quale sequenza rispetta il legame causale del mito?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Esclusione di Eris, mela d’oro, contesa tra le dee."
+        },
+        {
+          "id": "d1",
+          "text": "Contesa tra le dee, esclusione di Eris, mela d’oro."
+        },
+        {
+          "id": "d2",
+          "text": "Mela d’oro, giudizio di Paride, esclusione di Eris."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Esclusione di Eris, mela d’oro, contesa tra le dee.",
+      "recovery": "L’esclusione di Eris viene prima del suo intervento. La dea lancia la mela e le tre dee la reclamano. Ricostruire questo ordine permette di capire come una festa diventi l’inizio di una catena di conflitti.",
+      "reference": "#p8",
+      "sourceQuote": "Eris non dimenticò l’offesa. Si presentò ugualmente alla festa e, invece di partecipare al banchetto, gettò tra gli invitati una mela d’oro. Sulla mela era scritto: «Alla più bella»."
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "lesson": "diomede-arpi",
+  "questions": [
+    {
+      "id": "diomede-arpi-01",
+      "question": "Perché il ritorno ad Argo non conclude il viaggio di Diomede?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "La situazione trovata in patria lo conduce a partire di nuovo."
+        },
+        {
+          "id": "d1",
+          "text": "La flotta achea lo obbliga a tornare subito all’assedio di Troia."
+        },
+        {
+          "id": "d2",
+          "text": "La conquista di Itaca lo convince a rinunciare al proprio regno."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La situazione trovata in patria lo conduce a partire di nuovo.",
+      "recovery": "Le versioni divergono sulle ragioni del mancato reinserimento ad Argo. Parlano di infedeltà o conflitti politici, ma concordano sulla nuova partenza. Il nostos di Diomede si trasforma perciò in una migrazione.",
+      "reference": "#p2",
+      "sourceQuote": "Diomede è figlio di Tideo e re di Argo. Quando Troia viene distrutta, lascia l’Asia Minore e cerca di rientrare nel proprio regno. Le tradizioni antiche, però, raccontano che una volta tornato trovi una situazione ormai compromessa. Le versioni non coincidono del tutto: in alcune la moglie gli è diventata infedele durante la lunga assenza; in altre sono soprattutto conflitti politici a impedirgli di riprendere stabilmente il proprio posto. Qualunque sia la variante, il risultato è lo stesso. Diomede non può, o non vuole, restare ad Argo."
+    },
+    {
+      "id": "diomede-arpi-02",
+      "question": "Quale percorso segue la nuova partenza di Diomede?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Dalla Grecia attraverso il Mar Nero verso la Fenicia."
+        },
+        {
+          "id": "d2",
+          "text": "Dalla Grecia attraverso l’Egeo verso la città di Troia."
+        },
+        {
+          "id": "correct",
+          "text": "Dalla Grecia attraverso l’Adriatico verso la Daunia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Dalla Grecia attraverso l’Adriatico verso la Daunia.",
+      "recovery": "Diomede lascia nuovamente la patria e attraversa l’Adriatico. La tradizione collega il suo arrivo alla Puglia settentrionale, la Daunia. Il ciclo troiano entra così nella memoria mitica del territorio vicino a Foggia.",
+      "reference": "#p3",
+      "sourceQuote": "Il suo nostos si trasforma così in una nuova migrazione. L’eroe attraversa il mare Adriatico e raggiunge le coste dell’Italia meridionale. Da questo momento il suo nome comincia a legarsi soprattutto alla Puglia e alla regione che gli antichi chiamavano Daunia, cioè la parte settentrionale dell’attuale territorio pugliese."
+    },
+    {
+      "id": "diomede-arpi-03",
+      "question": "Come cambia il ruolo di Diomede in Italia?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Da guerriero diventa soltanto profeta delle vendette degli Atridi."
+        },
+        {
+          "id": "correct",
+          "text": "Da guerriero diventa anche eroe fondatore e mediatore."
+        },
+        {
+          "id": "d1",
+          "text": "Da guerriero diventa soprattutto cantore delle imprese di Achille."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Da guerriero diventa anche eroe fondatore e mediatore.",
+      "recovery": "La nuova terra amplia il ruolo dell’eroe. Diomede viene associato a città, alleanze e incontri tra popolazioni. La memoria locale lo presenta quindi come fondatore e mediatore, oltre che come protagonista della guerra.",
+      "reference": "#p4",
+      "sourceQuote": "Qui la figura di Diomede cambia. Non è più soltanto il guerriero dell’Iliade. Diventa un eroe fondatore, un personaggio che la memoria mitica collega alla nascita o alla rifondazione di città, all’organizzazione del territorio e all’incontro tra popolazioni diverse. Secondo varie tradizioni entra in rapporto con Dauno, il re eponimo della Daunia, e viene coinvolto in alleanze, guerre e matrimoni. I racconti cambiano da una fonte all’altra, ma tutti contribuiscono a inserire Diomede nel paesaggio mitico dell’Italia adriatica."
+    },
+    {
+      "id": "diomede-arpi-04",
+      "question": "Quale distinzione va mantenuta parlando di Arpi?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Arpi è storica; la fondazione di Diomede è una tradizione mitica."
+        },
+        {
+          "id": "d1",
+          "text": "Arpi è mitica; la fondazione di Diomede è una prova archeologica."
+        },
+        {
+          "id": "d2",
+          "text": "Arpi è moderna; la fondazione di Diomede è un evento documentato."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Arpi è storica; la fondazione di Diomede è una tradizione mitica.",
+      "recovery": "I resti e la storia di Arpi attestano una città reale. Il legame con Diomede appartiene invece al racconto mitico. Il prestigio della tradizione non costituisce da solo una prova dell’arrivo storico dell’eroe.",
+      "reference": "#p6",
+      "sourceQuote": "La tradizione antica attribuiva a Diomede la fondazione o la rifondazione di Arpi. Naturalmente dobbiamo distinguere con attenzione il mito dalla storia. Non possediamo prove storiche che dimostrino che Diomede sia realmente arrivato in Daunia e abbia fondato la città. Diomede appartiene al ciclo troiano, e il suo legame con Arpi è una tradizione mitica. Arpi, invece, è un sito storico e archeologico realmente esistito, con una storia propria e complessa."
+    },
+    {
+      "id": "diomede-arpi-05",
+      "question": "Perché una comunità collega la propria città a un eroe?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Per dimostrare automaticamente ogni episodio raccontato dai poemi."
+        },
+        {
+          "id": "d2",
+          "text": "Per cancellare i rapporti culturali con il resto del Mediterraneo."
+        },
+        {
+          "id": "correct",
+          "text": "Per costruire un’origine prestigiosa dentro una memoria condivisa."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Per costruire un’origine prestigiosa dentro una memoria condivisa.",
+      "recovery": "Attribuire l’origine a un eroe inserisce la città in un racconto conosciuto. La comunità costruisce così identità e prestigio. Il mito agisce come ponte culturale, pur senza diventare una dimostrazione storica della fondazione.",
+      "reference": "#p7",
+      "sourceQuote": "Questo non rende il mito meno interessante. Al contrario, ci permette di comprendere come le comunità antiche costruissero la propria identità. Collegare una città a un grande eroe dell’epica significava darle un’origine prestigiosa, inserirla dentro una storia conosciuta in tutto il Mediterraneo e creare un ponte tra il territorio locale e il mondo greco. Diomede diventava così non solo un personaggio della guerra di Troia, ma un antenato simbolico, un fondatore, un mediatore tra culture."
+    },
+    {
+      "id": "diomede-arpi-06",
+      "question": "Quale rapporto geografico lega Arpi alla Foggia moderna?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Arpi era un quartiere medievale interno alle mura foggiane."
+        },
+        {
+          "id": "correct",
+          "text": "Arpi era una città autonoma, vicina ma in un luogo diverso."
+        },
+        {
+          "id": "d1",
+          "text": "Arpi era la stessa città, nello stesso centro urbano moderno."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Arpi era una città autonoma, vicina ma in un luogo diverso.",
+      "recovery": "Il testo mette in guardia dall’identificare letteralmente Arpi con Foggia antica. Arpi aveva luogo, storia e identità propri. Il legame con l’area foggiana è territoriale e storico, senza una continuità urbana diretta e lineare.",
+      "reference": "#p9",
+      "sourceQuote": "Bisogna però evitare un’equivalenza troppo semplice. Arpi non era “Foggia antica” nel senso letterale del termine. Era una città autonoma, collocata in un luogo diverso dal centro urbano della Foggia moderna, con una propria storia e una propria identità. Possiamo considerarla uno dei più importanti antecedenti storici e territoriali dell’area foggiana, e l’espressione “proto-Foggia” può essere utile in senso didattico, purché ricordiamo che non esiste una continuità urbana diretta e lineare tra Arpi e la città di oggi."
+    },
+    {
+      "id": "diomede-arpi-07",
+      "question": "Come va intesa l’espressione didattica «proto-Foggia»?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Come richiamo al territorio, senza supporre una continuità urbana."
+        },
+        {
+          "id": "d1",
+          "text": "Come nome antico ufficiale della città nello stesso sito moderno."
+        },
+        {
+          "id": "d2",
+          "text": "Come prova della fondazione di Foggia da parte dell’eroe greco."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Come richiamo al territorio, senza supporre una continuità urbana.",
+      "recovery": "L’espressione può avvicinare il tema al territorio degli studenti. Deve però conservare la distinzione tra le due città. La semplificazione didattica non autorizza a immaginare uno sviluppo urbano diretto da Arpi alla Foggia attuale.",
+      "reference": "#p9",
+      "sourceQuote": "Bisogna però evitare un’equivalenza troppo semplice. Arpi non era “Foggia antica” nel senso letterale del termine. Era una città autonoma, collocata in un luogo diverso dal centro urbano della Foggia moderna, con una propria storia e una propria identità. Possiamo considerarla uno dei più importanti antecedenti storici e territoriali dell’area foggiana, e l’espressione “proto-Foggia” può essere utile in senso didattico, purché ricordiamo che non esiste una continuità urbana diretta e lineare tra Arpi e la città di oggi."
+    },
+    {
+      "id": "diomede-arpi-08",
+      "question": "Che cosa indica il termine «eponimo» riferito a Dauno?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Un personaggio che dimostra con resti materiali l’origine di una città."
+        },
+        {
+          "id": "d2",
+          "text": "Un personaggio che racconta con il canto le imprese di un guerriero."
+        },
+        {
+          "id": "correct",
+          "text": "Un personaggio dal cui nome si fa derivare quello di un territorio."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Un personaggio dal cui nome si fa derivare quello di un territorio.",
+      "recovery": "La tradizione lega il nome della Daunia a Dauno. Questo rapporto tra un personaggio e un nome collettivo è detto eponimia. Non riguarda una prova archeologica, ma il modo in cui un racconto spiega un’origine.",
+      "reference": "#p15",
+      "sourceQuote": "Diomede – Eroe acheo, re di Argo e uno dei più valorosi guerrieri dell’Iliade.\nNostos – Il ritorno degli eroi greci dopo la guerra di Troia.\nDaunia – Antica regione della Puglia settentrionale, corrispondente in gran parte all’area del Tavoliere.\nDauno – Re mitico ed eponimo della Daunia, collegato dalla tradizione all’arrivo di Diomede.\nArpi – Grande città daunia situata nei pressi dell’attuale Foggia, legata dalla tradizione alla figura di Diomede.\nEroe fondatore – Personaggio mitico al quale una comunità attribuisce la fondazione o la rifondazione di una città.\nEponimo – Personaggio dal cui nome una tradizione fa derivare il nome di un popolo o di un territorio.\nIsole Diomedee – Nome antico collegato alle Tremiti e alla memoria mitica di Diomede.\nTradizione mitica – Insieme di racconti trasmessi nel tempo che spiegano origini e identità senza costituire, da soli, una prova storica."
+    },
+    {
+      "id": "diomede-arpi-09",
+      "question": "Quale leggenda collega Diomede alle Tremiti?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "I compagni diventano dèi dell’Olimpo che proteggono Agamennone."
+        },
+        {
+          "id": "correct",
+          "text": "I compagni diventano uccelli marini che ne custodiscono la memoria."
+        },
+        {
+          "id": "d1",
+          "text": "I compagni diventano guerrieri troiani che riprendono il conflitto."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "I compagni diventano uccelli marini che ne custodiscono la memoria.",
+      "recovery": "Le Tremiti erano legate al nome di Diomede come Isole Diomedee. La leggenda trasforma i compagni dell’eroe in uccelli marini. È un esempio di come il mito attribuisca significato a isole e paesaggi reali.",
+      "reference": "#p10",
+      "sourceQuote": "Il nome di Diomede compare anche altrove nel paesaggio pugliese e adriatico. Diverse città dell’Italia meridionale rivendicavano un legame con lui, e perfino le isole Tremiti erano note nell’antichità come Isole Diomedee. Secondo una leggenda, dopo la morte dell’eroe i suoi compagni sarebbero stati trasformati in uccelli marini, destinati a vivere intorno alle isole e a custodirne la memoria."
+    },
+    {
+      "id": "diomede-arpi-10",
+      "question": "Che cosa distingue il nostos di Diomede dagli altri due ritorni?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Non recupera stabilmente la patria e si apre verso una nuova terra."
+        },
+        {
+          "id": "d1",
+          "text": "Recupera subito la patria e ricompone la casa insieme alla moglie."
+        },
+        {
+          "id": "d2",
+          "text": "Recupera il palazzo ma viene ucciso dalla moglie e dal suo compagno."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Non recupera stabilmente la patria e si apre verso una nuova terra.",
+      "recovery": "Menelao ricostruisce la propria casa, Agamennone vi trova la morte. Diomede torna ad Argo ma riparte. Il suo ritorno produce quindi un nuovo inizio e collega il mondo troiano alla geografia dell’Adriatico.",
+      "reference": "#p12",
+      "sourceQuote": "Il ritorno di Diomede è dunque diverso da quello di Menelao o di Agamennone. Menelao torna a Sparta e riesce a ricostruire la propria casa. Agamennone torna a Micene e vi trova la morte. Diomede, invece, torna ad Argo ma non vi rimane. Il suo nostos non si chiude con il recupero della patria: si apre verso una nuova terra."
+    }
+  ]
+}

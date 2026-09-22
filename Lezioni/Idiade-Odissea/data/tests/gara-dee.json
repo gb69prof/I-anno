@@ -1,0 +1,235 @@
+{
+  "lesson": "gara-dee",
+  "questions": [
+    {
+      "id": "gara-dee-01",
+      "question": "Perché Zeus affida a Paride il giudizio?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Vuole evitare l’ira delle due dee non scelte."
+        },
+        {
+          "id": "d1",
+          "text": "Vuole premiare il sovrano più potente dei Greci."
+        },
+        {
+          "id": "d2",
+          "text": "Vuole risolvere la guerra già iniziata a Troia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Vuole evitare l’ira delle due dee non scelte.",
+      "recovery": "Zeus sa che ogni scelta provocherebbe l’ira di due dee. Affida quindi il giudizio a Paride, un principe mortale. La guerra non è ancora cominciata: sarà una conseguenza della catena di scelte.",
+      "reference": "#p4",
+      "sourceQuote": "Zeus non volle decidere quale delle tre fosse la più bella. Qualunque scelta avrebbe provocato l’ira delle altre due. Ordinò quindi che il giudizio fosse affidato a un mortale: Paride, figlio del re Priamo di Troia."
+    },
+    {
+      "id": "gara-dee-02",
+      "question": "Quale confronto tra promesse è corretto?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Era offre sapienza; Atena amore e bellezza."
+        },
+        {
+          "id": "d2",
+          "text": "Era offre amore; Atena potere e ricchezza."
+        },
+        {
+          "id": "correct",
+          "text": "Era offre potere; Atena sapienza e vittoria."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Era offre potere; Atena sapienza e vittoria.",
+      "recovery": "Le dee cercano di orientare Paride con promesse diverse. Era gli offre il potere, Atena sapienza e vittoria. Afrodite promette invece l’amore della donna più bella: è questa promessa a prevalere.",
+      "reference": "#p6",
+      "sourceQuote": "Era gli promise il potere: se avesse scelto lei, Paride sarebbe diventato un grande sovrano."
+    },
+    {
+      "id": "gara-dee-03",
+      "question": "Che cosa porta Paride a scegliere Afrodite?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "La promessa del governo di un grande regno."
+        },
+        {
+          "id": "correct",
+          "text": "La promessa dell’amore della donna più bella."
+        },
+        {
+          "id": "d1",
+          "text": "La promessa della vittoria in ogni battaglia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La promessa dell’amore della donna più bella.",
+      "recovery": "Afrodite fa leva sul desiderio d’amore di Paride. Il premio promesso non è un potere politico o militare, ma Elena. La scelta privata avrà conseguenze pubbliche, perché Elena è già moglie di Menelao.",
+      "reference": "#p8",
+      "sourceQuote": "Afrodite, dea dell’amore e della bellezza, gli promise invece l’amore della donna più bella del mondo."
+    },
+    {
+      "id": "gara-dee-04",
+      "question": "Quale rapporto rende la partenza di Elena un’offesa a Menelao?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Elena è sua moglie e Paride è suo ospite."
+        },
+        {
+          "id": "d1",
+          "text": "Elena è sua sorella e Paride è suo alleato."
+        },
+        {
+          "id": "d2",
+          "text": "Elena è sua figlia e Paride è suo rivale."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Elena è sua moglie e Paride è suo ospite.",
+      "recovery": "Paride è accolto nella casa di Menelao e deve rispettarla. Partendo con Elena, moglie del re, viola anche quel rapporto. Il conflitto coinvolge dunque il matrimonio, l’onore del sovrano e le regole dell’ospitalità.",
+      "reference": "#p12",
+      "sourceQuote": "Paride arrivò a Sparta e fu accolto nella casa di Menelao. In base alle regole dell’ospitalità, chi accoglieva uno straniero lo proteggeva e lo trattava con rispetto; lo straniero, a sua volta, doveva rispettare la casa che lo ospitava."
+    },
+    {
+      "id": "gara-dee-05",
+      "question": "Quale affermazione rispetta le diverse versioni su Elena?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Cambiano le mete della partenza, ma Elena resta con Menelao."
+        },
+        {
+          "id": "d2",
+          "text": "Cambiano i nomi dei protagonisti, ma Elena viene sempre rapita."
+        },
+        {
+          "id": "correct",
+          "text": "Cambiano le cause della partenza, ma Elena giunge a Troia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Cambiano le cause della partenza, ma Elena giunge a Troia.",
+      "recovery": "Le tradizioni presentano la partenza come scelta, rapimento o intervento divino. La lezione non ne impone una sola. Il punto comune è che Elena lascia Sparta e raggiunge Troia con Paride.",
+      "reference": "#p14",
+      "sourceQuote": "Le versioni del mito non raccontano tutte la stessa cosa: in alcune Elena si innamora di Paride e lo segue volontariamente; in altre viene rapita; in altre ancora gli dèi intervengono direttamente. Ma il risultato non cambia: Elena lascia Sparta e arriva a Troia con Paride."
+    },
+    {
+      "id": "gara-dee-06",
+      "question": "Che cosa comporta la xenia?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Un diritto del vincitore di trattenere gli stranieri."
+        },
+        {
+          "id": "correct",
+          "text": "Un rispetto reciproco tra chi ospita e chi è accolto."
+        },
+        {
+          "id": "d1",
+          "text": "Un obbligo del solo ospite di obbedire al sovrano."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Un rispetto reciproco tra chi ospita e chi è accolto.",
+      "recovery": "La xenia lega entrambe le parti. Chi accoglie deve proteggere lo straniero; lo straniero deve rispettare la casa. Per questo il gesto di Paride assume un significato più ampio di una vicenda amorosa.",
+      "reference": "#p12",
+      "sourceQuote": "Paride arrivò a Sparta e fu accolto nella casa di Menelao. In base alle regole dell’ospitalità, chi accoglieva uno straniero lo proteggeva e lo trattava con rispetto; lo straniero, a sua volta, doveva rispettare la casa che lo ospitava."
+    },
+    {
+      "id": "gara-dee-07",
+      "question": "Perché Menelao si rivolge ad Agamennone?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Il fratello può radunare principi e guerrieri achei."
+        },
+        {
+          "id": "d1",
+          "text": "Il padre può convincere Paride a lasciare Troia."
+        },
+        {
+          "id": "d2",
+          "text": "Il rivale può persuadere Afrodite a cambiare scelta."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Il fratello può radunare principi e guerrieri achei.",
+      "recovery": "Agamennone è fratello di Menelao e re di Micene. La sua potenza gli permette di radunare i capi achei. L’offesa subita da Menelao diventa così il motivo di una spedizione collettiva contro Troia.",
+      "reference": "#p17",
+      "sourceQuote": "Menelao si rivolge allora a suo fratello Agamennone, re di Micene e uno dei sovrani più potenti della Grecia. Agamennone raduna i principi e i guerrieri achei."
+    },
+    {
+      "id": "gara-dee-08",
+      "question": "Chi è Paride nella vicenda?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Il sovrano acheo che organizza la spedizione a Troia."
+        },
+        {
+          "id": "d2",
+          "text": "Il sacerdote greco che annuncia il destino di Elena."
+        },
+        {
+          "id": "correct",
+          "text": "Il principe troiano che assegna la mela ad Afrodite."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Il principe troiano che assegna la mela ad Afrodite.",
+      "recovery": "Paride è figlio di Priamo, re di Troia. Il suo ruolo iniziale è giudicare la bellezza delle dee. Non va confuso con Agamennone, che più tardi guiderà la spedizione achea contro la sua città.",
+      "reference": "#p4",
+      "sourceQuote": "Zeus non volle decidere quale delle tre fosse la più bella. Qualunque scelta avrebbe provocato l’ira delle altre due. Ordinò quindi che il giudizio fosse affidato a un mortale: Paride, figlio del re Priamo di Troia."
+    },
+    {
+      "id": "gara-dee-09",
+      "question": "Che cosa mostra il passaggio dalla gara alla spedizione?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Le scelte degli dèi eliminano ogni azione umana."
+        },
+        {
+          "id": "correct",
+          "text": "Le scelte degli dèi e degli uomini si intrecciano."
+        },
+        {
+          "id": "d1",
+          "text": "Le scelte degli uomini restano estranee agli dèi."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Le scelte degli dèi e degli uomini si intrecciano.",
+      "recovery": "La lite divina non rimane confinata all’Olimpo. Passa attraverso la scelta di Paride, la partenza di Elena e la reazione di Menelao. Gli uomini agiscono, ma le loro vicende si intrecciano con quelle degli dèi.",
+      "reference": "#p22",
+      "sourceQuote": "La gara tra le dee trasforma una lite divina in un conflitto umano. Una scelta di Paride produce conseguenze enormi: prima Elena, poi l’offesa a Menelao, infine la spedizione achea contro Troia."
+    },
+    {
+      "id": "gara-dee-10",
+      "question": "Quale concatenazione ricostruisce le cause del conflitto?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Scelta di Afrodite, partenza di Elena, offesa a Menelao."
+        },
+        {
+          "id": "d1",
+          "text": "Offesa a Menelao, scelta di Afrodite, partenza di Elena."
+        },
+        {
+          "id": "d2",
+          "text": "Partenza di Elena, spedizione achea, giudizio di Paride."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Scelta di Afrodite, partenza di Elena, offesa a Menelao.",
+      "recovery": "Il giudizio di Paride precede la partenza di Elena. Menelao reagisce a quella partenza come a un’offesa gravissima. La spedizione achea è l’esito della catena, non l’evento che dà origine alla gara divina.",
+      "reference": "#p22",
+      "sourceQuote": "La gara tra le dee trasforma una lite divina in un conflitto umano. Una scelta di Paride produce conseguenze enormi: prima Elena, poi l’offesa a Menelao, infine la spedizione achea contro Troia."
+    }
+  ]
+}

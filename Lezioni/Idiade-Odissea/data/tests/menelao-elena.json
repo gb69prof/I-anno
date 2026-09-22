@@ -1,0 +1,235 @@
+{
+  "lesson": "menelao-elena",
+  "questions": [
+    {
+      "id": "menelao-elena-01",
+      "question": "Che cosa indica il termine nostoi?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "I ritorni degli eroi achei dopo la guerra di Troia."
+        },
+        {
+          "id": "d1",
+          "text": "Le spedizioni degli eroi achei prima della guerra di Troia."
+        },
+        {
+          "id": "d2",
+          "text": "I duelli degli eroi achei durante la guerra di Troia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "I ritorni degli eroi achei dopo la guerra di Troia.",
+      "recovery": "La distruzione di Troia non coincide con il ritorno degli eroi. Dopo il conflitto cominciano nuovi viaggi, chiamati nostoi. Queste vicende mostrano che le conseguenze della guerra proseguono anche dopo l’ultima battaglia.",
+      "reference": "#p1",
+      "sourceQuote": "Quando Troia cade e le sue mura vengono incendiate, per gli Achei la guerra è finalmente terminata. Ma la fine del conflitto non coincide con la fine delle loro avventure. Dopo dieci anni trascorsi lontano da casa, ciascun eroe deve affrontare un nuovo viaggio: il ritorno. I Greci chiamavano questi ritorni nostoi, e proprio nei nostoi si comprende quanto la guerra continui a produrre conseguenze anche dopo l’ultima battaglia."
+    },
+    {
+      "id": "menelao-elena-02",
+      "question": "Perché gli dèi ostacolano molti ritorni achei?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Per le promesse e i doni scambiati nella reggia di Sparta."
+        },
+        {
+          "id": "d2",
+          "text": "Per le alleanze e i matrimoni stabiliti prima della spedizione."
+        },
+        {
+          "id": "correct",
+          "text": "Per le violenze e i sacrilegi commessi nella città conquistata."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Per le violenze e i sacrilegi commessi nella città conquistata.",
+      "recovery": "La lezione collega l’ira divina alle violenze della presa di Troia. Tempeste e naufragi colpiscono anche i vincitori. Aver conquistato la città non significa quindi poter ritornare senza affrontare le conseguenze delle proprie azioni.",
+      "reference": "#p3",
+      "sourceQuote": "Le tradizioni raccontano che gli dèi fossero irritati per le violenze e i sacrilegi commessi dagli Achei durante la presa della città. Il ritorno di molti guerrieri viene così ostacolato da tempeste, naufragi e deviazioni. Anche la flotta di Menelao viene dispersa e il re è costretto a vagare a lungo nel Mediterraneo. Il suo viaggio lo porta lontano da Sparta, verso Cipro, la Fenicia, la Libia e soprattutto l’Egitto."
+    },
+    {
+      "id": "menelao-elena-03",
+      "question": "Quale tappa è centrale nel ritorno di Menelao?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Arpi, dove deve fondare un nuovo regno con Elena."
+        },
+        {
+          "id": "correct",
+          "text": "L’Egitto, dove deve ottenere informazioni da Proteo."
+        },
+        {
+          "id": "d1",
+          "text": "Itaca, dove deve recuperare le armi di Odisseo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "L’Egitto, dove deve ottenere informazioni da Proteo.",
+      "recovery": "Il viaggio di Menelao attraversa varie terre del Mediterraneo. In Egitto incontra Proteo e ottiene indicazioni decisive. Itaca e Arpi appartengono ad altre vicende dei ritorni, non alla meta finale di Menelao.",
+      "reference": "#p4",
+      "sourceQuote": "È proprio in Egitto che avviene uno degli episodi più importanti del suo nostos. Menelao deve incontrare Proteo, il vecchio dio del mare, una divinità capace di conoscere il passato e il futuro ma anche di mutare continuamente aspetto per sfuggire a chi cerca di trattenerlo. Per ottenere da lui le informazioni necessarie a tornare a casa, Menelao deve affrontarlo e resistere alle sue trasformazioni. Proteo diventa ora leone, ora serpente, ora acqua, ora altre forme ancora, ma Menelao non lo lascia andare finché il dio, cessata la lotta, accetta di parlare."
+    },
+    {
+      "id": "menelao-elena-04",
+      "question": "Perché Menelao trattiene Proteo durante le metamorfosi?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Vuole ottenere le indicazioni necessarie a tornare a casa."
+        },
+        {
+          "id": "d1",
+          "text": "Vuole ottenere il consenso necessario a sposare Elena."
+        },
+        {
+          "id": "d2",
+          "text": "Vuole ottenere le armi necessarie a conquistare Troia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Vuole ottenere le indicazioni necessarie a tornare a casa.",
+      "recovery": "Proteo conosce passato e futuro, ma tenta di sfuggire cambiando forma. Menelao deve resistere fino a quando accetta di parlare. La prova serve a ritrovare il cammino del ritorno e a placare gli dèi.",
+      "reference": "#p4",
+      "sourceQuote": "È proprio in Egitto che avviene uno degli episodi più importanti del suo nostos. Menelao deve incontrare Proteo, il vecchio dio del mare, una divinità capace di conoscere il passato e il futuro ma anche di mutare continuamente aspetto per sfuggire a chi cerca di trattenerlo. Per ottenere da lui le informazioni necessarie a tornare a casa, Menelao deve affrontarlo e resistere alle sue trasformazioni. Proteo diventa ora leone, ora serpente, ora acqua, ora altre forme ancora, ma Menelao non lo lascia andare finché il dio, cessata la lotta, accetta di parlare."
+    },
+    {
+      "id": "menelao-elena-05",
+      "question": "Quale somiglianza lega Proteo all’episodio di Peleo e Teti?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Un sovrano sacrifica una figlia per ottenere il vento."
+        },
+        {
+          "id": "d2",
+          "text": "Un guerriero nasconde il proprio nome per evitare la vendetta."
+        },
+        {
+          "id": "correct",
+          "text": "Un mortale trattiene un essere marino che muta forma."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Un mortale trattiene un essere marino che muta forma.",
+      "recovery": "Entrambi gli episodi presentano un mortale alle prese con trasformazioni divine. Cambia però lo scopo della prova. Peleo cerca una sposa, mentre Menelao vuole ottenere ciò che gli occorre per ritrovare la strada di casa.",
+      "reference": "#p5",
+      "sourceQuote": "L’episodio ricorda da vicino quello di Peleo e Teti: anche allora un mortale aveva dovuto trattenere un essere marino capace di trasformarsi. Nel caso di Menelao, però, la prova non serve a conquistare una sposa, ma a ritrovare la strada di casa. Proteo gli rivela infatti che cosa è accaduto agli altri eroi e gli indica ciò che deve fare per placare gli dèi e completare il viaggio."
+    },
+    {
+      "id": "menelao-elena-06",
+      "question": "Che cosa trova Telemaco nella reggia di Sparta?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Menelao ucciso ed Elena impegnata a vendicarne la morte."
+        },
+        {
+          "id": "correct",
+          "text": "Menelao ed Elena nuovamente insieme in una vita ordinata."
+        },
+        {
+          "id": "d1",
+          "text": "Menelao ancora assente ed Elena in attesa del suo ritorno."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Menelao ed Elena nuovamente insieme in una vita ordinata.",
+      "recovery": "Nell’Odissea Telemaco cerca notizie del padre e incontra la coppia riunita. Il ritorno di Menelao ha permesso una ricomposizione della casa. Questo esito si distingue dalla tragedia che attende Agamennone a Micene.",
+      "reference": "#p6",
+      "sourceQuote": "Alla fine Menelao riesce a tornare a Sparta con Elena. Quando, nell’Odissea, Telemaco arriva alla loro reggia in cerca di notizie su Odisseo, li trova nuovamente insieme, immersi in una vita apparentemente ordinata e prospera. Il contrasto con altri ritorni è evidente: Agamennone, per esempio, una volta giunto a casa verrà ucciso, mentre Odisseo continuerà a vagare per anni. Menelao, invece, pur attraversando un nostos lungo e difficile, riesce infine a recuperare il regno, la casa e la moglie."
+    },
+    {
+      "id": "menelao-elena-07",
+      "question": "Perché Elena rimane una figura ambigua?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Le tradizioni presentano in modi diversi le sue scelte e responsabilità."
+        },
+        {
+          "id": "d1",
+          "text": "Le tradizioni ignorano sempre il suo rapporto con Menelao e Paride."
+        },
+        {
+          "id": "d2",
+          "text": "Le tradizioni la descrivono tutte come unica responsabile della guerra."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Le tradizioni presentano in modi diversi le sue scelte e responsabilità.",
+      "recovery": "Elena non riceve lo stesso ruolo in ogni racconto. Può seguire Paride volontariamente, essere rapita o subire l’intervento divino. Per questo non basta un’unica etichetta per definirne la responsabilità nella vicenda.",
+      "reference": "#p7",
+      "sourceQuote": "Elena, tuttavia, rimane un personaggio difficile da racchiudere in una definizione semplice. La tradizione antica non racconta sempre nello stesso modo la sua partenza da Sparta. In alcune versioni segue Paride volontariamente, in altre viene rapita, in altre ancora gli dèi intervengono direttamente nelle sue scelte. Anche dopo la guerra, perciò, resta una figura ambigua: colpevole e vittima, causa della guerra e allo stesso tempo donna trascinata dentro un conflitto che ha assunto proporzioni immensamente più grandi della sua vicenda personale."
+    },
+    {
+      "id": "menelao-elena-08",
+      "question": "Che cosa significa ricostruire la casa dopo il ritorno?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Recuperare esattamente il mondo di prima cancellando la guerra."
+        },
+        {
+          "id": "d2",
+          "text": "Recuperare soltanto ricchezze senza ristabilire alcun legame."
+        },
+        {
+          "id": "correct",
+          "text": "Recuperare in parte ciò che la guerra ha spezzato."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Recuperare in parte ciò che la guerra ha spezzato.",
+      "recovery": "Il ritorno rende possibile riprendere il proprio posto, ma non annulla l’esperienza vissuta. Menelao e il suo mondo sono cambiati. La ricomposizione è quindi una ricostruzione parziale, non una cancellazione del passato.",
+      "reference": "#p0",
+      "sourceQuote": "IL RITORNO DI MENELAO ED ELENA"
+    },
+    {
+      "id": "menelao-elena-09",
+      "question": "Quale contrasto distingue Menelao da Agamennone?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Menelao fonda una città; Agamennone resta per sempre sul mare."
+        },
+        {
+          "id": "correct",
+          "text": "Menelao ricompone la casa; Agamennone vi trova la morte."
+        },
+        {
+          "id": "d1",
+          "text": "Menelao perde la casa; Agamennone vi ritrova una pace stabile."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Menelao ricompone la casa; Agamennone vi trova la morte.",
+      "recovery": "I due fratelli lasciano Troia da vincitori, ma il loro esito è diverso. Menelao riesce a tornare con Elena. Agamennone scopre invece che la propria casa contiene una minaccia più grave del campo di battaglia.",
+      "reference": "#p9",
+      "sourceQuote": "Per questo il suo ritorno è diverso da quello di Agamennone. Entrambi partono da Troia da vincitori, entrambi portano con sé il peso della guerra, ma il destino li conduce in direzioni opposte. Menelao trova infine una forma di ricomposizione. Agamennone, invece, scoprirà che la propria casa può essere più pericolosa del campo di battaglia."
+    },
+    {
+      "id": "menelao-elena-10",
+      "question": "Quale idea comune emerge dai ritorni?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "La fine della guerra non garantisce la fine delle prove."
+        },
+        {
+          "id": "d1",
+          "text": "La fine della guerra garantisce il ristabilimento di ogni regno."
+        },
+        {
+          "id": "d2",
+          "text": "La fine della guerra rende inutili i rapporti con gli dèi."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La fine della guerra non garantisce la fine delle prove.",
+      "recovery": "Il nostos è una nuova fase della vicenda degli eroi. Tornare richiede di attraversare ostacoli e conseguenze del conflitto. La vittoria militare è dunque distinta dalla possibilità di ritrovare la propria casa e la pace.",
+      "reference": "#p1",
+      "sourceQuote": "Quando Troia cade e le sue mura vengono incendiate, per gli Achei la guerra è finalmente terminata. Ma la fine del conflitto non coincide con la fine delle loro avventure. Dopo dieci anni trascorsi lontano da casa, ciascun eroe deve affrontare un nuovo viaggio: il ritorno. I Greci chiamavano questi ritorni nostoi, e proprio nei nostoi si comprende quanto la guerra continui a produrre conseguenze anche dopo l’ultima battaglia."
+    }
+  ]
+}

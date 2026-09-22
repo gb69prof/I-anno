@@ -1,0 +1,235 @@
+{
+  "lesson": "scelta-achille",
+  "questions": [
+    {
+      "id": "scelta-achille-01",
+      "question": "Quali possibilità sono offerte ad Achille?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Una vita lunga dimenticata oppure breve e gloriosa."
+        },
+        {
+          "id": "d1",
+          "text": "Una vita lunga gloriosa oppure breve e dimenticata."
+        },
+        {
+          "id": "d2",
+          "text": "Una vita eterna lontano da casa oppure breve in patria."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Una vita lunga dimenticata oppure breve e gloriosa.",
+      "recovery": "Achille deve scegliere tra durata della vita e memoria dell’impresa. Restare lontano da Troia significa vivere a lungo, ma essere dimenticato. Partire significa morire giovane e ottenere una gloria capace di sopravvivere alla morte.",
+      "reference": "#p5",
+      "sourceQuote": "La prima sarebbe stata lunga e tranquilla. Achille sarebbe rimasto lontano dalla guerra di Troia, sarebbe vissuto molti anni, avrebbe avuto una famiglia e sarebbe morto anziano. Ma il suo nome, con il passare del tempo, sarebbe stato dimenticato."
+    },
+    {
+      "id": "scelta-achille-02",
+      "question": "Qual è il significato del kleos?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "La forza garantita dal possesso delle armi divine."
+        },
+        {
+          "id": "d2",
+          "text": "La prudenza necessaria per ritornare nella patria."
+        },
+        {
+          "id": "correct",
+          "text": "La gloria custodita nella memoria e nei canti."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La gloria custodita nella memoria e nei canti.",
+      "recovery": "Il kleos non è soltanto notorietà durante la vita. È la possibilità che il nome dell’eroe continui nei racconti. La scelta di Achille acquista senso dentro una cultura che attribuisce valore alla memoria collettiva.",
+      "reference": "#p7",
+      "sourceQuote": "Achille sarebbe partito per Troia, avrebbe combattuto e sarebbe morto giovane. In cambio avrebbe ottenuto il kleos: la gloria che sopravvive alla morte e mantiene vivo il nome dell’eroe nella memoria degli uomini."
+    },
+    {
+      "id": "scelta-achille-03",
+      "question": "Perché la scelta di Achille è consapevole?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Ignora il destino che sua madre ha previsto per lui."
+        },
+        {
+          "id": "correct",
+          "text": "Conosce il costo mortale della partenza per Troia."
+        },
+        {
+          "id": "d1",
+          "text": "Crede che la gloria gli assicuri una vita immortale."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Conosce il costo mortale della partenza per Troia.",
+      "recovery": "Achille sa che la guerra gli costerà la vita. Non sceglie perché ignora il pericolo o si considera immortale. Il conflitto tra sopravvivenza e gloria nasce proprio dalla consapevolezza di ciò che perderà.",
+      "reference": "#p19",
+      "sourceQuote": "La cosa più importante, però, è che Achille conosce il proprio destino. Non va incontro alla morte senza saperlo. Sa che la guerra gli costerà la vita e sceglie comunque di combattere."
+    },
+    {
+      "id": "scelta-achille-04",
+      "question": "Qual è lo scopo del nascondiglio a Sciro?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Teti vuole impedire al figlio di partire per Troia."
+        },
+        {
+          "id": "d1",
+          "text": "Teti vuole preparare il figlio al governo di Sparta."
+        },
+        {
+          "id": "d2",
+          "text": "Teti vuole separare il figlio dai guerrieri troiani."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Teti vuole impedire al figlio di partire per Troia.",
+      "recovery": "Teti cerca di salvare Achille sottraendolo alla spedizione achea. Lo nasconde a Sciro, alla corte di Licomede. Il travestimento serve a impedirne il riconoscimento, ma Odisseo riuscirà a scoprire chi è.",
+      "reference": "#p12",
+      "sourceQuote": "Secondo una tradizione, quando gli Achei cominciarono a radunare i guerrieri per la spedizione contro Troia, Teti nascose Achille sull’isola di Sciro, alla corte del re Licomede, travestendolo da ragazza."
+    },
+    {
+      "id": "scelta-achille-05",
+      "question": "Come Odisseo smaschera Achille?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Lo induce a raccontare la profezia davanti a Licomede."
+        },
+        {
+          "id": "d2",
+          "text": "Lo induce a guidare una nave davanti ai Mirmidoni."
+        },
+        {
+          "id": "correct",
+          "text": "Lo induce ad afferrare le armi al suono di un allarme."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Lo induce ad afferrare le armi al suono di un allarme.",
+      "recovery": "Odisseo dispone armi tra stoffe e gioielli e provoca un allarme. Achille reagisce impugnandole istintivamente. L’inganno rivela la sua identità attraverso un’azione, senza bisogno di una confessione o di uno scontro.",
+      "reference": "#p14",
+      "sourceQuote": "Si presentò a corte fingendosi un mercante e mostrò alle giovani principesse stoffe e gioielli. Tra quegli oggetti mise però anche delle armi. Poi fece suonare improvvisamente un segnale d’allarme."
+    },
+    {
+      "id": "scelta-achille-06",
+      "question": "Quale ruolo ha Licomede nella lezione?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "È il cantore che conserva la gloria di Achille."
+        },
+        {
+          "id": "correct",
+          "text": "È il re che ospita Achille nascosto a Sciro."
+        },
+        {
+          "id": "d1",
+          "text": "È il guerriero che guida Achille verso Troia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "È il re che ospita Achille nascosto a Sciro.",
+      "recovery": "Licomede è il re di Sciro, alla cui corte Achille viene nascosto. Odisseo è invece colui che lo scopre. Distinguere i ruoli permette di ricostruire il tentativo di Teti e il suo fallimento.",
+      "reference": "#p22",
+      "sourceQuote": "Achille – figlio di Peleo e Teti.\nTeti – madre di Achille, cerca di sottrarlo al destino.\nPeleo – padre di Achille.\nOdisseo – scopre Achille nascosto a Sciro.\nLicomede – re di Sciro."
+    },
+    {
+      "id": "scelta-achille-07",
+      "question": "Che cosa lega i Mirmidoni ad Achille?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Sono il popolo e i guerrieri che egli guida."
+        },
+        {
+          "id": "d1",
+          "text": "Sono i principi che lo nascondono nella loro corte."
+        },
+        {
+          "id": "d2",
+          "text": "Sono i cantori che trasmettono la sua profezia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Sono il popolo e i guerrieri che egli guida.",
+      "recovery": "Achille parte per Troia con i Mirmidoni. La lezione li presenta come il suo popolo e il suo gruppo di guerrieri. Non sono la famiglia di Licomede né coloro che escogitano il suo travestimento.",
+      "reference": "#p28",
+      "sourceQuote": "Achille – Figlio di Peleo e Teti, destinato a diventare il più grande guerriero acheo della guerra di Troia.\nKleos – Gloria che sopravvive alla morte e conserva il nome dell’eroe nella memoria degli uomini.\nMoira o fato – Il destino assegnato a ciascuno e il limite della vita umana.\nMirmidoni – Il popolo e i guerrieri guidati da Achille.\nSciro – Isola nella quale, secondo una tradizione, Teti nasconde Achille per impedirgli di partire per Troia.\nLicomede – Re di Sciro presso la cui corte viene nascosto Achille.\nOdisseo – Re di Itaca che scopre Achille nascosto a Sciro grazie a un inganno.\nEroe epico – Protagonista dell’epica, caratterizzato da qualità eccezionali e dal desiderio di lasciare memoria delle proprie imprese."
+    },
+    {
+      "id": "scelta-achille-08",
+      "question": "Perché i canti sono importanti per l’eroe epico?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Permettono al suo corpo di sottrarsi alla morte."
+        },
+        {
+          "id": "d2",
+          "text": "Permettono al suo destino di cambiare dopo la guerra."
+        },
+        {
+          "id": "correct",
+          "text": "Permettono al suo nome di durare oltre la vita."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Permettono al suo nome di durare oltre la vita.",
+      "recovery": "Il corpo dell’eroe rimane mortale, ma le imprese possono essere raccontate. I canti conservano il suo nome per generazioni. La durata del racconto compensa simbolicamente la brevità della vita scelta da Achille.",
+      "reference": "#p9",
+      "sourceQuote": "Per noi moderni questa scelta può sembrare difficile da comprendere. Per l’eroe del mondo epico, però, la gloria non è semplicemente essere famosi. Significa lasciare una traccia nella memoria collettiva, essere ricordati attraverso i racconti e i canti."
+    },
+    {
+      "id": "scelta-achille-09",
+      "question": "Quale opposizione rende complesso Achille?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Il desiderio di viaggiare e il timore del mare."
+        },
+        {
+          "id": "correct",
+          "text": "Il desiderio di vivere e il valore della gloria."
+        },
+        {
+          "id": "d1",
+          "text": "Il desiderio di regnare e il rifiuto della famiglia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Il desiderio di vivere e il valore della gloria.",
+      "recovery": "La grandezza di Achille non elimina il prezzo della sua scelta. Una vita gloriosa significa rinunciare a molti anni di esistenza. La tensione tra questi due beni prepara la complessità del personaggio nell’Iliade.",
+      "reference": "#p20",
+      "sourceQuote": "È proprio questo conflitto tra vita e gloria a rendere Achille uno dei personaggi più complessi dell’epica greca."
+    },
+    {
+      "id": "scelta-achille-10",
+      "question": "Perché questa lezione prepara la lettura dell’Iliade?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Chiarisce il valore che Achille attribuisce alla gloria."
+        },
+        {
+          "id": "d1",
+          "text": "Chiarisce come Achille riesca a sottrarsi alla guerra."
+        },
+        {
+          "id": "d2",
+          "text": "Chiarisce perché Achille rinunci a essere ricordato."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Chiarisce il valore che Achille attribuisce alla gloria.",
+      "recovery": "Quando incontriamo Achille nell’Iliade, la gloria è già una scelta pagata con la vita. Comprendere questo antefatto aiuta a leggere il suo orgoglio e la sua ira. L’eroismo rimane continuamente legato alla morte.",
+      "reference": "#p24",
+      "sourceQuote": "La scelta di Achille prepara direttamente l’Iliade."
+    }
+  ]
+}

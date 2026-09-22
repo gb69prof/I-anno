@@ -1,0 +1,327 @@
+{
+  "lesson": "guerra-troia",
+  "questions": [
+    {
+      "id": "guerra-troia-01",
+      "question": "Qual è il rapporto tra il ciclo troiano e l’Iliade?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "L’Iliade racconta soltanto una parte del conflitto."
+        },
+        {
+          "id": "d1",
+          "text": "L’Iliade racconta l’intero conflitto e tutti i ritorni."
+        },
+        {
+          "id": "d2",
+          "text": "L’Iliade racconta soltanto le cause prima del conflitto."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "L’Iliade racconta soltanto una parte del conflitto.",
+      "recovery": "Il ciclo troiano comprende antefatti, guerra e ritorni. L’Iliade si concentra su un breve periodo dell’ultimo anno del conflitto. Per conoscere la caduta della città occorrono quindi racconti che vanno oltre quel poema.",
+      "reference": "#p1",
+      "sourceQuote": "La guerra di Troia è uno dei grandi racconti della tradizione greca. Per secoli poeti e cantori ne narrarono gli episodi, aggiungendo particolari, collegando storie diverse e trasformando una possibile memoria di conflitti antichi in un enorme ciclo mitico. L’Iliade ne racconta soltanto una parte: pochi giorni dell’ultimo anno della guerra. La storia complessiva è molto più lunga e comincia prima ancora che le navi achee prendano il mare."
+    },
+    {
+      "id": "guerra-troia-02",
+      "question": "Perché l’offesa a Menelao provoca una spedizione collettiva?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "La sconfitta militare di un re richiede nuove fortificazioni."
+        },
+        {
+          "id": "d2",
+          "text": "Il destino personale di un re richiede il giudizio di Paride."
+        },
+        {
+          "id": "correct",
+          "text": "L’onore pubblico di un re richiede una risposta pubblica."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "L’onore pubblico di un re richiede una risposta pubblica.",
+      "recovery": "Nella mentalità eroica l’onore del re ha una dimensione pubblica. La partenza di Elena non riguarda soltanto la coppia. Agamennone raduna gli altri capi e trasforma la reazione di Menelao in una spedizione achea.",
+      "reference": "#p3",
+      "sourceQuote": "Quando Elena lascia Sparta con Paride e raggiunge Troia, Menelao considera l’accaduto un’offesa gravissima. Non è soltanto una questione privata. È stato colpito l’onore di un re e, secondo la mentalità del mondo eroico, un’offesa pubblica esige una risposta pubblica. Menelao si rivolge allora al fratello Agamennone, re di Micene, il più potente tra i sovrani achei. Intorno a lui si raccolgono molti dei principali guerrieri della Grecia: Odisseo, re di Itaca, famoso per l’intelligenza; Aiace Telamonio, gigantesco e fortissimo; Diomede, giovane e valoroso; Nestore, anziano re di Pilo e consigliere esperto; e soprattutto Achille, figlio di Peleo e Teti, destinato a diventare il più temuto guerriero dell’intera spedizione."
+    },
+    {
+      "id": "guerra-troia-03",
+      "question": "Che cosa anticipa l’episodio di Ifigenia?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "La vittoria definitiva che gli Achei ottengono già ad Aulide."
+        },
+        {
+          "id": "correct",
+          "text": "Le ferite familiari che precedono la guerra e le sopravvivono."
+        },
+        {
+          "id": "d1",
+          "text": "La riconciliazione familiare che segue la partenza della flotta."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Le ferite familiari che precedono la guerra e le sopravvivono.",
+      "recovery": "Il sacrificio richiesto ad Aulide coinvolge la casa di Agamennone prima del conflitto. Clitennestra non dimenticherà la decisione del marito. Il dolore familiare prepara conseguenze che emergeranno al ritorno del vincitore da Troia.",
+      "reference": "#p4",
+      "sourceQuote": "Prima di partire, l’esercito si raduna ad Aulide. Qui, però, la flotta rimane immobile: non soffia vento. L’indovino Calcante annuncia che Artemide è adirata con Agamennone e che, per placarla, occorre il sacrificio di sua figlia Ifigenia. Le tradizioni non concordano sul finale dell’episodio. In alcune versioni la ragazza viene realmente sacrificata; in altre Artemide la salva all’ultimo momento e sostituisce il suo corpo con una cerva. Qualunque versione si scelga, il significato dell’episodio resta terribile: la guerra non è ancora cominciata e già una famiglia è stata distrutta. Clitennestra, moglie di Agamennone e madre di Ifigenia, non dimenticherà ciò che è accaduto. Molti anni dopo, quando il marito tornerà da Troia, quel dolore tornerà a presentare il conto."
+    },
+    {
+      "id": "guerra-troia-04",
+      "question": "Come si svolge la guerra nei primi nove anni?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Gli Achei colpiscono anche città e territori alleati di Troia."
+        },
+        {
+          "id": "d1",
+          "text": "Gli Achei combattono esclusivamente dentro le mura di Troia."
+        },
+        {
+          "id": "d2",
+          "text": "Gli Achei attendono senza combattere il ritorno di Achille."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Gli Achei colpiscono anche città e territori alleati di Troia.",
+      "recovery": "La guerra non si limita allo scontro davanti alle mura. Gli Achei attaccano territori vicini e raccolgono bottino e prigionieri. Da queste spedizioni provengono Criseide e Briseide, decisive per la successiva crisi dell’esercito.",
+      "reference": "#p6",
+      "sourceQuote": "Gli Achei non riescono a conquistare subito la città. L’assedio si prolunga e, secondo il mito, dura dieci anni. Nei primi nove anni la guerra non si svolge soltanto davanti alle mura di Troia. Gli Achei attaccano anche città vicine e territori alleati dei Troiani, raccolgono bottino, catturano prigionieri e cercano di indebolire il nemico. È durante una di queste spedizioni che Agamennone riceve come schiava Criseide, figlia del sacerdote Crise, mentre Achille ottiene Briseide. Questi due nomi, apparentemente secondari, diventeranno decisivi all’inizio del decimo anno."
+    },
+    {
+      "id": "guerra-troia-05",
+      "question": "Perché Agamennone sottrae Briseide ad Achille?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Vuole premiare Patroclo per la difesa delle navi achee."
+        },
+        {
+          "id": "d2",
+          "text": "Vuole riconciliare Menelao con Elena prima della battaglia."
+        },
+        {
+          "id": "correct",
+          "text": "Vuole compensare la restituzione del proprio premio Criseide."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Vuole compensare la restituzione del proprio premio Criseide.",
+      "recovery": "Agamennone deve restituire Criseide per far cessare la pestilenza. Per non restare senza premio prende Briseide ad Achille. Questo gesto ferisce pubblicamente l’onore del guerriero e provoca il suo ritiro dalla battaglia.",
+      "reference": "#p7",
+      "sourceQuote": "Crise si presenta nel campo acheo e chiede ad Agamennone di restituirgli la figlia. Il re rifiuta. Il sacerdote allora prega Apollo, e il dio colpisce l’esercito con una pestilenza. Quando l’indovino Calcante rivela la causa del male, Agamennone è costretto a cedere e restituisce Criseide. Non vuole però rimanere senza il proprio premio di guerra e decide di prendere Briseide ad Achille. Per noi moderni il gesto potrebbe sembrare una lite per il possesso di una donna; per Achille è molto di più. Quel premio rappresenta pubblicamente il suo valore. Togliendoglielo, Agamennone mette in discussione il suo onore davanti all’intero esercito. Achille si sente umiliato e decide di non combattere più."
+    },
+    {
+      "id": "guerra-troia-06",
+      "question": "Perché Patroclo indossa le armi di Achille?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Vuole far credere a Priamo che la guerra sia terminata."
+        },
+        {
+          "id": "correct",
+          "text": "Vuole far credere ai Troiani che Achille sia tornato."
+        },
+        {
+          "id": "d1",
+          "text": "Vuole far credere agli Achei che Agamennone sia caduto."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Vuole far credere ai Troiani che Achille sia tornato.",
+      "recovery": "Le armi di Achille sono riconoscibili e incutono timore. Patroclo le usa per respingere i Troiani dalle navi. Il piano iniziale riesce, ma l’inseguimento oltre il limite imposto da Achille lo conduce alla morte.",
+      "reference": "#p9",
+      "sourceQuote": "A quel punto interviene Patroclo, l’amico più caro di Achille. Vedendo gli Achei in pericolo, gli chiede il permesso di indossare la sua armatura e di guidare i Mirmidoni in battaglia. L’idea è che i Troiani, riconoscendo quelle armi, credano che Achille sia tornato. Il piano funziona. Patroclo riesce a respingere i nemici, ma, trascinato dal successo, continua l’inseguimento oltre il limite che Achille gli aveva imposto. Arriva fin sotto le mura di Troia, dove Apollo interviene contro di lui. Patroclo viene colpito, disarmato e infine ucciso da Ettore."
+    },
+    {
+      "id": "guerra-troia-07",
+      "question": "Che cosa induce Achille a tornare in battaglia?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Il dolore per Patroclo e il desiderio di vendetta."
+        },
+        {
+          "id": "d1",
+          "text": "La promessa di Agamennone di cedergli il comando."
+        },
+        {
+          "id": "d2",
+          "text": "La decisione di Priamo di restituire Elena a Menelao."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Il dolore per Patroclo e il desiderio di vendetta.",
+      "recovery": "La morte di Patroclo cambia la priorità di Achille. L’offesa subita da Agamennone passa in secondo piano. Il ritorno nasce dal dolore e dalla volontà di vendicare l’amico, non dalla soluzione politica del conflitto.",
+      "reference": "#p10",
+      "sourceQuote": "Quando Achille apprende la notizia, l’ira contro Agamennone perde improvvisamente importanza. Il dolore per Patroclo è più forte di tutto. Teti, sua madre, chiede al dio Efesto nuove armi per il figlio, perché quelle vecchie sono finite nelle mani di Ettore. Achille torna così in battaglia con un solo obiettivo: vendicarsi."
+    },
+    {
+      "id": "guerra-troia-08",
+      "question": "Che cosa interrompe la violenza di Achille sul corpo di Ettore?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "La minaccia di Menelao e il riconoscimento dell’autorità regale."
+        },
+        {
+          "id": "d2",
+          "text": "La sfida di Paride e il riconoscimento della superiorità troiana."
+        },
+        {
+          "id": "correct",
+          "text": "La supplica di Priamo e il riconoscimento del dolore comune."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La supplica di Priamo e il riconoscimento del dolore comune.",
+      "recovery": "Priamo chiede il corpo del figlio e ricorda ad Achille suo padre Peleo. L’incontro rende visibile una sofferenza condivisa. Achille restituisce Ettore: proprio con i funerali del difensore termina l’Iliade.",
+      "reference": "#p12",
+      "sourceQuote": "A spezzare quella violenza è Priamo. Il vecchio re entra di notte nel campo acheo e raggiunge la tenda di Achille. Si inginocchia davanti all’uomo che ha ucciso suo figlio e gli chiede di restituirgli il corpo. Gli parla del padre Peleo, rimasto lontano. Achille, guardando Priamo, pensa al proprio padre e comprende il dolore dell’uomo che ha davanti. I due piangono insieme. Per qualche momento non esistono più il vincitore e lo sconfitto, l’Acheo e il Troiano: ci sono soltanto due uomini segnati dalla perdita. Achille restituisce il corpo di Ettore e concede una tregua per i funerali. È qui che termina l’Iliade. La guerra, però, non è ancora finita."
+    },
+    {
+      "id": "guerra-troia-09",
+      "question": "Quale precisazione riguarda il tallone di Achille?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "È il particolare con cui Priamo convince Achille alla tregua."
+        },
+        {
+          "id": "correct",
+          "text": "È un particolare di tradizioni successive, assente dall’Iliade."
+        },
+        {
+          "id": "d1",
+          "text": "È il particolare con cui l’Iliade descrive la caduta di Troia."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "È un particolare di tradizioni successive, assente dall’Iliade.",
+      "recovery": "La lezione distingue la morte di Achille dalle tradizioni sul tallone. La collocazione precisa della ferita appartiene a racconti più tardi. Né la morte dell’eroe né quel particolare costituiscono il finale dell’Iliade.",
+      "reference": "#p13",
+      "sourceQuote": "Dopo la morte di Ettore, Achille continua a combattere. La tradizione racconta che affronti nuovi nemici e che alla fine venga colpito da Paride con una freccia, guidata da Apollo. Solo in tradizioni più tarde la ferita viene collocata precisamente nel tallone, da cui nasce l’espressione ancora oggi usata di «tallone d’Achille». Quel particolare non appartiene al racconto dell’Iliade. Ciò che conta, nel mito, è che anche il più forte dei guerrieri cade prima della conquista definitiva di Troia."
+    },
+    {
+      "id": "guerra-troia-10",
+      "question": "Che cosa mostra la vicenda di Aiace dopo la morte di Achille?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "L’umiliazione può distruggere un eroe anche fuori dal combattimento."
+        },
+        {
+          "id": "d1",
+          "text": "Il valore militare garantisce sempre all’eroe il premio desiderato."
+        },
+        {
+          "id": "d2",
+          "text": "La conclusione della guerra annulla ogni rivalità tra i guerrieri."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "L’umiliazione può distruggere un eroe anche fuori dal combattimento.",
+      "recovery": "Le armi di Achille vengono assegnate a Odisseo. Aiace vive la decisione come una ferita insopportabile al proprio valore. La sua rovina mostra che la guerra distrugge anche attraverso le rivalità e l’umiliazione.",
+      "reference": "#p14",
+      "sourceQuote": "Dopo la morte di Achille nasce una nuova contesa. Le sue armi devono essere assegnate al più meritevole e a reclamarle sono soprattutto Aiace Telamonio e Odisseo. Le armi vengono attribuite a Odisseo. Aiace vive quella decisione come un’umiliazione insopportabile. Secondo la tradizione tragica, impazzisce e, quando recupera la lucidità, si uccide. Ancora una volta la guerra mostra di distruggere gli eroi anche quando non li uccide direttamente sul campo."
+    },
+    {
+      "id": "guerra-troia-11",
+      "question": "Come funziona l’inganno del cavallo?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "I guerrieri nascosti trattengono Elena durante la fuga troiana."
+        },
+        {
+          "id": "d2",
+          "text": "I guerrieri nascosti distruggono le navi rimaste sulla spiaggia."
+        },
+        {
+          "id": "correct",
+          "text": "I guerrieri nascosti aprono le porte alla flotta ritornata."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "I guerrieri nascosti aprono le porte alla flotta ritornata.",
+      "recovery": "Il cavallo permette a un gruppo acheo di entrare senza abbattere le mura. Di notte i guerrieri escono e aprono le porte. L’esercito tornato con la flotta può così penetrare nella città e distruggerla.",
+      "reference": "#p18",
+      "sourceQuote": "Durante la notte, quando la città dorme, i guerrieri nascosti nel cavallo escono e aprono le porte. La flotta achea è tornata. L’esercito entra nella città e comincia il massacro. Troia viene incendiata, i suoi uomini vengono uccisi, le sue donne fatte prigioniere. Priamo, ormai anziano, cerca rifugio presso un altare, ma viene ucciso da Neottolemo, figlio di Achille. Andromaca, la vedova di Ettore, perde la libertà. Ecuba, moglie di Priamo, vede scomparire la propria famiglia e il proprio regno. Astianatte, il piccolo figlio di Ettore e Andromaca, viene ucciso perché si teme che un giorno possa crescere, vendicare il padre e ricostruire Troia."
+    },
+    {
+      "id": "guerra-troia-12",
+      "question": "Quale ruolo svolge Sinone?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Presenta il cavallo come un riscatto richiesto da Priamo."
+        },
+        {
+          "id": "correct",
+          "text": "Presenta il cavallo come un’offerta sacra protettrice."
+        },
+        {
+          "id": "d1",
+          "text": "Presenta il cavallo come un pericolo da lasciare fuori."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Presenta il cavallo come un’offerta sacra protettrice.",
+      "recovery": "Sinone finge di essere stato abbandonato e costruisce una spiegazione rassicurante. Il cavallo apparirebbe un’offerta capace di proteggere Troia. Il suo racconto contribuisce a far accettare ciò che Laocoonte e Cassandra temono.",
+      "reference": "#p17",
+      "sourceQuote": "A convincere i Troiani contribuisce anche Sinone, un greco rimasto volontariamente sulla spiaggia. Finge di essere stato abbandonato dai compagni e racconta che il cavallo è un’offerta sacra. Secondo il suo racconto, portarlo all’interno delle mura garantirebbe protezione alla città. I Troiani finiscono per accettare quella spiegazione e trascinano il cavallo dentro Troia. Quella sera festeggiano convinti che la lunga guerra sia finalmente terminata."
+    },
+    {
+      "id": "guerra-troia-13",
+      "question": "Che cosa dimostrano i ritrovamenti di Hisarlık secondo la lezione?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "L’esistenza di insediamenti antichi, non la verità di ogni mito."
+        },
+        {
+          "id": "d1",
+          "text": "L’esistenza del cavallo ligneo, non quella degli insediamenti antichi."
+        },
+        {
+          "id": "d2",
+          "text": "L’esistenza di tutti gli eroi, non quella dei conflitti nell’Egeo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "L’esistenza di insediamenti antichi, non la verità di ogni mito.",
+      "recovery": "L’archeologia documenta insediamenti e distruzioni nel luogo identificato con Troia. Questi resti non dimostrano ogni episodio dei poemi. Storia e mito possono essere collegati, ma richiedono criteri diversi e non vanno confusi.",
+      "reference": "#p22",
+      "sourceQuote": "La guerra di Troia appartiene al mito, ma Troia appartiene anche alla storia. Il luogo identificato con l’antica città si trova presso Hisarlık, nell’attuale Turchia, dove gli archeologi hanno scoperto i resti di numerosi insediamenti costruiti uno sopra l’altro nel corso dei secoli. Alcuni livelli risalgono all’età del Bronzo e mostrano tracce di distruzione. Questo non dimostra che Achille, Ettore, Elena o il cavallo siano realmente esistiti così come li raccontano i poemi. È però possibile che la tradizione abbia conservato, trasformandolo per generazioni, il ricordo di veri conflitti avvenuti tra il mondo egeo e l’Anatolia."
+    },
+    {
+      "id": "guerra-troia-14",
+      "question": "Perché la vittoria achea non chiude davvero la vicenda?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Le perdite scompaiono e tutti i regni tornano in pace."
+        },
+        {
+          "id": "d2",
+          "text": "Le perdite riguardano soltanto Troia e non i vincitori."
+        },
+        {
+          "id": "correct",
+          "text": "Le perdite restano e i ritorni aprono nuove difficoltà."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Le perdite restano e i ritorni aprono nuove difficoltà.",
+      "recovery": "La caduta di Troia conclude la guerra, ma non ne cancella il costo. Anche gli Achei hanno perso eroi e legami. I ritorni mostreranno che vincere una città non garantisce di ritrovare la propria casa.",
+      "reference": "#p24",
+      "sourceQuote": "E forse proprio qui si trova il significato più profondo di questa lunga vicenda. Gli Achei, alla fine, vincono. Troia cade. Ma la vittoria non restituisce ciò che è stato perduto. Achille e Patroclo sono morti, Ettore è morto, Priamo è morto, Aiace è morto, famiglie intere sono state distrutte e molti dei vincitori scopriranno che tornare a casa è ancora più difficile che conquistare una città. La domanda che rimane, allora, non è soltanto chi abbia vinto la guerra di Troia. È quanto sia costata quella vittoria."
+    }
+  ]
+}

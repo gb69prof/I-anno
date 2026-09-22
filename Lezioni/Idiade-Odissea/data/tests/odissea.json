@@ -1,0 +1,327 @@
+{
+  "lesson": "odissea",
+  "questions": [
+    {
+      "id": "odissea-01",
+      "question": "In che senso il viaggio di Odisseo supera lo spostamento geografico?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "È una prova attraverso cui deve ritrovare la propria identità."
+        },
+        {
+          "id": "d1",
+          "text": "È una conquista attraverso cui deve estendere il proprio regno."
+        },
+        {
+          "id": "d2",
+          "text": "È una rinuncia attraverso cui deve dimenticare la propria casa."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "È una prova attraverso cui deve ritrovare la propria identità.",
+      "recovery": "Il ritorno non consiste soltanto nel raggiungere un’isola. Odisseo deve conservare e recuperare il proprio posto tra casa, famiglia e regno. Le prove del viaggio mettono in pericolo anche memoria e identità.",
+      "reference": "#p1",
+      "sourceQuote": "L’Odissea è il poema del ritorno. La guerra di Troia è finita, la città è stata distrutta e gli eroi achei cercano di rientrare nelle loro case. Per alcuni il viaggio sarà breve, per altri tragico, per altri ancora interminabile. Odisseo, re di Itaca, impiegherà altri dieci anni per rivedere la propria terra. Ma il suo viaggio non è soltanto uno spostamento da un luogo a un altro: è una lunga prova attraverso la quale deve conservare, perdere e infine ritrovare la propria identità."
+    },
+    {
+      "id": "odissea-02",
+      "question": "Che cosa indica la metis di Odisseo?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Una forza guerriera capace di vincere ogni scontro diretto."
+        },
+        {
+          "id": "d2",
+          "text": "Una conoscenza profetica capace di prevedere ogni evento."
+        },
+        {
+          "id": "correct",
+          "text": "Un’intelligenza pratica capace di adattarsi alle situazioni."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Un’intelligenza pratica capace di adattarsi alle situazioni.",
+      "recovery": "Odisseo osserva il pericolo e inventa soluzioni adatte alla situazione. La sua qualità principale non è l’invincibilità fisica. La metis comprende astuzia e capacità di adattamento, ma non lo rende immune dagli errori.",
+      "reference": "#p2",
+      "sourceQuote": "Il poema, tradizionalmente attribuito a Omero, è composto da ventiquattro libri e nasce, come l’Iliade, da una lunga tradizione orale. Il nome italiano Ulisse deriva dalla forma latina del greco Odisseo. Rispetto ad Achille, Odisseo rappresenta un tipo di eroe diverso. Non è il più forte e non cerca di imporsi soltanto attraverso il valore guerriero. La sua qualità principale è la metis, cioè un’intelligenza pratica, mobile e capace di adattarsi alle situazioni. Odisseo osserva, calcola, mente quando è necessario, inventa soluzioni e sopravvive soprattutto perché sa capire il pericolo prima di affrontarlo."
+    },
+    {
+      "id": "odissea-03",
+      "question": "Perché Penelope disfa di notte la tela tessuta di giorno?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Vuole nascondere a Telemaco la morte di Laerte."
+        },
+        {
+          "id": "correct",
+          "text": "Vuole rinviare la scelta di un marito tra i Proci."
+        },
+        {
+          "id": "d1",
+          "text": "Vuole accelerare il ritorno della nave dei Feaci."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Vuole rinviare la scelta di un marito tra i Proci.",
+      "recovery": "Penelope lega la scelta del nuovo marito alla conclusione del sudario. Disfacendo il lavoro ne rinvia continuamente il termine. Resiste così alla pressione dei Proci usando intelligenza e controllo del tempo, non la forza.",
+      "reference": "#p4",
+      "sourceQuote": "Penelope, però, non vuole cedere. Per guadagnare tempo escogita un inganno degno dello stesso Odisseo. Dichiara che sceglierà un nuovo marito quando avrà terminato di tessere il sudario per Laerte, padre di Odisseo. Di giorno lavora alla tela; di notte disfa ciò che ha tessuto. Per anni riesce così a rimandare la decisione. Anche lei, dunque, resiste grazie all’intelligenza e alla capacità di controllare il tempo."
+    },
+    {
+      "id": "odissea-04",
+      "question": "Come sono disposte nel poema molte avventure precedenti?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Odisseo le racconta ai Feaci quando è già lontano da Troia."
+        },
+        {
+          "id": "d1",
+          "text": "Odisseo le racconta ai Proci prima di partire per la guerra."
+        },
+        {
+          "id": "d2",
+          "text": "Odisseo le racconta a Priamo mentre si prepara l’assedio."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Odisseo le racconta ai Feaci quando è già lontano da Troia.",
+      "recovery": "L’Odissea non segue sempre l’ordine degli eventi. Quando comincia, molte avventure sono già accadute. Il racconto ai Feaci le recupera attraverso la memoria dell’eroe: ordine della storia e ordine del racconto sono diversi.",
+      "reference": "#p6",
+      "sourceQuote": "Il poema non racconta gli eventi in ordine cronologico. Quando l’Odissea comincia, Odisseo è già lontano da Troia da molti anni e si trova sull’isola della ninfa Calipso. Molte delle avventure precedenti verranno raccontate soltanto dopo, quando l’eroe, accolto dai Feaci, narrerà in prima persona ciò che gli è accaduto. Il viaggio, quindi, entra nel poema attraverso la memoria."
+    },
+    {
+      "id": "odissea-05",
+      "question": "Perché Odisseo rifiuta l’immortalità offerta da Calipso?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Preferisce la gloria guerriera nella città di Troia alla vita familiare."
+        },
+        {
+          "id": "d2",
+          "text": "Preferisce il potere divino sul mare al ritorno nel proprio regno."
+        },
+        {
+          "id": "correct",
+          "text": "Preferisce la vita mortale nella propria casa all’eternità lontano."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Preferisce la vita mortale nella propria casa all’eternità lontano.",
+      "recovery": "Calipso può offrirgli una vita senza morte, ma lontana da ciò che sente suo. Odisseo sceglie casa, moglie e patria. Il valore del ritorno supera per lui persino la promessa dell’immortalità.",
+      "reference": "#p7",
+      "sourceQuote": "Calipso trattiene Odisseo sulla propria isola perché lo ama e vorrebbe che restasse con lei. Gli offre perfino l’immortalità. Eppure Odisseo rifiuta. Preferisce una vita mortale accanto alla propria casa, alla propria moglie e alla propria terra piuttosto che un’eternità trascorsa lontano da ciò che sente suo. È una scelta molto diversa da quella di Achille. Achille aveva scelto una vita breve in cambio della gloria; Odisseo sceglie invece il ritorno."
+    },
+    {
+      "id": "odissea-06",
+      "question": "Quale pericolo rappresentano i Lotofagi?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "La diffidenza che libera i venti dall’otre."
+        },
+        {
+          "id": "correct",
+          "text": "L’oblio che fa perdere il desiderio del ritorno."
+        },
+        {
+          "id": "d1",
+          "text": "La violenza che distrugge quasi tutta la flotta."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "L’oblio che fa perdere il desiderio del ritorno.",
+      "recovery": "Il loto non minaccia soltanto il viaggio materiale. Toglie agli uomini il desiderio di tornare e la memoria della meta. Dimenticare Itaca significa perdere una parte di sé, anche restando in vita.",
+      "reference": "#p10",
+      "sourceQuote": "Poco dopo i naviganti raggiungono la terra dei Lotofagi. Qui alcuni uomini mangiano il loto e perdono ogni desiderio di tornare. Non vogliono più Itaca, non sentono più nostalgia, non ricordano quasi più la loro meta. Odisseo è costretto a trascinarli alle navi con la forza. Il pericolo, questa volta, non è la morte ma l’oblio. Dimenticare il ritorno significa dimenticare se stessi."
+    },
+    {
+      "id": "odissea-07",
+      "question": "Perché il nome «Nessuno» aiuta Odisseo contro Polifemo?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "Fa credere agli altri Ciclopi che non vi sia un aggressore."
+        },
+        {
+          "id": "d1",
+          "text": "Fa credere a Poseidone che il figlio sia tornato a dormire."
+        },
+        {
+          "id": "d2",
+          "text": "Fa credere ai compagni che il gigante rispetti l’ospitalità."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Fa credere agli altri Ciclopi che non vi sia un aggressore.",
+      "recovery": "L’inganno sfrutta il modo in cui Polifemo risponde alla richiesta di aiuto. Dire che «Nessuno» lo aggredisce fa allontanare gli altri Ciclopi. L’intelligenza permette di sfuggire a una forza fisica che gli uomini non possono vincere direttamente.",
+      "reference": "#p11",
+      "sourceQuote": "L’episodio più celebre è quello del ciclope Polifemo. Odisseo e i compagni entrano nella sua grotta aspettandosi di essere accolti secondo le regole dell’ospitalità. Polifemo, invece, non riconosce alcuna legge e divora alcuni degli uomini. Odisseo capisce che la forza non basta. Dice al ciclope di chiamarsi “Nessuno”, lo ubriaca e, quando si addormenta, lo acceca con un palo. Polifemo urla e chiama gli altri ciclopi, ma quando questi gli chiedono chi lo stia aggredendo risponde che “Nessuno” lo sta uccidendo. Convinti che non vi sia alcun aggressore, se ne vanno."
+    },
+    {
+      "id": "odissea-08",
+      "question": "Perché rivelare il vero nome crea un nuovo pericolo?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Permette ai Feaci di negargli l’ospitalità nella loro reggia."
+        },
+        {
+          "id": "d2",
+          "text": "Permette ai Proci di riconoscerlo al momento dello sbarco."
+        },
+        {
+          "id": "correct",
+          "text": "Permette a Polifemo di invocare contro di lui Poseidone."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Permette a Polifemo di invocare contro di lui Poseidone.",
+      "recovery": "Odisseo è già riuscito a fuggire, ma desidera il riconoscimento della vittoria. Rivela così la propria identità al nemico. Polifemo può chiedere vendetta al padre Poseidone: l’orgoglio compromette il successo dell’astuzia.",
+      "reference": "#p12",
+      "sourceQuote": "Odisseo e i compagni riescono a fuggire legandosi sotto il ventre delle pecore. Il piano è perfetto, ma proprio allora l’eroe commette un errore. Mentre la nave si allontana, vuole che Polifemo sappia chi lo ha sconfitto e gli rivela il proprio vero nome. È un gesto di orgoglio. Polifemo, figlio di Poseidone, prega il padre di vendicarsi e da quel momento il mare diventa ancora più ostile. L’intelligenza ha salvato Odisseo; il bisogno di gloria gli ha creato nuovi pericoli."
+    },
+    {
+      "id": "odissea-09",
+      "question": "Perché i compagni aprono l’otre di Eolo?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Credono che Odisseo vi trattenga un prigioniero."
+        },
+        {
+          "id": "correct",
+          "text": "Sospettano che Odisseo vi nasconda dei tesori."
+        },
+        {
+          "id": "d1",
+          "text": "Sperano che Odisseo vi custodisca del cibo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Sospettano che Odisseo vi nasconda dei tesori.",
+      "recovery": "La nave è vicina a Itaca quando i compagni agiscono per diffidenza. Scambiano l’otre dei venti contrari per un contenitore di tesori. Aprendolo perdono una meta già visibile e vengono respinti lontano.",
+      "reference": "#p13",
+      "sourceQuote": "Successivamente Eolo, signore dei venti, accoglie Odisseo e gli consegna un otre nel quale sono rinchiusi tutti i venti contrari. La nave arriva quasi in vista di Itaca, ma mentre Odisseo dorme i compagni, convinti che nell’otre siano nascosti tesori, lo aprono. I venti esplodono e la nave viene spinta nuovamente lontano. È uno dei momenti più dolorosi del viaggio, perché la meta è già visibile e viene perduta a causa della diffidenza."
+    },
+    {
+      "id": "odissea-10",
+      "question": "Che cosa mostra la precauzione adottata per ascoltare le Sirene?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "La curiosità può essere esercitata imponendosi un limite."
+        },
+        {
+          "id": "d1",
+          "text": "La curiosità deve essere abbandonata rinunciando a conoscere."
+        },
+        {
+          "id": "d2",
+          "text": "La curiosità basta da sola a difendere da ogni pericolo."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La curiosità può essere esercitata imponendosi un limite.",
+      "recovery": "Odisseo desidera ascoltare, ma riconosce il rischio del canto. Fa proteggere i compagni e si fa legare all’albero. La conoscenza non viene rifiutata: richiede un vincolo capace di impedire che il desiderio diventi rovina.",
+      "reference": "#p17",
+      "sourceQuote": "Tornato dal mondo dei morti, Odisseo riprende il mare. Circe lo ha avvertito delle Sirene, creature il cui canto promette conoscenza a chiunque le ascolti, ma conduce inevitabilmente alla morte. Odisseo vuole udire quella voce, ma non vuole esserne distrutto. Fa quindi tappare con la cera le orecchie dei compagni e ordina che lui stesso venga legato all’albero della nave. Quando le Sirene cantano, supplica di essere liberato, ma i compagni stringono ancora di più le corde. La curiosità, in questo episodio, non viene negata: viene sottoposta a un limite."
+    },
+    {
+      "id": "odissea-11",
+      "question": "Quale limite emerge nel passaggio tra Scilla e Cariddi?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Anche la forza non può sempre ottenere il bottino migliore."
+        },
+        {
+          "id": "d2",
+          "text": "Anche la memoria non può sempre riconoscere la propria casa."
+        },
+        {
+          "id": "correct",
+          "text": "Anche l’intelligenza non può sempre evitare ogni perdita."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Anche l’intelligenza non può sempre evitare ogni perdita.",
+      "recovery": "Odisseo deve scegliere fra pericoli che non consentono di salvare tutti. La scelta del rischio minore rimane dolorosa. La lezione mostra così che essere intelligenti non significa avere sempre a disposizione una soluzione senza perdite.",
+      "reference": "#p18",
+      "sourceQuote": "Subito dopo arriva una prova diversa. Odisseo deve attraversare lo stretto tra Scilla e Cariddi. Da una parte c’è Scilla, mostro che afferra i marinai; dall’altra Cariddi, vortice capace di inghiottire la nave. Non esiste una soluzione che permetta di salvare tutti. Odisseo è costretto a scegliere il rischio minore e scopre che perfino l’intelligenza ha un limite."
+    },
+    {
+      "id": "odissea-12",
+      "question": "Perché il ritorno fisico a Itaca non basta?",
+      "options": [
+        {
+          "id": "d2",
+          "text": "Odisseo deve ancora ottenere da Calipso la promessa di immortalità."
+        },
+        {
+          "id": "correct",
+          "text": "Odisseo deve ancora recuperare i propri legami e il proprio posto."
+        },
+        {
+          "id": "d1",
+          "text": "Odisseo deve ancora conquistare Troia e riprendere le proprie armi."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Odisseo deve ancora recuperare i propri legami e il proprio posto.",
+      "recovery": "I Feaci riportano Odisseo a Itaca, ma la sua casa è occupata. L’eroe osserva prima di rivelarsi e verifica le fedeltà. Il nostos richiede il recupero dell’identità sociale e familiare, oltre all’approdo geografico.",
+      "reference": "#p21",
+      "sourceQuote": "Quando i Feaci lo riportano a casa, tuttavia, il nostos non è ancora completo. Odisseo è fisicamente tornato a Itaca, ma deve ancora riconquistare la propria identità. Atena modifica il suo aspetto e lo trasforma in un mendicante. L’eroe non si presenta subito come re: osserva, ascolta, verifica chi gli sia rimasto fedele."
+    },
+    {
+      "id": "odissea-13",
+      "question": "Quale prova convince definitivamente Penelope?",
+      "options": [
+        {
+          "id": "correct",
+          "text": "La conoscenza del letto costruito intorno a un ulivo vivo."
+        },
+        {
+          "id": "d1",
+          "text": "La conoscenza del bottino raccolto durante l’assedio di Troia."
+        },
+        {
+          "id": "d2",
+          "text": "La conoscenza del canto ascoltato nella reggia dei Feaci."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "La conoscenza del letto costruito intorno a un ulivo vivo.",
+      "recovery": "Il segreto del letto appartiene alla memoria privata dei coniugi. Odisseo sa che non può essere spostato perché è radicato in un ulivo. Questa conoscenza condivisa permette a Penelope di riconoscerlo oltre le apparenze.",
+      "reference": "#p26",
+      "sourceQuote": "È questa conoscenza privata a convincere Penelope. Solo il vero Odisseo poteva conoscere il segreto del letto. Il simbolo è potente: quel letto è radicato letteralmente nella terra della casa e rappresenta il matrimonio, la memoria condivisa e ciò che ha resistito al tempo."
+    },
+    {
+      "id": "odissea-14",
+      "question": "Che cosa aggiunge l’incontro con Achille nell’Ade al tema della gloria?",
+      "options": [
+        {
+          "id": "d1",
+          "text": "Mostra che la gloria rende felice ogni eroe tra i morti."
+        },
+        {
+          "id": "d2",
+          "text": "Mostra che la gloria permette di tornare vivi dalla morte."
+        },
+        {
+          "id": "correct",
+          "text": "Mostra che la gloria non cancella il valore della vita."
+        }
+      ],
+      "correctId": "correct",
+      "explanation": "Mostra che la gloria non cancella il valore della vita.",
+      "recovery": "Achille morto afferma di preferire una vita umile al dominio tra le ombre. L’incontro rende problematico il valore della gloria ottenuta con una morte precoce. I due poemi dialogano così sul prezzo delle scelte eroiche.",
+      "reference": "#p16",
+      "sourceQuote": "È Circe a spiegargli che, per continuare il viaggio, dovrà scendere nel regno dei morti e interrogare l’indovino Tiresia. Nell’Ade Odisseo incontra molte ombre del passato. Tra queste c’è Achille. Nell’Iliade Achille aveva scelto una vita breve pur di ottenere una gloria immortale; nell’Odissea, ormai morto, dichiara che preferirebbe essere vivo anche in una condizione umile piuttosto che regnare tra i morti. Il confronto tra i due poemi diventa così ancora più profondo: la gloria non cancella il valore della vita."
+    }
+  ]
+}
