@@ -1,0 +1,58 @@
+/* Iliade: atlante narrativo. Estensione del design system della PWA. */
+.iliade-intro{max-width:1320px;margin:0 auto;padding:25px 5vw 65px;display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:center}
+.iliade-intro h1{font-size:clamp(3rem,5.7vw,5.6rem);margin:14px 0 25px}
+.iliade-intro h1 em{font-weight:400;color:var(--terra)}
+.iliade-intro .lead{max-width:560px}
+.iliade-intro .button{margin-top:16px}
+.iliade-intro figure{margin:0}
+.iliade-intro figure img{display:block;width:100%;height:auto;border:8px solid #e5ddcd;box-shadow:0 20px 45px #173b491b}
+.iliade-experience{border-top:1px solid var(--line);max-width:1320px;padding:55px 5vw 80px;margin:0 auto;scroll-margin-top:25px}
+.iliade-section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:26px}
+.iliade-section-head h2{margin:9px 0 12px}
+.iliade-section-head p:last-child{margin:0;max-width:710px;color:var(--muted)}
+.iliade-range{font:600 12px Arial,sans-serif;letter-spacing:1.8px;white-space:nowrap;color:var(--terra);border-top:1px solid var(--gold);padding-top:12px}
+.iliade-rail-wrap{margin-bottom:24px;position:relative}
+.iliade-rail{display:flex;gap:10px;overflow-x:auto;padding:10px 3px 20px;scrollbar-color:var(--gold) #e4dbc9;scroll-snap-type:x proximity}
+.iliade-rail .iliade-step{flex:0 0 145px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;text-align:left;gap:9px;min-height:104px;background:#fbf8f1;border:1px solid var(--line);border-top:3px solid var(--line);color:var(--ink);padding:14px 15px;white-space:normal;font-weight:400;scroll-snap-align:start}
+.iliade-rail .iliade-step:hover{border-color:var(--gold);filter:none}
+.iliade-rail .iliade-step[aria-current="step"]{border-color:var(--gold);border-top:3px solid var(--terra);background:#f0e4d0;box-shadow:0 6px 14px #173b4914}
+.iliade-step-number{font:italic 27px Georgia,serif;color:var(--terra)}
+.iliade-step-name{font:600 12px/1.4 Arial,sans-serif}
+.iliade-rail-progress{height:3px;background:#ddd1bb;border-radius:4px;overflow:hidden}
+.iliade-rail-progress>span{display:block;background:var(--terra);width:10%;height:100%;transition:width .2s ease}
+.iliade-stage{display:grid;grid-template-columns:minmax(290px,.83fr) minmax(0,1.17fr);background:#fbf8f1;border:1px solid var(--line);box-shadow:0 15px 50px #173b490e}
+.iliade-art-panel{background:linear-gradient(145deg,#ebdfc9,#e5d3b3);position:relative;min-height:620px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;overflow:hidden;border-right:1px solid #cdbda0;padding:24px 16px 30px}
+.iliade-art-panel:before,.iliade-art-panel:after{content:"";position:absolute;border:1px solid #beab8c;border-radius:50%;opacity:.6;pointer-events:none}
+.iliade-art-panel:before{width:460px;height:460px;left:-250px;top:-250px}
+.iliade-art-panel:after{width:490px;height:490px;right:-295px;bottom:-260px}
+.iliade-panel-marker{align-self:flex-start;letter-spacing:2.2px;font:600 11px Arial,sans-serif;color:#816647;z-index:1}
+.iliade-art-shell{width:min(92%,385px);aspect-ratio:1;display:grid;place-items:center;filter:drop-shadow(0 12px 12px #5c4b3022)}
+.iliade-art-shell svg{width:100%;height:100%;display:block}
+.iliade-art-caption{font:italic 15px Georgia,serif;color:#654f35;text-align:center;margin:12px 0 10px}
+.iliade-art-ornament{color:#a67d48;font-size:13px;letter-spacing:6px}
+.iliade-narrative{padding:38px clamp(22px,4vw,58px) 38px;min-width:0}
+.iliade-counter{display:flex;align-items:center;flex-wrap:wrap;gap:12px;justify-content:space-between;font:600 11px/1.4 Arial,sans-serif;color:var(--muted);letter-spacing:1.3px}
+.iliade-theme{color:var(--terra);border:1px solid #c9a47a;border-radius:2px;padding:6px 11px;background:#faf0df}
+.iliade-narrative h2{font-size:clamp(2rem,3.2vw,3.1rem);margin:15px 0 26px}
+.iliade-narrative h3{font:600 12px/1.4 Arial,sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:var(--terra);margin:0 0 9px}
+.iliade-narrative section>p,.iliade-interpretation>p{font:16px/1.8 Arial,sans-serif;margin:0;color:#334954}
+.iliade-verse{margin:26px 0;padding:22px 25px;background:#f0e9dc;border-left:3px solid var(--gold)}
+.iliade-label{font:600 11px/1.4 Arial,sans-serif;letter-spacing:1.5px;color:var(--terra);margin:0 0 10px}
+.iliade-poetry{font:italic clamp(1.12rem,2vw,1.43rem)/1.6 Georgia,'Times New Roman',serif;color:var(--ink);white-space:pre-line;margin:0 0 12px}
+.iliade-verse footer{font:12px/1.5 Arial,sans-serif;color:var(--muted)}
+.iliade-question{margin-top:25px;background:#e8eee9;border-left:3px solid var(--ink);padding:16px 19px}
+.iliade-question p:last-child{font:italic 1.15rem/1.55 Georgia,serif;color:#244754;margin:0}
+.iliade-resource-links{border-top:1px solid var(--line);margin-top:25px;padding-top:16px;display:flex;flex-wrap:wrap;gap:10px 22px}
+.iliade-resource-links a{font:600 13px/1.7 Arial,sans-serif;color:var(--ink)}
+.iliade-controls{display:flex;justify-content:space-between;align-items:center;gap:18px;margin:23px 0 0}
+.iliade-controls button{flex-shrink:0}
+.iliade-controls-note{font:italic 14px Georgia,serif;text-align:center;color:var(--muted)}
+.iliade-after{max-width:940px;margin:0 auto 65px;padding:40px 30px 52px;border-top:1px solid var(--line);text-align:center}
+.iliade-after h2{margin:12px auto 18px}
+.iliade-after>p:not(.eyebrow){max-width:690px;margin:0 auto 24px;color:var(--muted)}
+.iliade-after .button{margin-top:12px}
+@media(max-width:950px){.iliade-stage{grid-template-columns:minmax(230px,.75fr) minmax(0,1.25fr)}.iliade-art-panel{min-height:510px}.iliade-narrative{padding:28px}.iliade-intro{grid-template-columns:1fr 1fr;gap:30px}}
+@media(max-width:710px){.iliade-intro{grid-template-columns:1fr;padding:25px 24px 42px}.iliade-intro h1{font-size:clamp(2.8rem,11vw,4rem)}.iliade-intro figure{max-width:500px}.iliade-experience{padding:35px 18px 60px}.iliade-section-head{display:block}.iliade-range{display:inline-block;margin-top:18px}.iliade-rail .iliade-step{flex-basis:128px;min-height:100px;padding:12px}.iliade-stage{grid-template-columns:1fr}.iliade-art-panel{min-height:320px;border-right:0;border-bottom:1px solid #cdbda0;padding:16px}.iliade-art-shell{width:min(68%,280px)}.iliade-narrative{padding:25px 20px}.iliade-narrative h2{font-size:2.1rem}.iliade-controls{gap:8px}.iliade-controls button{font-size:12px;min-height:48px;padding:11px 12px}.iliade-controls-note{display:none}.iliade-after{margin:0 20px 50px;padding:30px 10px 42px}}
+@media(max-width:370px){.iliade-controls button{font-size:11px;padding:10px 8px}.iliade-verse{padding:19px 16px}}
+@media(prefers-reduced-motion:reduce){.iliade-rail-progress>span{transition:none}}
+@media print{.iliade-rail-wrap,.iliade-controls,.iliade-resource-links,.iliade-intro .button{display:none}.iliade-stage{display:block;box-shadow:none}.iliade-art-panel{min-height:200px}.iliade-art-shell{width:180px}.iliade-narrative{padding:18px}}
