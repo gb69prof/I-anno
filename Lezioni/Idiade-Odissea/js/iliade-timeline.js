@@ -68,11 +68,69 @@
     duel:'<path d="M58 228V127H87V96h30v132 M174 228V96h29v31h24v101 M115 228V165H170V228" fill="none" stroke="#bca68a" stroke-width="10"/><path d="M74 55L212 212 M214 55L74 212" stroke="#264a57" stroke-width="10"/><path d="M64 44L76 79L95 61Z M222 44L209 80L191 60Z" fill="#b98649"/><circle cx="143" cy="139" r="16" fill="#e1bf88"/>',
     hands:'<path d="M35 169C63 149 92 150 110 165L141 191L123 212Q108 216 94 207L58 199L36 212" fill="#b78758" stroke="#7d5e43" stroke-width="5"/><path d="M245 165C219 145 197 146 176 159L147 184Q138 194 148 203Q157 210 166 202L180 191 L195 211 Q208 217 222 205L245 211" fill="#dec4a0" stroke="#7d5e43" stroke-width="5"/><path d="M116 194L141 174L165 185" fill="none" stroke="#eadbc2" stroke-width="6"/><path d="M140 95v36 M108 112l-17-16 M174 112l17-16" stroke="#b68a53" stroke-width="7" stroke-linecap="round"/>'
   };
+  // Quadri storici documentati. Le immagini WebP sono conservate nel repository;
+  // il file originale su Wikimedia funge da ripiego temporaneo, non da fonte primaria.
+  const artworks = [
+  {
+    "credit": "Giambattista Tiepolo, 1757",
+    "file": "Giovanni Battista Tiepolo 052.jpg",
+    "caption": "L’ira di Achille: Atena trattiene il guerriero."
+  },
+  {
+    "credit": "Anonimo, XVIII secolo",
+    "file": "Streit des Agamemnon mit Achilles um die schöne Briseis.png",
+    "caption": "La disputa pubblica per Briseide."
+  },
+  {
+    "credit": "Giambattista Tiepolo, 1757",
+    "file": "Giovanni Battista Tiepolo - Thetis Consoling Achilles - WGA22339.jpg",
+    "caption": "Teti consola il figlio: richiamo tematico, non immagine puntuale del ritiro."
+  },
+  {
+    "credit": "Carl Friedrich Deckler, XIX secolo",
+    "file": "Karl Friedrich Deckler, The Farewell of Hector to Andromaque and Astyanax.jpg",
+    "caption": "L’addio di Ettore ad Andromaca e Astianatte."
+  },
+  {
+    "credit": "Jean-Auguste-Dominique Ingres, 1801",
+    "file": "Jean-Auguste-Dominique Ingres - Achilles Receiving the Ambassadors of Agamemnon, 1801.jpg",
+    "caption": "Gli ambasciatori raggiungono Achille."
+  },
+  {
+    "credit": "Fresco romano, foto ArchaiOptix (CC BY-SA 4.0)",
+    "file": "Wall painting - two heroes conversing - Herculaneum (ins or II - palaestra) - Napoli MAN 9020.jpg",
+    "caption": "Due eroi a colloquio: forse Patroclo che chiede le armi ad Achille (identificazione incerta)."
+  },
+  {
+    "credit": "Antoine Wiertz, XIX secolo",
+    "file": "Antoine Wiertz - 19th C - Battle of the Greeks and Trojans for the corpse of Patroclus - KMSKA 1183.jpg",
+    "caption": "La lotta per il corpo di Patroclo dopo la morte."
+  },
+  {
+    "credit": "Erasmus Quellinus II, XVII secolo",
+    "file": "Erasmus Quellinus II - Thetis Recieving Weapons for Achilles.jpg",
+    "caption": "Teti riceve le nuove armi destinate ad Achille."
+  },
+  {
+    "credit": "Léonce Legendre, XIX secolo (CC0)",
+    "file": "Achilles doodt Hector, circa 1831 - circa 1893, Groeningemuseum, 0041065000.jpg",
+    "caption": "Il duello fra Achille ed Ettore."
+  },
+  {
+    "credit": "Aleksandr Ivanov, 1824",
+    "file": "Alexandr Ivanov 005.jpg",
+    "caption": "Priamo supplica Achille nella sua tenda."
+  }
+];
+  const imageURL = file => 'https://commons.wikimedia.org/wiki/Special:FilePath/' +
+    encodeURIComponent(file.replaceAll(' ','_')) + '?width=1280';
+  const sourceURL = file => 'https://commons.wikimedia.org/wiki/File:' +
+    encodeURIComponent(file.replaceAll(' ','_'));
   const $=id=>document.getElementById(id);
   const rail=$('iliade-steps'),title=$('iliade-event-title'),count=$('iliade-count'),
         topic=$('iliade-theme'),summary=$('iliade-summary'),verse=$('iliade-verse'),
         thought=$('iliade-thought'),question=$('iliade-question'),image=$('iliade-art'),
-        imgCaption=$('iliade-art-caption'),source=$('iliade-source'),read=$('iliade-read'),
+        imgCaption=$('iliade-art-caption'),photo=$('iliade-photo'),credit=$('iliade-photo-credit'),source=$('iliade-source'),read=$('iliade-read'),
         progress=$('iliade-progress'),prev=$('iliade-prev'),next=$('iliade-next'),
         stage=$('iliade-stage');
   if(!rail||!title)return;
@@ -96,7 +154,21 @@
     read.href='iliade.html#'+e.paragraph;
     image.setAttribute('aria-label','Illustrazione simbolica: '+e.symbol);
     image.innerHTML='<defs><pattern id="iliade-hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12L12 0" stroke="#bba585" stroke-width=".5" opacity=".45"/></pattern></defs><rect x="0" y="0" width="284" height="284" rx="142" fill="url(#iliade-hatch)"/><circle cx="142" cy="142" r="125" fill="none" stroke="#c3ad87" stroke-width="1.5"/><circle cx="142" cy="142" r="111" fill="none" stroke="#d9c8aa" stroke-width="1"/>'+shape[e.type];
-    imgCaption.textContent=e.symbol+' · Illustrazione originale stilizzata';
+    const art = artworks[current];
+    imgCaption.textContent=art.caption;
+    credit.href=sourceURL(art.file);
+    credit.textContent=art.credit+' · opera / fonte ↗';
+    // Resilienza: prima il WebP locale; se il deploy non è ancora aggiornato,
+    // Commons rimane un ripiego con la grafica precedente come ultimo livello.
+    photo.hidden=true;
+    photo.alt=art.caption+' Opera di '+art.credit;
+    let fallback=false;
+    photo.onload=()=>{photo.hidden=false;};
+    photo.onerror=()=>{
+      if(!fallback){fallback=true;photo.src=imageURL(art.file);}
+      else{photo.hidden=true;imgCaption.textContent='Immagine temporaneamente non disponibile · '+art.caption;}
+    };
+    photo.src='../assets/images/iliade-timeline/tappa-'+String(current+1).padStart(2,'0')+'.webp';
     progress.style.width=((current+1)/events.length*100)+'%';
     progress.setAttribute('aria-valuenow',String(current+1));
     steps.forEach((b,i)=>{if(i===current)b.setAttribute('aria-current','step');else b.removeAttribute('aria-current');});
