@@ -8,7 +8,7 @@ PWA statica gbprof, pubblicata nel percorso intenzionale `Lezioni/Idiade-Odissea
 
 Le fonti lette il 22 settembre 2026 e i loro identificativi/versioni temporali sono in `data/sources/drive.json`. Cartella sorgente: https://drive.google.com/drive/folders/1BYFJsNRLfBkm-m_X95AaSYAqdKSvg8un.
 
-## Test
+## Linea del tempo dell’Iliade\n\nIl percorso interattivo `fatto/iliade-linea-tempo.html` precede la lettura integrale. Comprende 10 tappe in ordine narrativo, illustrazioni simboliche originali realizzate con SVG inline, citazioni verificate della traduzione di Vincenzo Monti (1825) con rimandi diretti ai libri su Wikisource, connessioni ai paragrafi della lezione e domande di riflessione. Non richiede servizi esterni per funzionare offline. I file specifici sono `css/iliade-linea-tempo.css` e `js/iliade-timeline.js`. Le 11 lezioni e i test non sono stati modificati.\n\n## Test
 
 126 domande, tre alternative e una risposta corretta. Dieci domande per ogni lezione breve; quattordici per Guerra di Troia, Iliade, Odissea e Hybris e Nemesi. Ogni domanda contiene recupero, ancora al paragrafo e citazione della fonte per la manutenzione. La correzione usa identificatori stabili, indipendenti dalla posizione.
 
