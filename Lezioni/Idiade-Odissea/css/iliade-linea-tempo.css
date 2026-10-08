@@ -56,3 +56,21 @@
 @media(max-width:370px){.iliade-controls button{font-size:11px;padding:10px 8px}.iliade-verse{padding:19px 16px}}
 @media(prefers-reduced-motion:reduce){.iliade-rail-progress>span{transition:none}}
 @media print{.iliade-rail-wrap,.iliade-controls,.iliade-resource-links,.iliade-intro .button{display:none}.iliade-stage{display:block;box-shadow:none}.iliade-art-panel{min-height:200px}.iliade-art-shell{width:180px}.iliade-narrative{padding:18px}}
+
+/* Gallery cinematografica per le opere storiche: la tavola illustrata
+   rimane sotto la fotografia come fallback accessibile senza rete. */
+.iliade-art-panel{background:#263d40;color:#fff;isolation:isolate;min-height:650px}
+.iliade-art-panel:before{inset:0;border:0;border-radius:0;width:100%;height:100%;opacity:1;z-index:2;pointer-events:none;background:linear-gradient(180deg,rgba(10,24,27,.68),transparent 29%,transparent 52%,rgba(10,24,27,.88) 100%)}
+.iliade-art-panel:after{display:none}
+.iliade-art-shell{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;filter:none}
+.iliade-art-shell svg{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:19%;background:#e5d3b3}
+.iliade-art-shell img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;filter:saturate(.88) contrast(1.05)}
+.iliade-panel-marker,.iliade-art-caption,.iliade-art-ornament,.iliade-photo-credit{position:relative;z-index:3}
+.iliade-panel-marker{color:#f4e7cc;letter-spacing:2.4px;text-shadow:0 2px 8px #142426}
+.iliade-art-caption{font:italic clamp(1.22rem,2.4vw,1.65rem)/1.42 Georgia,serif;color:#fff5dd;text-align:center;text-wrap:balance;max-width:95%;margin:auto 0 12px;text-shadow:0 2px 12px #17292b}
+.iliade-photo-credit{color:#e6d8bc;text-align:center;font:11px/1.5 Arial,sans-serif;letter-spacing:.5px;text-underline-offset:4px;max-width:95%;margin:0 0 17px}
+.iliade-photo-credit:hover{color:#fff}
+.iliade-art-ornament{color:#e4c28a}
+@media(max-width:950px){.iliade-art-panel{min-height:540px}}
+@media(max-width:710px){.iliade-art-panel{min-height:390px}.iliade-art-shell svg{padding:17%}.iliade-art-caption{font-size:1.22rem}.iliade-photo-credit{font-size:11px;margin-bottom:9px}}
+@media print{.iliade-art-panel{min-height:400px;-webkit-print-color-adjust:exact;print-color-adjust:exact}.iliade-art-caption{color:#fff}}
