@@ -1,0 +1,38 @@
+name: Collaudo PWA Iliade e Odissea
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Lezioni/Idiade-Odissea/**'
+      - '.github/workflows/test-iliade.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dipendenze collaudo
+        run: python -m pip install beautifulsoup4
+      - name: Verifica struttura e testi originali
+        run: |
+          cd Lezioni/Idiade-Odissea
+          python tests/check.py
+      - name: Verifica comportamento quiz
+        run: |
+          cd Lezioni/Idiade-Odissea
+          node tests/quiz.test.cjs
+      - name: Verifica precache e lettura offline
+        run: |
+          cd Lezioni/Idiade-Odissea
+          node tests/sw.test.cjs
+      - name: Verifica immagini e attribuzioni
+        run: |
+          cd Lezioni/Idiade-Odissea
+          node --check js/iliade-timeline.js
+          node tests/iliade-art.test.cjs
