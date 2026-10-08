@@ -16,7 +16,7 @@ Ogni avvio/riprova genera un nuovo ordine delle domande e delle opzioni di ciasc
 
 ## Offline e installazione
 
-Il service worker ha ambito limitato alla cartella del modulo. Precaching completo delle 45 risorse necessarie, compresi tutti i test. Lo stato nel piè di pagina conferma quando il modulo è pronto offline. Un’installazione incompleta non sostituisce la cache funzionante precedente. Per aggiornare gli asset, rigenerare `sw.js`. Nessun servizio esterno, analytics, font remoto o account studente.
+Il service worker ha ambito limitato alla cartella del modulo. Precaching completo delle 48 risorse necessarie, compresi tutti i test. Lo stato nel piè di pagina conferma quando il modulo è pronto offline. Un’installazione incompleta non sostituisce la cache funzionante precedente. Per aggiornare gli asset, rigenerare `sw.js`. Nessun servizio esterno, analytics, font remoto o account studente.
 
 ## Manutenzione e verifiche
 
