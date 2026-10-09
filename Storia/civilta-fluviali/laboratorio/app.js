@@ -122,11 +122,24 @@ function render(i){
  txt('nextBtn',current===6?'Vai alla verifica finale →':'Continua il viaggio →');
  if(hasDecision)resolve(false);
 }
+function fictionalVoice(i,d){
+ // Personaggi volutamente immaginari: nessuna frase viene attribuita a una fonte antica.
+ const voices=[
+  ['«L’acqua è vicina. Posso coltivare, ma stanotte controllerò ancora la riva.»','«Qui la piena non arriva, ma per portare acqua ai campi impieghiamo ore.»','«Vedo barche che passano, ma non so ancora quali campi saranno migliori.»'],
+  ['«Oggi ho ripulito il canale con i vicini. Domani discuteremo chi dovrà lavorare ancora.»','«Quelli a monte hanno finito presto; da noi l’acqua arriva quando i campi sono già asciutti.»','«Il capo ha ordinato il lavoro. Io vorrei sapere chi ascolterà chi resta senza acqua.»'],
+  ['«Mia sorella prepara vasi mentre io coltivo: il deposito ci aiuta, ma chi tiene le chiavi?»','«Abbiamo scambiato orzo con pietra e metallo. Se il raccolto manca, cosa conserveremo?»','«Oggi abbiamo ricevuto più cibo. Ma chi costruirà un magazzino per l’anno difficile?»'],
+  ['«Traccio segni sull’argilla: domani potremo controllare quante razioni sono uscite.»','«Mi chiedono di ricordare ogni consegna. Io ricordo i volti, ma non tutti i numeri.»','«Conto i contrassegni ogni sera. Mi serve un modo per sapere anche a chi ho dato il grano.»'],
+  ['«Guardiamo il Nilo ogni giorno. Quando l’acqua cala sapremo dove tornare a lavorare.»','«Vedo passare una barca: forse potrebbe portarci notizie e merci dal villaggio vicino.»','«L’acqua è salita più di quanto pensassimo. La semina di quest’anno sarà difficile.»'],
+  ['«Aspettiamo messaggeri dal nord: un accordo potrebbe proteggerci, ma chi lo farà rispettare?»','«Dicono che il sovrano abbia vinto. Io penso ai campi e a chi non tornerà dalla battaglia.»','«Vogliamo decidere da soli. Ma lungo il fiume arrivano ordini e richieste da altri centri.»'],
+  ['«I fiumi ci danno risorse. Adesso so che la storia non nasce dall’acqua da sola.»','«Credevo che ogni fiume producesse lo stesso regno. Ma conosco città e poteri differenti.»','«Pensavo che il paesaggio non contasse; senza l’acqua, però, non capirei i nostri campi.»']
+ ];
+ return (voices[i]||voices[0])[d]||'';
+}
 function resolve(focus){
  const s=LAB_STAGES[current],d=state.decisions[current];if(!Number.isInteger(d)||!s.choices[d])return;
  show('outcome',true);show('historyPanel',true);show('knowledgePanel',true);
  const choice=s.choices[d];
- txt('outcomeTitle',choice[1]);txt('outcomeText',choice[2]);txt('outcomeBridge',choice[3]);
+ txt('outcomeTitle',choice[1]);txt('outcomeText',choice[2]);txt('narrativeVoice',fictionalVoice(current,d));txt('outcomeBridge',choice[3]);
  const b=document.createElement('button');b.type='button';b.className='text-button';b.textContent='Esplora un’altra decisione';
  b.style.display='block';b.style.marginTop='12px';
  b.addEventListener('click',()=>{
