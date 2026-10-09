@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#102b3c">
+<meta name="description" content="Laboratorio di storia per il primo anno: Mesopotamia ed Egitto. Prendi decisioni, esplora conseguenze, analizza fonti e verifica le conoscenze.">
+<title>Vivere la storia · Civiltà fluviali · gbprof</title>
+<link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./style.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#laboratorio">Vai al laboratorio</a>
+<header class="topbar">
+  <a class="brand" href="../"><span class="brand-gb">gb</span><span><strong>STORIA</strong><small>Prima · Civiltà fluviali</small></span></a>
+  <nav aria-label="Navigazione"><a href="../#quadro-geografico">Lezione originale</a><a href="#metodo">Il metodo</a><a href="#archivio">Fonti</a></nav>
+  <span class="save-pill" id="saveState">Percorso salvato in questo dispositivo</span>
+</header>
+<main>
+ <section class="intro layout" id="inizio">
+   <div class="intro-copy">
+     <p class="eyebrow">Laboratorio interattivo · unità 1 · Storia</p>
+     <h1>Due fiumi,<br><em>due civiltà.</em></h1>
+     <p class="subtitle">Vivere la storia significa affrontare problemi, vedere come cambia il mondo e confrontare le proprie idee con le tracce lasciate dal passato.</p>
+     <div class="hero-buttons"><a class="button primary" href="#laboratorio">Entra nel laboratorio <span aria-hidden="true">↗</span></a><a class="button secondary" href="../#mesopotamia">Ripassa prima la lezione</a></div>
+     <p class="hero-warning"><span aria-hidden="true">◈</span> Le tue decisioni appartengono a una <b>simulazione didattica</b>. I fatti e le fonti saranno sempre indicati separatamente.</p>
+   </div>
+   <div class="hero-illustration">
+     <div class="scene-heading"><span class="eyebrow">Un mondo che cambia con le tue scelte</span><span id="sceneEra" class="era-tag">IV millennio a.C.</span></div>
+     <svg id="world" role="img" aria-label="Illustrazione schematica animata di un territorio fluviale. Le coltivazioni, il villaggio e gli edifici cambiano nel corso dell'attività." viewBox="0 0 780 430" xmlns="http://www.w3.org/2000/svg">
+       <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#cbe7ed"/><stop offset="1" stop-color="#f4e7c6"/></linearGradient><linearGradient id="riverFill" x1="0" x2="1"><stop stop-color="#1976a5"/><stop offset="1" stop-color="#7bc5d6"/></linearGradient></defs>
+       <rect width="780" height="430" fill="url(#sky)"/>
+       <circle cx="665" cy="68" r="40" fill="#ebbb62" opacity=".83"/>
+       <path d="M0 225 Q210 128 410 212 Q600 136 780 224 V430 H0Z" fill="#c9b47e"/>
+       <path d="M0 287 Q200 207 400 262 Q605 219 780 275 V430 H0Z" fill="#cfbc89"/>
+       <path d="M260 -28 Q180 78 299 173 Q402 261 260 340 Q222 397 281 470" stroke="#e7dcc0" stroke-width="119" fill="none" opacity=".65"/>
+       <path d="M260 -28 Q180 78 299 173 Q402 261 260 340 Q222 397 281 470" stroke="url(#riverFill)" stroke-width="75" fill="none"/>
+       <path d="M260 -28 Q180 78 299 173 Q402 261 260 340 Q222 397 281 470" stroke="#def4ee" stroke-width="3" stroke-dasharray="7 13" fill="none" opacity=".8"/>
+       <g id="worldChannels" class="world-part" opacity=".05"><path d="M318 178 L470 160 L555 202 M305 335 L425 362 L500 320" stroke="#49a9c2" stroke-width="22" stroke-linecap="round" fill="none"/><path d="M318 178 L470 160 L555 202 M305 335 L425 362 L500 320" stroke="#d3f3f8" stroke-width="4" fill="none"/></g>
+       <g id="worldFields" class="world-part" opacity=".15">
+       <g fill="#9eab54" stroke="#f0d3a5" stroke-width="4"><rect x="452" y="219" width="80" height="32" rx="3" transform="rotate(-8 452 219)"/><rect x="542" y="219" width="80" height="32" rx="3" transform="rotate(-8 542 219)"/><rect x="455" y="265" width="80" height="32" rx="3" transform="rotate(-8 455 265)"/><rect x="549" y="265" width="80" height="32" rx="3" transform="rotate(-8 549 265)"/><rect x="496" y="310" width="82" height="32" rx="3" transform="rotate(-8 496 310)"/></g>
+       <g stroke="#7e913b" stroke-width="3"><path d="M461 237h61 M550 237h62 M464 282h60 M557 282h61 M504 326h63"/></g></g>
+       <g id="worldHouses" class="world-part" opacity=".5" fill="#a7684b" stroke="#f7e0b2" stroke-width="3">
+       <path d="M82 255l40-30 43 30v49H82Z"/><path d="M180 292l37-28 39 28v44h-76Z"/><path d="M364 290l35-25 38 25v43h-73Z"/><rect x="117" y="273" width="13" height="31" fill="#5f5141"/><rect x="207" y="312" width="12" height="24" fill="#5f5141"/>
+       </g>
+       <g id="worldCity" class="world-part" opacity=".02">
+       <rect x="552" y="102" width="178" height="124" rx="4" fill="#c58f67" stroke="#8e614d" stroke-width="9"/>
+       <path d="M576 190V139l26-18 27 18v51zM650 201v-68l25-20 29 20v68z" fill="#b57958"/><rect x="599" y="168" width="14" height="22" fill="#6d5444"/><path d="M618 184V124l26-20 26 20v60z" fill="#dbb283" stroke="#93634b" stroke-width="5"/><rect x="639" y="148" width="14" height="36" fill="#7d5744"/>
+       </g>
+       <g id="worldArchive" class="world-part" opacity=".02"><path d="M500 146l45-29 45 29v58h-90Z" fill="#a96c52" stroke="#edd5a2" stroke-width="5"/><rect x="521" y="158" width="17" height="46" fill="#654b3d"/><path d="M491 117h107" stroke="#e7c48e" stroke-width="8"/></g>
+       <g fill="#517d60"><circle cx="53" cy="322" r="16"/><rect x="50" y="324" width="6" height="27" fill="#81593b"/><circle cx="742" cy="331" r="19"/><rect x="739" y="337" width="6" height="27" fill="#81593b"/></g>
+       <rect x="22" y="20" width="185" height="43" rx="12" fill="#fff9e8" opacity=".95"/><text x="38" y="47" font-size="17" font-weight="700" fill="#23475a" id="worldLabel">Un villaggio sul fiume</text>
+       <text x="20" y="404" font-size="14" fill="#3c4b44" font-weight="600">Schema simbolico · non ricostruzione archeologica</text>
+     </svg>
+     <div class="world-status"><div><span id="waterState">Acqua non gestita</span><small>Risorsa</small></div><div><span id="settlementState">Villaggio</span><small>Società</small></div><div><span id="knowledgeState">0/6</span><small>Conoscenze verificate</small></div></div>
+   </div>
+ </section>
+ <section id="metodo" class="method layout">
+   <p class="eyebrow">Il metodo che guida l'esperienza</p>
+   <h2>Non un quiz travestito da gioco.<br><span>Una storia da comprendere.</span></h2>
+   <div class="method-grid"><article><b>01</b><h3>Affronta il problema</h3><p>Sei dentro una situazione storicamente plausibile: devi scegliere, motivare e accettare conseguenze.</p></article><article><b>02</b><h3>Vivi le conseguenze</h3><p>Il villaggio e i problemi cambiano. Non esistono scorciatoie garantite verso il «progresso».</p></article><article><b>03</b><h3>Consulta le fonti</h3><p>Separa le ipotesi dalle testimonianze; verifica luoghi, cronologie, istituzioni e documenti.</p></article><article><b>04</b><h3>Dimostra di sapere</h3><p>Rispondi a domande di storia e ricostruisci una spiegazione con cause, limiti e differenze.</p></article></div>
+ </section>
+ <section class="work-section layout" id="laboratorio">
+   <div class="work-heading"><div><p class="eyebrow">L'esperienza</p><h2>Il viaggio di una comunità</h2><p>Sette tappe, due civiltà, un taccuino personale. Puoi riprendere il percorso dallo stesso dispositivo.</p></div><div class="progress-widget"><span id="progressText">0 tappe concluse su 7</span><div class="progress-track" role="progressbar" aria-label="Avanzamento nel percorso" aria-valuemin="0" aria-valuemax="7" aria-valuenow="0" id="progressBar"><i id="progressFill"></i></div></div></div>
+   <div class="workspace">
+    <aside class="sidebar" aria-label="Tappe del viaggio"><h3>Itinerario</h3><ol id="stageNav"></ol><div class="notebook-link"><span aria-hidden="true">✧</span><b>Taccuino dello storico</b><p>Annota come cambiano le tue idee.</p><button id="openNotebook" type="button" class="button small tertiary">Apri taccuino</button></div></aside>
+    <div class="story-column">
+     <article class="story-card" id="storyCard" aria-labelledby="stageTitle">
+      <div class="story-upper"><p class="eyebrow" id="stageEpoch">Mesopotamia · IV millennio a.C.</p><span id="stageCount" class="stage-count">01 / 07</span></div>
+      <div class="story-topline"><h3 id="stageTitle">Il territorio</h3><span id="stageMark" class="stamp">Simulazione</span></div>
+      <p class="stage-lead" id="stageLead"></p>
+      <div id="stageMap" class="map-inset" hidden></div>
+      <div class="scenario-card"><span class="panel-label">Il problema</span><h4 id="questionTitle"></h4><p id="questionBody"></p><fieldset class="choices" id="choices"><legend class="sr-only">Scegli una decisione</legend></fieldset><button id="decideBtn" type="button" class="button primary" disabled>Prendi la decisione <span aria-hidden="true">→</span></button></div>
+      <div id="outcome" class="outcome" hidden tabindex="-1"><span class="panel-label">Conseguenza simulata · non un fatto realmente accaduto</span><h4 id="outcomeTitle"></h4><p id="outcomeText"></p><div class="outcome-foot" id="outcomeBridge"></div></div>
+      <section id="historyPanel" class="history-panel" hidden aria-labelledby="historyHeading">
+        <div class="history-heading"><div><span class="panel-label">Storia documentata</span><h4 id="historyHeading">Che cosa sappiamo davvero?</h4></div><span class="fact-stamp">FONTI</span></div>
+        <p id="historySummary"></p><ul id="historyFacts"></ul><div class="source-list" id="historySources"></div>
+        <p class="caution"><strong>Il limite:</strong> <span id="historyLimit"></span></p>
+      </section>
+      <section id="knowledgePanel" class="knowledge-panel" hidden aria-labelledby="knowledgeHeading">
+        <div class="history-heading"><div><span class="panel-label">Conoscenza disciplinare · hard skills</span><h4 id="knowledgeHeading">Dimostra di sapere</h4></div><span class="fact-stamp">1 PUNTO</span></div>
+        <p id="knowledgeQuestion"></p><fieldset id="knowledgeChoices" class="choices choices-compact"><legend class="sr-only">Rispondi alla domanda di storia</legend></fieldset>
+        <button id="checkBtn" class="button primary" disabled type="button">Verifica la risposta</button><div id="knowledgeFeedback" class="feedback" role="status" aria-live="polite" hidden></div>
+      </section>
+      <div class="story-actions"><button type="button" class="button tertiary" id="prevBtn">← Tappa precedente</button><button type="button" class="button secondary" id="nextBtn" disabled>Continua il viaggio →</button></div>
+     </article>
+     <section id="finalPanel" class="final-panel" hidden aria-labelledby="finalTitle">
+       <p class="eyebrow">Verifica finale delle conoscenze</p><h3 id="finalTitle">Ricomponi il quadro storico</h3><p>Dodici domande su geografia, cronologia, economia, potere e fonti. Non valutano la bontà delle tue scelte simulate, ma quello che hai appreso.</p>
+       <div class="exam-head"><span id="examCounter">0 risposte su 12</span><button id="resetQuizBtn" type="button" class="text-button">Ricomincia la verifica</button></div>
+       <div id="examQuestions"></div><button id="submitQuizBtn" class="button primary" type="button" disabled>Correggi la verifica</button><div id="examResult" role="status" aria-live="polite" hidden></div>
+       <div class="report-tools"><button id="exportBtn" type="button" class="button secondary">Esporta il tuo percorso (.txt)</button><button id="printBtn" type="button" class="button tertiary">Stampa la scheda</button><button id="restartBtn" type="button" class="text-button">Azzera tutto il laboratorio</button></div>
+     </section>
+    </div>
+   </div>
+ </section>
+ <section class="archive layout" id="archivio">
+   <div><p class="eyebrow">Per conoscere la storia bisogna interrogarla</p><h2>Fonti e strumenti</h2><p>Le fonti sono riferimenti esterni a musei e istituzioni di ricerca. Il laboratorio non presenta le scene simulate come ricostruzioni certe.</p></div>
+   <div class="archive-grid">
+    <a href="https://www.metmuseum.org/ko/essays/uruk-the-first-city" target="_blank" rel="noopener noreferrer"><span>MET · Mesopotamia</span><strong>Uruk, una delle prime grandi città</strong><span>Arte, architettura e primi archivi ↗</span></a>
+    <a href="https://www.metmuseum.org/pt/essays/the-origins-of-writing" target="_blank" rel="noopener noreferrer"><span>MET · Fonti scritte</span><strong>Le origini della scrittura</strong><span>Tavolette e amministrazione ↗</span></a>
+    <a href="https://www.britishmuseum.org/collection/galleries/early-egypt" target="_blank" rel="noopener noreferrer"><span>British Museum · Egitto</span><strong>Le origini dello Stato egizio</strong><span>Nilo, unificazione e geroglifici ↗</span></a>
+    <a href="https://egymonuments.gov.eg/historical-periods/early-dynastic-period/" target="_blank" rel="noopener noreferrer"><span>Ministero egiziano delle Antichità</span><strong>Il primo periodo dinastico</strong><span>Un processo graduale ↗</span></a>
+   </div>
+ </section>
+</main>
+<dialog id="notebookDialog" class="notebook"><form method="dialog"><button type="submit" class="close-button" aria-label="Chiudi il taccuino">×</button></form><p class="eyebrow">Strumento personale</p><h2>Taccuino dello storico</h2><p>Scrivi una spiegazione, una domanda o un dubbio. Le note restano soltanto su questo dispositivo.</p><label for="notebookText">Le mie osservazioni</label><textarea id="notebookText" rows="10" placeholder="Ho cambiato idea quando ho scoperto che…"></textarea><div class="notebook-foot"><span id="noteSaved">Salvataggio locale</span><button id="closeNotebook" class="button primary" type="button">Chiudi e conserva</button></div></dialog>
+<footer><div class="layout footer-inner"><div><strong>gbprof · STORIA</strong><span>Le civiltà fluviali · Laboratorio di prima</span></div><a href="../">Torna alla lezione originale ↗</a></div></footer>
+</body>
+</html>
