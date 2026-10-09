@@ -61,10 +61,10 @@ function scene(i){
  txt('worldLabel',egypt?'Valle del Nilo':i===6?'Due storie fluviali':i>=2?'Verso la città':'Villaggio e campi');
  const d=state.decisions[1];
  el('worldChannels').setAttribute('opacity',i===0?'.05':d===1?'.30':'.9');
- el('worldFields').setAttribute('opacity',i===0?'.15':i>=2?'.96':'.65');
+ el('worldFields').setAttribute('opacity',i===0?'.15':i>=2&&d===1?'.60':i>=2?'.96':'.65');
  el('worldHouses').setAttribute('opacity',i>0?'.95':'.5');
  el('worldCity').setAttribute('opacity',i>=2&&!egypt&&i!==6?'.98':i===6?'.65':'.02');
- el('worldArchive').setAttribute('opacity',i>=3&&!egypt?'.95':'.02');
+ el('worldArchive').setAttribute('opacity',i>=3&&!egypt?(i===3&&state.decisions[3]===1?'.05':i===3&&state.decisions[3]===2?'.42':'.95'):'.02');
  txt('waterState',egypt?'Piene stagionali':d===0?'Canali condivisi':d===1?'Canali diseguali':i>=1?'Acqua da gestire':'Risorsa da conoscere');
  txt('settlementState',i===5?'Regno in formazione':i===6?'Due civiltà':i>=2?'Città in crescita':'Villaggio');
 }
@@ -80,6 +80,20 @@ function carryOver(i){
  if(i===5&&state.decisions[4]===1)return 'I collegamenti rimangono difficili. Nella valle nascono questioni di controllo e potere.';
  if(i===6&&state.decisions[5]===1)return 'Hai immaginato la conquista come soluzione politica: ora confrontala con le prove storiche.';
  return '';
+}
+function scenarioFor(i,s){
+ if(i===2){
+  if(state.decisions[1]===1)return 'La manutenzione dei canali non è uniforme: alcune famiglie ottengono poco orzo, altre hanno una buona annata. Dopo nuovi accordi viene raccolta una piccola eccedenza. Come la useresti?';
+  if(state.decisions[1]===2)return 'La gestione accentrata dell’acqua ha favorito alcuni campi, ma il controllo della produzione è contestato. Una parte del raccolto supera il consumo immediato: come la useresti?';
+  if(state.decisions[1]===0)return 'Il lavoro collettivo sui canali ha favorito una buona annata; una parte del raccolto supera il consumo delle famiglie. Come utilizzeresti questa eccedenza?';
+ }
+ if(i===3){
+  if(state.decisions[2]===1)return 'Presso un punto di scambio arrivano 12 sacchi di orzo e ne vengono distribuiti 8: come ricorderesti il saldo e i destinatari delle razioni?';
+  if(state.decisions[2]===2)return 'In uno spazio di raccolta temporaneo arrivano 12 sacchi di orzo per essere distribuiti; 8 vengono consegnati. Come registreresti il movimento?';
+  if(state.decisions[2]===0)return 'Nel magazzino comune arrivano 12 sacchi di orzo e ne vengono distribuiti 8. Come ricorderesti saldo e destinatari?';
+ }
+ if(i===5&&state.decisions[4]===1)return 'Alcuni insediamenti sono rimasti poco collegati. In una fase di competizione fra centri del Nilo, ti viene chiesto come affrontare conflitti e rapporti politici. Che cosa consigli?';
+ return s.scenario;
 }
 function renderMap(s){
  const root=el('stageMap');root.replaceChildren();
@@ -97,7 +111,7 @@ function render(i){
  const s=LAB_STAGES[current],d=state.decisions[current],hasDecision=Number.isInteger(d);
  txt('stageEpoch',s.epoch);txt('stageCount',String(current+1).padStart(2,'0')+' / 07');
  txt('stageTitle',s.title);txt('stageLead',s.lead+(carryOver(current)?' '+carryOver(current):''));
- txt('questionTitle',s.problem);txt('questionBody',s.scenario);
+ txt('questionTitle',s.problem);txt('questionBody',scenarioFor(current,s));
  txt('stageMark',state.completed[current]?'Conoscenza verificata':'Simulazione');
  renderMap(s);scene(current);
  radioList(el('choices'),'decision-'+current,s.choices.map(x=>x[0]),hasDecision?d:null,hasDecision,()=>{el('decideBtn').disabled=false;});
