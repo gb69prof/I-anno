@@ -35,13 +35,13 @@ function nav(){
   if(current===i)b.setAttribute('aria-current','step');
   const n=document.createElement('span');n.className='number';n.textContent=state.completed[i]?'✓':String(i+1).padStart(2,'0');
   const label=document.createElement('span');label.textContent=s.short;
-  b.append(n,label);b.addEventListener('click',()=>render(i));li.append(b);root.append(li);
+  b.append(n,label);b.addEventListener('click',()=>navigate(i));li.append(b);root.append(li);
  });
  const li=document.createElement('li'),b=document.createElement('button');
  b.type='button';b.className='stage-tab'+(current===7?' is-active':'');b.disabled=!allDone();
  const n=document.createElement('span');n.className='number';n.textContent='★';
  const label=document.createElement('span');label.textContent='Verifica finale';
- b.append(n,label);b.addEventListener('click',()=>render(7));li.append(b);root.append(li);
+ b.append(n,label);b.addEventListener('click',()=>navigate(7));li.append(b);root.append(li);
 }
 function radioList(root,name,labels,selected,disabled,change){
  root.replaceChildren();
@@ -248,11 +248,15 @@ function notebook(){
  el('openNotebook').addEventListener('click',()=>{if(dialog.showModal)dialog.showModal();else dialog.setAttribute('open','');});
  el('closeNotebook').addEventListener('click',()=>{if(dialog.close)dialog.close();else dialog.removeAttribute('open');});
 }
+function navigate(i){
+ render(i);
+ (current===7?el('finalPanel'):el('storyCard')).scrollIntoView({behavior:'smooth',block:'start'});
+}
 function init(){
  el('decideBtn').addEventListener('click',decide);
  el('checkBtn').addEventListener('click',verify);
- el('prevBtn').addEventListener('click',()=>render(current-1));
- el('nextBtn').addEventListener('click',()=>render(current+1));
+ el('prevBtn').addEventListener('click',()=>navigate(current-1));
+ el('nextBtn').addEventListener('click',()=>navigate(current+1));
  el('resetQuizBtn').addEventListener('click',resetExam);
  el('submitQuizBtn').addEventListener('click',submitExam);
  el('exportBtn').addEventListener('click',download);
