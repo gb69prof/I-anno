@@ -1,0 +1,26 @@
+const { chromium } = require('playwright');
+(async()=>{
+ const browser=await chromium.launch({headless:true,args:['--enable-webgl','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+ const page=await browser.newPage({viewport:{width:1280,height:800},deviceScaleFactor:1});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ page.on('console',m=>{if(m.type()==='error')errors.push('console: '+m.text())});
+ await page.goto('http://127.0.0.1:8765/Storia/Cnosso-Micene/',{waitUntil:'domcontentloaded'});
+ await page.waitForFunction(()=>document.querySelector('#start') && !document.querySelector('#start').disabled,{timeout:65000});
+ await page.locator('#start').click();
+ await page.waitForTimeout(1800);
+ const count=await page.locator('#scene canvas').count();
+ if(count!==1)throw Error('WebGL canvas assente');
+ await page.keyboard.down('KeyW');await page.waitForTimeout(500);await page.keyboard.up('KeyW');
+ await page.locator('#btn-ruins').click();await page.waitForTimeout(300);
+ if(!(await page.locator('#btn-ruins').getAttribute('class')).includes('active'))throw Error('Modalità rovine non attiva');
+ await page.locator('#btn-life').click();
+ await page.locator('#btn-map').click();
+ if(await page.locator('#map-panel').isHidden())throw Error('Mappa non aperta');
+ await page.locator('#close-map').click();
+ await page.locator('#btn-menu').evaluate(el=>el.click());
+ if(!(await page.locator('#panel').getAttribute('class')).includes('open'))throw Error('Percorso non aperto');
+ await page.screenshot({path:'micene-3d-smoke.png',fullPage:true});
+ if(errors.length)throw Error(errors.join(' | '));
+ console.log('MICENE_SMOKE_OK: canvas, movimento, rovine, mappa, percorso');
+ await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});
