@@ -425,6 +425,7 @@ function explain(s){
  const html='<div class="article-number">'+s.number+' / 06</div><h2>'+s.title+'</h2><div class="article-kicker">'+s.kicker+'</div><p>'+s.text+'</p>'+
  '<div class="fact"><strong>UN FATTO DA RICORDARE</strong><p>'+s.fact+'</p></div>'+
  '<div class="source-note"><small>TRA DOCUMENTO E IPOTESI</small><p>'+s.caution+'</p></div>'+
+ '<a class="tomb-card" href="../Tomba-Agamennone/"><small>APPROFONDIMENTO · MICENE</small><strong>La Tomba di Agamennone</strong><span>Dal Tesoro di Atreo al mito del re: distingui testimonianze archeologiche e tradizione.</span><b>Entra nell’approfondimento ↗</b></a>'+
  '<div class="source-note"><small>FONTI PER APPROFONDIRE</small><p><a href="https://whc.unesco.org/en/list/941" target="_blank" rel="noopener">UNESCO: Micene e Tirinto ↗</a></p><p><a href="https://www.namuseum.gr/en/permanent_exhibition/mykinaikes-archaiotites/" target="_blank" rel="noopener">Museo Archeologico Nazionale di Atene ↗</a></p></div>';
  $('#article-content').innerHTML=html;openPanel('article');
 }

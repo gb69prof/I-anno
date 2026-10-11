@@ -1,0 +1,11 @@
+export const tombs = [
+  { name: "Tomba di Egisto", place: "Micene", date: "TE IIA; ca. XVI–metà XV sec. a.C.", diameter: "13,96 m", height: "ca. 13 m ricostruiti", dromos: "lungo e stretto", feature: "fra le prime grandi tholoi di Micene", state: "copertura crollata", attribution: "nome moderno", certainty: "media" },
+  { name: "Tomba dei Leoni", place: "Micene", date: "TE II; XV sec. a.C. circa", diameter: "14,35 m", height: "non conservata", dromos: "rivestito in poros", feature: "grande scala, prossimità alla cittadella", state: "copertura crollata", attribution: "toponimo moderno", certainty: "media" },
+  { name: "Kato Phournos", place: "Micene", date: "TE IIA–IIB", diameter: "10,40 m", height: "non verificata", dromos: "documentato", feature: "fase intermedia della sequenza", state: "parziale", attribution: "toponimo", certainty: "media" },
+  { name: "Tomba dei Geni", place: "Micene", date: "TE IIB–IIIA1", diameter: "ca. 8 m", height: "non verificata", dromos: "documentato", feature: "camera di scala minore", state: "parziale", attribution: "nome convenzionale", certainty: "bassa" },
+  { name: "Tesoro di Atreo", place: "Micene", date: "TE IIIA–IIIB1; XIV–XIII sec. a.C.", diameter: "14,60 m", height: "13,50 m", dromos: "ca. 36 m", feature: "camera laterale; facciata policroma", state: "volta conservata", attribution: "Atreo/Agamennone: tradizione", certainty: "alta per forma, bassa per data puntuale" },
+  { name: "Tomba di Clitemnestra", place: "Micene", date: "inizio TE IIIB secondo Mason", diameter: "13–14 m", height: "non verificata", dromos: "monumentale", feature: "facciata e tumulo monumentali", state: "restaurata, parziale", attribution: "nome moderno", certainty: "media" },
+  { name: "Tesoro di Minia", place: "Orcomeno", date: "ca. XIII sec. a.C.", diameter: "ca. 14 m", height: "ricostruita", dromos: "ca. 30 m", feature: "camera laterale decorata", state: "parziale", attribution: "Minia: tradizione", certainty: "media" },
+  { name: "Tholos IV", place: "Pilo / Ano Englianos", date: "fondazione forse ME III–TE I; uso prolungato", diameter: "9,35 m", height: "cupola moderna 1957", dromos: "documentato", feature: "storia d’uso complessa", state: "ricostruita", attribution: "nessun eroe", certainty: "bassa per la fondazione" },
+];
+

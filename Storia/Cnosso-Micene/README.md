@@ -2,6 +2,8 @@
 
 **Esperienza 3D didattica PWA** — progetto Storia I anno, gbprof.
 
+Approfondimento collegato: [La Tomba di Agamennone](../Tomba-Agamennone/), con accesso dall’ingresso, dalla visita 3D, dal percorso e dalle schede storiche. Il Tesoro di Atreo e il personaggio dell’epica sono presentati distinguendo dati archeologici e tradizione.
+
 ## Avvio
 
 URL previsto nella struttura del sito:

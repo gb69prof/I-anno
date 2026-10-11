@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'Storia/Cnosso-Micene/**'
+      - 'Storia/Tomba-Agamennone/**'
       - '.github/workflows/test-micene.yml'
   workflow_dispatch:
 permissions:
@@ -23,6 +24,8 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Avvio sito
         run: python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/micene-server.log 2>&1 &
+      - name: Verifica contenuti PWA e isolamento delle cache
+        run: node --test Storia/Tomba-Agamennone/source/tests/content-and-pwa.test.mjs Storia/Tomba-Agamennone/source/tests/cache-isolation.test.mjs
       - name: Smoke test WebGL
         run: node Storia/Cnosso-Micene/smoke.cjs
       - name: Salva schermata del collaudo

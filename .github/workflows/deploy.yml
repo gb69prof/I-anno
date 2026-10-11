@@ -75,6 +75,14 @@ jobs:
           test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/antologia/)" = "200"
           test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/Storia/Cnosso-Micene/)" = "200"
           test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/Storia/Cnosso-Micene/app.js)" = "200"
+          tomb=https://gbprof.it/I-anno/Storia/Tomba-Agamennone/
+          for asset in index.html manifest.webmanifest sw.js favicon.svg; do
+            test "$(curl -fsS --max-time 30 -o /dev/null -w '%{http_code}' "${tomb}${asset}")" = "200"
+          done
+          for asset in Storia/Tomba-Agamennone/assets/*; do
+            test "$(curl -fsS --max-time 30 -o /dev/null -w '%{http_code}' "https://gbprof.it/I-anno/${asset}")" = "200"
+          done
+          curl -fsS --max-time 30 https://gbprof.it/I-anno/Storia/Cnosso-Micene/ | grep -Fq '../Tomba-Agamennone/'
           test "$(curl -sS -o /dev/null -w '%{http_code}' https://gbprof.it/I-anno/.git/config)" = "404"
           REMOTE
 

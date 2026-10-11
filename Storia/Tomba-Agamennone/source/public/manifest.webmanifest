@@ -1,0 +1,15 @@
+{
+  "name": "Agamennone — Archeologia, mito e memoria",
+  "short_name": "Agamennone",
+  "description": "Dalla tomba monumentale di Micene alla morte del re nella tradizione greca.",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f0e8",
+  "theme_color": "#151713",
+  "lang": "it",
+  "icons": [
+    { "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
+
