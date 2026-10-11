@@ -4,7 +4,7 @@ import vm from 'node:vm';
 import test from 'node:test';
 
 for (const [name, file, stale, current] of [
-  ['Agamennone', '../public/sw.js', 'i-anno-agamennone-v0', 'i-anno-agamennone-v1'],
+  ['Agamennone', '../public/sw.js', 'i-anno-agamennone-v1', 'i-anno-agamennone-v2'],
   ['Micene', '../../../Cnosso-Micene/sw.js', 'micene-3d-v1.0.0', 'micene-3d-v1.1.0'],
 ]) test(`${name}: l’aggiornamento conserva le cache degli altri progetti`, async () => {
   const handlers = {}, removed = [];

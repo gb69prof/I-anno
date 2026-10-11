@@ -67,7 +67,7 @@ export const images = [
   {
     id: "section-1843",
     title: "Sezione storica del 1843",
-    src: "https://upload.wikimedia.org/wikipedia/commons/7/78/Perpendicular_section_of_the_tholos_tomb_known_as_Treasury_of_Atreus_in_Mycenae_-_Du_Moncel_Th%C3%A9odore_-_1843.jpg",
+    src: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Perpendicular_section_of_the_tholos_tomb_known_as_Treasury_of_Atreus_in_Mycenae_-_Du_Moncel_Th%C3%A9odore_-_1843.jpg",
     page: "https://commons.wikimedia.org/wiki/File:Perpendicular_section_of_the_tholos_tomb_known_as_Treasury_of_Atreus_in_Mycenae_-_Du_Moncel_Th%C3%A9odore_-_1843.jpg",
     author: "Théodose Du Moncel",
     date: "1843",
