@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#131b1b"><meta name="description" content="Entra in un palazzo miceneo del XIII secolo a.C. Un'esperienza 3D interattiva per PC, tablet e iPad, a cura di gbprof.">
+<title>Micene 1250 a.C. · Il palazzo ritrovato | gbprof</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="icon.svg">
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+</head>
+<body>
+<main id="app">
+ <div id="scene" role="application" aria-label="Ambiente tridimensionale navigabile di un palazzo miceneo"></div>
+ <div class="atmosphere" aria-hidden="true"></div>
+ <header class="hud-top">
+  <a class="identity" href="https://gbprof.it/I-anno/" aria-label="gbprof, storia primo anno"><span class="monogram">gb<span>.</span></span><span class="identity-copy">STORIA <b>/</b> I ANNO <small>Archeologia immersiva</small></span></a>
+  <div class="epoch"><span class="epoch-dot"></span> GRECIA · XIII SEC. A.C.</div>
+  <button id="btn-menu" class="icon-button menu-trigger" type="button" aria-label="Apri menù e tappe" title="Percorso"><span>☷</span></button>
+ </header>
+ <div class="hud-left">
+  <div class="chapter">01 <i></i> LA CIVILTÀ MICENEA</div>
+  <h1>Il palazzo<br><em>ritrovato.</em></h1>
+  <p>Micene, 1250 a.C. · Un viaggio dentro il potere dell'età del bronzo.</p>
+ </div>
+ <aside class="location" aria-live="polite"><span class="location-line"></span><span><small>ORA TI TROVI</small><strong id="place-name">Lungo la via d'accesso</strong></span></aside>
+ <div class="hud-bottom">
+  <div class="mode-cluster"><button class="pill active" id="btn-life" type="button">✦ 1250 A.C.</button><button class="pill" id="btn-ruins" type="button">▥ ROVINE</button></div>
+  <div class="hud-bottom-right"><button id="btn-sound" class="icon-button" type="button" aria-label="Attiva suoni ambientali" title="Suoni">♫</button><button id="btn-map" class="icon-button" type="button" aria-label="Apri mappa" title="Mappa">⌗</button><button id="btn-help" class="icon-button" type="button" aria-label="Aiuto" title="Comandi">?</button></div>
+ </div>
+ <button id="nearby" class="nearby" type="button" hidden>✦ <span id="nearby-label">Scopri il luogo</span> <span>↗</span></button>
+ <div id="reticle" aria-hidden="true"><span></span></div>
+ <div id="loading" class="full-screen intro">
+  <div class="intro-frame">
+   <span class="eyebrow">GBPROF PRESENTA <span class="line"></span> UN'ESPERIENZA IMMERSIVA</span>
+   <div class="intro-arch" aria-hidden="true"><span class="arch-sun"></span><span class="arch-pillars"></span></div>
+   <h2>Micene<br><em>1250 a.C.</em></h2>
+   <p>Oltre le mura ciclopiche. Attraverso la porta dei Leoni. Fino alla sala del sovrano.</p>
+   <div class="intro-rule"></div>
+   <div class="intro-meta"><span>RICOSTRUZIONE INTERPRETATIVA 3D</span><span>VISITA LIBERA</span></div>
+   <div class="loading-track"><span id="progress"></span></div><p id="load-status" class="load-status">Preparazione dell'ambiente tridimensionale…</p>
+   <button type="button" id="start" class="cta" disabled>Entra nella cittadella <span>↗</span></button>
+   <p class="intro-foot">PC: W A S D + mouse · Tablet e iPad: joystick + trascinamento</p>
+  </div>
+ </div>
+ <section id="panel" class="panel" aria-hidden="true" aria-label="Percorso didattico">
+  <div class="panel-scrim" data-close></div><div class="panel-body">
+   <div class="panel-header"><div><span class="tiny">ESPLORA MICENE</span><h2>Il percorso</h2></div><button class="x-button" data-close aria-label="Chiudi">×</button></div>
+   <p class="panel-lead">Sei luoghi per comprendere come era organizzato il centro del potere miceneo. Tocca una tappa per raggiungerla.</p>
+   <div id="stops" class="stops"></div>
+   <div class="panel-foot"><span>Ricostruzione archeologica interpretativa</span><span>© gbprof</span></div>
+  </div>
+ </section>
+ <section id="article" class="panel" aria-hidden="true" aria-label="Approfondimento storico">
+  <div class="panel-scrim" data-close></div><div class="panel-body article-body"><div class="panel-header"><span class="tiny">ATLANTE DEI LUOGHI · MICENE</span><button class="x-button" data-close aria-label="Chiudi">×</button></div><div id="article-content"></div><div class="article-foot">RICOSTRUZIONE DIDATTICA · FONTI E IPOTESI SONO DISTINTE</div></div>
+ </section>
+ <section id="map-panel" class="floating-panel" hidden aria-label="Mappa del palazzo"><div class="floating-head"><strong>Planimetria orientativa</strong><button id="close-map" class="small-close" aria-label="Chiudi mappa">×</button></div><canvas id="map-canvas" width="360" height="390" aria-label="Planimetria del percorso miceneo"></canvas><p>◉ Tu sei qui · Tocca i punti numerati per raggiungerli</p></section>
+ <section id="help-panel" class="floating-panel help-panel" hidden><div class="floating-head"><strong>Come esplorare</strong><button id="close-help" class="small-close" aria-label="Chiudi aiuto">×</button></div><div class="help-keys"><span>PC</span><p><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> muoviti · trascina per guardarti intorno · <kbd>Shift</kbd> corri · <kbd>E</kbd> approfondisci.</p><span>TOUCH</span><p>Usa il cerchio a sinistra per camminare; trascina il lato destro per guardarti intorno. Tocca i simboli per leggere.</p></div><small>La ricostruzione non sostituisce il rilievo archeologico.</small></section>
+ <div id="touch-ui" aria-hidden="true"><div id="joystick"><div id="stick"></div></div><div id="look-hint">TRASCINA PER GUARDARE ⤴</div></div>
+ <div id="fatal" hidden><h2>Impossibile avviare la visita 3D</h2><p>Verifica la connessione Internet e che il browser supporti WebGL. Ricarica la pagina oppure utilizza Safari o Chrome aggiornati.</p><button type="button" onclick="location.reload()">Riprova</button></div>
+</main>
+<script type="module" src="app.js"></script>
+</body></html>
