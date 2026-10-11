@@ -26,7 +26,7 @@ const { chromium } = require('playwright');
  await page.locator('#panel .tomb-card').click();
  await page.getByRole('heading',{name:'Una tomba reale. Un nome senza prova.'}).waitFor();
  if(!page.url().includes('/Storia/Tomba-Agamennone/'))throw Error('Destinazione approfondimento errata');
- await page.getByRole('button',{name:'ENTRARE NEL MONUMENTO',exact:true}).click();
+ await page.getByRole('button',{name:/^Entrare nel monumento$/i}).click();
  await page.getByRole('heading',{name:'Il Tesoro di Atreo',exact:true}).waitFor();
  if(!(await page.getByRole('link',{name:'← Torna alla visita di Micene'}).count()))throw Error('Ritorno a Micene assente');
  console.log('MICENE_SMOKE_OK: canvas, movimento, rovine, mappa, percorso, approfondimento e ritorno');
