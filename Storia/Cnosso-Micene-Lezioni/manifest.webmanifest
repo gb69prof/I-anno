@@ -1,0 +1,30 @@
+{
+  "id": "/I-anno/Storia/Cnosso-Micene-Lezioni/",
+  "name": "Le civiltà dell'Egeo · Cnosso e Micene",
+  "short_name": "Egeo · Storia",
+  "description": "Lezioni storiche, miti, verifica e laboratorio delle civiltà dell'Egeo.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf7f0",
+  "theme_color": "#102d43",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Le lezioni",
+      "url": "./#geografia"
+    },
+    {
+      "name": "Test",
+      "url": "./#test"
+    }
+  ]
+}
