@@ -11,30 +11,37 @@
       "symbol": "Il fuoco dell’ira di Achille",
       "read": "p4",
       "paragraphs": [
-        "Da quasi dieci anni gli Achei assediano Troia. All’inizio del poema, però, il pericolo non viene dai Troiani: nel campo greco infuria una pestilenza. Apollo l’ha scatenata perché Agamennone ha respinto e umiliato Crise, sacerdote del dio, venuto a riscattare la figlia Criseide, trattenuta come prigioniera di guerra. L’indovino Calcante spiega che, per fermare la strage, bisogna restituire la giovane.",
-        "Agamennone acconsente, ma pretende un altro premio: Briseide, assegnata ad Achille. Per il guerriero non è soltanto una perdita materiale: nel codice eroico il bottino testimonia pubblicamente il valore di chi combatte, la sua timé. Achille si sente disonorato davanti a tutti. Vorrebbe colpire il comandante, ma Atena gli impedisce di estrarre la spada.",
-        "L’eroe decide allora di non combattere più e chiede alla madre Teti di ottenere da Zeus che gli Achei soffrano senza il suo aiuto. L’offesa riguarda due uomini; le conseguenze ricadranno su molti. È da questa contraddizione che nasce il racconto dell’Iliade."
+        "La guerra contro Troia dura ormai da molti anni. Nel campo degli Achei si presenta Crise, sacerdote di Apollo: porta doni preziosi per riscattare la figlia Criseide, catturata durante una spedizione e assegnata come prigioniera ad Agamennone. Molti soldati sono favorevoli ad accogliere la richiesta, ma il comandante supremo respinge il vecchio con parole dure e lo minaccia. Crise si allontana lungo la riva del mare, umiliato, e prega Apollo di punire chi lo ha offeso. La contesa non nasce dunque sul campo di battaglia, ma dal modo in cui un uomo potente tratta un altro essere umano.",
+        "Apollo ascolta il sacerdote. Scende dall’Olimpo con l’arco d’argento e comincia a scagliare le sue frecce: prima colpisce gli animali del campo, poi gli uomini. Per nove giorni i roghi funebri continuano a bruciare e la paura cresce. Il poeta rappresenta così la peste come un castigo divino. È importante distinguere questo modo antico di spiegare la malattia dalle spiegazioni scientifiche moderne: nel mondo narrato da Omero gli dèi intervengono direttamente nelle vicende umane.",
+        "Al decimo giorno Achille convoca un’assemblea per scoprire perché Apollo sia adirato. L’indovino Calcante conosce la risposta, ma teme di attirarsi l’odio del re e chiede protezione. Achille gli garantisce che potrà parlare liberamente. Calcante allora spiega che la pestilenza finirà soltanto quando Criseide sarà restituita al padre senza riscatto e il dio riceverà sacrifici appropriati. L’episodio mostra che dire la verità non è sempre facile quando il responsabile dell’ingiustizia è anche il capo dell’esercito.",
+        "Agamennone cede, ma non vuole perdere il proprio premio di guerra. Pretende che qualcuno gli assegni un’altra prigioniera e decide di prendere Briseide, che appartiene al bottino assegnato ad Achille. Il guerriero reagisce con furia: è lui a sostenere il peso dei combattimenti, mentre il re distribuisce gli onori. Nel mondo eroico il premio è il segno visibile della timé, il prestigio riconosciuto dagli altri. Le due donne, però, sono anche persone private della libertà: nel poema la disputa le considera soprattutto come oggetti di un sistema di potere e di guerra.",
+        "Achille porta la mano alla spada ed è sul punto di aggredire Agamennone. In quell’istante gli appare Atena, inviata da Era, e lo trattiene afferrandolo per i capelli. Soltanto lui vede la dea. Achille obbedisce e rinuncia a colpire il re, ma lo insulta pubblicamente e annuncia che non combatterà più. Il vecchio Nestore tenta inutilmente di riconciliare i due. L’esercito ha evitato un omicidio nell’assemblea, ma non la frattura tra i suoi comandanti.",
+        "Briseide viene portata via dagli araldi di Agamennone. Achille si ritira presso il mare, piange e racconta l’umiliazione alla madre Teti, una divinità marina. Le chiede di persuadere Zeus a favorire i Troiani, affinché gli Achei comprendano quanto sia indispensabile il suo valore. Zeus accetta. Achille ha subito un torto reale, ma sceglie una risposta che esporrà molti compagni alla morte. L’Iliade comincia proprio qui: non con la distruzione di Troia, ma con le conseguenze dell’ira di un solo uomo."
       ],
       "verse": "Cantami, o Diva, del Pelíde Achille\nL’ira funesta",
       "thought": "L’ira nasce da un torto concreto, ma diventa distruttiva quando l’onore personale conta più della vita degli altri. Il poema non invita a ignorare l’ingiustizia: ci costringe a osservare come si reagisce.",
       "question": "Achille ha ragione a sentirsi offeso; ha anche ragione a volere la sconfitta dei compagni?",
       "map": {
-        "center": "OFFESA → IRA → RITIRO",
+        "center": "LA PESTE → L’OFFESA → L’IRA",
         "nodes": [
           [
-            "La peste",
-            "Apollo punisce l’oltraggio rivolto a Crise."
+            "Crise e Apollo",
+            "Agamennone respinge il sacerdote; Apollo punisce gli Achei con la peste."
           ],
           [
-            "Il conflitto",
-            "Agamennone prende Briseide e ferisce la timé di Achille."
+            "Calcante e l’assemblea",
+            "L’indovino rivela la causa della pestilenza e la necessità di restituire Criseide."
           ],
           [
-            "La scelta",
-            "Achille smette di combattere: l’esercito ne pagherà il prezzo."
+            "Briseide e la timé",
+            "Agamennone sottrae ad Achille il premio che testimonia il suo onore."
+          ],
+          [
+            "Atena, Teti e Zeus",
+            "Atena ferma la spada; Teti ottiene che Zeus favorisca temporaneamente i Troiani."
           ]
         ],
-        "takeaway": "Un conflitto personale diventa una tragedia collettiva."
+        "takeaway": "L’ingiustizia subita da Achille è reale; la sua vendetta trasforma una disputa personale in un pericolo per tutti."
       },
       "quiz": [
         [
@@ -66,6 +73,16 @@
           ],
           0,
           "Atena trattiene Achille; egli sceglie il ritiro e lascia che gli Achei combattano senza di lui."
+        ],
+        [
+          "Perché Calcante esita a parlare?",
+          [
+            "Non conosce la causa della peste",
+            "Teme la reazione di Agamennone",
+            "È stato esiliato da Troia"
+          ],
+          1,
+          "Calcante conosce il motivo dell’ira di Apollo, ma teme di accusare il comandante supremo."
         ]
       ],
       "artwork": {
@@ -73,7 +90,20 @@
         "caption": "Atena trattiene Achille nello scontro con Agamennone.",
         "credit": "Giambattista Tiepolo, 1757",
         "source": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Tiepolo_052.jpg"
-      }
+      },
+      "summary": "Una pestilenza devasta il campo acheo. Per placare Apollo, Agamennone deve restituire Criseide; ma prende Briseide ad Achille. L’offesa provoca il ritiro dell’eroe e mette in pericolo tutto l’esercito.",
+      "paragraphTitles": [
+        "Il sacerdote respinto",
+        "Nove giorni di peste",
+        "L’assemblea e la verità di Calcante",
+        "Lo scontro tra i due capi",
+        "La spada fermata da Atena",
+        "La scelta di Achille e le sue conseguenze"
+      ],
+      "bookLabel": "LIBRO I",
+      "sourceBooks": [
+        "I"
+      ]
     },
     {
       "title": "Il sogno di Agamennone e Tersite",
@@ -83,30 +113,37 @@
       "symbol": "Lo scettro del comando e la voce del dissenso",
       "read": "p7",
       "paragraphs": [
-        "Zeus invia ad Agamennone un sogno ingannevole: gli fa credere che sia giunto il momento di conquistare Troia. Il re riunisce i comandanti e poi mette alla prova i soldati proponendo di abbandonare la guerra e tornare a casa. Il risultato lo sorprende: dopo tanti anni di fatiche, gli Achei si precipitano verso le navi. È Odisseo a fermarli, parlando con rispetto ai capi e con durezza agli uomini comuni.",
-        "In assemblea interviene Tersite. Non è un eroe prestigioso: il narratore lo descrive in modo caricaturale, insistendo sul corpo, sulla voce e sulla sua insolenza. Eppure Tersite accusa Agamennone di arricchirsi grazie ai sacrifici altrui e ricorda l’offesa fatta ad Achille. Odisseo lo rimprovera e lo colpisce con lo scettro; i soldati ridono della sua umiliazione.",
-        "L’episodio apre una domanda scomoda. Chi ha il diritto di criticare il potere? Le accuse di Tersite non diventano false soltanto perché il narratore lo presenta come ridicolo. Ma il poema, nato in una cultura aristocratica, non tratta tutti i personaggi allo stesso modo."
+        "Dopo aver promesso a Teti di favorire i Troiani, Zeus manda ad Agamennone un sogno ingannevole. Il sogno assume l’aspetto del saggio Nestore e persuade il re che gli dèi sono finalmente pronti a concedergli la conquista di Troia. Agamennone si sveglia fiducioso e convoca i capi per preparare l’attacco. Il lettore, però, sa qualcosa che il personaggio ignora: il messaggio viene da Zeus, ma non dice la verità. Non tutto ciò che appare autorevole è anche affidabile.",
+        "Prima di ordinare il combattimento, Agamennone decide di mettere alla prova i soldati. In assemblea propone di abbandonare l’assedio e tornare in Grecia, convinto che l’esercito reagirà rifiutando di rinunciare alla guerra. Accade invece il contrario: gli uomini, stanchi di tanti anni lontano dalle famiglie, si precipitano verso le navi e cominciano a prepararle. Il re ha sottovalutato la fatica dei suoi stessi guerrieri. La scena ci permette di immaginare la guerra non soltanto attraverso i comandanti, ma anche attraverso chi deve sopportarla giorno dopo giorno.",
+        "Era teme che gli Achei partano davvero e chiede ad Atena di intervenire. La dea si rivolge a Odisseo, che attraversa l’accampamento con lo scettro del comando. Con i capi parla con rispetto e cerca di persuaderli; con i soldati semplici usa anche rimproveri e colpi. Per riportare l’esercito all’obbedienza ricorda che non tutti possono comandare e che l’autorità deve essere concentrata in Agamennone. È una rappresentazione del potere propria della società eroica, molto lontana dal principio moderno di uguaglianza politica.",
+        "In mezzo alla folla prende la parola Tersite. Il narratore lo presenta con evidente ostilità: è sgraziato, fisicamente deforme, polemico e privo dell’eleganza dei grandi eroi. Non possiede il prestigio di Achille né quello di Odisseo. Proprio per questo il suo intervento è sorprendente. Tersite accusa Agamennone di avere già tende piene di bottino e di donne prigioniere, di desiderare sempre nuove ricchezze e di trattare male coloro che rischiano la vita per lui.",
+        "Tersite ricorda perfino l’offesa inflitta ad Achille e invita i soldati a tornare a casa, lasciando che Agamennone comprenda quanto dipenda dagli altri. Le sue parole sono provocatorie e spesso offensive, ma toccano un problema reale: il rapporto tra il sacrificio dei combattenti e i privilegi del comandante. Anche Achille aveva criticato Agamennone; tuttavia Achille è un principe di eccezionale valore e può permettersi di sfidarlo in un modo che a Tersite non viene consentito.",
+        "Odisseo risponde a Tersite minacciandolo e colpendolo con lo scettro. Il soldato, umiliato e in lacrime, si siede; gli altri ridono. Il poema non presenta questa punizione come una vittoria della libertà di parola. Subito dopo l’assemblea si ricompone, si rinnovano i preparativi e il poeta passa al grande catalogo delle navi, che elenca popoli, luoghi e comandanti della spedizione achea. Il lettore resta con una domanda: il fatto che il narratore disprezzi Tersite rende meno significative le accuse che egli rivolge al potere?"
       ],
       "verse": "E di che dunque\nTi lagni, Atride? che ti manca?",
       "thought": "Per capire Tersite bisogna distinguere tre cose: ciò che dice, il modo in cui lo dice e il giudizio del narratore. Non è semplicemente un eroe della democrazia moderna, né le sue parole sono prive di significato.",
       "question": "Se una critica contiene qualcosa di vero, cambia valore quando a pronunciarla è una persona disprezzata?",
       "map": {
-        "center": "COMANDO ↔ DISSENSO",
+        "center": "SOGNO INGANNEVOLE → CRISI DEL COMANDO",
         "nodes": [
           [
-            "Il sogno",
-            "Zeus induce Agamennone a confidare in una vittoria imminente."
+            "Zeus e il sogno",
+            "Il dio fa credere ad Agamennone che Troia stia per cadere."
           ],
           [
-            "La prova",
-            "Gli Achei vogliono tornare a casa; Odisseo li trattiene."
+            "La prova fallita",
+            "Alla proposta di ritirarsi, l’esercito si precipita davvero verso le navi."
           ],
           [
-            "Tersite",
-            "Attacca i privilegi del re, viene colpito e ridicolizzato."
+            "Odisseo e l’autorità",
+            "Ferma la fuga e tratta i capi diversamente dai soldati comuni."
+          ],
+          [
+            "Tersite e il dissenso",
+            "Denuncia i privilegi del re ma viene colpito e deriso."
           ]
         ],
-        "takeaway": "La voce del potere e la voce di chi protesta non ricevono lo stesso trattamento."
+        "takeaway": "Il poema mette in scena sia le ragioni dell’ordine aristocratico sia la voce scomoda di chi ne denuncia le disuguaglianze."
       },
       "quiz": [
         [
@@ -138,7 +175,30 @@
           ],
           2,
           "Un narratore può ridicolizzare un personaggio che pure esprime critiche da valutare nel merito."
+        ],
+        [
+          "Chi è il solo a sapere fin dall’inizio che il sogno è ingannevole?",
+          [
+            "Il lettore, informato dal narratore",
+            "Agamennone, che finge di crederci",
+            "Tersite, che ha ascoltato Zeus"
+          ],
+          0,
+          "Il racconto rivela subito l’inganno di Zeus, mentre Agamennone lo interpreta come un annuncio di vittoria."
         ]
+      ],
+      "summary": "Un sogno ingannevole spinge Agamennone ad agire. Quando il re propone per prova il ritorno in patria, gli Achei corrono alle navi; Odisseo li ferma. Poi Tersite denuncia i privilegi di Agamennone e viene umiliato.",
+      "paragraphTitles": [
+        "Il sogno mandato da Zeus",
+        "Una prova che sfugge di mano",
+        "Odisseo riporta ordine",
+        "Chi è Tersite?",
+        "Un discorso scomodo",
+        "La punizione e il catalogo delle navi"
+      ],
+      "bookLabel": "LIBRO II",
+      "sourceBooks": [
+        "II"
       ]
     },
     {
@@ -149,30 +209,37 @@
       "symbol": "Due guerrieri e un patto di pace",
       "read": "p3",
       "paragraphs": [
-        "Davanti ai due eserciti compare Paride, chiamato anche Alessandro: è il principe troiano che ha portato Elena lontano da Sparta. Quando vede Menelao, marito di Elena, perde il coraggio e si ritira. Ettore lo rimprovera, ricordandogli che le sue scelte hanno coinvolto un’intera città in una guerra devastante.",
-        "Paride accetta allora di affrontare Menelao in duello. Il patto sembra semplice: i due combatteranno per Elena e i suoi beni, e l’esito dovrebbe porre fine alla contesa tra Greci e Troiani. Elena assiste dall’alto delle mura. Menelao ha la meglio: spezza le difese dell’avversario e sta per trascinarlo via. Ma Afrodite, protettrice di Paride, lo avvolge nella nebbia e lo porta in salvo.",
-        "Agamennone rivendica la vittoria del fratello, ma il conflitto non si conclude. Nel mondo dell’Iliade, le decisioni degli uomini non producono sempre gli effetti attesi: gli dèi intervengono e i patti possono essere vanificati. La guerra continua, e la sofferenza non trova una soluzione semplice."
+        "I due eserciti avanzano uno contro l’altro nella pianura davanti a Troia. Paride, detto anche Alessandro, appare in prima fila con armi eleganti e una pelle di leopardo sulle spalle: sembra desideroso di una sfida personale. Quando però vede Menelao scendere dal carro per affrontarlo, si spaventa e arretra tra i Troiani. Ettore, suo fratello, lo rimprovera duramente: è stato Paride a condurre Elena a Troia, coinvolgendo la città in una guerra, e ora non può sottrarsi alla responsabilità delle sue scelte.",
+        "Paride propone allora un duello con Menelao, marito di Elena e re di Sparta. Il vincitore avrà Elena e i suoi beni e, secondo il patto, la guerra dovrebbe cessare. Ettore comunica la proposta, Agamennone accetta e vengono preparati i giuramenti con i sacrifici rituali. Anche Priamo scende sul campo per sancire l’accordo. Per un momento i soldati di entrambi gli eserciti depongono le armi: la sorte di migliaia di uomini sembra dipendere dal confronto fra due soli guerrieri.",
+        "Intanto Elena raggiunge le mura presso le porte Scee, chiamata dalla dea Iris. Accanto al vecchio Priamo osserva le schiere achee e ne riconosce i comandanti: Agamennone, Odisseo, Aiace. La scena, spesso chiamata teichoscopia, cioè «osservazione dalle mura», rallenta la narrazione e permette di guardare la guerra da Troia, attraverso chi la vive senza combattere. Elena parla con vergogna della propria storia; Priamo non la insulta, ma attribuisce la sciagura soprattutto alla volontà degli dèi.",
+        "I contendenti si preparano. Paride lancia per primo la lancia, senza riuscire a ferire il nemico; Menelao risponde con un colpo che attraversa le difese dell’avversario, ma Paride riesce a scansarlo. Menelao tenta allora di colpirlo con la spada: l’arma si spezza. Infuriato, afferra Paride per il cimiero dell’elmo e cerca di trascinarlo verso gli Achei. Afrodite interviene, spezza la cinghia dell’elmo, avvolge Paride in una nube e lo trasporta nella sua stanza a Troia. Menelao cerca invano il rivale, mentre Agamennone proclama la vittoria del fratello.",
+        "La scena della freccia non appartiene al duello: avviene nel libro IV, quando la tregua sembra ancora poter essere rispettata. Sull’Olimpo Era e Atena vogliono che la guerra continui; Zeus permette che la pace venga spezzata. Atena scende e induce l’arciere troiano Pandaro a scagliare una freccia contro Menelao, promettendogli gloria e ricompense. La freccia colpisce Menelao, ma gli strati dell’armatura limitano la ferita. Il sangue scorre e Agamennone teme per la vita del fratello. Viene chiamato Macaone, medico dell’esercito, che estrae la freccia e cura la ferita.",
+        "L’attacco di Pandaro costituisce la violazione del giuramento. Non basta più stabilire chi abbia vinto il duello: gli Achei vedono il patto tradito e i Troiani riprendono l’offensiva. Agamennone percorre le file, incoraggia i guerrieri e prepara la risposta. I combattimenti ricominciano con morti da entrambe le parti. Il lettore comprende che, anche quando gli uomini sembrano vicini a una soluzione, le rivalità, le scelte individuali e gli interventi divini possono riaccendere la guerra."
       ],
       "verse": "S’appresentâr nel mezzo, e si guataro\nBiechi.",
       "thought": "Paride è protetto da Afrodite, ma la protezione divina non cancella la responsabilità delle sue scelte. Menelao prevale in battaglia senza ottenere davvero la pace.",
       "question": "Può un duello tra due uomini risolvere una guerra che ormai coinvolge interi popoli?",
       "map": {
-        "center": "DUELLO → PATTO INTERROTTO",
+        "center": "DUELLO → SALVATAGGIO → TREGUA SPEZZATA",
         "nodes": [
           [
-            "La causa",
-            "Paride ed Elena sono al centro della contesa."
+            "Paride e Menelao",
+            "Accettano di combattere per stabilire il destino di Elena e della guerra."
           ],
           [
-            "Il duello",
-            "Menelao prevale sul principe troiano."
+            "Afrodite",
+            "Salva Paride quando Menelao sta prevalendo; l’esito resta senza soluzione pratica."
           ],
           [
-            "L’intervento divino",
-            "Afrodite salva Paride: la guerra non finisce."
+            "Pandaro e Atena",
+            "Nel libro IV, Pandaro ferisce Menelao con una freccia, istigato dalla dea."
+          ],
+          [
+            "Macaone e gli eserciti",
+            "La ferita viene curata, ma il giuramento è violato e la battaglia ricomincia."
           ]
         ],
-        "takeaway": "Una vittoria individuale non basta a sciogliere il conflitto collettivo."
+        "takeaway": "Il colpo di freccia avviene dopo il duello, non durante: è il gesto che distrugge una fragile possibilità di pace."
       },
       "quiz": [
         [
@@ -204,7 +271,31 @@
           ],
           2,
           "Nonostante la superiorità di Menelao, l’intervento divino impedisce che il duello chiuda davvero il conflitto."
+        ],
+        [
+          "Quando viene ferito Menelao da una freccia?",
+          [
+            "Prima che inizi il duello con Paride",
+            "Durante il duello con Paride",
+            "Dopo il duello, quando Pandaro infrange la tregua nel libro IV"
+          ],
+          2,
+          "Afrodite salva Paride nel libro III; Pandaro colpisce Menelao nel libro IV, su istigazione di Atena."
         ]
+      ],
+      "summary": "Paride sfida Menelao, ma Afrodite lo sottrae alla sconfitta. Gli eserciti hanno giurato una tregua: nel libro IV Pandaro ferisce Menelao con una freccia e il patto viene infranto. La guerra riprende.",
+      "paragraphTitles": [
+        "Paride cerca la gloria, poi indietreggia",
+        "Il patto: un duello per Elena",
+        "Elena osserva dall’alto delle mura",
+        "Il combattimento e il salvataggio di Afrodite",
+        "La freccia di Pandaro: la tregua infranta",
+        "La guerra ricomincia"
+      ],
+      "bookLabel": "LIBRI III–IV",
+      "sourceBooks": [
+        "III",
+        "IV"
       ]
     },
     {
@@ -215,30 +306,37 @@
       "symbol": "Ettore, Andromaca e il piccolo Astianatte",
       "read": "p8",
       "paragraphs": [
-        "Per un momento il racconto abbandona il campo di battaglia ed entra nella vita di chi rischia di perdere tutto. Ettore, difensore di Troia, incontra la moglie Andromaca e il figlio Astianatte. Andromaca ha già perduto molti familiari nella guerra: ora teme che il marito muoia e che lei e il bambino rimangano senza protezione.",
-        "La donna supplica Ettore di non tornare allo scontro, o almeno di difendere la città da una posizione meno pericolosa. Ettore comprende il suo dolore e teme egli stesso il destino di Troia. Tuttavia sente di non poter abbandonare il proprio posto: il dovere verso la città, l’onore e la paura del disonore agli occhi degli altri lo richiamano in battaglia.",
-        "Quando Ettore si china verso il figlio, Astianatte si spaventa per il pennacchio dell’elmo. I genitori sorridono; Ettore depone l’elmo, abbraccia il bambino e gli augura un futuro migliore. La scena è tenera proprio perché il lettore sa che potrebbe essere l’ultima."
+        "Mentre gli Achei e i Troiani continuano a combattere, Ettore torna per un momento nella città. Incontra la madre Ecuba e le chiede di radunare le donne per offrire doni e preghiere ad Atena, sperando che la dea allontani da Troia il pericolo. La preghiera, però, non viene esaudita. Ettore cerca anche il fratello Paride, rimasto in casa con Elena, e lo richiama alla battaglia. In questa parte del poema vediamo Ettore non soltanto come combattente, ma anche come uomo responsabile della difesa di tutta la città.",
+        "Quando Ettore raggiunge le porte Scee, lo aspetta Andromaca con il piccolo Astianatte e una nutrice. La donna non è spaventata senza motivo: Achille ha già ucciso suo padre Eezione e i suoi fratelli. Ettore è ormai il suo legame più prezioso con il mondo. Andromaca lo supplica di non lasciarla vedova e di non rendere orfano il figlio. Non gli chiede soltanto di nascondersi: gli indica anche un punto delle mura, presso il caprifico, dove sarebbe possibile concentrare la difesa. La sua voce unisce l’amore alla preoccupazione concreta per la città.",
+        "Ettore comprende le ragioni della moglie. Sa che Troia un giorno potrebbe essere conquistata e immagina già Andromaca costretta a vivere schiava presso i vincitori. Il pensiero lo ferisce profondamente. Tuttavia dichiara di provare vergogna davanti ai Troiani e alle Troiane se si sottraesse al combattimento; sin da giovane è stato educato a battersi nelle prime file. In lui convivono due doveri: proteggere la propria famiglia e difendere la comunità. Non può soddisfarli pienamente entrambi.",
+        "Ettore tende le braccia verso Astianatte, ma il bambino si spaventa vedendo il pennacchio dell’elmo muoversi sopra il volto del padre. Ettore e Andromaca sorridono; l’eroe posa l’elmo a terra, prende il figlio e lo solleva pregando Zeus che un giorno diventi più forte e più glorioso di lui. Poi restituisce il bambino alla moglie, la consola come può e riprende l’elmo. Andromaca torna a casa voltandosi più volte e piangendo. In pochi gesti il poema mostra il guerriero, il padre e il marito.",
+        "Terminato l’incontro, Ettore si riunisce a Paride e torna al combattimento. Nel libro VII, dopo nuovi scontri, il principe troiano accetta un’altra sfida: su indicazione del fratello Eleno provoca a duello il più forte dei Greci. Diversi guerrieri si offrono volontari; attraverso un sorteggio viene scelto Aiace Telamonio. È uno dei più possenti combattenti achei e porta un grande scudo. Questa volta Ettore non affronta Paride né Menelao: i due duellanti sono Ettore e Aiace.",
+        "Ettore e Aiace si scagliano lance, colpiscono gli scudi e arrivano a servirsi di grosse pietre. Nessuno riesce a uccidere l’altro. Quando sopraggiunge la notte, gli araldi interrompono il combattimento: entrambi gli eroi accettano di fermarsi. Prima di separarsi si scambiano doni, la spada di Ettore e la cintura di Aiace, in segno di stima reciproca. Il duello non decide la guerra, ma mostra che due nemici possono riconoscere il valore l’uno dell’altro senza annientarsi. Dopo una tregua per i morti, gli eserciti si preparano a combattere ancora."
       ],
       "verse": "Or mi resti tu solo, Ettore caro,\nTu padre mio, tu madre, tu fratello",
       "thought": "Ettore non è un simbolo astratto di coraggio: ama la famiglia e nello stesso tempo crede di dover difendere la città. Il poema mette in scena un conflitto fra due doveri autentici.",
       "question": "Quando due doveri importanti entrano in conflitto, come si può riconoscere una scelta giusta?",
       "map": {
-        "center": "ETTORE TRA DUE DOVERI",
+        "center": "AFFETTI PRIVATI ↔ DOVERE PUBBLICO",
         "nodes": [
           [
             "Andromaca",
-            "Chiede al marito di proteggere la famiglia."
-          ],
-          [
-            "Troia",
-            "Richiama Ettore alla difesa della comunità."
+            "Teme di perdere marito, sicurezza e futuro; propone anche una difesa strategica."
           ],
           [
             "Astianatte",
-            "Rende visibile la fragilità della vita e del futuro."
+            "Con la paura dell’elmo ricorda che Ettore è un padre oltre che un guerriero."
+          ],
+          [
+            "Ettore",
+            "Prevede il destino di Troia ma teme il disonore di sottrarsi alla battaglia."
+          ],
+          [
+            "Aiace Telamonio",
+            "Nel libro VII sfida Ettore: il duello è interrotto dalla notte e termina con uno scambio di doni."
           ]
         ],
-        "takeaway": "Il coraggio non elimina la paura, né il dovere cancella gli affetti."
+        "takeaway": "Ettore può essere insieme un padre affettuoso e un guerriero valoroso; il duello con Aiace mostra una forma di rispetto tra nemici."
       },
       "quiz": [
         [
@@ -270,6 +368,16 @@
           ],
           2,
           "Ettore ama la famiglia ma sente di dover combattere per la sua città."
+        ],
+        [
+          "Come termina il duello tra Ettore e Aiace?",
+          [
+            "Con la morte di Aiace",
+            "È interrotto dalla notte, e i due si scambiano doni",
+            "Con la fuga di Ettore aiutato da Afrodite"
+          ],
+          1,
+          "Gli araldi fermano il combattimento; Ettore dona una spada ad Aiace e riceve in cambio una cintura."
         ]
       ],
       "artwork": {
@@ -277,7 +385,21 @@
         "caption": "Il congedo di Ettore da Andromaca e Astianatte.",
         "credit": "Carl Friedrich Deckler, XIX secolo",
         "source": "https://commons.wikimedia.org/wiki/File:Karl_Friedrich_Deckler,_The_Farewell_of_Hector_to_Andromaque_and_Astyanax.jpg"
-      }
+      },
+      "summary": "Ettore rientra a Troia e incontra la moglie Andromaca e il figlio Astianatte. Il suo dovere di guerriero entra in conflitto con l’amore per la famiglia. Tornato in battaglia, nel libro VII affronta Aiace in un altro grande duello.",
+      "paragraphTitles": [
+        "Ettore torna all’interno di Troia",
+        "Andromaca ha già perduto tutto",
+        "Il dovere e la paura del disonore",
+        "Un bambino, un elmo, un sorriso",
+        "Il ritorno sul campo di battaglia",
+        "Ettore e Aiace: un duello senza vincitore"
+      ],
+      "bookLabel": "LIBRI VI–VII",
+      "sourceBooks": [
+        "VI",
+        "VII"
+      ]
     },
     {
       "title": "La morte di Patroclo",
