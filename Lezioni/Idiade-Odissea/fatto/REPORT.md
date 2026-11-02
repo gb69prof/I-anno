@@ -59,3 +59,11 @@ Sostituire l’atlante narrativo in dieci tappe con otto episodi fedeli all’or
 - Controllo visivo: prodotta `fatto/iliade-libro-anteprima.png`, anteprima della prima pagina del capitolo 1.
 - Accessibilità: aggiunti collegamenti al PDF nella lezione principale, nell'atlante delle otto tappe e nell'indice della sezione.
 - Limite: il PDF è una pubblicazione statica con risposte da segnare, mentre la correzione automatica resta disponibile nella versione web.
+
+## Aggiornamento della pagina indice — 2 novembre 2026
+- **Obiettivo:** ridurre a due i collegamenti principali della fase «Fatto» nella home del modulo: «La guerra di Troia» e «L’Iliade».
+- **Operazioni:** modificati `index.html` e `fatto/index.html` per eliminare il doppio ingresso all’Iliade e rendere centrale `fatto/iliade-linea-tempo.html`, il percorso completo delle otto tappe.
+- **Presentazione:** utilizzata la prima immagine a fumetti dell’Iliade nella scheda; il collegamento al PDF illustrato rimane un materiale di studio, non una terza lezione.
+- **Fonti e decisioni:** riutilizzate le lezioni pubblicate in `data/iliade-otto-tappe.json`; non modificati `fatto/guerra-troia.html`, il contenuto delle otto tappe, le mappe e le verifiche. La lezione generale `fatto/iliade.html` rimane disponibile come approfondimento ma non è più l’ingresso principale.
+- **Cache:** aggiornata la versione di `sw.js` per rendere visibili le nuove pagine anche a chi usa la PWA sull’iPad.
+- **Verifiche:** da controllare due sole voci in «Fatto», entrambi i collegamenti funzionanti, scheda con fumetto, PDF accessibile e sincronizzazione sul server. Il catalogo tecnico rimane invariato perché conserva il riferimento alla lezione completa e alle relative verifiche originali.
