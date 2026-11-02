@@ -409,30 +409,37 @@
       "symbol": "Uno scudo spezzato in ricordo di Patroclo",
       "read": "p11",
       "paragraphs": [
-        "Senza Achille, gli Achei sono stati respinti fino alle navi. Patroclo, il compagno più caro dell’eroe, non riesce più a sopportare la sofferenza degli amici. Chiede di indossare le armi di Achille e guidare i Mirmidoni. Achille accetta, ma gli ordina di salvare le navi e poi tornare: non deve inseguire il nemico fino alle mura.",
-        "Quando Patroclo compare in campo con l’armatura di Achille, i Troiani pensano che il grande guerriero sia tornato. Si ritirano, e Patroclo ottiene importanti successi. Ma si lascia trascinare dall’impeto e oltrepassa il limite stabilito. Apollo interviene contro di lui, lo colpisce e lo priva delle difese; Euforbo lo ferisce, poi Ettore lo uccide.",
-        "La morte di Patroclo cambia la direzione del poema. Achille, che si era ritirato per un’offesa all’onore, viene travolto da un dolore che rende insignificante la vecchia disputa. Decide di tornare a combattere per vendicare l’amico, anche sapendo di avvicinarsi alla propria morte."
+        "Dopo il ritiro di Achille, il conflitto continua per molti libri. I Troiani conquistano terreno e, guidati da Ettore, arrivano fino alle navi achee. I combattenti greci sono stanchi, molti capi sono feriti e una nave viene raggiunta dalle fiamme. La situazione è ormai drammatica: se i Troiani incendieranno le imbarcazioni, gli Achei non avranno più una via di fuga. Achille resta lontano dalla battaglia, ancora legato alla propria ira contro Agamennone, mentre il suo compagno Patroclo soffre nel vedere gli amici in pericolo.",
+        "Patroclo si presenta da Achille in lacrime e lo supplica di aiutare l’esercito. Se Achille non vuole combattere personalmente, gli chiede almeno di lasciargli guidare i Mirmidoni con la sua armatura. Vedendo quelle armi, i Troiani potrebbero credere che il temuto Achille sia tornato e abbandonare l’assalto alle navi. Achille acconsente, ma impone un ordine preciso: Patroclo deve scacciare i nemici dal campo greco e poi fermarsi, senza inseguirli fino alle mura di Troia. È un limite militare, non un dettaglio secondario.",
+        "I Mirmidoni si preparano e avanzano in formazione. Patroclo indossa l’elmo, lo scudo e la corazza di Achille, ma non porta la sua particolare lancia, troppo pesante perché altri possano brandirla. Achille prega Zeus di concedere all’amico di salvare le navi e ritornare sano e salvo; il dio esaudisce la prima richiesta, non la seconda. Quando Patroclo entra nella mischia, la sua figura sembra quella di Achille. I Troiani arretrano, il fuoco viene allontanato dalle imbarcazioni e i Greci ritrovano il coraggio.",
+        "Il successo cresce e Patroclo compie imprese sempre più grandi. Affronta Sarpedonte, valoroso capo dei Lici e figlio di Zeus. Il dio supremo vorrebbe salvare suo figlio, ma Era gli ricorda che anche molti altri guerrieri sono figli di divinità e che nessuno può essere sottratto a piacimento al destino. Zeus lascia dunque che Sarpedonte cada per mano di Patroclo. Il poeta mostra così che la morte colpisce anche gli uomini amati dagli dèi. Il corpo di Sarpedonte sarà poi affidato al Sonno e alla Morte perché lo riportino in Licia.",
+        "Trascinato dall’entusiasmo, Patroclo dimentica l’ordine ricevuto e continua a inseguire i Troiani verso Troia. Tenta più volte di avvicinarsi alle mura, ma Apollo lo respinge e gli intima di fermarsi: non è destinato a conquistare la città. Patroclo ha ottenuto molto più di quanto gli fosse stato chiesto e tuttavia non riesce a interrompere l’azione. L’episodio mette in luce il rischio dell’eccesso: una decisione nata dal desiderio di salvare i compagni si trasforma in una spinta a superare ogni confine.",
+        "Infine Apollo colpisce Patroclo da dietro, facendogli perdere l’elmo e parte delle difese. Il guerriero troiano Euforbo lo ferisce con la lancia e si allontana; Ettore si avvicina e gli infligge il colpo mortale. Patroclo, prima di spirare, ricorda che a sconfiggerlo hanno contribuito un dio e più uomini, e preannuncia a Ettore che presto morirà per mano di Achille. Quando il compagno saprà della sua morte, l’ira contro Agamennone sarà sostituita da un dolore ancora più violento. Non è una morte isolata: è il punto in cui la storia cambia direzione."
       ],
       "verse": "Risonò nel cadere, ed un gran lutto\nPer l’esercito achivo si diffuse.",
       "thought": "Il coraggio di Patroclo nasce dalla volontà di aiutare, ma il successo lo spinge oltre il limite. La tragedia non ha una sola causa: l’ira di Achille, la scelta di Patroclo e l’intervento degli dèi si intrecciano.",
       "question": "In che misura siamo responsabili delle conseguenze impreviste delle nostre decisioni?",
       "map": {
-        "center": "AIUTO → ECCESSO → LUTTO",
+        "center": "SALVARE I COMPAGNI → SUPERARE IL LIMITE",
         "nodes": [
           [
-            "L’intenzione",
-            "Patroclo vuole salvare gli Achei."
+            "La richiesta",
+            "Patroclo ottiene di guidare i Mirmidoni indossando le armi di Achille."
           ],
           [
-            "Il limite infranto",
-            "Continua a inseguire i Troiani oltre l’ordine ricevuto."
+            "L’ordine",
+            "Scacciare i Troiani dalle navi, senza spingersi fino a Troia."
           ],
           [
-            "La conseguenza",
-            "Apollo, Euforbo ed Ettore partecipano alla sua caduta."
+            "La vittoria",
+            "Patroclo respinge i nemici e uccide Sarpedonte, figlio di Zeus."
+          ],
+          [
+            "La morte",
+            "Apollo lo disarma, Euforbo lo ferisce, Ettore gli infligge il colpo mortale."
           ]
         ],
-        "takeaway": "Una buona intenzione non rende automaticamente prudente ogni azione."
+        "takeaway": "La tragedia nasce dall’incontro fra buone intenzioni, eccesso, potere divino e decisioni umane."
       },
       "artwork": {
         "number": "07",
@@ -470,7 +477,30 @@
           ],
           2,
           "Apollo lo indebolisce, Euforbo lo ferisce e infine Ettore lo uccide."
+        ],
+        [
+          "Chi indebolisce per primo Patroclo nella fase finale dello scontro?",
+          [
+            "Apollo",
+            "Ettore",
+            "Agamennone"
+          ],
+          0,
+          "Apollo lo colpisce e lo disarma; Euforbo lo ferisce, quindi Ettore lo uccide."
         ]
+      ],
+      "summary": "Gli Achei sono ormai respinti fino alle navi. Patroclo chiede di indossare l’armatura di Achille per salvarli, ma insegue i Troiani oltre il limite stabilito. Apollo lo disarma, Euforbo lo ferisce ed Ettore lo uccide.",
+      "paragraphTitles": [
+        "Gli Achei sono sull’orlo della sconfitta",
+        "La richiesta di Patroclo",
+        "Le armi di Achille e l’attacco",
+        "Patroclo contro Sarpedonte",
+        "Un limite oltrepassato",
+        "Apollo, Euforbo ed Ettore"
+      ],
+      "bookLabel": "LIBRO XVI",
+      "sourceBooks": [
+        "XVI"
       ]
     },
     {
@@ -481,30 +511,37 @@
       "symbol": "Le armi dei due eroi davanti a Troia",
       "read": "p15",
       "paragraphs": [
-        "Dopo la morte di Patroclo, Achille torna a combattere. Ottiene nuove armi forgiate da Efesto e travolge i Troiani. Ettore resta fuori dalle mura, mentre i suoi genitori lo supplicano di mettersi in salvo. Quando vede Achille avvicinarsi, prova paura e fugge: i due girano tre volte attorno a Troia.",
-        "Atena, favorevole ad Achille, inganna Ettore assumendo l’aspetto del fratello Deifobo. Credendo di avere un alleato vicino, Ettore si ferma e affronta il nemico. Nel duello viene ucciso. Prima di morire, chiede che il suo corpo sia restituito ai familiari; Achille rifiuta e lo trascina legato al carro davanti alle mura della città.",
-        "La vendetta è compiuta, ma non restituisce Patroclo alla vita. Anzi, Achille oltrepassa un limite fondamentale della cultura greca: il rispetto dovuto al corpo del morto. Il guerriero più forte appare così capace di un gesto che mette in discussione la sua stessa grandezza."
+        "La notizia della morte di Patroclo distrugge Achille. Si getta a terra, si copre di polvere e piange l’amico perduto. Sua madre Teti sa che, se il figlio tornerà a combattere per uccidere Ettore, si avvicinerà anche la sua stessa morte. Achille, però, non vuole più restare fuori dalla guerra. Nel libro XVIII Efesto forgia per lui nuove armi, fra cui uno scudo straordinario che rappresenta città, campi, danze, lavori, pace e guerra: l’intero mondo umano. Nel libro XIX Achille si riconcilia formalmente con Agamennone. La sua ira ora ha un altro bersaglio.",
+        "Tornato sul campo, Achille combatte con violenza incontenibile. I Troiani arretrano, molti vengono uccisi e perfino il fiume Scamandro protesta per i cadaveri che ne riempiono le acque. L’eroe attraversa una serie di scontri fino a raggiungere Troia. La maggior parte dei difensori riesce a rifugiarsi entro le mura, ma Ettore rimane all’esterno, vicino alle porte Scee. Il comandante troiano sa di aver condotto i suoi uomini al rischio e teme il giudizio della città se ora si ritira.",
+        "Priamo, dall’alto delle mura, implora il figlio di mettersi al sicuro. Anche Ecuba lo supplica: non vuole vedere il suo corpo abbandonato ai nemici. Ettore è combattuto. Considera la possibilità di offrire ad Achille ricchezze e una soluzione negoziata, ma poi teme che una simile proposta sia inutile. Quando finalmente vede l’avversario avanzare, il coraggio lo abbandona per un momento. Ettore fugge e Achille lo insegue: i due corrono tre volte attorno alle mura, osservati dai Troiani che non possono intervenire.",
+        "Durante l’inseguimento gli dèi osservano gli uomini. Zeus pesa il destino dei due eroi e il fato di Ettore si rivela ormai vicino. Atena, favorevole ad Achille, scende sulla terra assumendo l’aspetto di Deifobo, fratello di Ettore. Gli promette aiuto e lo induce a fermarsi. Convinto di avere accanto un alleato, Ettore si volta e affronta Achille. Il duello che sembrava inevitabile è dunque segnato da un inganno divino: Ettore combatte credendo di non essere solo.",
+        "Achille lancia la propria lancia, manca il bersaglio, ma Atena gliela restituisce di nascosto. Ettore scaglia a sua volta la lancia, senza riuscire a superare lo scudo dell’avversario. Chiede allora a Deifobo un’altra arma: si accorge che il fratello è scomparso e comprende di essere stato ingannato. Non fugge più. Estrae la spada e si getta contro Achille, che lo colpisce alla parte scoperta del collo. Morente, Ettore supplica il nemico di restituire il suo corpo ai genitori, perché possa essere sepolto. Achille rifiuta con ferocia.",
+        "Ettore, prima di morire, annuncia che anche Achille cadrà un giorno, per mano di Paride con l’aiuto di Apollo: è una profezia, non un episodio che l’Iliade racconti direttamente. Achille lega il cadavere di Ettore al carro e lo trascina nella polvere davanti alle mura di Troia. Priamo ed Ecuba si disperano; Andromaca, che era in casa, ode il tumulto, corre a vedere e scopre il destino del marito. La grandezza militare del vincitore non impedisce l’orrore del suo gesto. La vendetta ha soddisfatto Achille, ma non gli ha restituito Patroclo."
       ],
       "verse": "Ma non fia per questo\nChe da codardo io cada",
       "thought": "Ettore prova paura e poi sceglie di affrontarla. Achille vince, ma oltraggia il corpo del nemico. Omero separa così il successo in battaglia dal valore morale dell’azione.",
       "question": "Si può vincere uno scontro e, nello stesso momento, perdere qualcosa della propria umanità?",
       "map": {
-        "center": "VENDETTA ≠ GIUSTIZIA",
+        "center": "DOLORE → VENDETTA → OLTRAGGIO",
         "nodes": [
           [
-            "Ettore",
-            "Affronta il destino dopo la fuga e l’inganno di Atena."
+            "La decisione",
+            "Achille sceglie di tornare in battaglia, pur conoscendo il proprio destino."
           ],
           [
-            "Achille",
-            "Uccide Ettore per vendicare Patroclo."
+            "La fuga",
+            "Ettore compie tre giri attorno a Troia prima di fermarsi."
+          ],
+          [
+            "L’inganno",
+            "Atena si finge Deifobo e induce Ettore ad affrontare il duello."
           ],
           [
             "Il limite violato",
-            "Il corpo del nemico viene trascinato e disonorato."
+            "Dopo la vittoria, Achille trascina il corpo del nemico davanti alla sua città."
           ]
         ],
-        "takeaway": "La superiorità della forza non garantisce la superiorità morale."
+        "takeaway": "Achille è il guerriero più forte, ma la forza non basta a renderlo moralmente grande."
       },
       "artwork": {
         "number": "09",
@@ -542,7 +579,33 @@
           ],
           1,
           "Oltraggiare il cadavere nega al nemico il rispetto e la sepoltura dovuti."
+        ],
+        [
+          "Perché Ettore crede di poter affrontare Achille con l’aiuto del fratello?",
+          [
+            "Perché Priamo ha mandato Deifobo",
+            "Perché Atena si è travestita da Deifobo",
+            "Perché Zeus ha fermato Achille"
+          ],
+          1,
+          "Atena assume le sembianze di Deifobo e inganna Ettore nel momento decisivo."
         ]
+      ],
+      "summary": "Achille rientra in battaglia per vendicare Patroclo. Davanti alle porte Scee, Ettore fugge e viene poi ingannato da Atena. Achille lo uccide, ma la vendetta lo spinge anche a oltraggiarne il corpo.",
+      "paragraphTitles": [
+        "Il dolore di Achille e le nuove armi",
+        "Il ritorno devastante sul campo",
+        "Ettore rimane fuori dalle mura",
+        "Tre giri intorno a Troia",
+        "L’inganno di Atena e l’ultimo colpo",
+        "Il corpo trascinato davanti a Troia"
+      ],
+      "bookLabel": "LIBRI XVIII–XXII",
+      "sourceBooks": [
+        "XVIII",
+        "XIX",
+        "XXI",
+        "XXII"
       ]
     },
     {
@@ -553,30 +616,37 @@
       "symbol": "Una corona d’alloro per i giochi funebri",
       "read": "p13",
       "paragraphs": [
-        "Dopo lo scontro con Ettore, Achille deve compiere un altro dovere verso l’amico morto: celebrarne il funerale. Il corpo di Patroclo viene posto sul rogo, i compagni piangono e rendono gli onori funebri. È un momento solenne e doloroso, in cui i guerrieri riconoscono pubblicamente ciò che hanno perduto.",
-        "In onore di Patroclo, Achille organizza una serie di gare. Si svolgono corse con i carri, pugilato, lotta, corsa a piedi e altre prove di abilità e forza. I vincitori ricevono premi preziosi. Ma non tutto è semplice: le gare producono rivalità e discussioni, e Achille deve distribuire riconoscimenti e cercare un equilibrio fra merito, prestigio e rispetto reciproco.",
-        "Questi giochi non sono soltanto un divertimento dopo la battaglia. Sono un rito collettivo: trasformano il dolore privato di Achille in una commemorazione condivisa. E tuttavia l’eroe non ha ancora completamente superato la propria violenza: il corpo di Ettore resta nelle sue mani. La riconciliazione arriverà solo nell’ultimo libro."
+        "Dopo la morte di Ettore, il dolore di Achille non scompare. Rientrati verso le navi, i Mirmidoni compiono tre giri con i carri attorno al corpo di Patroclo, piangendo l’amico perduto. Achille non vuole lavarsi né vivere normalmente prima del funerale. La vittoria contro Ettore non gli ha dato pace: il ricordo dell’amico continua a dominare ogni gesto. Anche il cadavere di Ettore viene trascinato nei pressi del corpo di Patroclo. La scena mostra che la vendetta non coincide con la fine del dolore.",
+        "Durante la notte il fantasma di Patroclo appare ad Achille in sogno. Gli chiede di non ritardare la sepoltura, perché finché il suo corpo non sarà bruciato la sua anima non potrà raggiungere pienamente il mondo dei morti. Desidera inoltre che, quando arriverà il giorno della morte di Achille, le loro ossa possano riposare insieme. Achille tenta di abbracciarlo, ma l’immagine svanisce. Questo incontro dà voce a un bisogno profondo della cultura omerica: il morto non può essere lasciato senza i riti che gli spettano.",
+        "Gli Achei raccolgono una grande quantità di legna per costruire il rogo funebre. Achille offre una ciocca dei propri capelli, prepara sacrifici di animali e fa uccidere anche dodici giovani prigionieri troiani: un gesto crudele che il racconto non deve essere costretto a nascondere. Invoca poi i venti perché alimentino le fiamme. Dopo la cremazione, i compagni raccolgono le ossa di Patroclo e le depongono in un’urna. La comunità erige un tumulo in sua memoria. Il rito trasforma il lutto del singolo in un’azione collettiva.",
+        "Achille organizza quindi giochi atletici e militari in onore dell’amico. La gara più spettacolare è la corsa con i carri, alla quale partecipano Diomede, Eumelo, Menelao, Antiloco e Merione. Eumelo parte con ottimi cavalli, ma il suo carro si rompe durante la gara. Diomede, favorito anche dall’intervento di Atena, arriva primo. Antiloco supera Menelao in un passaggio stretto, con una manovra rischiosa che provoca un’accesa discussione. Anche in una competizione regolata possono nascere conflitti: non basta stabilire il vincitore, occorre capire come ci si è comportati.",
+        "Achille distribuisce i premi e cerca di riconoscere il valore anche di chi è stato sfortunato, come Eumelo. Menelao contesta il comportamento di Antiloco; il giovane dapprima si difende, poi ammette la propria imprudenza e offre di rinunciare al premio. Menelao si calma e lo lascia al giovane. I giochi non cancellano la rivalità tra i guerrieri, ma offrono una strada diversa dal duello mortale: discutere, valutare il merito, riparare un’offesa e riconciliarsi. Achille, che all’inizio del poema non aveva saputo risolvere la propria offesa con Agamennone, ora deve amministrare controversie tra altri.",
+        "Seguono il pugilato, la lotta, la corsa a piedi, le prove con le armi, il lancio di un peso, il tiro con l’arco e il giavellotto. In una gara armata Aiace e Diomede si affrontano, ma il confronto viene fermato prima che uno ferisca gravemente l’altro. La competizione può quindi assomigliare alla guerra senza doverla ripetere fino alla morte. Alla fine Achille riconosce ad Agamennone un premio senza pretendere che si misuri in un’ulteriore prova. I giochi mostrano il valore della memoria, delle regole e del riconoscimento reciproco; tuttavia l’ira di Achille non è ancora del tutto placata. Per questo il poema ha bisogno dell’ultimo incontro con Priamo."
       ],
       "verse": "A piagnere Patróclo, a tributargli\nL’onor dovuto ai trapassati.",
       "thought": "In un poema di guerra, la competizione può assumere forme regolate. Le gare mostrano un’idea diversa di valore: non uccidere un avversario, ma riconoscerne la capacità entro regole comuni.",
       "question": "Perché una comunità organizza riti e cerimonie per ricordare chi è morto?",
       "map": {
-        "center": "LUTTO → RITO → MEMORIA",
+        "center": "LUTTO → RITO → COMPETIZIONE REGOLATA",
         "nodes": [
           [
+            "Il fantasma",
+            "Patroclo chiede la sepoltura e di riposare un giorno accanto ad Achille."
+          ],
+          [
             "Il funerale",
-            "Rende onore a Patroclo e dà forma al dolore."
+            "La comunità celebra il morto, ma Achille compie anche sacrifici crudeli."
           ],
           [
-            "Le gare",
-            "Trasformano la rivalità in competizione con regole."
+            "I carri",
+            "Diomede vince; la manovra di Antiloco provoca un contrasto con Menelao."
           ],
           [
-            "I premi",
-            "Riconoscono il valore dei partecipanti davanti a tutti."
+            "La riconciliazione",
+            "I premi e le regole permettono di discutere il valore senza uccidere il rivale."
           ]
         ],
-        "takeaway": "Ricordare insieme significa dare al dolore una forma condivisa."
+        "takeaway": "Il lutto non sparisce, ma una comunità può dargli forma attraverso riti, regole e memoria condivisa."
       },
       "quiz": [
         [
@@ -608,7 +678,30 @@
           ],
           2,
           "Sono parte del rito funebre e del riconoscimento pubblico del valore."
+        ],
+        [
+          "Perché Menelao protesta durante i giochi funebri?",
+          [
+            "Antiloco lo ha superato con una manovra rischiosa",
+            "Ettore gli ha rubato il carro",
+            "Achille gli ha proibito di partecipare"
+          ],
+          0,
+          "Antiloco supera Menelao in un punto stretto della corsa; la discussione si risolve con una forma di riconciliazione."
         ]
+      ],
+      "summary": "Achille dà sepoltura a Patroclo e organizza gare in suo onore. I giochi funebri sono pieni di competizione, rivalità e riconoscimenti, ma il lutto non cancella subito la ferocia di Achille.",
+      "paragraphTitles": [
+        "Un dolore che non lascia riposare",
+        "Il fantasma di Patroclo",
+        "Il rogo e i sacrifici",
+        "La corsa dei carri",
+        "Rivalità, premi e riconciliazioni",
+        "Le altre gare e il loro significato"
+      ],
+      "bookLabel": "LIBRO XXIII",
+      "sourceBooks": [
+        "XXIII"
       ]
     },
     {
@@ -619,30 +712,37 @@
       "symbol": "Due mani che si incontrano nella tenda",
       "read": "p17",
       "paragraphs": [
-        "L’Iliade non si conclude con la distruzione di Troia. Priamo, anziano re e padre di Ettore, decide di raggiungere la tenda dell’uomo che ha ucciso suo figlio. Con l’aiuto di Hermes attraversa il campo acheo portando doni per riscattare il corpo. Sa di rischiare la vita, ma non può lasciare Ettore senza sepoltura.",
-        "Il re si inginocchia davanti ad Achille e bacia la mano che ha ucciso i suoi figli. Non chiede pietà in nome della propria corona: invita Achille a ricordare suo padre Peleo, anziano e lontano. Quelle parole aprono uno spazio inatteso. Priamo piange Ettore; Achille piange Patroclo e pensa al padre. I due avversari riconoscono per un momento un dolore comune.",
-        "Achille restituisce il corpo di Ettore, offre ospitalità a Priamo e concede il tempo necessario per i funerali. Non è una pace definitiva: gli eserciti restano nemici. Ma l’ira ha finalmente incontrato un limite. Il poema termina con il lutto di Troia e la sepoltura del suo difensore."
+        "Dopo i giochi funebri, Achille continua a soffrire per la morte di Patroclo. Trascina ancora il corpo di Ettore, incapace di abbandonare la propria vendetta. Gli dèi, però, non approvano tutti questo comportamento: Apollo difende il rispetto dovuto al morto, mentre Zeus decide che il corpo debba essere restituito. Teti, madre di Achille, comunica al figlio la volontà divina. Intanto la dea Iris invita Priamo a recarsi nel campo acheo con un riscatto. Il poema prepara così un incontro che nessun esercito avrebbe potuto ottenere con la forza.",
+        "Priamo è un re anziano che ha già perduto molti figli in guerra. Di Ettore non gli resta neppure il corpo da piangere e seppellire. Nonostante il pericolo, decide di raggiungere l’uomo che lo ha ucciso. La moglie Ecuba teme che Achille possa massacrarlo, ma Priamo non rinuncia. Fa preparare un carro carico di doni preziosi e parte accompagnato da un araldo. La sua scelta è coraggiosa in modo diverso da quella di un guerriero: Priamo si espone non per uccidere un nemico, ma per chiedergli qualcosa che solo quel nemico può concedergli.",
+        "Durante il viaggio il dio Hermes, inviato da Zeus, si presenta a Priamo sotto le sembianze di un giovane e lo guida oltre le sentinelle achee. Giunto alla tenda di Achille, il re entra quasi senza essere annunciato. I presenti restano stupefatti: l’anziano sovrano di Troia è inginocchiato davanti al vincitore. Priamo si china e bacia le mani di Achille, le stesse mani che hanno ucciso suo figlio. Il gesto rovescia la logica abituale del conflitto: davanti al guerriero non appare un altro guerriero, ma un padre.",
+        "Priamo non comincia vantando il proprio potere né minacciando vendetta. Chiede ad Achille di ricordare Peleo, suo padre, che invecchia lontano e potrebbe non rivedere mai il figlio. Poi parla del proprio dolore: fra tanti figli perduti, Ettore era il difensore di Troia. È arrivato a compiere ciò che gli sembrava impossibile, baciare le mani dell’uomo che lo ha ucciso, pur di ricevere il suo corpo. Le parole spezzano la durezza di Achille. Il giovane pensa al padre e a Patroclo; il vecchio pensa a Ettore. Per un momento i due piangono insieme.",
+        "Achille aiuta Priamo a rialzarsi, riconosce il suo coraggio e accetta il riscatto. Si occupa di far lavare e preparare il corpo di Ettore perché possa essere riconsegnato con dignità. Offre cibo e ospitalità al re e gli promette una tregua sufficiente a celebrare i funerali. Non è una pace definitiva tra Troia e gli Achei, né Achille cancella tutto ciò che ha fatto. Ma il suo gesto interrompe il disprezzo verso il corpo del nemico. La sofferenza condivisa ha reso possibile ciò che la forza non aveva ottenuto.",
+        "Priamo ritorna a Troia con Ettore. Il popolo esce incontro al carro; Andromaca, Ecuba ed Elena pronunciano il proprio lamento. Ognuna ricorda un aspetto diverso dell’uomo perduto: il marito e padre, il figlio, il cognato capace di gentilezza. Poi i Troiani innalzano il rogo, raccolgono le ossa e seppelliscono il loro difensore. Qui termina l’Iliade. Il poema non narra il cavallo di Troia, la distruzione della città o la morte di Achille: conclude il proprio racconto con il rispetto restituito a un morto e con il pianto di una comunità."
       ],
       "verse": "Divino Achille, ti rammenta il padre,\nIl padre tuo da ria vecchiezza oppresso",
       "thought": "Priamo non vince usando la forza: raggiunge Achille ricordandogli un’esperienza umana condivisa. L’eroe compie un gesto che non cancella il male fatto, ma restituisce dignità al nemico.",
       "question": "Che cosa vede Achille in Priamo che prima non riusciva più a vedere in Ettore?",
       "map": {
-        "center": "DAL NEMICO ALL’ESSERE UMANO",
+        "center": "IRA → DOLORE CONDIVISO → PIETÀ",
         "nodes": [
           [
+            "La volontà degli dèi",
+            "Zeus decide che Ettore debba tornare alla sua famiglia."
+          ],
+          [
             "Il coraggio di Priamo",
-            "Entra nella tenda dell’uccisore di suo figlio."
+            "Il re entra nel campo nemico e supplica l’uccisore del figlio."
           ],
           [
-            "Il ricordo di Peleo",
-            "Rende possibile un dolore riconosciuto da entrambi."
+            "Peleo e Patroclo",
+            "Il ricordo del padre e dell’amico apre Achille al dolore dell’altro."
           ],
           [
-            "La restituzione",
-            "Il corpo di Ettore torna a Troia per i funerali."
+            "La sepoltura",
+            "Ettore è restituito: Troia può celebrare i riti funebri."
           ]
         ],
-        "takeaway": "La pietà non cancella la guerra, ma interrompe la disumanizzazione."
+        "takeaway": "Achille non vince un nuovo duello: riesce a riconoscere l’umanità del nemico e a compiere un atto di pietà."
       },
       "artwork": {
         "number": "10",
@@ -680,7 +780,30 @@
           ],
           2,
           "Il poema si chiude con la sepoltura di Ettore, non con la fine della guerra."
+        ],
+        [
+          "Che cosa conclude realmente l’Iliade?",
+          [
+            "La morte di Achille",
+            "L’ingresso del cavallo di legno",
+            "La sepoltura di Ettore a Troia"
+          ],
+          2,
+          "Il poema si chiude con i funerali di Ettore; la caduta di Troia appartiene ad altri racconti del ciclo troiano."
         ]
+      ],
+      "summary": "Priamo entra di notte nel campo nemico per chiedere il corpo di Ettore. Ricorda ad Achille suo padre Peleo e i due condividono il dolore. Il poema termina con i funerali di Ettore, non con la caduta di Troia.",
+      "paragraphTitles": [
+        "Gli dèi pongono un limite all’ira",
+        "La decisione coraggiosa di Priamo",
+        "Un viaggio nel campo nemico",
+        "Il padre davanti all’uccisore del figlio",
+        "Le lacrime e il ritorno della pietà",
+        "I funerali di Ettore e la conclusione del poema"
+      ],
+      "bookLabel": "LIBRO XXIV",
+      "sourceBooks": [
+        "XXIV"
       ]
     }
   ]
