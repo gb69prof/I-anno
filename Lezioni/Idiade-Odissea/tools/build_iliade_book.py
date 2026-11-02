@@ -2,6 +2,7 @@
 """Volume A4 illustrato dell'Iliade. Legge il JSON già pubblicato: non riscrive i contenuti."""
 import html, json
 from pathlib import Path
+from tempfile import TemporaryDirectory
 from PIL import Image
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
@@ -32,7 +33,7 @@ class Book:
         self.c=canvas.Canvas(str(out),pagesize=A4,pageCompression=1)
         self.c.setTitle("L'Iliade in otto tappe - Libro illustrato")
         self.c.setAuthor('gbprof - Percorso didattico')
-        self.root=Path(root);self.stages=stages;self.page=0;self.errors=[];self.cache={}
+        self.root=Path(root);self.stages=stages;self.page=0;self.errors=[];self.cache={};self.temp=TemporaryDirectory()
     def bg(self):
         self.c.setFillColor(PAPER);self.c.rect(0,0,W,H,fill=1,stroke=0)
     def p(self,s,x,top,width,size=9.2,lead=None,color=TEXT,font='BookSerif',bottom=None,align=0):
@@ -59,7 +60,10 @@ class Book:
     def art(self,i,x,y,w,h):
         path=self.root/'assets'/'images'/'iliade-otto-fumetto'/f'tappa-{i:02}.webp'
         if path not in self.cache:
-            with Image.open(path) as im:self.cache[path]=ImageReader(im.convert('RGB').copy())
+            dest=Path(self.temp.name)/f'fumetto-{i:02}.jpg'
+            with Image.open(path) as im:
+                im.convert('RGB').save(dest,'JPEG',quality=86,optimize=True,subsampling=0)
+            self.cache[path]=str(dest)
         self.c.setFillColor(NAVY);self.c.roundRect(x-2,y-2,w+4,h+4,5,fill=1,stroke=0)
         self.c.drawImage(self.cache[path],x,y,width=w,height=h,preserveAspectRatio=True,mask='auto')
     def section(self,n,title,body,x,top,width,bottom=110):
@@ -220,7 +224,7 @@ class Book:
         self.cover();self.index()
         for i,e in enumerate(self.stages,1):
             self.opening(i,e);self.continuation(i,e);self.exercise(i,e)
-        self.ending();self.c.save()
+        self.ending();self.c.save();self.temp.cleanup()
         if self.errors:raise RuntimeError('Impaginazione: '+'; '.join(self.errors))
         print(f'Libro completo: {self.page} pagine, 8 capitoli')
 
