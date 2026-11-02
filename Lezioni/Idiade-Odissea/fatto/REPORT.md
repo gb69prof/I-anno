@@ -23,6 +23,7 @@ Sostituire l’atlante narrativo in dieci tappe con otto episodi fedeli all’or
 - Contenuti in pagina compilati come testo, senza immettere codice esterno; test correggibili e ripetibili.
 - Controllo statico del codice JavaScript e dei riferimenti HTML; verifica da ripetere su pagina pubblica dopo il deploy.
 - Compatibilità prevista con navigazione tastiera e layout iPad; nessun risultato viene trasmesso a server.
+- Adeguato il collaudo della cache alle 60 risorse, inclusa la nuova banca delle otto tappe.
 
 ## Problemi e limiti
 - Le illustrazioni simboliche non sono ricostruzioni archeologiche.
