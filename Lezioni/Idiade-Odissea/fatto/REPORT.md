@@ -48,3 +48,14 @@ Sostituire l’atlante narrativo in dieci tappe con otto episodi fedeli all’or
 - Aggiornata la resa CSS per conservare l'inquadratura quadrata completa, senza tagli alle figure.
 - Versione cache PWA aggiornata e immagini registrate nel precache offline, con controlli su file e formato WebP.
 - Verifica richiesta: navigazione di tutte le tappe e visualizzazione offline da iPad dopo il ricambio della cache.
+
+## Edizione libro illustrato — 2 novembre 2026
+- Obiettivo: trasformare le otto tappe già scritte in un libro A4 seguendo il modello tipografico fornito (titoli blu, due colonne, tavole illustrate, callout, schemi, verifiche e numerazione).
+- Fonte dei contenuti: `data/iliade-otto-tappe.json`; testi narrativi, mappe e domande non modificati.
+- Prodotto: `fatto/iliade-libro-illustrato.pdf` (27 pagine: copertina, indice, otto capitoli di tre pagine, conclusione).
+- Illustrazioni: le otto immagini originali in `assets/images/iliade-otto-fumetto/`, incorporate in PDF con compressione JPEG di alta qualità per un peso di circa 2,6 MB.
+- Procedimento: `tools/build_iliade_book.py` genera il PDF; workflow `.github/workflows/iliade-libro.yml` esegue controlli e salva il documento in repository.
+- Verifiche: 27 pagine, 48 sezioni narrative presenti integralmente, almeno un'illustrazione per capitolo, schemi, 32 domande di verifica, controllo delle posizioni in pagina.
+- Controllo visivo: prodotta `fatto/iliade-libro-anteprima.png`, anteprima della prima pagina del capitolo 1.
+- Accessibilità: aggiunti collegamenti al PDF nella lezione principale, nell'atlante delle otto tappe e nell'indice della sezione.
+- Limite: il PDF è una pubblicazione statica con risposte da segnare, mentre la correzione automatica resta disponibile nella versione web.
