@@ -125,3 +125,7 @@
 .iliade-resource-links{margin-top:28px}
 @media(max-width:710px){.iliade-dossier{padding:28px 18px 36px}.iliade-story-section{margin-bottom:26px}.iliade-story-section p{font-size:17px;line-height:1.84}.iliade-map-nodes{grid-template-columns:1fr}}
 @media print{.iliade-dossier{border:none;padding:18px 0}.iliade-story-section{break-inside:avoid}.iliade-story-section p{font-size:12pt;line-height:1.6}}
+
+/* Tavole a fumetti quadrate: immagine intera e nessun taglio dei personaggi. */
+.iliade-art-shell img{object-fit:contain;object-position:center center;background:#263d40}
+.iliade-art-panel{background:#263d40}

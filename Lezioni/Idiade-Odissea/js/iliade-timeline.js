@@ -112,24 +112,18 @@
     };
   }
   function paintArt(e,index){
-    nodes.art.setAttribute('aria-label','Illustrazione simbolica: '+e.symbol);
+    nodes.art.setAttribute('aria-label','Simbolo della tappa: '+e.symbol);
     nodes.art.innerHTML='<defs><pattern id="iliade-hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12L12 0" stroke="#bba585" stroke-width=".5" opacity=".45"/></pattern></defs><rect width="284" height="284" rx="142" fill="url(#iliade-hatch)"/><circle cx="142" cy="142" r="125" fill="none" stroke="#c3ad87" stroke-width="1.5"/><circle cx="142" cy="142" r="111" fill="none" stroke="#d9c8aa" stroke-width="1"/>'+(shape[e.type]||shape.cosmos);
     nodes.photo.hidden=true;
     nodes.photo.removeAttribute('src');
-    if(!e.artwork){
-      nodes.caption.textContent='Illustrazione simbolica: '+e.symbol+'.';
-      nodes.credit.hidden=true;
-      return;
-    }
-    const art=e.artwork;
-    nodes.caption.textContent=art.caption;
-    nodes.credit.hidden=false;
-    nodes.credit.href=art.source;
-    nodes.credit.textContent=art.credit+' · opera e crediti ↗';
-    nodes.photo.alt=art.caption+' Opera di '+art.credit;
+    nodes.photo.alt='Illustrazione originale in stile fumetto: '+e.title;
+    nodes.caption.textContent='Illustrazione a fumetti · '+e.title;
+    // Queste tavole sono originali, non riproduzioni dei dipinti storici.
+    nodes.credit.hidden=true;
+    nodes.credit.removeAttribute('href');
     nodes.photo.onload=()=>{if(current===index)nodes.photo.hidden=false;};
-    nodes.photo.onerror=()=>{nodes.photo.hidden=true;};
-    nodes.photo.src='../assets/images/iliade-timeline/tappa-'+art.number+'.webp';
+    nodes.photo.onerror=()=>{nodes.photo.hidden=true;nodes.caption.textContent='Simbolo grafico: '+e.symbol;};
+    nodes.photo.src='../assets/images/iliade-otto-fumetto/tappa-'+formatNumber(index+1)+'.webp';
   }
   function show(index,{focus=false}={}){
     current=Math.max(0,Math.min(events.length-1,index));

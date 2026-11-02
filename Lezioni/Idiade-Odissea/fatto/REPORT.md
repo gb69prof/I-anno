@@ -39,3 +39,12 @@ Sostituire l’atlante narrativo in dieci tappe con otto episodi fedeli all’or
 - Inserito un dossier narrativo a colonna di lettura, separato dal pannello visuale e dalla sintesi, per evitare lunghissimi testi accanto a un’unica immagine.
 - Incrementata la versione della cache offline e aggiunte asserzioni automatiche sui nuovi contenuti al collaudo esistente.
 - Fonti primarie di verifica: Omero, *Iliade*, libri I, II, III, IV, VI, VII, XVI, XVIII, XIX, XXI, XXII, XXIII e XXIV, edizione Monti (1825) su it.wikisource.org.
+
+## Aggiornamento delle immagini — 2 novembre 2026
+- **Oggetto dell'intervento:** modifica esclusivamente visiva del percorso in otto tappe; nessun racconto, mappa o test è stato riscritto.
+- Inserite otto tavole a fumetti originali nei file `assets/images/iliade-otto-fumetto/tappa-01.webp`–`tappa-08.webp`.
+- La prima tavola è l'immagine precedentemente presentata e approvata; le successive sette scene sono tratte da tavole originali create nello stesso stile fumettistico e rifinite singolarmente per il sito.
+- Sostituita nel renderer JavaScript la selezione dei dipinti preesistenti con le otto nuove tavole. I dipinti e le rispettive attribuzioni restano nel repository come risorse storiche, ma non sono più mostrati in questo percorso.
+- Aggiornata la resa CSS per conservare l'inquadratura quadrata completa, senza tagli alle figure.
+- Versione cache PWA aggiornata e immagini registrate nel precache offline, con controlli su file e formato WebP.
+- Verifica richiesta: navigazione di tutte le tappe e visualizzazione offline da iPad dopo il ricambio della cache.

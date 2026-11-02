@@ -52,3 +52,17 @@ for(const id of ['iliade-story','iliade-dossier','iliade-reading-title','iliade-
 }
 assert(js.includes('paintStory(e)'),'Story renderer must be active');
 console.log('Passed: eight extended episodes, 48 story sections, 32 corrected questions, diagrams and book links.');
+
+/* Otto tavole originali: una per tappa, con cache offline. */
+const cartoonAssets=JSON.parse(sw.match(/const ASSETS=(\[[^\n]+\]);/)[1]);
+for(let i=1;i<=8;i++){
+ const number=String(i).padStart(2,'0');
+ const name='assets/images/iliade-otto-fumetto/tappa-'+number+'.webp';
+ const art=fs.readFileSync(path.join(root,name));
+ assert(art.length>50000,'Tavola troppo piccola '+name);
+ assert.equal(art.subarray(0,4).toString(),'RIFF','Header immagine '+name);
+ assert.equal(art.subarray(8,12).toString(),'WEBP','Formato immagine '+name);
+ assert(cartoonAssets.includes(name),'Tavola assente dalla cache '+name);
+}
+assert(js.includes('iliade-otto-fumetto/tappa-'),'Le nuove tavole devono essere visualizzate');
+console.log('Passed: 8 comic-book illustrations, all present in the offline manifest.');
