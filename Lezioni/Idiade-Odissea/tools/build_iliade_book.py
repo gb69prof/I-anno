@@ -185,7 +185,8 @@ class Book:
         self.c.roundRect(29,587,398,104,5,fill=1,stroke=1)
         self.label('IL PUNTO DA RICORDARE',42,672,8,BURGUNDY)
         self.p(e['map'].get('takeaway',''),42,658,370,size=10.2,lead=14.3,bottom=607)
-        self.c.setStrokeColor(LINE);self.c.line(29,567,W-29,567)
+        self.label('DOMANDE PER METTERSI ALLA PROVA',30,580,8.3,GREEN)
+        self.c.setStrokeColor(LINE);self.c.line(29,565,W-29,565)
         for k,q in enumerate(e['quiz'][:4]):
             top=553-k*119
             self.c.setFillColor(HexColor('#F3F7F0'));self.c.setStrokeColor(HexColor('#BDD2B9'))
