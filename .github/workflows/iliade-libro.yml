@@ -45,6 +45,12 @@ jobs:
               assert len(book[2+i*3].get_images())>=1, f'Illustrazione assente al capitolo {i+1}'
           assert sum(len(p.get_images()) for p in book) >=25, 'Immagini troppo poche'
           assert 'SCHEMA DI SINTESI' in full and 'DOMANDE PER METTERSI ALLA PROVA' in full
+          size=(root/'fatto/iliade-libro-illustrato.pdf').stat().st_size
+          assert size<7_000_000, f'Il PDF non è ottimizzato: {size} byte'
+          page=book[2]
+          pix=page.get_pixmap(matrix=fitz.Matrix(1.5,1.5),alpha=False)
+          pix.save(str(root/'fatto/iliade-libro-anteprima.png'))
+          print(f'PDF ottimizzato: {size/1_000_000:.2f} MB')
           print(f'Verificato: {len(book)} pagine, otto capitoli, tutte le scene, tavole e domande.')
           PY
       - name: Pubblica il PDF nel repository
@@ -52,7 +58,7 @@ jobs:
         run: |
           git config user.name "gbprof-book-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Lezioni/Idiade-Odissea/fatto/iliade-libro-illustrato.pdf
+          git add Lezioni/Idiade-Odissea/fatto/iliade-libro-illustrato.pdf Lezioni/Idiade-Odissea/fatto/iliade-libro-anteprima.png
           if ! git diff --cached --quiet; then
             git commit -m "Impaginazione: aggiorna libro illustrato dell'Iliade"
             git push
