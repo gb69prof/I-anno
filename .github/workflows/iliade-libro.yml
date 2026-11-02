@@ -36,14 +36,14 @@ jobs:
           root=Path('Lezioni/Idiade-Odissea')
           data=json.loads((root/'data/iliade-otto-tappe.json').read_text(encoding='utf8'))
           book=fitz.open(root/'fatto/iliade-libro-illustrato.pdf')
-          assert len(book)==19, f'Pagine: {len(book)}; attese 19'
+          assert len(book)==27, f'Pagine: {len(book)}; attese 27'
           full='\n'.join(page.get_text() for page in book)
           for i,event in enumerate(data['events']):
               for para in event['paragraphs']:
                   sample=' '.join(para.split())[:48]
                   assert sample[:25] in ' '.join(full.split()), f'Brano {i+1} non trovato: {sample}'
-              assert len(book[2+i*2].get_images())>=1, f'Illustrazione assente al capitolo {i+1}'
-          assert sum(len(p.get_images()) for p in book)>=17, 'Immagini troppo poche'
+              assert len(book[2+i*3].get_images())>=1, f'Illustrazione assente al capitolo {i+1}'
+          assert sum(len(p.get_images()) for p in book) >=25, 'Immagini troppo poche'
           assert 'SCHEMA DI SINTESI' in full and 'DOMANDE PER METTERSI ALLA PROVA' in full
           print(f'Verificato: {len(book)} pagine, otto capitoli, tutte le scene, tavole e domande.')
           PY
