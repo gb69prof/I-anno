@@ -1,0 +1,565 @@
+{
+  "title": "L’Iliade in otto tappe",
+  "level": "Scuola secondaria di secondo grado, primo anno",
+  "quoteAuthor": "Omero, Iliade, traduzione Vincenzo Monti (1825)",
+  "events": [
+    {
+      "title": "La peste e l’ira di Achille",
+      "book": "I",
+      "theme": "IRA E ONORE",
+      "type": "flame",
+      "symbol": "Il fuoco dell’ira di Achille",
+      "read": "p4",
+      "paragraphs": [
+        "Da quasi dieci anni gli Achei assediano Troia. All’inizio del poema, però, il pericolo non viene dai Troiani: nel campo greco infuria una pestilenza. Apollo l’ha scatenata perché Agamennone ha respinto e umiliato Crise, sacerdote del dio, venuto a riscattare la figlia Criseide, trattenuta come prigioniera di guerra. L’indovino Calcante spiega che, per fermare la strage, bisogna restituire la giovane.",
+        "Agamennone acconsente, ma pretende un altro premio: Briseide, assegnata ad Achille. Per il guerriero non è soltanto una perdita materiale: nel codice eroico il bottino testimonia pubblicamente il valore di chi combatte, la sua timé. Achille si sente disonorato davanti a tutti. Vorrebbe colpire il comandante, ma Atena gli impedisce di estrarre la spada.",
+        "L’eroe decide allora di non combattere più e chiede alla madre Teti di ottenere da Zeus che gli Achei soffrano senza il suo aiuto. L’offesa riguarda due uomini; le conseguenze ricadranno su molti. È da questa contraddizione che nasce il racconto dell’Iliade."
+      ],
+      "verse": "Cantami, o Diva, del Pelíde Achille\nL’ira funesta",
+      "thought": "L’ira nasce da un torto concreto, ma diventa distruttiva quando l’onore personale conta più della vita degli altri. Il poema non invita a ignorare l’ingiustizia: ci costringe a osservare come si reagisce.",
+      "question": "Achille ha ragione a sentirsi offeso; ha anche ragione a volere la sconfitta dei compagni?",
+      "map": {
+        "center": "OFFESA → IRA → RITIRO",
+        "nodes": [
+          [
+            "La peste",
+            "Apollo punisce l’oltraggio rivolto a Crise."
+          ],
+          [
+            "Il conflitto",
+            "Agamennone prende Briseide e ferisce la timé di Achille."
+          ],
+          [
+            "La scelta",
+            "Achille smette di combattere: l’esercito ne pagherà il prezzo."
+          ]
+        ],
+        "takeaway": "Un conflitto personale diventa una tragedia collettiva."
+      },
+      "quiz": [
+        [
+          "Perché Apollo scatena la peste?",
+          [
+            "Per vendicare l’offesa subita dal suo sacerdote Crise",
+            "Per aiutare Achille a conquistare Troia",
+            "Per impedire il duello tra Paride e Menelao"
+          ],
+          0,
+          "Crise chiede la restituzione della figlia; Agamennone lo respinge e Apollo punisce il campo acheo."
+        ],
+        [
+          "Che cosa rappresenta Briseide agli occhi di Achille?",
+          [
+            "Una profetessa di Apollo",
+            "Anche il riconoscimento pubblico del suo valore",
+            "Una principessa troiana da sposare"
+          ],
+          1,
+          "Il premio di guerra è legato alla timé, cioè all’onore riconosciuto pubblicamente all’eroe."
+        ],
+        [
+          "Come reagisce Achille all’umiliazione?",
+          [
+            "Abbandona il combattimento",
+            "Torna subito in patria",
+            "Uccide Agamennone"
+          ],
+          0,
+          "Atena trattiene Achille; egli sceglie il ritiro e lascia che gli Achei combattano senza di lui."
+        ]
+      ],
+      "artwork": {
+        "number": "01",
+        "caption": "Atena trattiene Achille nello scontro con Agamennone.",
+        "credit": "Giambattista Tiepolo, 1757",
+        "source": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Tiepolo_052.jpg"
+      }
+    },
+    {
+      "title": "Il sogno di Agamennone e Tersite",
+      "book": "II",
+      "theme": "POTERE E DISSENSO",
+      "type": "spears",
+      "symbol": "Lo scettro del comando e la voce del dissenso",
+      "read": "p7",
+      "paragraphs": [
+        "Zeus invia ad Agamennone un sogno ingannevole: gli fa credere che sia giunto il momento di conquistare Troia. Il re riunisce i comandanti e poi mette alla prova i soldati proponendo di abbandonare la guerra e tornare a casa. Il risultato lo sorprende: dopo tanti anni di fatiche, gli Achei si precipitano verso le navi. È Odisseo a fermarli, parlando con rispetto ai capi e con durezza agli uomini comuni.",
+        "In assemblea interviene Tersite. Non è un eroe prestigioso: il narratore lo descrive in modo caricaturale, insistendo sul corpo, sulla voce e sulla sua insolenza. Eppure Tersite accusa Agamennone di arricchirsi grazie ai sacrifici altrui e ricorda l’offesa fatta ad Achille. Odisseo lo rimprovera e lo colpisce con lo scettro; i soldati ridono della sua umiliazione.",
+        "L’episodio apre una domanda scomoda. Chi ha il diritto di criticare il potere? Le accuse di Tersite non diventano false soltanto perché il narratore lo presenta come ridicolo. Ma il poema, nato in una cultura aristocratica, non tratta tutti i personaggi allo stesso modo."
+      ],
+      "verse": "E di che dunque\nTi lagni, Atride? che ti manca?",
+      "thought": "Per capire Tersite bisogna distinguere tre cose: ciò che dice, il modo in cui lo dice e il giudizio del narratore. Non è semplicemente un eroe della democrazia moderna, né le sue parole sono prive di significato.",
+      "question": "Se una critica contiene qualcosa di vero, cambia valore quando a pronunciarla è una persona disprezzata?",
+      "map": {
+        "center": "COMANDO ↔ DISSENSO",
+        "nodes": [
+          [
+            "Il sogno",
+            "Zeus induce Agamennone a confidare in una vittoria imminente."
+          ],
+          [
+            "La prova",
+            "Gli Achei vogliono tornare a casa; Odisseo li trattiene."
+          ],
+          [
+            "Tersite",
+            "Attacca i privilegi del re, viene colpito e ridicolizzato."
+          ]
+        ],
+        "takeaway": "La voce del potere e la voce di chi protesta non ricevono lo stesso trattamento."
+      },
+      "quiz": [
+        [
+          "Il sogno inviato ad Agamennone è...",
+          [
+            "Una profezia infallibile di Atena",
+            "Un inganno mandato da Zeus",
+            "Un ricordo della caduta di Troia"
+          ],
+          1,
+          "Zeus invia un sogno ingannevole, inducendo il re a credere vicina la vittoria."
+        ],
+        [
+          "Che cosa fanno molti Achei quando Agamennone propone il ritorno?",
+          [
+            "Corrono verso le navi",
+            "Assediano subito le mura",
+            "Acclamano Tersite come re"
+          ],
+          0,
+          "Sono esausti e desiderano tornare in patria: Odisseo interviene per fermarli."
+        ],
+        [
+          "Perché l’episodio di Tersite è interessante da interpretare?",
+          [
+            "Perché il narratore lo presenta come eroe perfetto",
+            "Perché dimostra che il re non può essere criticato",
+            "Perché le sue accuse e la rappresentazione negativa del personaggio vanno distinte"
+          ],
+          2,
+          "Un narratore può ridicolizzare un personaggio che pure esprime critiche da valutare nel merito."
+        ]
+      ]
+    },
+    {
+      "title": "Il duello tra Menelao e Paride",
+      "book": "III",
+      "theme": "RESPONSABILITÀ",
+      "type": "duel",
+      "symbol": "Due guerrieri e un patto di pace",
+      "read": "p3",
+      "paragraphs": [
+        "Davanti ai due eserciti compare Paride, chiamato anche Alessandro: è il principe troiano che ha portato Elena lontano da Sparta. Quando vede Menelao, marito di Elena, perde il coraggio e si ritira. Ettore lo rimprovera, ricordandogli che le sue scelte hanno coinvolto un’intera città in una guerra devastante.",
+        "Paride accetta allora di affrontare Menelao in duello. Il patto sembra semplice: i due combatteranno per Elena e i suoi beni, e l’esito dovrebbe porre fine alla contesa tra Greci e Troiani. Elena assiste dall’alto delle mura. Menelao ha la meglio: spezza le difese dell’avversario e sta per trascinarlo via. Ma Afrodite, protettrice di Paride, lo avvolge nella nebbia e lo porta in salvo.",
+        "Agamennone rivendica la vittoria del fratello, ma il conflitto non si conclude. Nel mondo dell’Iliade, le decisioni degli uomini non producono sempre gli effetti attesi: gli dèi intervengono e i patti possono essere vanificati. La guerra continua, e la sofferenza non trova una soluzione semplice."
+      ],
+      "verse": "S’appresentâr nel mezzo, e si guataro\nBiechi.",
+      "thought": "Paride è protetto da Afrodite, ma la protezione divina non cancella la responsabilità delle sue scelte. Menelao prevale in battaglia senza ottenere davvero la pace.",
+      "question": "Può un duello tra due uomini risolvere una guerra che ormai coinvolge interi popoli?",
+      "map": {
+        "center": "DUELLO → PATTO INTERROTTO",
+        "nodes": [
+          [
+            "La causa",
+            "Paride ed Elena sono al centro della contesa."
+          ],
+          [
+            "Il duello",
+            "Menelao prevale sul principe troiano."
+          ],
+          [
+            "L’intervento divino",
+            "Afrodite salva Paride: la guerra non finisce."
+          ]
+        ],
+        "takeaway": "Una vittoria individuale non basta a sciogliere il conflitto collettivo."
+      },
+      "quiz": [
+        [
+          "Chi affronta Paride nel duello?",
+          [
+            "Achille",
+            "Menelao",
+            "Patroclo"
+          ],
+          1,
+          "Menelao è il marito di Elena e combatte contro Paride nel libro III."
+        ],
+        [
+          "Come termina lo scontro?",
+          [
+            "Afrodite salva Paride quando Menelao sta prevalendo",
+            "Paride uccide Menelao",
+            "I due vengono fermati da Priamo"
+          ],
+          0,
+          "Menelao sta per vincere, ma Afrodite sottrae Paride al pericolo."
+        ],
+        [
+          "Perché il duello non pone fine alla guerra?",
+          [
+            "Perché Achille interrompe il combattimento",
+            "Perché Elena rifiuta di guardarlo",
+            "Perché il risultato non conduce all’applicazione stabile del patto"
+          ],
+          2,
+          "Nonostante la superiorità di Menelao, l’intervento divino impedisce che il duello chiuda davvero il conflitto."
+        ]
+      ]
+    },
+    {
+      "title": "Ettore e Andromaca",
+      "book": "VI",
+      "theme": "FAMIGLIA E DOVERE",
+      "type": "family",
+      "symbol": "Ettore, Andromaca e il piccolo Astianatte",
+      "read": "p8",
+      "paragraphs": [
+        "Per un momento il racconto abbandona il campo di battaglia ed entra nella vita di chi rischia di perdere tutto. Ettore, difensore di Troia, incontra la moglie Andromaca e il figlio Astianatte. Andromaca ha già perduto molti familiari nella guerra: ora teme che il marito muoia e che lei e il bambino rimangano senza protezione.",
+        "La donna supplica Ettore di non tornare allo scontro, o almeno di difendere la città da una posizione meno pericolosa. Ettore comprende il suo dolore e teme egli stesso il destino di Troia. Tuttavia sente di non poter abbandonare il proprio posto: il dovere verso la città, l’onore e la paura del disonore agli occhi degli altri lo richiamano in battaglia.",
+        "Quando Ettore si china verso il figlio, Astianatte si spaventa per il pennacchio dell’elmo. I genitori sorridono; Ettore depone l’elmo, abbraccia il bambino e gli augura un futuro migliore. La scena è tenera proprio perché il lettore sa che potrebbe essere l’ultima."
+      ],
+      "verse": "Or mi resti tu solo, Ettore caro,\nTu padre mio, tu madre, tu fratello",
+      "thought": "Ettore non è un simbolo astratto di coraggio: ama la famiglia e nello stesso tempo crede di dover difendere la città. Il poema mette in scena un conflitto fra due doveri autentici.",
+      "question": "Quando due doveri importanti entrano in conflitto, come si può riconoscere una scelta giusta?",
+      "map": {
+        "center": "ETTORE TRA DUE DOVERI",
+        "nodes": [
+          [
+            "Andromaca",
+            "Chiede al marito di proteggere la famiglia."
+          ],
+          [
+            "Troia",
+            "Richiama Ettore alla difesa della comunità."
+          ],
+          [
+            "Astianatte",
+            "Rende visibile la fragilità della vita e del futuro."
+          ]
+        ],
+        "takeaway": "Il coraggio non elimina la paura, né il dovere cancella gli affetti."
+      },
+      "quiz": [
+        [
+          "Chi è Astianatte?",
+          [
+            "Il figlio di Ettore e Andromaca",
+            "Il padre di Paride",
+            "Il sacerdote di Apollo"
+          ],
+          0,
+          "Astianatte è il figlio di Ettore e Andromaca."
+        ],
+        [
+          "Perché il bambino si spaventa?",
+          [
+            "Per il rumore delle navi",
+            "Per il pennacchio dell’elmo del padre",
+            "Per il cavallo di Achille"
+          ],
+          1,
+          "Il pennacchio dell’elmo trasforma per un attimo il padre in una figura spaventosa."
+        ],
+        [
+          "Quale conflitto vive Ettore?",
+          [
+            "Tra amore per Elena e fedeltà a Paride",
+            "Tra volontà di diventare re e desiderio di partire",
+            "Tra gli affetti familiari e il dovere di difendere Troia"
+          ],
+          2,
+          "Ettore ama la famiglia ma sente di dover combattere per la sua città."
+        ]
+      ],
+      "artwork": {
+        "number": "04",
+        "caption": "Il congedo di Ettore da Andromaca e Astianatte.",
+        "credit": "Carl Friedrich Deckler, XIX secolo",
+        "source": "https://commons.wikimedia.org/wiki/File:Karl_Friedrich_Deckler,_The_Farewell_of_Hector_to_Andromaque_and_Astyanax.jpg"
+      }
+    },
+    {
+      "title": "La morte di Patroclo",
+      "book": "XVI",
+      "theme": "AMICIZIA E PERDITA",
+      "type": "broken",
+      "symbol": "Uno scudo spezzato in ricordo di Patroclo",
+      "read": "p11",
+      "paragraphs": [
+        "Senza Achille, gli Achei sono stati respinti fino alle navi. Patroclo, il compagno più caro dell’eroe, non riesce più a sopportare la sofferenza degli amici. Chiede di indossare le armi di Achille e guidare i Mirmidoni. Achille accetta, ma gli ordina di salvare le navi e poi tornare: non deve inseguire il nemico fino alle mura.",
+        "Quando Patroclo compare in campo con l’armatura di Achille, i Troiani pensano che il grande guerriero sia tornato. Si ritirano, e Patroclo ottiene importanti successi. Ma si lascia trascinare dall’impeto e oltrepassa il limite stabilito. Apollo interviene contro di lui, lo colpisce e lo priva delle difese; Euforbo lo ferisce, poi Ettore lo uccide.",
+        "La morte di Patroclo cambia la direzione del poema. Achille, che si era ritirato per un’offesa all’onore, viene travolto da un dolore che rende insignificante la vecchia disputa. Decide di tornare a combattere per vendicare l’amico, anche sapendo di avvicinarsi alla propria morte."
+      ],
+      "verse": "Risonò nel cadere, ed un gran lutto\nPer l’esercito achivo si diffuse.",
+      "thought": "Il coraggio di Patroclo nasce dalla volontà di aiutare, ma il successo lo spinge oltre il limite. La tragedia non ha una sola causa: l’ira di Achille, la scelta di Patroclo e l’intervento degli dèi si intrecciano.",
+      "question": "In che misura siamo responsabili delle conseguenze impreviste delle nostre decisioni?",
+      "map": {
+        "center": "AIUTO → ECCESSO → LUTTO",
+        "nodes": [
+          [
+            "L’intenzione",
+            "Patroclo vuole salvare gli Achei."
+          ],
+          [
+            "Il limite infranto",
+            "Continua a inseguire i Troiani oltre l’ordine ricevuto."
+          ],
+          [
+            "La conseguenza",
+            "Apollo, Euforbo ed Ettore partecipano alla sua caduta."
+          ]
+        ],
+        "takeaway": "Una buona intenzione non rende automaticamente prudente ogni azione."
+      },
+      "artwork": {
+        "number": "07",
+        "caption": "La battaglia per il corpo di Patroclo, subito dopo la sua morte.",
+        "credit": "Antoine Wiertz, XIX secolo",
+        "source": "https://commons.wikimedia.org/wiki/File:Antoine_Wiertz_-_19th_C_-_Battle_of_the_Greeks_and_Trojans_for_the_corpse_of_Patroclus_-_KMSKA_1183.jpg"
+      },
+      "quiz": [
+        [
+          "Perché Patroclo indossa le armi di Achille?",
+          [
+            "Per sfidare Agamennone",
+            "Per aiutare gli Achei e far credere ai Troiani che Achille sia tornato",
+            "Per fuggire da Troia"
+          ],
+          1,
+          "Le armi di Achille spaventano i Troiani e permettono ai Mirmidoni di contrattaccare."
+        ],
+        [
+          "Quale ordine di Achille non viene rispettato?",
+          [
+            "Non inseguire il nemico oltre le navi verso Troia",
+            "Non usare la lancia",
+            "Non incontrare Ettore nel campo greco"
+          ],
+          0,
+          "Achille aveva imposto a Patroclo di limitarsi a respingere il pericolo dalle navi."
+        ],
+        [
+          "Chi infligge a Patroclo il colpo mortale?",
+          [
+            "Paride",
+            "Apollo",
+            "Ettore"
+          ],
+          2,
+          "Apollo lo indebolisce, Euforbo lo ferisce e infine Ettore lo uccide."
+        ]
+      ]
+    },
+    {
+      "title": "Il duello tra Achille ed Ettore",
+      "book": "XXII",
+      "theme": "VENDETTA E LIMITE",
+      "type": "duel",
+      "symbol": "Le armi dei due eroi davanti a Troia",
+      "read": "p15",
+      "paragraphs": [
+        "Dopo la morte di Patroclo, Achille torna a combattere. Ottiene nuove armi forgiate da Efesto e travolge i Troiani. Ettore resta fuori dalle mura, mentre i suoi genitori lo supplicano di mettersi in salvo. Quando vede Achille avvicinarsi, prova paura e fugge: i due girano tre volte attorno a Troia.",
+        "Atena, favorevole ad Achille, inganna Ettore assumendo l’aspetto del fratello Deifobo. Credendo di avere un alleato vicino, Ettore si ferma e affronta il nemico. Nel duello viene ucciso. Prima di morire, chiede che il suo corpo sia restituito ai familiari; Achille rifiuta e lo trascina legato al carro davanti alle mura della città.",
+        "La vendetta è compiuta, ma non restituisce Patroclo alla vita. Anzi, Achille oltrepassa un limite fondamentale della cultura greca: il rispetto dovuto al corpo del morto. Il guerriero più forte appare così capace di un gesto che mette in discussione la sua stessa grandezza."
+      ],
+      "verse": "Ma non fia per questo\nChe da codardo io cada",
+      "thought": "Ettore prova paura e poi sceglie di affrontarla. Achille vince, ma oltraggia il corpo del nemico. Omero separa così il successo in battaglia dal valore morale dell’azione.",
+      "question": "Si può vincere uno scontro e, nello stesso momento, perdere qualcosa della propria umanità?",
+      "map": {
+        "center": "VENDETTA ≠ GIUSTIZIA",
+        "nodes": [
+          [
+            "Ettore",
+            "Affronta il destino dopo la fuga e l’inganno di Atena."
+          ],
+          [
+            "Achille",
+            "Uccide Ettore per vendicare Patroclo."
+          ],
+          [
+            "Il limite violato",
+            "Il corpo del nemico viene trascinato e disonorato."
+          ]
+        ],
+        "takeaway": "La superiorità della forza non garantisce la superiorità morale."
+      },
+      "artwork": {
+        "number": "09",
+        "caption": "Achille ed Ettore nel duello davanti a Troia.",
+        "credit": "Léonce Legendre, XIX secolo",
+        "source": "https://commons.wikimedia.org/wiki/File:Achilles_doodt_Hector,_circa_1831_-_circa_1893,_Groeningemuseum,_0041065000.jpg"
+      },
+      "quiz": [
+        [
+          "Quante volte Ettore e Achille corrono attorno alle mura?",
+          [
+            "Una",
+            "Due",
+            "Tre"
+          ],
+          2,
+          "Il poema racconta tre giri attorno alle mura prima dello scontro finale."
+        ],
+        [
+          "In quale modo Atena interviene?",
+          [
+            "Assume l’aspetto di Deifobo e inganna Ettore",
+            "Ferma il braccio di Achille",
+            "Nasconde Ettore in una nube"
+          ],
+          0,
+          "Atena si presenta come Deifobo, inducendo Ettore a credere di non essere solo."
+        ],
+        [
+          "Quale gesto di Achille supera il limite del rispetto per il nemico?",
+          [
+            "Restituire le armi a Ettore",
+            "Trascinare il corpo di Ettore dietro al carro",
+            "Rinunciare alla battaglia"
+          ],
+          1,
+          "Oltraggiare il cadavere nega al nemico il rispetto e la sepoltura dovuti."
+        ]
+      ]
+    },
+    {
+      "title": "I giochi funebri per Patroclo",
+      "book": "XXIII",
+      "theme": "LUTTO E COMUNITÀ",
+      "type": "cosmos",
+      "symbol": "Una corona d’alloro per i giochi funebri",
+      "read": "p13",
+      "paragraphs": [
+        "Dopo lo scontro con Ettore, Achille deve compiere un altro dovere verso l’amico morto: celebrarne il funerale. Il corpo di Patroclo viene posto sul rogo, i compagni piangono e rendono gli onori funebri. È un momento solenne e doloroso, in cui i guerrieri riconoscono pubblicamente ciò che hanno perduto.",
+        "In onore di Patroclo, Achille organizza una serie di gare. Si svolgono corse con i carri, pugilato, lotta, corsa a piedi e altre prove di abilità e forza. I vincitori ricevono premi preziosi. Ma non tutto è semplice: le gare producono rivalità e discussioni, e Achille deve distribuire riconoscimenti e cercare un equilibrio fra merito, prestigio e rispetto reciproco.",
+        "Questi giochi non sono soltanto un divertimento dopo la battaglia. Sono un rito collettivo: trasformano il dolore privato di Achille in una commemorazione condivisa. E tuttavia l’eroe non ha ancora completamente superato la propria violenza: il corpo di Ettore resta nelle sue mani. La riconciliazione arriverà solo nell’ultimo libro."
+      ],
+      "verse": "A piagnere Patróclo, a tributargli\nL’onor dovuto ai trapassati.",
+      "thought": "In un poema di guerra, la competizione può assumere forme regolate. Le gare mostrano un’idea diversa di valore: non uccidere un avversario, ma riconoscerne la capacità entro regole comuni.",
+      "question": "Perché una comunità organizza riti e cerimonie per ricordare chi è morto?",
+      "map": {
+        "center": "LUTTO → RITO → MEMORIA",
+        "nodes": [
+          [
+            "Il funerale",
+            "Rende onore a Patroclo e dà forma al dolore."
+          ],
+          [
+            "Le gare",
+            "Trasformano la rivalità in competizione con regole."
+          ],
+          [
+            "I premi",
+            "Riconoscono il valore dei partecipanti davanti a tutti."
+          ]
+        ],
+        "takeaway": "Ricordare insieme significa dare al dolore una forma condivisa."
+      },
+      "quiz": [
+        [
+          "A chi sono dedicati i giochi del libro XXIII?",
+          [
+            "A Patroclo",
+            "A Ettore",
+            "Ad Agamennone"
+          ],
+          0,
+          "Achille organizza i giochi funebri in memoria del suo amico Patroclo."
+        ],
+        [
+          "Quale di queste attività compare tra le gare?",
+          [
+            "La navigazione delle navi",
+            "La corsa con i carri",
+            "La costruzione del cavallo di Troia"
+          ],
+          1,
+          "Tra le competizioni ci sono le corse con i carri e altre prove fisiche."
+        ],
+        [
+          "Quale funzione hanno i giochi nel poema?",
+          [
+            "Concludere ufficialmente la guerra",
+            "Scegliere un nuovo re di Troia",
+            "Onorare il defunto e rafforzare i legami della comunità"
+          ],
+          2,
+          "Sono parte del rito funebre e del riconoscimento pubblico del valore."
+        ]
+      ]
+    },
+    {
+      "title": "L’incontro tra Priamo e Achille",
+      "book": "XXIV",
+      "theme": "PIETÀ E RICONOSCIMENTO",
+      "type": "hands",
+      "symbol": "Due mani che si incontrano nella tenda",
+      "read": "p17",
+      "paragraphs": [
+        "L’Iliade non si conclude con la distruzione di Troia. Priamo, anziano re e padre di Ettore, decide di raggiungere la tenda dell’uomo che ha ucciso suo figlio. Con l’aiuto di Hermes attraversa il campo acheo portando doni per riscattare il corpo. Sa di rischiare la vita, ma non può lasciare Ettore senza sepoltura.",
+        "Il re si inginocchia davanti ad Achille e bacia la mano che ha ucciso i suoi figli. Non chiede pietà in nome della propria corona: invita Achille a ricordare suo padre Peleo, anziano e lontano. Quelle parole aprono uno spazio inatteso. Priamo piange Ettore; Achille piange Patroclo e pensa al padre. I due avversari riconoscono per un momento un dolore comune.",
+        "Achille restituisce il corpo di Ettore, offre ospitalità a Priamo e concede il tempo necessario per i funerali. Non è una pace definitiva: gli eserciti restano nemici. Ma l’ira ha finalmente incontrato un limite. Il poema termina con il lutto di Troia e la sepoltura del suo difensore."
+      ],
+      "verse": "Divino Achille, ti rammenta il padre,\nIl padre tuo da ria vecchiezza oppresso",
+      "thought": "Priamo non vince usando la forza: raggiunge Achille ricordandogli un’esperienza umana condivisa. L’eroe compie un gesto che non cancella il male fatto, ma restituisce dignità al nemico.",
+      "question": "Che cosa vede Achille in Priamo che prima non riusciva più a vedere in Ettore?",
+      "map": {
+        "center": "DAL NEMICO ALL’ESSERE UMANO",
+        "nodes": [
+          [
+            "Il coraggio di Priamo",
+            "Entra nella tenda dell’uccisore di suo figlio."
+          ],
+          [
+            "Il ricordo di Peleo",
+            "Rende possibile un dolore riconosciuto da entrambi."
+          ],
+          [
+            "La restituzione",
+            "Il corpo di Ettore torna a Troia per i funerali."
+          ]
+        ],
+        "takeaway": "La pietà non cancella la guerra, ma interrompe la disumanizzazione."
+      },
+      "artwork": {
+        "number": "10",
+        "caption": "Priamo supplica Achille di restituire il corpo di Ettore.",
+        "credit": "Aleksandr Ivanov, 1824",
+        "source": "https://commons.wikimedia.org/wiki/File:Alexandr_Ivanov_005.jpg"
+      },
+      "quiz": [
+        [
+          "Perché Priamo si reca da Achille?",
+          [
+            "Per sfidarlo a duello",
+            "Per chiedere il corpo di Ettore",
+            "Per offrirgli il trono di Troia"
+          ],
+          1,
+          "Priamo vuole dare degna sepoltura a suo figlio Ettore."
+        ],
+        [
+          "Che cosa chiede Priamo ad Achille di ricordare?",
+          [
+            "Il proprio padre Peleo",
+            "La caduta imminente di Troia",
+            "Il litigio con Agamennone"
+          ],
+          0,
+          "Il riferimento a Peleo suscita in Achille un sentimento di comune fragilità."
+        ],
+        [
+          "Come termina l’Iliade?",
+          [
+            "Con il cavallo di Troia",
+            "Con la morte di Achille",
+            "Con i funerali di Ettore"
+          ],
+          2,
+          "Il poema si chiude con la sepoltura di Ettore, non con la fine della guerra."
+        ]
+      ]
+    }
+  ]
+}
