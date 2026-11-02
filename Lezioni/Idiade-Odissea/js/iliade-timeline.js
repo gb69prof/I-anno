@@ -1,61 +1,10 @@
 'use strict';
-/* Un viaggio narrativo in dieci tappe. Citazioni brevi tratte dall'Iliade
-   di Omero nella traduzione di Vincenzo Monti (1825), Wikisource.
-   I numeri dei versi sono quelli della traduzione di Monti, se indicati;
-   qui preferiamo il libro e il rimando al testo integrale per evitare
-   di confondere la numerazione della versione italiana con quella greca. */
+/* Atlante narrativo: otto tappe, otto mappe concettuali e otto mini-test.
+   Contenuti separati in data/iliade-otto-tappe.json e disponibili offline. */
 (() => {
-  const events = [
-    {title:"L’ira di Achille",book:"I",theme:"IRA",symbol:"Fuoco dell’ira",type:"flame",
-     summary:"Il poema si apre nel decimo anno della guerra. Omero invoca la Musa e annuncia il tema: l’ira di Achille, un sentimento che porterà lutti agli Achei e sconvolgerà il destino degli eroi.",
-     verse:"Cantami, o Diva, del Pelíde Achille\nL’ira funesta",thought:"La prima parola tematica è l’ira, non la vittoria. Le conseguenze di una passione individuale coinvolgono un intero popolo.",
-     question:"Perché un poema di guerra comincia da un sentimento?",paragraph:"p1"},
-    {title:"L’offesa di Agamennone",book:"I",theme:"ONORE",symbol:"Due lance incrociate",type:"spears",
-     summary:"Apollo scatena una pestilenza. Agamennone restituisce Criseide, ma pretende in cambio Briseide, il premio di Achille. Davanti all’esercito, il guerriero interpreta il gesto come un’umiliazione del proprio valore.",
-     verse:"E a me medesmo di rapir minacci\nDe’ miei sudori bellicosi il frutto",
-     thought:"Nel mondo eroico il premio è il segno pubblico della timé, cioè del riconoscimento del proprio valore.",
-     question:"Achille difende un principio di giustizia, il proprio prestigio o entrambi?",paragraph:"p5"},
-    {title:"Il ritiro dalle battaglie",book:"I",theme:"RIFIUTO",symbol:"Elmo abbandonato",type:"helmet",
-     summary:"Trattenuto da Atena, Achille rinuncia a colpire Agamennone e smette di combattere. Chiede a Teti di ottenere da Zeus il successo dei Troiani, perché gli Achei comprendano la gravità dell’offesa ricevuta.",
-     verse:"Agamennón mi disonora; il meglio\nDe’ miei premii rapisce",
-     thought:"Per rivendicare il proprio onore, Achille accetta di esporre i compagni alla sconfitta.",
-     question:"È possibile difendere la propria dignità senza fare del male agli altri?",paragraph:"p6"},
-    {title:"Ettore e Andromaca",book:"VI",theme:"AFFETTI",symbol:"La famiglia e le mura di Troia",type:"family",
-     summary:"Ettore rivede Andromaca e il piccolo Astianatte alle porte di Troia. La moglie lo supplica di restare; Ettore teme il futuro della famiglia ma sente il dovere di difendere la città.",
-     verse:"Or mi resti tu solo, Ettore caro,\nTu padre mio, tu madre, tu fratello",
-     thought:"La guerra interrompe la vita domestica: Ettore è insieme guerriero, marito e padre.",
-     question:"Il dovere verso la città deve prevalere su quello verso la propria famiglia?",paragraph:"p8"},
-    {title:"L’ambasceria nella tenda",book:"IX",theme:"DESTINO",symbol:"Due strade del destino",type:"roads",
-     summary:"Odisseo, Fenice e Aiace offrono ad Achille doni e riconciliazione. L’eroe rifiuta e mette in dubbio il senso della gloria: restare a Troia significa morire giovane e diventare immortale nel canto; tornare in patria significa vivere più a lungo.",
-     verse:"Meco io porto (la Dea madre mel dice)\nDoppio fato di morte.",
-     thought:"Achille si interroga sul valore della fama quando il suo prezzo è la vita stessa.",
-     question:"Che cosa rende davvero degna di essere vissuta una vita?",paragraph:"p10"},
-    {title:"Patroclo indossa le armi",book:"XVI",theme:"AMICIZIA",symbol:"Armatura di Achille",type:"armor",
-     summary:"Gli Achei arretrano fino alle navi. Patroclo chiede di combattere con le armi di Achille e alla testa dei Mirmidoni. L’amico accetta, ma gli ordina di limitarsi a respingere i Troiani.",
-     verse:"Ch’io, delle tue coperto armi le spalle,\nM’appresenti al nemico",
-     thought:"Patroclo vuole aiutare i compagni, ma la sua iniziativa lo espone a un pericolo crescente.",
-     question:"Quale differenza c’è tra coraggio e imprudenza?",paragraph:"p11"},
-    {title:"La morte di Patroclo",book:"XVI",theme:"PERDITA",symbol:"Scudo spezzato",type:"broken",
-     summary:"Patroclo insegue i Troiani oltre il limite fissato. Apollo lo indebolisce, Euforbo lo ferisce ed Ettore lo uccide. Prima di morire, Patroclo preannuncia la fine di Ettore per mano di Achille.",
-     verse:"Risonò nel cadere, ed un gran lutto\nPer l’esercito achivo si diffuse.",
-     thought:"L’ira legata all’onore cede il passo a un dolore personale che scatenerà una nuova violenza.",
-     question:"Quali responsabilità ha Achille nella sorte di Patroclo?",paragraph:"p12"},
-    {title:"Lo scudo di Achille",book:"XVIII",theme:"VITA",symbol:"Scudo cosmico di Efesto",type:"cosmos",
-     summary:"Achille decide di tornare a combattere. Teti chiede a Efesto nuove armi. Sullo scudo il dio raffigura il cielo e la terra, città in guerra e in pace, lavori, danze e il ciclo della vita.",
-     verse:"Ivi ei fece la terra, il mare, il cielo\nE il Sole infaticabile",
-     thought:"L’eroe si prepara a uccidere, ma porta con sé un’immagine di tutto ciò che merita di vivere.",
-     question:"Perché descrivere la pace proprio nel momento in cui Achille sceglie la vendetta?",paragraph:"p14"},
-    {title:"Il duello con Ettore",book:"XXII",theme:"CORAGGIO",symbol:"Le lance davanti alle mura",type:"duel",
-     summary:"Achille insegue Ettore intorno alle mura. Ingannato da Atena, il principe di Troia affronta il duello e viene ucciso. Achille ne oltraggia il corpo: il vincitore ha superato il limite della pietà.",
-     verse:"Ma non fia per questo\nChe da codardo io cada",
-     thought:"Ettore sa di essere vicino alla morte, ma vuole scegliere come affrontarla.",
-     question:"La vittoria militare coincide sempre con la grandezza morale?",paragraph:"p16"},
-    {title:"Priamo davanti ad Achille",book:"XXIV",theme:"PIETÀ",symbol:"Due mani che si incontrano",type:"hands",
-     summary:"Il vecchio Priamo entra nella tenda di Achille per chiedere il corpo del figlio. Gli ricorda suo padre: i due piangono insieme. Achille restituisce Ettore e accorda una tregua. L’Iliade termina con i funerali di Ettore, non con la caduta di Troia.",
-     verse:"Divino Achille, ti rammenta il padre,\nIl padre tuo da ria vecchiezza oppresso",
-     thought:"Il nemico diventa nuovamente una persona: il dolore condiviso interrompe per un momento la spirale dell’ira.",
-     question:"Achille è più grande quando uccide Ettore o quando lo restituisce al padre?",paragraph:"p18"}
-  ];
+  const $ = id => document.getElementById(id);
+  const rail = $('iliade-steps');
+  if (!rail) return;
   const shape={
     flame:'<path d="M110 218 C48 181 78 124 112 82 C110 135 153 117 154 55 C225 141 207 203 165 220 C170 184 151 161 141 154 C143 188 117 190 110 218Z" fill="#b16b40" stroke="#7f4a30" stroke-width="5"/><path d="M138 215 C118 189 137 176 146 159 C169 186 165 207 153 218Z" fill="#efc786"/>',
     spears:'<path d="M63 222 L212 78 M68 71 L211 223" stroke="#254b57" stroke-width="12" stroke-linecap="round"/><path d="M222 67 L196 77 L210 92Z M58 59 L76 86 L91 72Z" fill="#bd864b" stroke="#956a38" stroke-width="3"/><path d="M79 206 L94 220 M190 211 L205 194" stroke="#bd864b" stroke-width="10" stroke-linecap="round"/>',
@@ -68,120 +17,167 @@
     duel:'<path d="M58 228V127H87V96h30v132 M174 228V96h29v31h24v101 M115 228V165H170V228" fill="none" stroke="#bca68a" stroke-width="10"/><path d="M74 55L212 212 M214 55L74 212" stroke="#264a57" stroke-width="10"/><path d="M64 44L76 79L95 61Z M222 44L209 80L191 60Z" fill="#b98649"/><circle cx="143" cy="139" r="16" fill="#e1bf88"/>',
     hands:'<path d="M35 169C63 149 92 150 110 165L141 191L123 212Q108 216 94 207L58 199L36 212" fill="#b78758" stroke="#7d5e43" stroke-width="5"/><path d="M245 165C219 145 197 146 176 159L147 184Q138 194 148 203Q157 210 166 202L180 191 L195 211 Q208 217 222 205L245 211" fill="#dec4a0" stroke="#7d5e43" stroke-width="5"/><path d="M116 194L141 174L165 185" fill="none" stroke="#eadbc2" stroke-width="6"/><path d="M140 95v36 M108 112l-17-16 M174 112l17-16" stroke="#b68a53" stroke-width="7" stroke-linecap="round"/>'
   };
-  // Quadri storici documentati. Le immagini WebP sono conservate nel repository;
-  // il file originale su Wikimedia funge da ripiego temporaneo, non da fonte primaria.
-  const artworks = [
-  {
-    "credit": "Giambattista Tiepolo, 1757",
-    "file": "Giovanni Battista Tiepolo 052.jpg",
-    "caption": "L’ira di Achille: Atena trattiene il guerriero."
-  },
-  {
-    "credit": "Anonimo, XVIII secolo",
-    "file": "Streit des Agamemnon mit Achilles um die schöne Briseis.png",
-    "caption": "La disputa pubblica per Briseide."
-  },
-  {
-    "credit": "Giambattista Tiepolo, 1757",
-    "file": "Giovanni Battista Tiepolo - Thetis Consoling Achilles - WGA22339.jpg",
-    "caption": "Teti consola il figlio: richiamo tematico, non immagine puntuale del ritiro."
-  },
-  {
-    "credit": "Carl Friedrich Deckler, XIX secolo",
-    "file": "Karl Friedrich Deckler, The Farewell of Hector to Andromaque and Astyanax.jpg",
-    "caption": "L’addio di Ettore ad Andromaca e Astianatte."
-  },
-  {
-    "credit": "Jean-Auguste-Dominique Ingres, 1801",
-    "file": "Jean-Auguste-Dominique Ingres - Achilles Receiving the Ambassadors of Agamemnon, 1801.jpg",
-    "caption": "Gli ambasciatori raggiungono Achille."
-  },
-  {
-    "credit": "Fresco romano, foto ArchaiOptix (CC BY-SA 4.0)",
-    "file": "Wall painting - two heroes conversing - Herculaneum (ins or II - palaestra) - Napoli MAN 9020.jpg",
-    "caption": "Due eroi a colloquio: forse Patroclo che chiede le armi ad Achille (identificazione incerta)."
-  },
-  {
-    "credit": "Antoine Wiertz, XIX secolo",
-    "file": "Antoine Wiertz - 19th C - Battle of the Greeks and Trojans for the corpse of Patroclus - KMSKA 1183.jpg",
-    "caption": "La lotta per il corpo di Patroclo dopo la morte."
-  },
-  {
-    "credit": "Erasmus Quellinus II, XVII secolo",
-    "file": "Erasmus Quellinus II - Thetis Recieving Weapons for Achilles.jpg",
-    "caption": "Teti riceve le nuove armi destinate ad Achille."
-  },
-  {
-    "credit": "Léonce Legendre, XIX secolo (CC0)",
-    "file": "Achilles doodt Hector, circa 1831 - circa 1893, Groeningemuseum, 0041065000.jpg",
-    "caption": "Il duello fra Achille ed Ettore."
-  },
-  {
-    "credit": "Aleksandr Ivanov, 1824",
-    "file": "Alexandr Ivanov 005.jpg",
-    "caption": "Priamo supplica Achille nella sua tenda."
+  const nodes = {
+    title:$('iliade-event-title'),count:$('iliade-count'),theme:$('iliade-theme'),
+    summary:$('iliade-summary'),verse:$('iliade-verse'),
+    thought:$('iliade-thought'),question:$('iliade-question'),
+    art:$('iliade-art'),photo:$('iliade-photo'),caption:$('iliade-art-caption'),
+    credit:$('iliade-photo-credit'),source:$('iliade-source'),read:$('iliade-read'),
+    mapRoot:$('iliade-map-root'),mapNodes:$('iliade-map-nodes'),
+    mapTakeaway:$('iliade-map-takeaway'),quiz:$('iliade-mini-form'),
+    progress:$('iliade-progress'),prev:$('iliade-prev'),next:$('iliade-next'),
+    stage:$('iliade-stage')
+  };
+  const make = (tag,cls,text) => {
+    const element=document.createElement(tag);
+    if(cls)element.className=cls;
+    if(text!==undefined)element.textContent=text;
+    return element;
+  };
+  const formatNumber = n => String(n).padStart(2,'0');
+  let current=0, events=[], buttons=[];
+  function paintMap(e){
+    nodes.mapRoot.textContent=e.map.center;
+    nodes.mapNodes.replaceChildren();
+    e.map.nodes.forEach(([label,detail])=>{
+      const item=make('div','iliade-map-node');
+      item.append(make('strong',null,label),make('p',null,detail));
+      nodes.mapNodes.append(item);
+    });
+    nodes.mapTakeaway.textContent=e.map.takeaway;
   }
-];
-  const imageURL = file => 'https://commons.wikimedia.org/wiki/Special:FilePath/' +
-    encodeURIComponent(file.replaceAll(' ','_')) + '?width=1280';
-  const sourceURL = file => 'https://commons.wikimedia.org/wiki/File:' +
-    encodeURIComponent(file.replaceAll(' ','_'));
-  const $=id=>document.getElementById(id);
-  const rail=$('iliade-steps'),title=$('iliade-event-title'),count=$('iliade-count'),
-        topic=$('iliade-theme'),summary=$('iliade-summary'),verse=$('iliade-verse'),
-        thought=$('iliade-thought'),question=$('iliade-question'),image=$('iliade-art'),
-        imgCaption=$('iliade-art-caption'),photo=$('iliade-photo'),credit=$('iliade-photo-credit'),source=$('iliade-source'),read=$('iliade-read'),
-        progress=$('iliade-progress'),prev=$('iliade-prev'),next=$('iliade-next'),
-        stage=$('iliade-stage');
-  if(!rail||!title)return;
-  let current=0;
-  const steps=events.map((event,index)=>{
-    const button=document.createElement('button');
-    button.type='button';button.className='iliade-step';
-    button.setAttribute('aria-label','Tappa '+(index+1)+': '+event.title);
-    button.innerHTML='<span class="iliade-step-number">'+String(index+1).padStart(2,'0')+'</span><span class="iliade-step-name"></span>';
-    button.querySelector('.iliade-step-name').textContent=event.title;
-    button.addEventListener('click',()=>show(index));
-    rail.append(button);return button;
-  });
-  function show(index,{focus=false}={}){
-    current=Math.min(events.length-1,Math.max(0,index));
-    const e=events[current];count.textContent='TAPPA '+String(current+1).padStart(2,'0')+' / 10 · LIBRO '+e.book;
-    title.textContent=e.title;topic.textContent=e.theme;summary.textContent=e.summary;
-    verse.textContent=e.verse;thought.textContent=e.thought;question.textContent=e.question;
-    const url='https://it.wikisource.org/wiki/Iliade_(Monti)/Libro_'+e.book;
-    source.href=url;source.textContent='Leggi il libro '+e.book+' su Wikisource ↗';
-    read.href='iliade.html#'+e.paragraph;
-    image.setAttribute('aria-label','Illustrazione simbolica: '+e.symbol);
-    image.innerHTML='<defs><pattern id="iliade-hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12L12 0" stroke="#bba585" stroke-width=".5" opacity=".45"/></pattern></defs><rect x="0" y="0" width="284" height="284" rx="142" fill="url(#iliade-hatch)"/><circle cx="142" cy="142" r="125" fill="none" stroke="#c3ad87" stroke-width="1.5"/><circle cx="142" cy="142" r="111" fill="none" stroke="#d9c8aa" stroke-width="1"/>'+shape[e.type];
-    const art = artworks[current];
-    imgCaption.textContent=art.caption;
-    credit.href=sourceURL(art.file);
-    credit.textContent=art.credit+' · opera / fonte ↗';
-    // Resilienza: prima il WebP locale; se il deploy non è ancora aggiornato,
-    // Commons rimane un ripiego con la grafica precedente come ultimo livello.
-    photo.hidden=true;
-    photo.alt=art.caption+' Opera di '+art.credit;
-    let fallback=false;
-    photo.onload=()=>{photo.hidden=false;};
-    photo.onerror=()=>{
-      if(!fallback){fallback=true;photo.src=imageURL(art.file);}
-      else{photo.hidden=true;imgCaption.textContent='Immagine temporaneamente non disponibile · '+art.caption;}
+  function paintQuiz(e){
+    const form=nodes.quiz;
+    form.replaceChildren();
+    e.quiz.forEach((item,index)=>{
+      const [prompt,options]=item;
+      const field=make('fieldset','iliade-quiz-field');
+      const legend=make('legend',null,(index+1)+'. '+prompt);
+      field.append(legend);
+      options.forEach((choice,i)=>{
+        const label=make('label','iliade-quiz-option');
+        const radio=make('input');
+        radio.type='radio';
+        radio.name='iliade-q-'+index;
+        radio.value=String(i);
+        radio.required=true;
+        label.append(radio,make('span',null,choice));
+        field.append(label);
+      });
+      form.append(field);
+    });
+    const actions=make('div','iliade-quiz-actions');
+    const submit=make('button',null,'Correggi le 3 risposte');
+    submit.type='submit';
+    actions.append(submit);
+    form.append(actions);
+    const result=make('div','iliade-quiz-result');
+    result.setAttribute('role','status');
+    result.setAttribute('aria-live','polite');
+    form.append(result);
+    form.onsubmit=event=>{
+      event.preventDefault();
+      if(!form.reportValidity())return;
+      let correct=0;
+      const fields=[...form.querySelectorAll('fieldset')];
+      e.quiz.forEach((item,i)=>{
+        const [,options,answer,explanation]=item;
+        const chosen=Number(form.querySelector('input[name="iliade-q-'+i+'"]:checked').value);
+        const ok=chosen===answer;
+        if(ok)correct++;
+        fields[i].classList.add(ok?'iliade-answer-correct':'iliade-answer-wrong');
+        const feedback=make('p','iliade-quiz-feedback',(ok?'Corretto. ':'Da rivedere. Risposta corretta: '+options[answer]+'. ')+explanation);
+        fields[i].append(feedback);
+      });
+      form.querySelectorAll('input').forEach(input=>input.disabled=true);
+      submit.hidden=true;
+      result.replaceChildren(make('strong',null,'Risultato: '+correct+' su 3 risposte corrette.'));
+      const retry=make('button','secondary','Riprova questa tappa');
+      retry.type='button';
+      retry.addEventListener('click',()=>{paintQuiz(e);nodes.quiz.querySelector('legend')?.focus();});
+      result.append(retry);
+      result.scrollIntoView({behavior:'auto',block:'nearest'});
     };
-    photo.src='../assets/images/iliade-timeline/tappa-'+String(current+1).padStart(2,'0')+'.webp';
-    progress.style.width=((current+1)/events.length*100)+'%';
-    progress.setAttribute('aria-valuenow',String(current+1));
-    steps.forEach((b,i)=>{if(i===current)b.setAttribute('aria-current','step');else b.removeAttribute('aria-current');});
-    prev.disabled=current===0;next.disabled=current===events.length-1;
-    next.textContent=current===events.length-1?'Fine del percorso':'Tappa successiva →';
-    if(focus){title.setAttribute('tabindex','-1');title.focus({preventScroll:true});stage.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'nearest'});}
   }
-  prev.addEventListener('click',()=>show(current-1,{focus:true}));
-  next.addEventListener('click',()=>show(current+1,{focus:true}));
-  rail.addEventListener('keydown',e=>{
-    if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const dir=e.key==='ArrowRight'?1:-1;show(current+dir);steps[current].focus();}
-    if(e.key==='Home'){e.preventDefault();show(0);steps[current].focus();}
-    if(e.key==='End'){e.preventDefault();show(events.length-1);steps[current].focus();}
+  function paintArt(e,index){
+    nodes.art.setAttribute('aria-label','Illustrazione simbolica: '+e.symbol);
+    nodes.art.innerHTML='<defs><pattern id="iliade-hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12L12 0" stroke="#bba585" stroke-width=".5" opacity=".45"/></pattern></defs><rect width="284" height="284" rx="142" fill="url(#iliade-hatch)"/><circle cx="142" cy="142" r="125" fill="none" stroke="#c3ad87" stroke-width="1.5"/><circle cx="142" cy="142" r="111" fill="none" stroke="#d9c8aa" stroke-width="1"/>'+(shape[e.type]||shape.cosmos);
+    nodes.photo.hidden=true;
+    nodes.photo.removeAttribute('src');
+    if(!e.artwork){
+      nodes.caption.textContent='Illustrazione simbolica: '+e.symbol+'.';
+      nodes.credit.hidden=true;
+      return;
+    }
+    const art=e.artwork;
+    nodes.caption.textContent=art.caption;
+    nodes.credit.hidden=false;
+    nodes.credit.href=art.source;
+    nodes.credit.textContent=art.credit+' · opera e crediti ↗';
+    nodes.photo.alt=art.caption+' Opera di '+art.credit;
+    nodes.photo.onload=()=>{if(current===index)nodes.photo.hidden=false;};
+    nodes.photo.onerror=()=>{nodes.photo.hidden=true;};
+    nodes.photo.src='../assets/images/iliade-timeline/tappa-'+art.number+'.webp';
+  }
+  function show(index,{focus=false}={}){
+    current=Math.max(0,Math.min(events.length-1,index));
+    const e=events[current];
+    nodes.count.textContent='TAPPA '+formatNumber(current+1)+' / '+formatNumber(events.length)+' · LIBRO '+e.book;
+    nodes.title.textContent=e.title;
+    nodes.theme.textContent=e.theme;
+    nodes.summary.replaceChildren(...e.paragraphs.map(p=>make('p',null,p)));
+    nodes.verse.textContent=e.verse;
+    nodes.thought.textContent=e.thought;
+    nodes.question.textContent=e.question;
+    nodes.source.href='https://it.wikisource.org/wiki/Iliade_(Monti)/Libro_'+e.book;
+    nodes.source.textContent='Leggi il libro '+e.book+' su Wikisource ↗';
+    nodes.read.href='iliade.html#'+e.read;
+    nodes.read.textContent='Torna alla lezione sull’Iliade ↗';
+    paintArt(e,current);
+    paintMap(e);
+    paintQuiz(e);
+    nodes.progress.style.width=((current+1)/events.length*100)+'%';
+    buttons.forEach((button,i)=>{
+      if(i===current)button.setAttribute('aria-current','step');
+      else button.removeAttribute('aria-current');
+    });
+    nodes.prev.disabled=current===0;
+    nodes.next.disabled=current===events.length-1;
+    nodes.next.textContent=current===events.length-1?'Fine del percorso':'Tappa successiva →';
+    if(focus){
+      nodes.title.setAttribute('tabindex','-1');
+      nodes.title.focus({preventScroll:true});
+      const reduce=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+      nodes.stage.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+    }
+  }
+  function start(data){
+    if(!Array.isArray(data.events)||data.events.length!==8)throw Error('Le tappe non sono complete');
+    events=data.events;
+    buttons=events.map((e,i)=>{
+      const button=make('button','iliade-step');
+      button.type='button';
+      button.setAttribute('aria-label','Tappa '+(i+1)+': '+e.title);
+      button.append(make('span','iliade-step-number',formatNumber(i+1)),make('span','iliade-step-name',e.title));
+      button.addEventListener('click',()=>show(i,{focus:true}));
+      rail.append(button);
+      return button;
+    });
+    nodes.prev.addEventListener('click',()=>show(current-1,{focus:true}));
+    nodes.next.addEventListener('click',()=>show(current+1,{focus:true}));
+    rail.addEventListener('keydown',event=>{
+      if(['ArrowRight','ArrowLeft','Home','End'].includes(event.key)){
+        event.preventDefault();
+        const index=event.key==='Home'?0:event.key==='End'?events.length-1:current+(event.key==='ArrowRight'?1:-1);
+        show(index);buttons[current].focus();
+      }
+    });
+    show(0);
+  }
+  fetch('../data/iliade-otto-tappe.json').then(response=>{
+    if(!response.ok)throw Error('Dati non disponibili');
+    return response.json();
+  }).then(start).catch(()=>{
+    rail.replaceChildren(make('p',null,'Il percorso interattivo non è disponibile. La lezione integrale rimane leggibile.'));
   });
-  show(0);
 })();

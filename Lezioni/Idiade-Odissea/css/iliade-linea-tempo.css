@@ -74,3 +74,35 @@
 @media(max-width:950px){.iliade-art-panel{min-height:540px}}
 @media(max-width:710px){.iliade-art-panel{min-height:390px}.iliade-art-shell svg{padding:17%}.iliade-art-caption{font-size:1.22rem}.iliade-photo-credit{font-size:11px;margin-bottom:9px}}
 @media print{.iliade-art-panel{min-height:400px;-webkit-print-color-adjust:exact;print-color-adjust:exact}.iliade-art-caption{color:#fff}}
+
+/* Otto tappe: racconto esteso, mappa concettuale e micro-verifica. */
+.iliade-art-shell img[hidden],.iliade-photo-credit[hidden],.iliade-quiz-actions button[hidden]{display:none!important}
+.iliade-summary p{font:16px/1.82 Arial,sans-serif;color:#334954;margin:0 0 14px}
+.iliade-summary p:last-child{margin-bottom:0}
+.iliade-map{margin-top:27px;padding:22px 20px 20px;background:#f2eee5;border:1px solid #d9cbb4;border-top:4px solid #b48b59}
+.iliade-map h3{margin:0 0 18px}
+.iliade-map-root{padding:14px 16px;text-align:center;background:#214a52;color:#fff5df;border-radius:8px;font:700 14px/1.45 Arial,sans-serif;letter-spacing:.6px}
+.iliade-map-arrow{text-align:center;color:#a56b3f;font:700 27px/1.15 Georgia,serif;height:32px}
+.iliade-map-nodes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.iliade-map-node{background:#fffaf1;border:1px solid #d6c6a9;border-radius:7px;padding:15px 12px;min-width:0}
+.iliade-map-node strong{display:block;color:#774f31;font:700 13px/1.4 Arial,sans-serif;margin-bottom:7px}
+.iliade-map-node p{font:13px/1.55 Arial,sans-serif;margin:0;color:#42535a}
+.iliade-map-takeaway{margin:16px 0 0!important;padding-top:11px;border-top:1px solid #d8c9b1;font:italic 14px/1.6 Georgia,serif!important;color:#244651!important}
+.iliade-mini-quiz{margin-top:27px;padding:24px 22px;background:#e7efec;border:1px solid #bed0cb}
+.iliade-mini-quiz h3{font:700 19px/1.5 Georgia,serif;letter-spacing:0;text-transform:none;color:#234550;margin:0 0 5px}
+.iliade-mini-quiz>p{font:14px/1.65 Arial,sans-serif;color:#435961;margin:0 0 12px}
+.iliade-quiz-field{border:0;border-top:1px solid #c5d5ce;margin:15px 0 0;padding:17px 0 4px;min-width:0}
+.iliade-quiz-field legend{font:700 14px/1.55 Arial,sans-serif;color:#203d44;padding-top:12px}
+.iliade-quiz-option{display:flex;gap:10px;align-items:flex-start;margin:8px 0;padding:10px 12px;border:1px solid #c9d6d1;border-radius:6px;background:#fafffc;cursor:pointer;font:14px/1.55 Arial,sans-serif;color:#283c45}
+.iliade-quiz-option:has(input:checked){border-color:#335c62;background:#f1f7f3}
+.iliade-quiz-option input{margin:4px 0 0;flex:0 0 auto;accent-color:#23535e}
+.iliade-quiz-option span{flex:1;overflow-wrap:anywhere}
+.iliade-quiz-field.iliade-answer-correct{border-left:3px solid #38735b;padding-left:12px}
+.iliade-quiz-field.iliade-answer-wrong{border-left:3px solid #ae7244;padding-left:12px}
+.iliade-quiz-feedback{font:13px/1.65 Arial,sans-serif!important;color:#2c4f50!important;margin:10px 0 0!important}
+.iliade-quiz-actions{margin-top:20px}
+.iliade-quiz-result{margin-top:15px;font:15px/1.6 Arial,sans-serif}
+.iliade-quiz-result strong{display:block}
+.iliade-quiz-result button{margin-top:12px}
+@media(max-width:710px){.iliade-map-nodes{grid-template-columns:1fr}.iliade-map,.iliade-mini-quiz{padding:18px 14px}.iliade-summary p{font-size:16px}.iliade-map-node{padding:12px}}
+@media print{.iliade-mini-quiz{break-inside:avoid}.iliade-map{break-inside:avoid}.iliade-map-nodes{grid-template-columns:repeat(3,1fr)}}
