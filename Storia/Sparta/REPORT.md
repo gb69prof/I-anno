@@ -22,3 +22,10 @@
 
 ## Fonti
 Dispensa Sparta.pdf fornita dall'utente; trascrizioni e successive versioni concordate nella conversazione; riferimenti di approfondimento e cautele storiografiche riportati nella pagina.
+
+## Pubblicazione effettiva — verifica del 2 novembre 2026
+- Commit di pubblicazione: `d0127c332c77d14e0a5e2fa3a574ed933e984758` su `main`.
+- GitHub Actions «Sincronizza I-anno sul server»: esecuzione [41516201210](https://github.com/gb69prof/I-anno/actions/runs/41516201210), **completata con successo**.
+- Log della distribuzione: aggiornamento remoto `069af9e..d0127c3`, inclusi `Storia/index.html`, `Storia/Sparta/index.html`, codice, 9 immagini, intervista e report.
+- Verifica GitHub: 9 immagini con dimensioni e hash corrispondenti agli originali, collegamento all'indice unico, lezioni già esistenti conservate.
+- Limite: risposta HTTP della **nuova** pagina su `gbprof.it` non verificabile direttamente dal browser di questa sessione; il risultato del deploy sul server è comunque confermato dal job SSH.
