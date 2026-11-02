@@ -105,7 +105,7 @@ class Book:
             self.c.drawCentredString(x+108,y+71,str(j+1))
             bot=self.p(e['title'],x+127,y+89,125,size=11.4,lead=15,color=NAVY,font='BookSerifBold')
             self.p(e.get('bookLabel','LIBRO '+e.get('book','')),x+127,bot-12,120,size=8,lead=11,color=MUTED,font='BookSansBold')
-            self.label('PAG. '+str(3+j*2),x+127,y+12,8.4,BURGUNDY)
+            self.label('PAG. '+str(3+j*3),x+127,y+12,8.4,BURGUNDY)
             self.c.setStrokeColor(LINE);self.c.line(x,y-22,x+250,y-22)
         self.footer();self.next()
     def opening(self,i,e):
@@ -126,10 +126,10 @@ class Book:
         self.section(3,heads[2],ps[2],right,513,cw,bottom=257)
         self.note(right,126,cw,112,'PER COMPRENDERE',e.get('thought',''))
         self.c.setFillColor(BEIGE);self.c.setStrokeColor(GOLD)
-        self.c.roundRect(29,65,537,52,6,fill=1,stroke=1)
-        self.label('UNA DOMANDA PER PENSARE',40,102,7.2,BURGUNDY)
-        self.p(e.get('question',''),40,93,514,size=9.6,lead=13.6,bottom=70)
-        if ly<122:self.errors.append(f'Pagina {self.page}: narrazione sx invade il richiamo ({ly})')
+        self.c.roundRect(29,54,537,52,6,fill=1,stroke=1)
+        self.label('UNA DOMANDA PER PENSARE',40,91,7.2,BURGUNDY)
+        self.p(e.get('question',''),40,82,514,size=9.2,lead=12.6,bottom=59)
+        if ly<109:self.errors.append(f'Pagina {self.page}: narrazione sx invade il richiamo ({ly})')
         self.footer();self.next()
     def map(self,e,top):
         self.c.setFillColor(BURGUNDY);self.c.roundRect(29,top-20,537,20,3,fill=1,stroke=0)
@@ -167,16 +167,37 @@ class Book:
         return top-173
     def continuation(self,i,e):
         self.page+=1;self.tab(i,e.get('bookLabel',''),cont=True)
-        title=e['title']
-        # Intestazione ridotta per i titoli più lunghi, senza sacrificare spazio ai paragrafi.
-        self.p(title,30,765,532,size=18.4,lead=22.5,color=NAVY,font='BookSerifBold',bottom=737)
-        self.label('IL RACCONTO CONTINUA',30,730,8.1,BURGUNDY)
-        ps=e['paragraphs'];heads=e['paragraphTitles'];ly=712
-        for k in (3,4):ly=self.section(k+1,heads[k],ps[k],29,ly,255,bottom=398)
-        ry=self.section(6,heads[5],ps[5],311,712,255,bottom=400)
-        if min(ly,ry)<396:self.errors.append(f'Pagina {self.page}: narrazione invade schema ({ly}, {ry})')
-        bottom=self.quiz(e,self.map(e,390)-7)
-        if bottom<51:self.errors.append(f'Pagina {self.page}: verifica fuori pagina ({bottom})')
+        self.p(e['title'],30,765,532,size=18.4,lead=22.5,color=NAVY,font='BookSerifBold',bottom=715)
+        self.label('IL RACCONTO CONTINUA',30,716,8.1,BURGUNDY)
+        ps=e['paragraphs'];heads=e['paragraphTitles'];ly=699
+        for k in (3,4):ly=self.section(k+1,heads[k],ps[k],29,ly,255,bottom=257)
+        ry=self.section(6,heads[5],ps[5],311,699,255,bottom=263)
+        if min(ly,ry)<251:self.errors.append(f'Pagina {self.page}: narrazione invade lo schema ({ly}, {ry})')
+        mapbottom=self.map(e,230)
+        if mapbottom<70:self.errors.append(f'Pagina {self.page}: mappa oltre la soglia ({mapbottom})')
+        self.footer();self.next()
+    def exercise(self,i,e):
+        self.page+=1;self.tab(i,'ESERCIZI')
+        self.p('Verifica di comprensione',30,766,430,size=24,lead=29,color=NAVY,font='BookSerifBold')
+        self.label(e['title'],30,716,9.0,BURGUNDY)
+        self.art(i,447,587,115,115)
+        self.c.setFillColor(BEIGE);self.c.setStrokeColor(GOLD)
+        self.c.roundRect(29,587,398,104,5,fill=1,stroke=1)
+        self.label('IL PUNTO DA RICORDARE',42,672,8,BURGUNDY)
+        self.p(e['map'].get('takeaway',''),42,658,370,size=10.2,lead=14.3,bottom=607)
+        self.c.setStrokeColor(LINE);self.c.line(29,567,W-29,567)
+        for k,q in enumerate(e['quiz'][:4]):
+            top=553-k*119
+            self.c.setFillColor(HexColor('#F3F7F0'));self.c.setStrokeColor(HexColor('#BDD2B9'))
+            self.c.roundRect(29,top-109,537,109,5,fill=1,stroke=1)
+            self.c.setFillColor(GREEN);self.c.circle(48,top-20,11,fill=1,stroke=0)
+            self.c.setFillColor(WHITE);self.c.setFont('BookSansBold',9)
+            self.c.drawCentredString(48,top-23,str(k+1))
+            bot=self.p(q[0],68,top-8,482,size=10.1,lead=13.5,font='BookSerifBold',bottom=top-41)
+            for j,option in enumerate(q[1]):
+                oy=bot-8-j*18
+                self.c.setStrokeColor(GREEN);self.c.circle(79,oy-4,4,fill=0,stroke=1)
+                self.p(option,94,oy,451,size=8.9,lead=12.2,bottom=top-105)
         self.footer();self.next()
     def ending(self):
         self.page+=1;self.tab(9,'LETTURA FINALE')
@@ -197,7 +218,7 @@ class Book:
     def produce(self):
         self.cover();self.index()
         for i,e in enumerate(self.stages,1):
-            self.opening(i,e);self.continuation(i,e)
+            self.opening(i,e);self.continuation(i,e);self.exercise(i,e)
         self.ending();self.c.save()
         if self.errors:raise RuntimeError('Impaginazione: '+'; '.join(self.errors))
         print(f'Libro completo: {self.page} pagine, 8 capitoli')
