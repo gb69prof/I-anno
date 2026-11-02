@@ -53,6 +53,13 @@ jobs:
           print(f'PDF ottimizzato: {size/1_000_000:.2f} MB')
           print(f'Verificato: {len(book)} pagine, otto capitoli, tutte le scene, tavole e domande.')
           PY
+      - name: Allega il libro scaricabile al collaudo
+        uses: actions/upload-artifact@v4
+        with:
+          name: iliade-libro-illustrato
+          path: Lezioni/Idiade-Odissea/fatto/iliade-libro-illustrato.pdf
+          retention-days: 7
+          if-no-files-found: error
       - name: Pubblica il PDF nel repository
         shell: bash
         run: |
