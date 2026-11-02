@@ -19,7 +19,7 @@
   };
   const nodes = {
     title:$('iliade-event-title'),count:$('iliade-count'),theme:$('iliade-theme'),
-    summary:$('iliade-summary'),verse:$('iliade-verse'),
+    summary:$('iliade-summary'),story:$('iliade-story'),readingTitle:$('iliade-reading-title'),extraSources:$('iliade-extra-sources'),verse:$('iliade-verse'),
     thought:$('iliade-thought'),question:$('iliade-question'),
     art:$('iliade-art'),photo:$('iliade-photo'),caption:$('iliade-art-caption'),
     credit:$('iliade-photo-credit'),source:$('iliade-source'),read:$('iliade-read'),
@@ -36,6 +36,18 @@
   };
   const formatNumber = n => String(n).padStart(2,'0');
   let current=0, events=[], buttons=[];
+  function paintStory(e){
+    nodes.readingTitle.textContent='Il racconto · '+e.title;
+    nodes.story.replaceChildren();
+    e.paragraphs.forEach((text,index)=>{
+      const section=make('section','iliade-story-section');
+      section.append(
+        make('h3',null,formatNumber(index+1)+' · '+(e.paragraphTitles?.[index]||'La vicenda')),
+        make('p',null,text)
+      );
+      nodes.story.append(section);
+    });
+  }
   function paintMap(e){
     nodes.mapRoot.textContent=e.map.center;
     nodes.mapNodes.replaceChildren();
@@ -67,7 +79,7 @@
       form.append(field);
     });
     const actions=make('div','iliade-quiz-actions');
-    const submit=make('button',null,'Correggi le 3 risposte');
+    const submit=make('button',null,'Correggi le '+e.quiz.length+' risposte');
     submit.type='submit';
     actions.append(submit);
     form.append(actions);
@@ -91,7 +103,7 @@
       });
       form.querySelectorAll('input').forEach(input=>input.disabled=true);
       submit.hidden=true;
-      result.replaceChildren(make('strong',null,'Risultato: '+correct+' su 3 risposte corrette.'));
+      result.replaceChildren(make('strong',null,'Risultato: '+correct+' su '+e.quiz.length+' risposte corrette.'));
       const retry=make('button','secondary','Riprova questa tappa');
       retry.type='button';
       retry.addEventListener('click',()=>{paintQuiz(e);nodes.quiz.querySelector('legend')?.focus();});
@@ -122,15 +134,23 @@
   function show(index,{focus=false}={}){
     current=Math.max(0,Math.min(events.length-1,index));
     const e=events[current];
-    nodes.count.textContent='TAPPA '+formatNumber(current+1)+' / '+formatNumber(events.length)+' · LIBRO '+e.book;
+    nodes.count.textContent='TAPPA '+formatNumber(current+1)+' / '+formatNumber(events.length)+' · '+(e.bookLabel||'LIBRO '+e.book);
     nodes.title.textContent=e.title;
     nodes.theme.textContent=e.theme;
-    nodes.summary.replaceChildren(...e.paragraphs.map(p=>make('p',null,p)));
+    nodes.summary.replaceChildren(make('p',null,e.summary||e.paragraphs[0]));
+    paintStory(e);
     nodes.verse.textContent=e.verse;
     nodes.thought.textContent=e.thought;
     nodes.question.textContent=e.question;
     nodes.source.href='https://it.wikisource.org/wiki/Iliade_(Monti)/Libro_'+e.book;
-    nodes.source.textContent='Leggi il libro '+e.book+' su Wikisource ↗';
+    nodes.source.textContent='Testo originale: libro '+e.book+' ↗';
+    nodes.extraSources.replaceChildren();
+    (e.sourceBooks||[e.book]).filter(book=>book!==e.book).forEach(book=>{
+      const a=make('a',null,'Libro '+book+' ↗');
+      a.href='https://it.wikisource.org/wiki/Iliade_(Monti)/Libro_'+book;
+      a.target='_blank';a.rel='noopener noreferrer';
+      nodes.extraSources.append(a);
+    });
     nodes.read.href='iliade.html#'+e.read;
     nodes.read.textContent='Torna alla lezione sull’Iliade ↗';
     paintArt(e,current);

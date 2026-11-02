@@ -27,3 +27,28 @@ const manifest=JSON.parse(sw.match(/const ASSETS=(\[[^\n]+\]);/)[1]);
 for(let i=1;i<=10;i++)assert(manifest.includes('assets/images/iliade-timeline/tappa-'+String(i).padStart(2,'0')+'.webp'));
 assert(manifest.includes('data/iliade-art-sources.json'));
 console.log('Passed: 10 documented WebP paintings, credit links, gallery UI and offline manifest ('+manifest.length+' assets).');
+
+
+/* Controlli di qualità del nuovo atlante narrativo in otto tappe. */
+const dossier=JSON.parse(fs.readFileSync(path.join(root,'data/iliade-otto-tappe.json'),'utf8'));
+assert.equal(dossier.events.length,8,'Eight narrative stages expected');
+assert.deepEqual(dossier.events.map(e=>e.book),['I','II','III','VI','XVI','XXII','XXIII','XXIV']);
+for(const [i,event] of dossier.events.entries()){
+ assert.equal(event.paragraphs.length,6,'Six narrative scenes at stage '+(i+1));
+ assert.equal(event.paragraphTitles.length,6,'Six scene headings at stage '+(i+1));
+ assert(event.paragraphs.join(' ').trim().split(/\s+/).length>=350,'Narrative needs detail at stage '+(i+1));
+ assert.equal(event.map.nodes.length,4,'Four map nodes at stage '+(i+1));
+ assert.equal(event.quiz.length,4,'Four questions at stage '+(i+1));
+ for(const [j,q] of event.quiz.entries()){
+  assert.equal(q.length,4,'Complete quiz explanation at '+(i+1)+'/'+(j+1));
+  assert.equal(q[1].length,3,'Three choices at '+(i+1)+'/'+(j+1));
+  assert(q[2]>=0 && q[2]<3,'Valid answer at '+(i+1)+'/'+(j+1));
+ }
+}
+assert(dossier.events[2].paragraphs.some(p=>p.includes('Pandaro')&&p.includes('Menelao')),'The interrupted truce must be narrated');
+assert(dossier.events[3].paragraphs.some(p=>p.includes('Aiace')&&p.includes('notte')),'Hector and Ajax duel must be narrated');
+for(const id of ['iliade-story','iliade-dossier','iliade-reading-title','iliade-extra-sources']){
+ assert(html.includes('id="'+id+'"'),'Missing reader node: '+id);
+}
+assert(js.includes('paintStory(e)'),'Story renderer must be active');
+console.log('Passed: eight extended episodes, 48 story sections, 32 corrected questions, diagrams and book links.');

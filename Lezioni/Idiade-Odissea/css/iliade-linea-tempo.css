@@ -106,3 +106,22 @@
 .iliade-quiz-result button{margin-top:12px}
 @media(max-width:710px){.iliade-map-nodes{grid-template-columns:1fr}.iliade-map,.iliade-mini-quiz{padding:18px 14px}.iliade-summary p{font-size:16px}.iliade-map-node{padding:12px}}
 @media print{.iliade-mini-quiz{break-inside:avoid}.iliade-map{break-inside:avoid}.iliade-map-nodes{grid-template-columns:repeat(3,1fr)}}
+
+/* Impaginazione dossier narrativo: sei scene leggibili anche su tablet. */
+.iliade-stage{align-items:stretch}
+.iliade-dossier{margin:0 auto 20px;background:#fbf9f3;border:1px solid var(--line);border-top:0;padding:clamp(25px,4vw,58px) clamp(18px,5vw,70px) 55px}
+.iliade-dossier-header{max-width:820px;margin:0 auto 28px;padding-bottom:22px;border-bottom:1px solid #d7c8b1}
+.iliade-dossier-header h2{font-size:clamp(1.9rem,3.2vw,2.7rem);margin:10px 0}
+.iliade-dossier-header>p:last-child{font:15px/1.8 Arial,sans-serif;color:#51646a}
+.iliade-story{max-width:820px;margin:0 auto}
+.iliade-story-section{margin-bottom:32px;scroll-margin-top:20px}
+.iliade-story-section h3{font:700 clamp(1.17rem,2vw,1.35rem)/1.45 Georgia,serif!important;color:#31565d!important;letter-spacing:0!important;text-transform:none!important;margin:0 0 13px!important}
+.iliade-story-section p{font:clamp(16px,1.65vw,18px)/1.92 Georgia,'Times New Roman',serif;color:#273f48;margin:0}
+.iliade-dossier>.iliade-map,.iliade-dossier>.iliade-mini-quiz{max-width:900px;margin:34px auto 0}
+.iliade-dossier>.iliade-mini-quiz{margin-top:24px}
+.iliade-map-nodes{grid-template-columns:repeat(2,minmax(0,1fr))}
+.iliade-extra-sources{display:flex;gap:10px 22px;flex-wrap:wrap}
+.iliade-summary p{font:16px/1.8 Arial,sans-serif}
+.iliade-resource-links{margin-top:28px}
+@media(max-width:710px){.iliade-dossier{padding:28px 18px 36px}.iliade-story-section{margin-bottom:26px}.iliade-story-section p{font-size:17px;line-height:1.84}.iliade-map-nodes{grid-template-columns:1fr}}
+@media print{.iliade-dossier{border:none;padding:18px 0}.iliade-story-section{break-inside:avoid}.iliade-story-section p{font-size:12pt;line-height:1.6}}
