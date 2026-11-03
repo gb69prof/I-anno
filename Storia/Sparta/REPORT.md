@@ -29,3 +29,13 @@ Dispensa Sparta.pdf fornita dall'utente; trascrizioni e successive versioni conc
 - Log della distribuzione: aggiornamento remoto `069af9e..d0127c3`, inclusi `Storia/index.html`, `Storia/Sparta/index.html`, codice, 9 immagini, intervista e report.
 - Verifica GitHub: 9 immagini con dimensioni e hash corrispondenti agli originali, collegamento all'indice unico, lezioni già esistenti conservate.
 - Limite: risposta HTTP della **nuova** pagina su `gbprof.it` non verificabile direttamente dal browser di questa sessione; il risultato del deploy sul server è comunque confermato dal job SSH.
+
+
+## Aggiornamento del 3 novembre 2026 — immagini per «Incontro con un vecchio spartiate»
+- Obiettivo: illustrare i passaggi narrativi pertinenti mantenendo l'unità stilistica della lezione.
+- Partenza: revisione verificata di `Storia/Sparta/index.html` (`aaf7213814aafc1501228403d126e3869bff9671`) e del relativo CSS (`5001d205c4db33f2e724e2d07b149c83d4a41396`).
+- Operazioni: aggiunte nove figure con didascalie e testi alternativi nei capitoli 1, 2, 3, 5, 6, 8, 9, 10 e 11; inseriti nove nuovi WebP in `assets/img/`; aggiunte regole responsive e di stampa.
+- Contenuti preservati: undici capitoli, testo dell'intervista, schemi, bibliografia, motore della verifica, immagini preesistenti. I capitoli 4 e 7 non sono stati illustrati con immagini non pertinenti.
+- Cautele: illustrazioni dichiarate ricostruzioni narrative; l'episodio della krypteia non è presentato come documento storiografico.
+- Verifiche prima del commit: nove ancore univoche riscontrate nella versione GitHub in uso; nove riferimenti `intervista-capXX.webp`; pesi WebP e hash Git delle nove risorse verificati; nessuna sovrascrittura dei contenuti originari.
+- Pubblicazione: commit atomico su `main` del repository `gb69prof/I-anno`, collegato al workflow «Sincronizza I-anno sul server»; l'effettivo successo del deploy deve essere verificato dalla relativa esecuzione.
