@@ -39,3 +39,10 @@ Dispensa Sparta.pdf fornita dall'utente; trascrizioni e successive versioni conc
 - Cautele: illustrazioni dichiarate ricostruzioni narrative; l'episodio della krypteia non è presentato come documento storiografico.
 - Verifiche prima del commit: nove ancore univoche riscontrate nella versione GitHub in uso; nove riferimenti `intervista-capXX.webp`; pesi WebP e hash Git delle nove risorse verificati; nessuna sovrascrittura dei contenuti originari.
 - Pubblicazione: commit atomico su `main` del repository `gb69prof/I-anno`, collegato al workflow «Sincronizza I-anno sul server»; l'effettivo successo del deploy deve essere verificato dalla relativa esecuzione.
+
+## Verifica conclusiva della pubblicazione illustrata (3 novembre 2026)
+- Commit dei 12 file: [`b3c2f4aff37dd2577b72619cdfc4a5ecf7bf0db2`](https://github.com/gb69prof/I-anno/commit/b3c2f4aff37dd2577b72619cdfc4a5ecf7bf0db2).
+- Workflow «Sincronizza I-anno sul server», [esecuzione 41602292342](https://github.com/gb69prof/I-anno/actions/runs/41602292342): **completata con successo**.
+- Dal log del job `deploy`: aggiornamento remoto tramite fast-forward da `913dc2f` a `b3c2f4a`; confermate tutte e nove le nuove immagini WebP, `index.html`, `assets/style.css` e `REPORT.md` nella cartella `Storia/Sparta/`.
+- Verifica del contenuto GitHub: 18 immagini WebP nella cartella, comprese le nove preesistenti; dimensioni dei nuovi file coerenti con gli originali.
+- Limite residuo: il caricamento tramite browser pubblico e la resa su iPad non sono stati controllabili da questa sessione, che ha restituito un errore di accesso web. La sincronizzazione remota è invece attestata dal job SSH riuscito.
