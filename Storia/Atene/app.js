@@ -8,7 +8,20 @@ $('#knowledge-list').innerHTML=D.knowledge.map((x,i)=>`<label><input type="check
 function updateKnowledge(){const checked=$$('[data-knowledge]:checked').map(x=>Number(x.dataset.knowledge));store.set('knowledge',checked);$('#knowledge-label').textContent=`${checked.length} di ${D.knowledge.length} completati`;$('#knowledge-progress').style.width=(checked.length/D.knowledge.length*100)+'%'}
 $('#knowledge-list').addEventListener('change',updateKnowledge);$('#reset-knowledge').addEventListener('click',()=>{$$('[data-knowledge]').forEach(x=>x.checked=false);updateKnowledge()});updateKnowledge();
 function searchGlossary(){const q=$('#glossary-search').value.trim().toLocaleLowerCase('it');const list=D.glossary.filter(([a,b])=>(a+' '+b).toLocaleLowerCase('it').includes(q));$('#glossary-list').innerHTML=list.map(([a,b])=>`<article><h3>${esc(a)}</h3><p>${esc(b)}</p></article>`).join('');$('#glossary-empty').hidden=!!list.length}$('#glossary-search').addEventListener('input',searchGlossary);searchGlossary();
-$('#interview-list').innerHTML=D.chapters.map(c=>`<details><summary>${esc(c.title)}</summary><div class="dialogue">${c.body}</div></details>`).join('');$('#open-all').addEventListener('click',()=>$$('#interview-list details').forEach(x=>x.open=true));$('#close-all').addEventListener('click',()=>$$('#interview-list details').forEach(x=>x.open=false));
+const sceneCaptions = [
+  "Nell’agorà Filone parla con un giovane, tra venditori e abitanti della città.",
+  "Filone indica le merci scambiate nell’agorà, mentre spiega la vita economica di Atene.",
+  "Filone mostra una pietra nei campi, ricordando i debiti e le disuguaglianze prima delle riforme.",
+  "Filone e il giovane osservano i cittadini riuniti sulla Pnice per discutere.",
+  "Filone osserva una donna e gli artigiani al lavoro: anche chi è escluso dalle decisioni fa vivere la città.",
+  "Ragazzi e ragazze nell’Atene antica: educazione e possibilità potevano essere diverse.",
+  "Filone assiste a uno spettacolo teatrale, parte della vita culturale e religiosa ateniese.",
+  "Nel ricordo di Filone giovane, opliti schierati nella pianura di Maratona.",
+  "Filone racconta del messaggero: la testimonianza antica va distinta dalle leggende successive.",
+  "Filone osserva le navi al porto e riflette sul potere di Atene e sul rapporto con gli alleati.",
+  "Filone e il giovane parlano nell’agorà, fra le persone che abitano la città."
+];
+$('#interview-list').innerHTML=D.chapters.map((c,i)=>`<details><summary>${esc(c.title)}</summary><div class="dialogue"><figure class="story-image"><img src="assets/img/intervista-${String(i+1).padStart(2,'0')}.webp" alt="${esc(sceneCaptions[i])}" width="1200" height="675" loading="lazy" decoding="async"><figcaption>${esc(sceneCaptions[i])} <span>Ricostruzione immaginaria generata con IA.</span></figcaption></figure>${c.body}</div></details>`).join('');$('#open-all').addEventListener('click',()=>$$('#interview-list details').forEach(x=>x.open=true));$('#close-all').addEventListener('click',()=>$$('#interview-list details').forEach(x=>x.open=false));
 const stages=[['SCHIERAMENTI','I due eserciti sono schierati nella pianura; i Greci affrontano la spedizione persiana.'],['ALI · CENTRO ARRETRA · ALI','Secondo Erodoto il centro greco arretra, mentre le ali continuano a combattere.'],['ALI → CENTRO ← ALI','Le ali greche prevalgono e convergono; i Persiani raggiungono le navi.']];$$('[data-stage]').forEach(b=>b.addEventListener('click',()=>{$$('[data-stage]').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');const s=stages[Number(b.dataset.stage)];$('#battle-arrows').innerHTML=s[0];$('#battle-explanation').textContent=s[1]}));
 const answers=store.get('answers',{});let report='';
 $('#quiz-list').innerHTML=D.quiz.map((q,i)=>`<fieldset class="quiz-question" id="q-${i}"><legend>${i+1}. ${esc(q.question)}</legend>${q.options.map((o,j)=>`<label><input type="radio" name="question-${i}" value="${j}" ${String(answers[i])===String(j)?'checked':''}><span>${esc(o)}</span></label>`).join('')}<div class="feedback" hidden></div></fieldset>`).join('');
