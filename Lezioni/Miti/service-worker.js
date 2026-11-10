@@ -1,11 +1,12 @@
 /* Miti: cache isolated to this application and directory. */
 'use strict';
-const VERSION='2026-09-09-v2';
+const VERSION='2026-11-10-atridi-v1';
 const PREFIX='gbprof-miti-'+encodeURIComponent(new URL(self.registration.scope).pathname)+'-';
 const CACHE=PREFIX+VERSION;
 const FILES=[
   "./",
   "./accessibilita.html",
+  "./atridi/index.html",
   "./assets/app.js",
   "./assets/cosmos.js",
   "./assets/data.js",
